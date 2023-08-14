@@ -18,7 +18,7 @@ setInterval(function() {
 function hasScrolled() {
     let st = scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
 
-    if(st > lastScroll && st > height){
+    if(st <= height*1.5){
         header.classList.remove("down");
         header.classList.add("up");
     } else {
