@@ -36,6 +36,11 @@
                 margin-bottom : 10px;
                 font-size : 30pt;
             }
+            h4 {
+                font-family : "Roboto",sans-serif;
+                margin-top : 10px;
+                font-size : 18pt;
+            }
             p {
                 font-family : "Roboto",sans-serif;
                 margin-left : 180px;
@@ -43,6 +48,10 @@
                 margin-top : 10px;
                 margin-bottom : 10px;
                 font-size : 18pt;
+            }
+            a {
+                color: inherit;
+                text-decoration: none;
             }
             .centre {
                 display : block;
@@ -56,7 +65,7 @@
                 right : 0px; 
                 top : 0px; 
                 bottom : 0px; 
-                background-color : white;
+                background-color : rgb(181, 207, 255);
                 z-index : 999;
             }
             #cover {
@@ -66,10 +75,26 @@
                 left : 0;
                 top : 0;
                 background-color : rgb(181, 207, 255);
+                z-index : 10;
             }
             #main {
                 position : relative;
                 top : 750px;
+            }
+            #header {
+                position : fixed;
+                width : 100%;
+                height : 50px;
+                left : 0;
+                transition: top 0.2s ease-in-out;
+                background-color :rgb(152, 188, 255);
+                z-index : 11;
+            }
+            .up {
+                top : -51px;
+            }
+            .down {
+                top : 0;
             }
         </style>
     </head>
@@ -80,6 +105,17 @@
             document.getElementById("hideAll").style.display = "block";
         </script>
 
+        <div id="header" class="up">
+            <nav>
+                <div style="width:175px;height:50px">
+                    <a href="https://sucram314.github.io"><img src="resources/images/icon.png" style="width:40px;height:40px;margin-left:5px;margin-right:0px;margin-top:5px;margin-bottom:0px"></a>
+                    <h4 style="float:right"><a href="https://sucram314.github.io">Sucram314</a></h4>
+                </div>
+            </nav>
+        </div>
+        
+        <script src="scripts/header.js"></script>
+
         <section id="cover">
             <h1>Sucram314</h1>
             <hr style="margin:auto;width:50%;border-color:black">
@@ -89,7 +125,7 @@
         
         <div id="main">
             <br><br><br>
-            <h3>About</h3>
+            <h3>Home</h3>
             <hr style="margin:auto;width:85%;border-color:black">
             <p>test</p>
         </div>
