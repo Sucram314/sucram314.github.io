@@ -1,0 +1,140 @@
+h1 {
+    text-align : center;
+    font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-size : 9vw;
+    margin : 0;
+}
+h2 {
+    text-align : center;
+    font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-size : 3vw;
+    margin-top : 0;
+    margin-bottom : 2vh;
+}
+h3 {
+    font-family : "Inter",sans-serif;
+    margin-left : 20px;
+    margin-right : 0px;
+    margin-top : 50px;
+    margin-bottom : 10px;
+    font-size : 3em;
+}
+h4 {
+    font-family : "Roboto",sans-serif;
+    margin-top : 10px;
+    font-size : 1.5em;
+    transition : 0.3s;
+}
+h4:hover{
+    color : rgb(0, 53, 150);
+}
+p {
+    font-family : "Roboto",sans-serif;
+    margin-left : 20px;
+    margin-right : 20px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    font-size : 1.6em;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.centre {
+    display : block;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 0;
+    margin-bottom : 0;
+    width : 14vw;
+}
+#hideAll {
+    position : fixed;
+    left : 0px; 
+    right : 0px; 
+    top : 0px; 
+    bottom : 0px; 
+    background-color : rgb(181, 207, 255);
+    z-index : 999;
+}
+#cover {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    position : absolute;
+    width : 100%;
+    height : 100vh;
+    left : 0;
+    top : 0;
+    background-color : rgb(181, 207, 255);
+    float : top;
+    z-index : 10;
+}
+#main {
+    position : relative;
+    width : 100%;
+    max-width : 960px;
+    margin-left : auto;
+    margin-right : auto;
+}
+#header {
+    position : fixed;
+    width : 100%;
+    left : 0;
+    overflow : hidden;
+    transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
+    background-color :rgb(152, 188, 255);
+    z-index : 11;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+nav {
+    width : 100%;
+    max-width : 960px;
+    margin-right : auto;
+    margin-left : auto;
+}
+.up {
+    top : -51px;
+}
+.down {
+    top : 0;
+}
+.notdropped {
+    height : 50px;
+}
+.dropped {
+    height : 50px;
+}
+.button {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    text-align : center;
+}
+.dropdown{
+    text-align : right;
+    position : absolute;
+    top : 50px;
+    width : 100%;
+    height : 100px;
+}
+.desktop {
+    display : block;
+}
+.mobile {
+    display : none;
+}
+@media only screen and (max-width: 720px){
+    .up {
+        top : 0px;
+    }
+    .dropped {
+        height : 150px;
+    }
+    .desktop {
+        display : none;
+    }
+    .mobile {
+        display : block;
+    }
+}

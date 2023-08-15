@@ -12,115 +12,8 @@
         <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
-        <style>
-            h1 {
-                text-align : center;
-                font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-                font-size : 9vw;
-                margin : 0;
-            }
-            h2 {
-                text-align : center;
-                font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-                font-size : 3vw;
-                margin-top : 0;
-                margin-bottom : 2vh;
-            }
-            h3 {
-                font-family : "Inter",sans-serif;
-                margin-left : 20px;
-                margin-right : 0px;
-                margin-top : 50px;
-                margin-bottom : 10px;
-                font-size : 3em;
-            }
-            h4 {
-                font-family : "Roboto",sans-serif;
-                margin-top : 10px;
-                font-size : 1.5em;
-                transition : 0.3s;
-            }
-            h4:hover{
-                color : rgb(0, 53, 150);
-            }
-            p {
-                font-family : "Roboto",sans-serif;
-                margin-left : 20px;
-                margin-right : 20px;
-                margin-top : 10px;
-                margin-bottom : 10px;
-                font-size : 1.6em;
-            }
-            a {
-                color: inherit;
-                text-decoration: none;
-            }
-            .centre {
-                display : block;
-                margin-left : auto;
-                margin-right : auto;
-                margin-top : 0;
-                margin-bottom : 0;
-                width : 14vw;
-            }
-            #hideAll {
-                position : fixed;
-                left : 0px; 
-                right : 0px; 
-                top : 0px; 
-                bottom : 0px; 
-                background-color : rgb(181, 207, 255);
-                z-index : 999;
-            }
-            #cover {
-                display : flex;
-                justify-content: center;
-                align-items : center;
-                position : absolute;
-                width : 100%;
-                height : 100vh;
-                left : 0;
-                top : 0;
-                background-color : rgb(181, 207, 255);
-                float : top;
-                z-index : 10;
-            }
-            #main {
-                position : relative;
-                top : 50px;
-                width : 100%;
-                max-width : 960px;
-                margin-left : auto;
-                margin-right : auto;
-                overflow-wrap : break-word;
-                word-wrap : break-word;
-                word-break : break-word;
-            }
-            #header {
-                position : fixed;
-                width : 100%;
-                height : 50px;
-                left : 0;
-                transition: top 0.2s ease-in-out;
-                background-color :rgb(152, 188, 255);
-                z-index : 11;
-                box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
-                min-width : 500px;
-            }
-            nav {
-                width : 100%;
-                max-width : 960px;
-                margin-right : auto;
-                margin-left : auto;
-            }
-            .up {
-                top : -51px;
-            }
-            .down {
-                top : 0;
-            }
-        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./resources/style/style.css">
     </head>
 
     <body>
@@ -129,18 +22,29 @@
             document.getElementById("hideAll").style.display = "block";
         </script>
 
-        <div id="header" class="down">
+        <div id="header" class="down notdropped">
             <nav>
                 <a href="https://sucram314.github.io"><img src="resources/images/icon.png" style="width:40px;height:40px;margin-left:20px;margin-right:10px;margin-top:5px;margin-bottom:0px;float:left;"></a>
                 <h4 style="float:left"><a href="https://sucram314.github.io">Sucram314</a></h4>
-                <h4 style="float:right;margin-right:20px;margin-left:10px;"><a href="https://sucram314.github.io/about">About</a></h4>
-                <h4 style="float:right;margin-right:15px;margin-left:10px;"><a href="https://sucram314.github.io/resources">Resources</a></h4>
+                <div class="desktop">
+                    <h4 style="float:right;margin-right:20px;margin-left:10px;"><a href="https://sucram314.github.io/about">About</a></h4>
+                    <h4 style="float:right;margin-right:15px;margin-left:10px;"><a href="https://sucram314.github.io/resources">Resources</a></h4>
+                </div>
+                <div class="mobile">
+                    <div class="button" id="button" style="float:right;width:50px;height:50px;">
+                        <i class="fa fa-bars" style="font-size:18pt"></i>
+                    </div>
+                    <div class="dropdown">
+                        <h4 style="margin-right:20px;margin-top:10px;margin-bottom:10px;margin-left:0"><a href="https://sucram314.github.io/resources">Resources</a></h4>
+                        <h4 style="margin-right:20px;margin-top:10px;margin-bottom:10px;margin-left:0"><a href="https://sucram314.github.io/about">About</a></h4>
+                    </div>
+                </div>
             </nav>
         </div>
         
         <script src="scripts/header.js"></script>
         
-        <div id="main">
+        <div id="main" style="top:50px">
             <h3>Resources</h3>
             <hr style="margin:auto;width:100%;border-color:black">
             <p>hello hello hellooo hello ehlofeao this is a line of text that i will use to test the wrapping and stuff.<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset<br>testset</p>

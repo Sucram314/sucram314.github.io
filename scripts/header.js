@@ -1,4 +1,5 @@
 const header = document.getElementById("header");
+const button = document.getElementById("button");
 let lastScroll = 0;
 let height = header.offsetHeight;
 
@@ -16,7 +17,7 @@ setInterval(function() {
 }, 250);
 
 function hasScrolled() {
-    let st = scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    let st = scrollTop = window.scrollY;
 
     if(st > lastScroll && st > height*1.5){
         header.classList.remove("down");
@@ -27,4 +28,17 @@ function hasScrolled() {
     }
 
     lastScroll = st;
+}
+
+let dropped = false;
+
+button.onclick = function(){
+    if(dropped){
+        header.classList.remove("dropped");
+        header.classList.add("notdropped");
+    } else {
+        header.classList.remove("notdropped");
+        header.classList.add("dropped");
+    }
+    dropped = !dropped;
 }
