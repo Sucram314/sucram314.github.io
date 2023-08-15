@@ -32,7 +32,7 @@ function hasScrolled() {
 
 let dropped = false;
 
-button.onclick = function(){
+function drop(){
     if(dropped){
         header.classList.remove("dropped");
         header.classList.add("notdropped");
@@ -42,3 +42,5 @@ button.onclick = function(){
     }
     dropped = !dropped;
 }
+
+button.addEventListener("click",drop);
