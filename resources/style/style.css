@@ -74,6 +74,7 @@ a {
     z-index : 10;
 }
 #main {
+    height : auto;
     width : 100%;
     max-width : 960px;
     margin-left : auto;
