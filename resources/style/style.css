@@ -19,7 +19,7 @@ h3 {
     font-family : "Inter",sans-serif;
     margin-left : 70px;
     margin-right : 0px;
-    margin-top : 100px;
+    margin-top : 0px;
     margin-bottom : 10px;
     font-size : 2.4em;
 }
@@ -76,8 +76,7 @@ a {
     z-index : 10;
 }
 #main {
-    position : relative;
-    top : 20px;
+    margin-top : 100px;
     height : auto;
     width : 100%;
     max-width : 960px;
@@ -93,6 +92,33 @@ a {
     background-color :rgb(152, 188, 255);
     z-index : 11;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+#footer {
+    margin-top : 50px;
+    background-color : rgb(243, 243, 243);
+    width : 100%;
+    height : 50px;
+    overflow : hidden;
+}
+#footer-container{
+    width : 100%;
+    height : 100%;
+    max-width : 960px;
+    margin-left : auto;
+    margin-right : auto;
+}
+.footer-icon {
+    margin-top : 7px;
+    margin-bottom : auto;
+    margin-left : 5px;
+    margin-right : 5px;
+    font-size : 26pt;
+    float : left;
+    transition : transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+.footer-icon:hover{
+    transform : scale(1.2);
+    filter : brightness(1.2);
 }
 nav {
     width : 100%;
