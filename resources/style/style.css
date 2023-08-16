@@ -117,7 +117,7 @@ a {
     transition : transform 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 .footer-icon:hover{
-    transform : scale(1.2);
+    transform : scale(1.1);
     filter : brightness(1.2);
 }
 #icon {
@@ -130,6 +130,11 @@ a {
     float:left;
     border-radius:100%;
     box-shadow: 0 0 10px 1px rgba(0, 102, 255, 0.5);
+    transition : transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+#icon:hover{
+    transform : scale(1.05);
+    filter : brightness(1.2);
 }
 nav {
     width : 100%;
