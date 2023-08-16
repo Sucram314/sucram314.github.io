@@ -5,13 +5,13 @@ body {
 h1 {
     text-align : center;
     font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size : max(80px,9vw);
+    font-size : max(60px,9vw);
     margin : 0;
 }
 h2 {
     text-align : center;
     font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size : max(27px,3vw);
+    font-size : max(20px,3vw);
     margin-top : 0;
     margin-bottom : 2vw;
 }
@@ -51,7 +51,7 @@ a {
     margin-top : 0;
     margin-bottom : 0;
     width : 14vw;
-    min-width : 124px;
+    min-width : 93px;
 }
 #hideAll {
     position : fixed;
@@ -68,6 +68,7 @@ a {
     align-items : center;
     width : 100%;
     height : 100vh;
+    min-height : 230px;
     left : 0;
     top : 0;
     background-color : rgb(181, 207, 255);
