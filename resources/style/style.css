@@ -120,6 +120,17 @@ a {
     transform : scale(1.2);
     filter : brightness(1.2);
 }
+#icon {
+    width:40px;
+    height:40px;
+    margin-left:20px;
+    margin-right:10px;
+    margin-top:5px;
+    margin-bottom:0px;
+    float:left;
+    border-radius:100%;
+    box-shadow: 0 0 10px 1px rgba(0, 102, 255, 0.5);
+}
 nav {
     width : 100%;
     max-width : 960px;
