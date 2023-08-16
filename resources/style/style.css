@@ -110,8 +110,8 @@ a {
 .footer-icon {
     margin-top : 7px;
     margin-bottom : auto;
-    margin-left : 5px;
-    margin-right : 5px;
+    margin-left : 0px;
+    margin-right : 10px;
     font-size : 26pt;
     float : left;
     transition : transform 0.2s ease-in-out, filter 0.2s ease-in-out;
