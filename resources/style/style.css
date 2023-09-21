@@ -144,6 +144,13 @@ nav {
 }
 .link {
     color : rgb(63, 131, 255);
+    font-size : 0.9em;
+}
+.resource-container{
+    overflow : hidden;
+    white-space : nowrap;
+    width : 100%;
+    height : auto;
 }
 .link:hover{
     text-decoration : underline;
