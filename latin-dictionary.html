@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <title>Sucram314</title> 
+        <link rel="shortcut-icon" href="resources/images/icon.png">
+        <link rel="icon" type="image/png" href="resources/images/icon.png"/>
+        <meta charset="UTF-8"> 
+        <meta name="description" content="bigbwain amogus jaja">
+        <meta name="author" content="Sucram314"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./resources/style/style.css">
+    </head>
+
+    <body>
+        <div style="display: none" id="hideAll">&nbsp;</div>
+        <script type="text/javascript">
+            document.getElementById("hideAll").style.display = "block";
+        </script>
+
+        <div id="header" class="down notdropped">
+            <nav>
+                <a href="https://sucram314.github.io"><img src="resources/images/icon.png" id="icon"></a>
+                <h4 style="float:left"><a href="https://sucram314.github.io">Sucram314</a></h4>
+                <div class="desktop">
+                    <h4 style="float:right;margin-right:20px;margin-left:10px;"><a href="https://sucram314.github.io/about">About</a></h4>
+                    <h4 style="float:right;margin-right:15px;margin-left:10px;"><a href="https://sucram314.github.io/resources">Resources</a></h4>
+                </div>
+                <div class="mobile">
+                    <div class="button" id="button" style="float:right;width:50px;height:50px;">
+                        <i class="fa fa-bars" style="font-size:18pt"></i>
+                    </div>
+                    <div class="dropdown">
+                        <h4 style="margin-right:20px;margin-top:10px;margin-bottom:10px;margin-left:0"><a href="https://sucram314.github.io/resources">Resources</a></h4>
+                        <h4 style="margin-right:20px;margin-top:10px;margin-bottom:10px;margin-left:0"><a href="https://sucram314.github.io/about">About</a></h4>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <script src="scripts/header.js"></script>
+        
+        <div>
+            <div id="main">
+                <h3>LATIN DICTIONARY LESGOOOOOO</h3>
+                <hr style="margin:auto;width:95%;border-color:black">
+                <div class="dictionary-container">
+                    <div class="title">
+                        <b>Latin Dictionary</b>
+                    </div>
+                    
+                    <div class="search">
+                        <input type="text" placeholder="Search a word" required>
+                        <i class="fa fa-search"></i>
+                        <span class="fa fa-close"></span>
+                    </div>
+
+                    <div style="text-align:center;width:100%;">
+                        <p class="info-text">Search a word to get its meaning and forms. (does not work yet lmao)</p>
+                    </div>
+
+                    <ul>
+                        <li class="word">
+                            <p>māter</p>
+                            <span>III / f. / noun</span>
+                        </li>
+                        <li class="meaning">
+                            <div class="details">
+                                <p>Meaning</p>
+                                <span>mother</span>
+                            </div>
+                        </li>
+                        <li class="forms">
+                            <div class="details">
+                                <p>Forms</p>
+                                <table>
+                                    <tr>
+                                        <th></th>
+                                        <th>Nominative</th>
+                                        <th>Accusative</th>
+                                        <th>Genitive</th>
+                                        <th>Ablative</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Singular</th>
+                                        <td>māter</td>
+                                        <td>mātrem</td>
+                                        <td>mātris</td>
+                                        <td>mātre</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Plural</th>
+                                        <td>mātrēs</td>
+                                        <td>mātrēs</td>
+                                        <td>mātrum</td>
+                                        <td>mātribus</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="footer">
+                <div id="footer-container">
+                    <div style="float:left;margin-left:20px">
+                        <a href="https://github.com/Sucram314" target="_blank" class="fa fa-github footer-icon" style="color:rgb(56, 56, 56)"></a>
+                        <a href="https://youtube.com/@sucram314" target="_blank" class="fa fa-youtube-play footer-icon" style="color:#ff4747"></a>
+                        <a href="mailto:sucramliu2009@gmail.com" target="_blank" class="fa fa-envelope footer-icon" style="color:#aaaaaa"></a>
+                    </div>
+                    <p style="float:right;color:#aaaaaa;margin-top:15px;margin-right:20px;font-size:1em;">
+                        &copy;
+                        <span id="copyright">
+                            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                        </span>
+                        Sucram314
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/dictionary.js"></script>
+        <script src="scripts/show.js"></script>
+    </body>
+</html>
