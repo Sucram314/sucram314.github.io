@@ -24,7 +24,7 @@ h2 {
     margin-bottom : 2vw;
 }
 h3 {
-    font-family : "Inter",sans-serif;
+    font-family : "Roboto",sans-serif;
     margin-left : 50px;
     margin-right : 0px;
     margin-top : 0px;
@@ -90,13 +90,13 @@ p {
 }
 .search i{
     left : 16px;
-    pointer-events : none;
+    poRoboto-events : none;
     font-size : 0.9em;
 }
 .search span{
     margin : 0 0 0 0;
     right : 15px;
-    cursor : pointer;
+    cursor : poRoboto;
     font-size : 0.9em;
     display : none;
 }
@@ -110,7 +110,7 @@ p {
     padding-bottom : 20px;
     display : none;
 }
-.dictionary-container span{
+.dictionary-container ul span{
     font-family : "Roboto",sans-serif;
     font-size : 1.4em;
 }
@@ -270,7 +270,7 @@ nav {
     margin-left : 30px;
 }
 .resource-title{
-    font-family : "Inter",sans-serif;
+    font-family : "Roboto",sans-serif;
     margin-left : 60px;
     margin-right : 0px;
     margin-top : 10px;
@@ -356,7 +356,7 @@ nav {
         display : block;
     }
     h3 {
-        font-family : "Inter",sans-serif;
+        font-family : "Roboto",sans-serif;
         margin-left : 20px;
         margin-right : 0px;
         margin-top : 100px;
@@ -377,7 +377,7 @@ nav {
         margin-left : 0px;
     }
     .resource-title{
-        font-family : "Inter",sans-serif;
+        font-family : "Roboto",sans-serif;
         margin-left : 20px;
         margin-right : 0px;
         margin-top : 10px;
