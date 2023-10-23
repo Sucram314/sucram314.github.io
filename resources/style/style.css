@@ -90,13 +90,13 @@ p {
 }
 .search i{
     left : 16px;
-    poRoboto-events : none;
+    pointer-events : none;
     font-size : 0.9em;
 }
 .search span{
     margin : 0 0 0 0;
     right : 15px;
-    cursor : poRoboto;
+    cursor : pointer;
     font-size : 0.9em;
     display : none;
 }
@@ -155,7 +155,11 @@ p {
 .dictionary-container .info-text{
     font-size : 1.1em;
     margin : 20px 0 0 0;
-    color : rgb(87, 145, 252);
+    color : rgb(118, 166, 255);
+}
+.dictionary-container .info-text span{
+    font-weight : 600;
+    color : rgb(95, 151, 255);
 }
 a {
     color: inherit;
