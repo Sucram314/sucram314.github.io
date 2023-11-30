@@ -1,3 +1,3824 @@
 {
-    "urmom":"URBAD"
+    "ab, ā": {
+        "type": "preposition",
+        "meaning": "from, by",
+        "flag": "abcumdeexprosine needs extra notes for ablative"
+    },
+    "abeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "leave, depart",
+        "flag": "irreg"
+    },
+    "absum": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "be absent",
+        "flag": "irreg"
+    },
+    "accipiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "receive"
+    },
+    "accūsō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "accuse"
+    },
+    "ācer": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "harsh",
+        "flag": "conjugates weird"
+    },
+    "ad": {
+        "type": "preposition",
+        "meaning": "to"
+    },
+    "adeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "approach",
+        "flag": "irreg"
+    },
+    "adhūc": {
+        "type": "adverb",
+        "meaning": "still"
+    },
+    "adōrō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "worship"
+    },
+    "adpropinquō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "approach"
+    },
+    "adsum": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "be present",
+        "flag": "irreg"
+    },
+    "adulēscēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "adulēscent",
+        "gender": "m",
+        "meaning": "young man"
+    },
+    "adversus": {
+        "type": "preposition",
+        "meaning": "against"
+    },
+    "aedificium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "building"
+    },
+    "aedificō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "build"
+    },
+    "aestās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "aestāt",
+        "gender": "f",
+        "meaning": "summer"
+    },
+    "ager": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "farm"
+    },
+    "agō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "do"
+    },
+    "agricola": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "farmer"
+    },
+    "alius": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "idk",
+        "flag": "goofy"
+    },
+    "alter": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "the other",
+        "flag": "irreg"
+    },
+    "alter ... alter": {
+        "type": "special",
+        "meaning": "the one ... the other"
+    },
+    "altus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "high, tall"
+    },
+    "ambulō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "walk"
+    },
+    "amīca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "friend (f.)"
+    },
+    "amīcus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "friend (m.)"
+    },
+    "āmittō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "lose"
+    },
+    "amō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "like, love"
+    },
+    "amor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "amōr",
+        "gender": "m",
+        "meaning": "love"
+    },
+    "amphitheātrum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "amphitheatre"
+    },
+    "an, aut": {
+        "type": "conjunction",
+        "meaning": "or"
+    },
+    "ancilla": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "slave (f.)"
+    },
+    "angustus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "narrow"
+    },
+    "animal": {
+        "type": "noun",
+        "declension": "III",
+        "root": "animāl",
+        "gender": "n",
+        "meaning": "animal"
+    },
+    "annus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "year"
+    },
+    "ante": {
+        "type": "preposition",
+        "meaning": "before, in front of"
+    },
+    "anteā": {
+        "type": "adverb",
+        "meaning": "previously"
+    },
+    "aperiō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "reveal, open"
+    },
+    "apodytērium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "dressing room"
+    },
+    "appellō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "name, call"
+    },
+    "apud": {
+        "type": "preposition",
+        "meaning": "in the vicinity of, in the time of, in the writings of"
+    },
+    "aqua": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "water"
+    },
+    "āra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "altar"
+    },
+    "arcus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "arch"
+    },
+    "arēna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "arena"
+    },
+    "argentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "silver"
+    },
+    "arma": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "weapons",
+        "flag": "plural form"
+    },
+    "arma capere": {
+        "type": "special",
+        "meaning": "to take up weapons, arms"
+    },
+    "armō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "arm"
+    },
+    "arx": {
+        "type": "noun",
+        "declension": "III",
+        "root": "arc",
+        "gender": "f",
+        "meaning": "citadel"
+    },
+    "Asiāticus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "Asian"
+    },
+    "atrium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "atrium"
+    },
+    "audāx": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "bold",
+        "flag": "unchanging"
+    },
+    "audiō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "listen (to)"
+    },
+    "auferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "steal, take away",
+        "flag": "irreg"
+    },
+    "aureus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "golden"
+    },
+    "aurīga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "charioteer"
+    },
+    "aurum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "gold"
+    },
+    "aut ... aut": {
+        "type": "special",
+        "meaning": "either ... or"
+    },
+    "autumnus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "autumn"
+    },
+    "auxilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "help"
+    },
+    "avis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "av",
+        "gender": "x",
+        "meaning": "bird"
+    },
+    "avus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "grandfather"
+    },
+    "balneum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "bath"
+    },
+    "barbara": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "barbarian (f.)"
+    },
+    "barbarus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "barbarian (m.)"
+    },
+    "basilica": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "lawcourt"
+    },
+    "bellum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "war"
+    },
+    "bellum gerere": {
+        "type": "special",
+        "meaning": "to wage war"
+    },
+    "bellus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "beautiful"
+    },
+    "bene": {
+        "type": "adverb",
+        "meaning": "well, correct"
+    },
+    "bibliotheca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "library"
+    },
+    "bibō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "hit"
+    },
+    "bis": {
+        "type": "adverb",
+        "meaning": "twice"
+    },
+    "bonus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "good"
+    },
+    "bracchium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "arm"
+    },
+    "brevī": {
+        "type": "adverb",
+        "meaning": "soon"
+    },
+    "brevis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "short"
+    },
+    "cadō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "fall"
+    },
+    "caelum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "heaven, sky"
+    },
+    "calidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "hot"
+    },
+    "califārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "hot pool"
+    },
+    "callidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "clever"
+    },
+    "camera": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "room"
+    },
+    "canis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "can",
+        "gender": "x",
+        "meaning": "dog"
+    },
+    "cantō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "sing"
+    },
+    "capiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "capture"
+    },
+    "captīvus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "prisoner"
+    },
+    "captus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "captured"
+    },
+    "caput": {
+        "type": "noun",
+        "declension": "III",
+        "root": "capit",
+        "gender": "n",
+        "meaning": "head, chapter"
+    },
+    "carmen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "carmin",
+        "gender": "n",
+        "meaning": "poem, song"
+    },
+    "carō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "carn",
+        "gender": "f",
+        "meaning": "meat"
+    },
+    "Carthāginiēnsis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "Carthaginian"
+    },
+    "carus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "dear"
+    },
+    "caseus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "cheese"
+    },
+    "castra": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "camp",
+        "flag": "plural form"
+    },
+    "caupō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "caupōn",
+        "gender": "x",
+        "meaning": "innkeeper"
+    },
+    "caupōna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "inn"
+    },
+    "causa": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "reason, cause"
+    },
+    "cēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "back off, yield"
+    },
+    "celeriter": {
+        "type": "adverb",
+        "meaning": "quickly"
+    },
+    "cēna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "dinner"
+    },
+    "cēterus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "the rest (of)"
+    },
+    "cibus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "food"
+    },
+    "circum": {
+        "type": "preposition",
+        "meaning": "around"
+    },
+    "circus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "race course"
+    },
+    "cīvilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "civil"
+    },
+    "cīvis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "cīv",
+        "gender": "x",
+        "meaning": "citizen"
+    },
+    "cīvitās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "cīvitāt",
+        "gender": "f",
+        "meaning": "citizensip, citystate"
+    },
+    "clāmō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "shout"
+    },
+    "clāmor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "clāmōr",
+        "gender": "m",
+        "meaning": "noise"
+    },
+    "clārus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "famous"
+    },
+    "cliēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "client",
+        "gender": "x",
+        "meaning": "client, supporter"
+    },
+    "cognōmen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "n",
+        "gender": "cognōmin",
+        "meaning": "cognomen"
+    },
+    "cōgō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "force, collect, gather"
+    },
+    "concilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "meeting"
+    },
+    "concurrō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "collide"
+    },
+    "condō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "found"
+    },
+    "consilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "plan, advice"
+    },
+    "consilium capere": {
+        "type": "special",
+        "meaning": "to adopt a plan"
+    },
+    "consistō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "stop"
+    },
+    "cōnstituō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "decide"
+    },
+    "consul": {
+        "type": "noun",
+        "declension": "III",
+        "root": "consul",
+        "gender": "x",
+        "meaning": "consul"
+    },
+    "consulāris": {
+        "type": "noun",
+        "declension": "III",
+        "root": "consulār",
+        "gender": "x",
+        "meaning": "consular"
+    },
+    "contrā": {
+        "type": "preposition",
+        "meaning": "against"
+    },
+    "conveniō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "gather"
+    },
+    "cōpia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "abundance, supply (pl.forces)"
+    },
+    "cōpiae": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "forces",
+        "flag": "plural form"
+    },
+    "cōpiōsus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "rich"
+    },
+    "corōna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "crown, garland"
+    },
+    "corpus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "corpor",
+        "gender": "n",
+        "meaning": "body"
+    },
+    "corrumpō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "corrupt"
+    },
+    "crūdēlis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "cruel"
+    },
+    "crūdēliter": {
+        "type": "adverb",
+        "meaning": "cruelly"
+    },
+    "cubiculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "bedroom"
+    },
+    "cum": {
+        "type": "preposition",
+        "meaning": "with",
+        "flag": "abcumdeexprosine needs extra notes for ablative"
+    },
+    "cum ... agere": {
+        "type": "special",
+        "meaning": "speak with ..."
+    },
+    "cupiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "want (modal)"
+    },
+    "cūr": {
+        "type": "interrogative",
+        "meaning": "why"
+    },
+    "cūria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "senate house"
+    },
+    "cūrō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "take care of"
+    },
+    "curriculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "race (event)"
+    },
+    "currō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "run"
+    },
+    "currum agere": {
+        "type": "special",
+        "meaning": "to drive a chariot"
+    },
+    "dē": {
+        "type": "preposition",
+        "meaning": "concerning, about",
+        "flag": "abcumdeexprosine needs extra notes for ablative"
+    },
+    "dea": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "goddess"
+    },
+    "dēbeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "have (neccesity of action) (modal)"
+    },
+    "decem": {
+        "type": "number",
+        "meaning": "ten"
+    },
+    "decimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "tenth"
+    },
+    "dēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "hand over"
+    },
+    "dēfendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "defend"
+    },
+    "deinde": {
+        "type": "conjunction",
+        "meaning": "next, then"
+    },
+    "dēlēo": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "destroy"
+    },
+    "dēligō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "choose"
+    },
+    "dēmōnstrō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "show"
+    },
+    "dēpōnō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "lay aside"
+    },
+    "dēsperō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "lose hope, despair"
+    },
+    "dēspiciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "despise"
+    },
+    "deus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "god"
+    },
+    "dexter": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "right"
+    },
+    "dextra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "right"
+    },
+    "dīcō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "talk"
+    },
+    "difficilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "difficult"
+    },
+    "discēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "leave, depart"
+    },
+    "discipula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "student (f.)"
+    },
+    "discipulus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "student (m.)"
+    },
+    "disertus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eloquent"
+    },
+    "diū": {
+        "type": "adverb",
+        "meaning": "for long"
+    },
+    "diūtius": {
+        "type": "adverb",
+        "meaning": "longer"
+    },
+    "dō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "give, offer"
+    },
+    "doceō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "teach"
+    },
+    "domina": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "lady"
+    },
+    "dominus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "master"
+    },
+    "domum": {
+        "type": "special",
+        "meaning": "ad domum"
+    },
+    "domus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "f",
+        "meaning": "house, home"
+    },
+    "dormiō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "sleep"
+    },
+    "dubitō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "hesitate (modal)"
+    },
+    "dūcentī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "two hundred"
+    },
+    "dūcō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "lead"
+    },
+    "dum": {
+        "type": "adverb",
+        "meaning": "while"
+    },
+    "duo": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "two (adj.)",
+        "flag": "conjugates weird"
+    },
+    "duodecim": {
+        "type": "number",
+        "meaning": "twelve"
+    },
+    "duodēvīgintī": {
+        "type": "number",
+        "meaning": "eighteen"
+    },
+    "dux": {
+        "type": "noun",
+        "declension": "III",
+        "root": "duc",
+        "gender": "m",
+        "meaning": "general"
+    },
+    "ea": {
+        "type": "pronoun",
+        "meaning": "she, it (f.)",
+        "flag": "irreg"
+    },
+    "eae": {
+        "type": "pronoun",
+        "meaning": "they (f.)",
+        "flag": "irreg"
+    },
+    "effugiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "escape"
+    },
+    "ego": {
+        "type": "pronoun",
+        "meaning": "I",
+        "flag": "irreg"
+    },
+    "eī": {
+        "type": "pronoun",
+        "meaning": "they (m.)",
+        "flag": "irreg"
+    },
+    "elephantus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "elephant"
+    },
+    "emō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "buy"
+    },
+    "eō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "go",
+        "flag": "irreg"
+    },
+    "epistula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "letter"
+    },
+    "eques": {
+        "type": "noun",
+        "declension": "III",
+        "root": "equit",
+        "gender": "m",
+        "meaning": "eques (political), cavalry, cavalry man (military)"
+    },
+    "equus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "horse"
+    },
+    "errō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "wander"
+    },
+    "et": {
+        "type": "conjunction",
+        "meaning": "and"
+    },
+    "et ... et": {
+        "type": "special",
+        "meaning": "both ... and"
+    },
+    "etiam": {
+        "type": "adverb",
+        "meaning": "even"
+    },
+    "ex": {
+        "type": "preposition",
+        "meaning": "out of",
+        "flag": "abcumdeexprosine needs extra notes for ablative"
+    },
+    "excēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "leave, depart"
+    },
+    "excitō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "wake up, upset, disturb"
+    },
+    "exeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "leave",
+        "flag": "irreg"
+    },
+    "exsilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "exile"
+    },
+    "extrā": {
+        "type": "preposition",
+        "meaning": "outside of"
+    },
+    "fabula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "story"
+    },
+    "facilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "easy"
+    },
+    "faciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "do, make"
+    },
+    "factum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "deed"
+    },
+    "fallō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "deceive, evade"
+    },
+    "fames": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fam",
+        "gender": "f",
+        "meaning": "hunger"
+    },
+    "familia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "family"
+    },
+    "fatum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "fate"
+    },
+    "fēmina": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "woman"
+    },
+    "fenestra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "window"
+    },
+    "ferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "bring, carry",
+        "flag": "irreg"
+    },
+    "ferōx": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "fierce",
+        "flag": "unchanging"
+    },
+    "fessus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "tired"
+    },
+    "fidēlis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "loyal"
+    },
+    "filia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "daughter"
+    },
+    "fīlius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "son"
+    },
+    "fīnem bellī faciō": {
+        "type": "special",
+        "meaning": "I end the war"
+    },
+    "fīnēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fīn",
+        "gender": "m",
+        "meaning": "terrotories",
+        "flag": "plural"
+    },
+    "finis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fīn",
+        "gender": "m",
+        "meaning": "end"
+    },
+    "finitīmus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "neighbouring"
+    },
+    "flamma": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "flame"
+    },
+    "fleō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "cry"
+    },
+    "flōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "flōr",
+        "gender": "m",
+        "meaning": "flower"
+    },
+    "flumen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "flumin",
+        "gender": "n",
+        "meaning": "river"
+    },
+    "fōns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "font",
+        "gender": "m",
+        "meaning": "fountain, spring"
+    },
+    "fortasse": {
+        "type": "adverb",
+        "meaning": "perhaps"
+    },
+    "fortiter": {
+        "type": "adverb",
+        "meaning": "bravely"
+    },
+    "forum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "forum"
+    },
+    "frangō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "break"
+    },
+    "frāter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "frātr",
+        "gender": "m",
+        "meaning": "brother"
+    },
+    "frīgidārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "cold pool"
+    },
+    "frīgidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "cold"
+    },
+    "frumentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "grain"
+    },
+    "fuēre": {
+        "type": "special",
+        "meaning": "fuērunt"
+    },
+    "fugiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "flee"
+    },
+    "fugitīvus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "runaway"
+    },
+    "fūr": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fūr",
+        "gender": "x",
+        "meaning": "thief"
+    },
+    "futūrus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "future"
+    },
+    "geminus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "twin"
+    },
+    "Germānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "German"
+    },
+    "gerō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "do"
+    },
+    "gladiātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "galdiātōr",
+        "gender": "m",
+        "meaning": "gladiator"
+    },
+    "gladius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "sword"
+    },
+    "glōria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "glory"
+    },
+    "Graeca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "Greek (f.)"
+    },
+    "Graecus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "Greek (m.)"
+    },
+    "grātiās tibi agō": {
+        "type": "special",
+        "meaning": "I thank you"
+    },
+    "grāvis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "severe, serious"
+    },
+    "gymnāsium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "exercise ground"
+    },
+    "habeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "have (possession)"
+    },
+    "habet!": {
+        "type": "special",
+        "meaning": "he's a goner!"
+    },
+    "habitō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "live"
+    },
+    "hīc": {
+        "type": "adverb",
+        "meaning": "here"
+    },
+    "hīc ... ille": {
+        "type": "special",
+        "meaning": "the latter ... the former"
+    },
+    "hīc, haec, hōc": {
+        "type": "pronoun",
+        "meaning": "this",
+        "flag": "irreg"
+    },
+    "hiems": {
+        "type": "noun",
+        "declension": "III",
+        "root": "hiem",
+        "gender": "f",
+        "meaning": "winter"
+    },
+    "hinc": {
+        "type": "adverb",
+        "meaning": "from here,hence",
+        "flag": " wb the other variations + illinc illicejwjjene"
+    },
+    "histōria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "history"
+    },
+    "hodiē": {
+        "type": "adverb",
+        "meaning": "today"
+    },
+    "homō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "homin",
+        "gender": "x",
+        "meaning": "person (people pl.)"
+    },
+    "hōra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "hour"
+    },
+    "horreum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "granary"
+    },
+    "hortus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "garden"
+    },
+    "hospes": {
+        "type": "noun",
+        "declension": "III",
+        "root": "hospit",
+        "gender": "x",
+        "meaning": "guest, host"
+    },
+    "hostis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "host",
+        "gender": "x",
+        "meaning": "enemy"
+    },
+    "hūmānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "human"
+    },
+    "iaciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "throw"
+    },
+    "iam": {
+        "type": "adverb",
+        "meaning": "already"
+    },
+    "iānua": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "door"
+    },
+    "ibi": {
+        "type": "adverb",
+        "meaning": "there"
+    },
+    "id": {
+        "type": "pronoun",
+        "meaning": "it (n.)",
+        "flag": "irreg"
+    },
+    "id quod": {
+        "type": "special",
+        "meaning": "that which"
+    },
+    "īdem, eadem, idem": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "(the) same",
+        "flag": "irreg"
+    },
+    "ille ... hīc": {
+        "type": "special",
+        "meaning": "the former ... the latter"
+    },
+    "ille, illa, illud": {
+        "type": "pronoun",
+        "meaning": "that",
+        "flag": "irreg"
+    },
+    "imāgō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "imāgin",
+        "gender": "f",
+        "meaning": "ghost, spirit"
+    },
+    "impediō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "obstruct, block"
+    },
+    "imperātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "imperātōr",
+        "gender": "m",
+        "meaning": "general, commander"
+    },
+    "imperium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "empire"
+    },
+    "in": {
+        "type": "preposition",
+        "meaning": "in, into, on",
+        "flag": "motion dependent"
+    },
+    "incendium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "fire"
+    },
+    "incipiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "begin (modal)"
+    },
+    "incola": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "inhabitant"
+    },
+    "inebrius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "drunk"
+    },
+    "ineō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "enter",
+        "flag": "irreg"
+    },
+    "īnfans": {
+        "type": "noun",
+        "declension": "III",
+        "root": "infant",
+        "gender": "x",
+        "meaning": "baby"
+    },
+    "inimīca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "enemy (f.)"
+    },
+    "inimīcus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "enemy (m.)"
+    },
+    "iniuria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "injustice, insult, injury"
+    },
+    "inopia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "dearth, scarcity"
+    },
+    "inquiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "say"
+    },
+    "insidiae": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "ambush, trick",
+        "flag": "plural form"
+    },
+    "insula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "island, apartment building"
+    },
+    "inter": {
+        "type": "preposition",
+        "meaning": "between, among"
+    },
+    "interficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "kill"
+    },
+    "interrogātum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "question"
+    },
+    "intrā": {
+        "type": "preposition",
+        "meaning": "inside of"
+    },
+    "inveniō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "find, discover"
+    },
+    "ipse": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "-self",
+        "flag": "irreg"
+    },
+    "īrātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "angry"
+    },
+    "is": {
+        "type": "pronoun",
+        "meaning": "he, it (m.)",
+        "flag": "irreg"
+    },
+    "is quī, eī quī": {
+        "type": "special",
+        "meaning": "he who, those who"
+    },
+    "itaque": {
+        "type": "conjunction",
+        "meaning": "therefore"
+    },
+    "iter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "itiner",
+        "gender": "n",
+        "meaning": "way, route, trip"
+    },
+    "iter facere": {
+        "type": "special",
+        "meaning": "make one's way"
+    },
+    "iterun": {
+        "type": "adverb",
+        "meaning": "again"
+    },
+    "iubeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "order"
+    },
+    "iucundus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "pleasant"
+    },
+    "iūdex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "iūdic",
+        "gender": "m",
+        "meaning": "judge"
+    },
+    "Iuppiter": {
+        "type": "name",
+        "meaning": "3",
+        "flag": "goofy"
+    },
+    "iūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "iūr",
+        "gender": "n",
+        "meaning": "right"
+    },
+    "iūsiūrandum": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "x",
+        "meaning": "oath",
+        "flag": "each part declines"
+    },
+    "iuvō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "help"
+    },
+    "labor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "labōr",
+        "gender": "m",
+        "meaning": "work"
+    },
+    "labōrō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "work"
+    },
+    "laetus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "happy"
+    },
+    "lātrō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "bark"
+    },
+    "lātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "wide"
+    },
+    "laudō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "praise"
+    },
+    "lectīca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "sedan chair, litter"
+    },
+    "lēgātus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "envoy"
+    },
+    "legō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "read"
+    },
+    "leō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "leōn",
+        "gender": "x",
+        "meaning": "lion",
+        "flag": "i forgot why i starred this"
+    },
+    "leopardus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "leopard"
+    },
+    "liber": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "book"
+    },
+    "līberī": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "children(pl.)",
+        "flag": "always plural thing"
+    },
+    "liberō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "free"
+    },
+    "lībertus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "freedman"
+    },
+    "licet": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "it is permitted",
+        "flag": "one specific conjugation"
+    },
+    "ligneus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "wooden"
+    },
+    "lingua": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "language"
+    },
+    "locus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "place"
+    },
+    "longus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "long, tall"
+    },
+    "lūdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "play"
+    },
+    "lūdus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "school"
+    },
+    "lupa": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "wolf (f.)"
+    },
+    "lupus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "wolf (m.)"
+    },
+    "maestus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "sad"
+    },
+    "magister": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "teacher (m.)"
+    },
+    "magistra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "teacher (f.)"
+    },
+    "magistrātus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "magistrate, magistracy"
+    },
+    "magnopere": {
+        "type": "adverb",
+        "meaning": "really"
+    },
+    "magnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "big, great"
+    },
+    "malle": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "prefer",
+        "flag": "irreg"
+    },
+    "malus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "bad"
+    },
+    "maneō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "remain"
+    },
+    "manus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "f",
+        "meaning": "hand, band"
+    },
+    "mare": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mar",
+        "gender": "n",
+        "meaning": "sea  goofy ablative",
+        "flag": "goofy ablatives"
+    },
+    "marītus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "husband"
+    },
+    "māter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mātr",
+        "gender": "f",
+        "meaning": "mother"
+    },
+    "maximē": {
+        "type": "adverb",
+        "meaning": "especially, most of all"
+    },
+    "maximus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "very big, biggest, very great, greatest",
+        "flag": "superlatives"
+    },
+    "medicus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "doctor"
+    },
+    "medius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "the middle of"
+    },
+    "mensis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mens",
+        "gender": "m",
+        "meaning": "month"
+    },
+    "mercātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mercātōr",
+        "gender": "x",
+        "meaning": "merchant"
+    },
+    "mēta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "turning post"
+    },
+    "meus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "my"
+    },
+    "mihi est liber": {
+        "type": "special",
+        "meaning": "I have a book"
+    },
+    "mīles": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mīlit",
+        "gender": "m",
+        "meaning": "soldier"
+    },
+    "mina": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "threat"
+    },
+    "minimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "very small, smallest",
+        "flag": "superlatives"
+    },
+    "mirmillō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mirmillōn",
+        "gender": "m",
+        "meaning": "sword fighter"
+    },
+    "miser": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "retched",
+        "flag": "conjugates weird"
+    },
+    "missiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "missiōn",
+        "gender": "f",
+        "meaning": "pardon"
+    },
+    "mītis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "gentle, mild"
+    },
+    "mittō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "send"
+    },
+    "mōns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mont",
+        "gender": "m",
+        "meaning": "mount, mountain, hill"
+    },
+    "mortuus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "dead"
+    },
+    "mōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mōr",
+        "gender": "m",
+        "meaning": "custom"
+    },
+    "multus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "much (many pl.)"
+    },
+    "mūniō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "fortify"
+    },
+    "mūrus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "wall"
+    },
+    "nam": {
+        "type": "conjunction",
+        "meaning": "for"
+    },
+    "narrō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "tell"
+    },
+    "natō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "swim"
+    },
+    "nātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "of age"
+    },
+    "nauta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "sailor"
+    },
+    "nāvis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "nāv",
+        "gender": "f",
+        "meaning": "ship  goofy ablative",
+        "flag": "goofy ablatives"
+    },
+    "ne": {
+        "type": "interrogative",
+        "meaning": "interrogative particle"
+    },
+    "nē ... quidem": {
+        "type": "special",
+        "meaning": "not ... even"
+    },
+    "necessārius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "relative"
+    },
+    "nepōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "nepōt",
+        "gender": "x",
+        "meaning": "descendant",
+        "flag": "iffy def"
+    },
+    "neque ... neque": {
+        "type": "special",
+        "meaning": "neither ... nor"
+    },
+    "nesciō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "not know"
+    },
+    "nihil": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "x",
+        "meaning": "nothing",
+        "flag": "what"
+    },
+    "nix": {
+        "type": "noun",
+        "declension": "III",
+        "root": "niv",
+        "gender": "f",
+        "meaning": "snow"
+    },
+    "nōbilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "noble"
+    },
+    "nolō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "not want, not be willing to",
+        "flag": "irreg"
+    },
+    "nōmen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "nomin",
+        "gender": "n",
+        "meaning": "name"
+    },
+    "nōmine": {
+        "type": "?",
+        "meaning": "called",
+        "flag": "idk"
+    },
+    "nōn": {
+        "type": "adverb",
+        "meaning": "no, not"
+    },
+    "nōnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "ninth"
+    },
+    "nōs": {
+        "type": "pronoun",
+        "meaning": "we",
+        "flag": "irreg"
+    },
+    "noster": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "our"
+    },
+    "novem": {
+        "type": "number",
+        "meaning": "nine"
+    },
+    "novus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "new"
+    },
+    "nūdus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "naked"
+    },
+    "numerō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "count"
+    },
+    "numerus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "number"
+    },
+    "nummus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "coin"
+    },
+    "numquam": {
+        "type": "adverb",
+        "meaning": "never"
+    },
+    "nunc": {
+        "type": "adverb",
+        "meaning": "now"
+    },
+    "nūntiō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "announce"
+    },
+    "nuntius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "messenger"
+    },
+    "ob": {
+        "type": "preposition",
+        "meaning": "because of"
+    },
+    "obsideō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "besiege"
+    },
+    "occīdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "kill"
+    },
+    "octāvus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eigth"
+    },
+    "octō": {
+        "type": "number",
+        "meaning": "eight"
+    },
+    "odium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "hatred"
+    },
+    "offendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "crash"
+    },
+    "ōlim": {
+        "type": "adverb",
+        "meaning": "once"
+    },
+    "olīva": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "olive"
+    },
+    "omnia": {
+        "type": "noun",
+        "declension": "III",
+        "root": "omnia",
+        "gender": "n",
+        "meaning": "everything",
+        "flag": "part of omnis"
+    },
+    "omnis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "each, every (all pl.)",
+        "flag": "conjugates weird"
+    },
+    "oppidum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "town"
+    },
+    "opprimō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "overpower"
+    },
+    "oppugnō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "attack"
+    },
+    "optimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "very good, best, excellent",
+        "flag": "superlatives"
+    },
+    "ōrāculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "oracle"
+    },
+    "ōrātiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ōrātiōn",
+        "gender": "f",
+        "meaning": "speech"
+    },
+    "ōrātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ōrātōr",
+        "gender": "x",
+        "meaning": "speaker"
+    },
+    "ornāmentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "jewellery"
+    },
+    "os": {
+        "type": "noun",
+        "declension": "III",
+        "root": "oss",
+        "gender": "n",
+        "meaning": "bone"
+    },
+    "osculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "kiss"
+    },
+    "pagīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "page"
+    },
+    "pānis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pān",
+        "gender": "m",
+        "meaning": "bread"
+    },
+    "pār": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "equal",
+        "flag": "unchanging"
+    },
+    "parātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "ready, prepared"
+    },
+    "parens": {
+        "type": "noun",
+        "declension": "III",
+        "root": "parent",
+        "gender": "x",
+        "meaning": "parent"
+    },
+    "parō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "prepare"
+    },
+    "pars": {
+        "type": "noun",
+        "declension": "III",
+        "root": "part",
+        "gender": "f",
+        "meaning": "part"
+    },
+    "parvus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "small"
+    },
+    "pastor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pastōr",
+        "gender": "x",
+        "meaning": "shepherd"
+    },
+    "pater": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pātr",
+        "gender": "m",
+        "meaning": "father"
+    },
+    "patria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "country"
+    },
+    "patricius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "patrician"
+    },
+    "patrōnus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "patron"
+    },
+    "paucus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "(a) little, few"
+    },
+    "pauper": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pauper",
+        "gender": "x",
+        "meaning": "poor person"
+    },
+    "pāx": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pāc",
+        "gender": "f",
+        "meaning": "peace"
+    },
+    "pecūnia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "money"
+    },
+    "pedes": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pedit",
+        "gender": "m",
+        "meaning": "foot soldier, (pl. infantry)"
+    },
+    "pellō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "drive out"
+    },
+    "pensum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "exercise"
+    },
+    "per": {
+        "type": "preposition",
+        "meaning": "through, along"
+    },
+    "pereō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "die",
+        "flag": "irreg"
+    },
+    "perfuga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "deserter"
+    },
+    "perīculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "danger"
+    },
+    "peristylium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "peristyle"
+    },
+    "perveniō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "arrive"
+    },
+    "pessimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "very bad, worst, terrible",
+        "flag": "superlatives"
+    },
+    "piger": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "lazy"
+    },
+    "pīrāta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "pirate"
+    },
+    "plēbēius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "plebeian"
+    },
+    "plēbs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "plēb",
+        "gender": "f",
+        "meaning": "the plebs (collective unit)"
+    },
+    "plēnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "full (of)"
+    },
+    "plērumque": {
+        "type": "conjunction",
+        "meaning": "generally"
+    },
+    "plūrēs": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "more",
+        "flag": "comparative"
+    },
+    "plūrimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "very much",
+        "flag": "comparitives and superlatives???"
+    },
+    "pluvia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "rain"
+    },
+    "poēta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "poet"
+    },
+    "pollex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pollic",
+        "gender": "m",
+        "meaning": "thumb"
+    },
+    "pōmum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "apple"
+    },
+    "pōnō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "put, place"
+    },
+    "pons": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pont",
+        "gender": "m",
+        "meaning": "bridge"
+    },
+    "populus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "people (collective unit)"
+    },
+    "porta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "gate"
+    },
+    "portō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "carry, bring",
+        "flag": "check pls"
+    },
+    "possum": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "be able to",
+        "flag": "irreg"
+    },
+    "post": {
+        "type": "preposition",
+        "meaning": "after, behind"
+    },
+    "postea": {
+        "type": "conjunction",
+        "meaning": "afterward"
+    },
+    "postquam": {
+        "type": "conjunction",
+        "meaning": "after"
+    },
+    "postrēmō": {
+        "type": "adverb",
+        "meaning": "finally"
+    },
+    "potēns": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "powerful",
+        "flag": "declines weirdly"
+    },
+    "potestās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "potestāt",
+        "gender": "f",
+        "meaning": "power"
+    },
+    "praeter": {
+        "type": "preposition",
+        "meaning": "past"
+    },
+    "praeterea": {
+        "type": "conjunction",
+        "meaning": "moreover"
+    },
+    "praeteritus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "past"
+    },
+    "prandium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "lunch"
+    },
+    "pretium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "ransom, price, value"
+    },
+    "prīmum": {
+        "type": "adverb",
+        "meaning": "firstly"
+    },
+    "prīmus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "first"
+    },
+    "princeps": {
+        "type": "noun",
+        "declension": "III",
+        "root": "princip",
+        "gender": "m",
+        "meaning": "emperor"
+    },
+    "principium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "beginning"
+    },
+    "prō": {
+        "type": "preposition",
+        "meaning": "in front of, on behalf of, for",
+        "flag": "abcumdeexprosine needs extra notes for ablative"
+    },
+    "prōditor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "prōditōr",
+        "gender": "m",
+        "meaning": "traitor"
+    },
+    "proelium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "battle"
+    },
+    "prohibeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "prevent"
+    },
+    "prōmittō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "promise"
+    },
+    "prope": {
+        "type": "preposition",
+        "meaning": "near"
+    },
+    "propter": {
+        "type": "preposition",
+        "meaning": "because of"
+    },
+    "prōvincia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "province"
+    },
+    "pūblicō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "expropriate"
+    },
+    "puella": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "girl"
+    },
+    "puer": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "boy"
+    },
+    "pugnō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "fight"
+    },
+    "pulsō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "hit"
+    },
+    "pūniō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "punish"
+    },
+    "quadrāgintā": {
+        "type": "number",
+        "meaning": "forty"
+    },
+    "quadrīga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "four horse chariot"
+    },
+    "quālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "what kind (of)",
+        "flag": "conjugates weird, int?"
+    },
+    "quam celerrimē": {
+        "type": "special",
+        "meaning": "as quickly as possible"
+    },
+    "quam crūdēlissimē": {
+        "type": "special",
+        "meaning": "as cruelly as possible"
+    },
+    "quamdiū": {
+        "type": "interrogative",
+        "meaning": "how long"
+    },
+    "quamquam": {
+        "type": "conjunction",
+        "meaning": "although"
+    },
+    "quandō": {
+        "type": "interrogative",
+        "meaning": "when"
+    },
+    "quartus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "fourth"
+    },
+    "quattuor": {
+        "type": "number",
+        "meaning": "four"
+    },
+    "quattuordecim": {
+        "type": "number",
+        "meaning": "fourteen"
+    },
+    "que": {
+        "type": "special",
+        "meaning": "and"
+    },
+    "quī, quae, quod": {
+        "type": "pronoun",
+        "meaning": "relative pronoun",
+        "flag": "irreg"
+    },
+    "quia": {
+        "type": "conjunction",
+        "meaning": "because"
+    },
+    "quid": {
+        "type": "interrogative",
+        "meaning": "what",
+        "flag": "irreg"
+    },
+    "quīdam": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "a certain (some pl.)"
+    },
+    "quidem": {
+        "type": "adverb",
+        "meaning": "indeed"
+    },
+    "quiescō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "rest"
+    },
+    "quindecim": {
+        "type": "number",
+        "meaning": "fifteen"
+    },
+    "quinque": {
+        "type": "number",
+        "meaning": "five"
+    },
+    "quīntus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "fifth"
+    },
+    "quis": {
+        "type": "interrogative",
+        "meaning": "who",
+        "flag": "irreg"
+    },
+    "quō": {
+        "type": "interrogative",
+        "meaning": "where"
+    },
+    "quod": {
+        "type": "conjunction",
+        "meaning": "because"
+    },
+    "quōmodo": {
+        "type": "interrogative",
+        "meaning": "how"
+    },
+    "quoque": {
+        "type": "conjunction",
+        "meaning": "also"
+    },
+    "quot": {
+        "type": "interrogative",
+        "meaning": "how many"
+    },
+    "quotannīs": {
+        "type": "adverb",
+        "meaning": "annually"
+    },
+    "raeda": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "carriage"
+    },
+    "redeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "return",
+        "flag": "irreg"
+    },
+    "redūcō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "lead back, restore"
+    },
+    "reficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "meaning": "rebuild"
+    },
+    "rēgīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "queen"
+    },
+    "regiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "regiōn",
+        "gender": "f",
+        "meaning": "region"
+    },
+    "relinquō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "abandon, leave (something)"
+    },
+    "rēs": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "f",
+        "meaning": "thing",
+        "flag": "fifth declension?"
+    },
+    "resistō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "resist"
+    },
+    "respondeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "answer"
+    },
+    "rēspūblica": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "f",
+        "meaning": "republic",
+        "flag": "each part declines"
+    },
+    "rētia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "net"
+    },
+    "rētiārius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "net fighter"
+    },
+    "rēx": {
+        "type": "noun",
+        "declension": "III",
+        "root": "rēg",
+        "gender": "m",
+        "meaning": "king"
+    },
+    "rīdeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "laugh (at)"
+    },
+    "rogō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "ask"
+    },
+    "Rōmam": {
+        "type": "special",
+        "meaning": "ad urbem Rōmam"
+    },
+    "Rōmāna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "Roman (f.)"
+    },
+    "Rōmānus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "Roman (m.)"
+    },
+    "rotūndus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "round"
+    },
+    "sacer": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "sacred"
+    },
+    "sacerdōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sacerdōt",
+        "gender": "x",
+        "meaning": "priest(ess)"
+    },
+    "saepe": {
+        "type": "adverb",
+        "meaning": "often"
+    },
+    "saliō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "jump"
+    },
+    "salūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "salūt",
+        "gender": "f",
+        "meaning": "safety, salvation"
+    },
+    "salūtō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "greet"
+    },
+    "sapienta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "wisdom"
+    },
+    "saxum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "rock"
+    },
+    "sceīnium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "writing case"
+    },
+    "scelestus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "criminal"
+    },
+    "scelus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sceler",
+        "gender": "n",
+        "meaning": "crime"
+    },
+    "sciō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "know"
+    },
+    "scrībō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "write"
+    },
+    "scriptor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "scriptōr",
+        "gender": "x",
+        "meaning": "author,writer"
+    },
+    "scūtum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "shield"
+    },
+    "sē": {
+        "type": "pronoun",
+        "meaning": "reflexive pronoun",
+        "flag": "idk"
+    },
+    "sē dēdere": {
+        "type": "special",
+        "meaning": "to surrender"
+    },
+    "secundus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "second"
+    },
+    "sed": {
+        "type": "conjunction",
+        "meaning": "but"
+    },
+    "sēdecim": {
+        "type": "number",
+        "meaning": "sixteen"
+    },
+    "sedeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "sit"
+    },
+    "sella": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "chair"
+    },
+    "semper": {
+        "type": "adverb",
+        "meaning": "always"
+    },
+    "senātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "senātōr",
+        "gender": "m",
+        "meaning": "senator"
+    },
+    "senātus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "the senate (collective unit)"
+    },
+    "senex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sen",
+        "gender": "x",
+        "meaning": "old person"
+    },
+    "septem": {
+        "type": "number",
+        "meaning": "seven"
+    },
+    "septendecim": {
+        "type": "number",
+        "meaning": "seventeen"
+    },
+    "septimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "seventh"
+    },
+    "servō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "save"
+    },
+    "servus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "slave (m.)"
+    },
+    "sex": {
+        "type": "number",
+        "meaning": "six"
+    },
+    "sextus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "sixth"
+    },
+    "sī": {
+        "type": "conjunction",
+        "meaning": "if"
+    },
+    "sīc": {
+        "type": "conjunction",
+        "meaning": "thus"
+    },
+    "significō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "indicate, mean"
+    },
+    "signum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "statue"
+    },
+    "similis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "like"
+    },
+    "simulō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "pretend"
+    },
+    "sine": {
+        "type": "preposition",
+        "meaning": "without",
+        "flag": "abcumdeexprosine needs extra notes for ablative"
+    },
+    "sinister": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "left"
+    },
+    "sinistra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "left"
+    },
+    "socius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "ally"
+    },
+    "sōlum": {
+        "type": "adverb",
+        "meaning": "only"
+    },
+    "sōlus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "alone, only"
+    },
+    "sordidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "dirty"
+    },
+    "soror": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sorōr",
+        "gender": "f",
+        "meaning": "sister"
+    },
+    "spectō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "watch"
+    },
+    "spīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "barrier"
+    },
+    "sponsa": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "fiancée"
+    },
+    "sponsus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "fiancé"
+    },
+    "statim": {
+        "type": "adverb",
+        "meaning": "at once"
+    },
+    "stīlus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "stylus"
+    },
+    "stīpendium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "pay"
+    },
+    "stō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "stand"
+    },
+    "studeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "be eager (modal)"
+    },
+    "stultus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "foolish"
+    },
+    "sub": {
+        "type": "preposition",
+        "meaning": "under",
+        "flag": "motion dependent"
+    },
+    "sub noctem": {
+        "type": "special",
+        "meaning": "at nightfall"
+    },
+    "subitō": {
+        "type": "adverb",
+        "meaning": "suddenly"
+    },
+    "sum": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "be",
+        "flag": "irreg"
+    },
+    "summus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "at the top of, highest"
+    },
+    "super": {
+        "type": "preposition",
+        "meaning": "above, over"
+    },
+    "superbus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "arrogant"
+    },
+    "superō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "conquer"
+    },
+    "surgō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "rise"
+    },
+    "suus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "reflexive possesive adjective",
+        "flag": "explain this better"
+    },
+    "taberna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "store, shop"
+    },
+    "tablīnum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "office, study"
+    },
+    "tabula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "writing tablet"
+    },
+    "taceō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "be silent"
+    },
+    "tamen": {
+        "type": "conjunction",
+        "meaning": "however"
+    },
+    "tēlum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "spear, javelin"
+    },
+    "tempestās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "tempestāt",
+        "gender": "f",
+        "meaning": "storm"
+    },
+    "templum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "temple"
+    },
+    "temptō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "try"
+    },
+    "tempus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "tempor",
+        "gender": "n",
+        "meaning": "time"
+    },
+    "tepidārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "warm pool"
+    },
+    "terra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "earth, ground"
+    },
+    "tertius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "third"
+    },
+    "testimōnium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "evidence, testimony"
+    },
+    "thermae": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "public baths",
+        "flag": "always plural thing"
+    },
+    "tibi adpropinquō": {
+        "type": "special",
+        "meaning": "I approach you"
+    },
+    "tibi resistō": {
+        "type": "special",
+        "meaning": "I resist you"
+    },
+    "tigris": {
+        "type": "noun",
+        "declension": "III",
+        "root": "tigr",
+        "gender": "x",
+        "meaning": "tiger",
+        "flag": "this as well"
+    },
+    "timeō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "fear"
+    },
+    "tōtus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "whole, entire",
+        "flag": "sfg"
+    },
+    "trahō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "drag, pull"
+    },
+    "trāns": {
+        "type": "preposition",
+        "meaning": "across"
+    },
+    "trānseō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "cross",
+        "flag": "irreg"
+    },
+    "trēdecim": {
+        "type": "number",
+        "meaning": "thirteen"
+    },
+    "trēs": {
+        "type": "number",
+        "meaning": "three"
+    },
+    "tribūnus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "tribune"
+    },
+    "trīdēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "trīdent",
+        "gender": "m",
+        "meaning": "trident"
+    },
+    "trīginta": {
+        "type": "number",
+        "meaning": "thirty"
+    },
+    "tristis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "sad"
+    },
+    "Trōiānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "Trojan"
+    },
+    "tū": {
+        "type": "pronoun",
+        "meaning": "you",
+        "flag": "irreg"
+    },
+    "tūba": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "horn"
+    },
+    "tum": {
+        "type": "adverb",
+        "meaning": "then"
+    },
+    "turpis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "disgraceful, shameful"
+    },
+    "ubi": {
+        "type": "interrogative",
+        "meaning": "where"
+    },
+    "unde": {
+        "type": "interrogative",
+        "meaning": "from where"
+    },
+    "ūndecim": {
+        "type": "number",
+        "meaning": "eleven"
+    },
+    "ūndēvīgintī": {
+        "type": "number",
+        "meaning": "nineteen"
+    },
+    "unguentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "perfume"
+    },
+    "ūnus": {
+        "type": "number",
+        "meaning": "one"
+    },
+    "ūnus ex eīs": {
+        "type": "special",
+        "meaning": "one of them"
+    },
+    "urbs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "urb",
+        "gender": "f",
+        "meaning": "city"
+    },
+    "ursus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "bear"
+    },
+    "uxor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "uxōr",
+        "gender": "f",
+        "meaning": "wife"
+    },
+    "uxōrem dūcere": {
+        "type": "special",
+        "meaning": "to marry (a woman)"
+    },
+    "validus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "strong"
+    },
+    "vastō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "ransack, devastate"
+    },
+    "vendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "sell"
+    },
+    "veniō": {
+        "type": "verb",
+        "declension": "IV",
+        "meaning": "come"
+    },
+    "vēr": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vēr",
+        "gender": "n",
+        "meaning": "spring"
+    },
+    "vertō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "turn"
+    },
+    "vērus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "true, real"
+    },
+    "Vestālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "Vestal"
+    },
+    "vestem gerere": {
+        "type": "special",
+        "meaning": "to wear clothing"
+    },
+    "vestibulum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "forecourt"
+    },
+    "vestigium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "track, trace"
+    },
+    "vestis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vest",
+        "gender": "f",
+        "meaning": "clothing"
+    },
+    "vetō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "veto"
+    },
+    "via": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "street, road"
+    },
+    "victor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "victōr",
+        "gender": "m",
+        "meaning": "winner"
+    },
+    "victōria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "victory"
+    },
+    "videō": {
+        "type": "verb",
+        "declension": "II",
+        "meaning": "see"
+    },
+    "vīgintī": {
+        "type": "number",
+        "meaning": "twenty"
+    },
+    "vīgintī ūnus": {
+        "type": "number",
+        "meaning": "twenty one"
+    },
+    "vīlicus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "manager"
+    },
+    "vīlla": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "country house"
+    },
+    "vincō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "conquer, defeat"
+    },
+    "vīnum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "wine"
+    },
+    "vir": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "man"
+    },
+    "virga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "stick"
+    },
+    "virgo": {
+        "type": "noun",
+        "declension": "III",
+        "root": "virgin",
+        "gender": "f",
+        "meaning": "maiden"
+    },
+    "virtūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "virtūt",
+        "gender": "f",
+        "meaning": "bravery, virtue, courage"
+    },
+    "vīta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "life"
+    },
+    "vītō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "avoid"
+    },
+    "vīvō": {
+        "type": "verb",
+        "declension": "III reg",
+        "meaning": "live"
+    },
+    "vocō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "invite, call"
+    },
+    "volō": {
+        "type": "verb",
+        "declension": "irreg",
+        "meaning": "want, be willing to",
+        "flag": "irreg"
+    },
+    "vōs": {
+        "type": "pronoun",
+        "meaning": "you (pl.)",
+        "flag": "irreg"
+    },
+    "vulnerō": {
+        "type": "verb",
+        "declension": "I",
+        "meaning": "wound"
+    },
+    "vulnus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vulner",
+        "gender": "n",
+        "meaning": "wound"
+    },
+    "vultur": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vultūr",
+        "gender": "m",
+        "meaning": "vulture"
+    }
 }
