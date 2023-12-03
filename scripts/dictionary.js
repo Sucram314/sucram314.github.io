@@ -42,6 +42,208 @@ function createInteractiveDropdown(parent,title){
     return inner;
 }
 
+function createSubTable(parent){
+    var section = document.createElement("table");
+    section.classList.add("subtable");
+    
+    parent.appendChild(section);
+    return section;
+}
+
+function form(table, word, result, exceptions=[]){
+    if(result["declension"] === "indeclinable") return false;
+
+    if(result["type"] === "noun"){
+        var dat = formdata["noun"], root, subtable;
+
+        subtable = createSubTable(table);
+
+        subtable.insertAdjacentHTML("beforeend",`<tr><th></th><th>Singular</th><th>Plural</th></tr>`);
+
+        if(result["declension"] === "I"){
+            root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-1);
+            dat = dat["I"];
+        } else if(result["declension"] === "II"){
+            root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2+(word.charAt(word.length-1) === "r"));
+            dat = dat["II"][word.charAt(word.length-1) === "r" ? "r" : "u"+word.charAt(word.length-1)];
+        } else if(result["declension"] === "III"){
+            root = exceptions["root"] ? exceptions["root"] : result["root"];
+            dat = dat["III"][result["gender"] == "n" ? "n" : "!n"];
+        } else if(result["declension"] === "IV"){
+            root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2);
+            dat = dat["IV"];
+        }
+
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${word}</td><td>${root + dat["plural"]["nominative"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${dat["singular"]["accusative"] ? root + dat["singular"]["accusative"] : word}</td><td>${root + dat["plural"]["accusative"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + dat["singular"]["genitive"]}</td><td>${root + (exceptions["i-stem"] ? "<b>i</b>" : "") + dat["plural"]["genitive"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + (exceptions.includes["abl-i-stem"] ? "<b>ī</b>" : dat["singular"]["ablative"])}</td><td>${root + dat["plural"]["ablative"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + dat["singular"]["dative"]}</td><td>${root + dat["plural"]["dative"]}</td></tr>`);
+
+    } else if(result["type"] === "verb"){
+        var dat = formdata["verb"][result["declension"]], subdat, linked, newRoot, subtable,
+        root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-1-(result["declension"] === "II" || result["declension"] === "III spec" || result["declension"] === "IV"));
+
+        var container, content;
+        
+        container = createInteractiveDropdown(table,"Active");
+        content = document.createElement("table");
+
+        subtable = createSubTable(content);
+        subdat = dat["active"]["present"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Present</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${root + subdat["1s"]}</td><td>${root + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${root + subdat["3s"]}</td><td>${root + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content);
+        subdat = formdata["verb"]["aorist"]["active"];
+        newRoot = result["aorist-root"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Aorist</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content);
+        subdat = formdata["verb"]["imperfect"]["active"]["past"];
+        linked = root + dat["past-imperfect-link"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Past Imperfect</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content);
+        subdat = formdata["verb"]["imperfect"]["active"]["future"][result["declension"] === "I" || result["declension"] === "II" ? "I~II" : "!I~II"];
+        linked = root + dat["future-imperfect-link"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Future Imperfect</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+        container.appendChild(content);
+
+
+        container = createInteractiveDropdown(table,"Passive");
+        content = document.createElement("table");
+
+        subtable = createSubTable(content);
+        subdat = dat["passive"]["present"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Present</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${root + subdat["1s"]}</td><td>${root + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${root + subdat["3s"]}</td><td>${root + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content);
+        subdat = formdata["verb"]["aorist"]["passive"];
+        newRoot = result["aorist-passive-participle"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Aorist</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content);
+        subdat = formdata["verb"]["imperfect"]["passive"]["past"];
+        linked = root + dat["past-imperfect-link"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Past Imperfect</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content);
+        subdat = formdata["verb"]["imperfect"]["passive"]["future"][result["declension"] === "I" || result["declension"] === "II" ? "I~II" : "!I~II"];
+        linked = root + dat["future-imperfect-link"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Future Imperfect</b></th><th>Singular</th><th>Plural</th></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+        container.appendChild(content);
+
+
+        container = createInteractiveDropdown(table,"Participle");
+        content = document.createElement("table");
+
+        subtable = createSubTable(content);
+        form(subtable, root + dat["present-partciple-link"] + "ns", {"type":"adjective","declension":"III"});
+
+        subtable = createSubTable(content);
+        form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"});
+
+        container.appendChild(content);
+
+    } else if(result["type"] === "adjective"){
+        var dat = formdata["adjective"], subdat, root, subtable;
+
+        if(result["declension"] === "I~II"){
+            root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2) + (word.charAt(word.length-1) === "r" ? "r" : "");
+            dat = dat["I~II"]["positive"];
+
+            subtable = createSubTable(table);
+            subdat = dat["singular"];
+            subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Singular</b></th><th>f.</th><th>m.</th><th>n.</th></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${root + subdat["f"]["nominative"]}</td><td>${word}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["f"]["accusative"]}</td><td>${root + subdat["m"]["accusative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["f"]["genitive"]}</td><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["m"]["genitive"]}</td><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["n"]["genitive"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["f"]["ablative"]}</td><td>${root + subdat["m"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["f"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["m"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["n"]["dative"]}</td></tr>`);
+
+        
+            subtable = createSubTable(table);
+            subdat = dat["plural"];
+            subtable.insertAdjacentHTML("beforeend",`<tr><th><b>Plural</b></th><th>f.</th><th>m.</th><th>n.</th></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${root + subdat["f"]["nominative"]}</td><td>${root + subdat["m"]["nominative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["f"]["accusative"]}</td><td>${root + subdat["m"]["accusative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + subdat["f"]["genitive"]}</td><td>${root + subdat["m"]["genitive"]}</td><td>${root + subdat["n"]["genitive"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["f"]["ablative"]}</td><td>${root + subdat["m"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + subdat["f"]["dative"]}</td><td>${root + subdat["m"]["dative"]}</td><td>${root + subdat["n"]["dative"]}</td></tr>`);
+        } else if(result["declension"] === "III"){
+            dat = dat["III"]["positive"];
+            subdat = dat["singular"];
+            subtable = createSubTable(table);
+
+            if(word.charAt(word.length-1) === "r"){
+                root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2) + "r";
+                
+                subtable.insertAdjacentHTML("beforeend",`</th><th><b>Singular</b></th><th>f.</th><th>m.</th><th>n.</th></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${root + subdat["!n"]["nominative"]}</td><td>${word}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["!n"]["accusative"]}</td><td>${root + subdat["!n"]["accusative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["!n"]["genitive"]}</td><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["!n"]["genitive"]}</td><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["n"]["genitive"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["!n"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["!n"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["n"]["dative"]}</td></tr>`);
+
+            } else if(word.charAt(word.length-2) === "n" && word.charAt(word.length-1) === "s"){
+                root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-3) + normalize(word.charAt(word.length-3)) + "nt";
+
+                subtable.insertAdjacentHTML("beforeend",`</th><th><b>Singular</b></th><th>f./m.</th><th>n.</th></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${word}</td><td>${word}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["!n"]["accusative"]}</td><td>${word}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["!n"]["genitive"]}</td><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["n"]["genitive"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["!n"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["n"]["dative"]}</td></tr>`);
+            } else {
+                root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2)
+
+                subtable.insertAdjacentHTML("beforeend",`</th><th><b>Singular</b></th><th>f./m.</th><th>n.</th></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${word}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["!n"]["accusative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["!n"]["genitive"]}</td><td>${exceptions["sfg"] ? "<b>"+exceptions["sfg"]+"</b>" : root + subdat["n"]["genitive"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
+                subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["!n"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["n"]["dative"]}</td></tr>`);
+            }
+
+            subtable = createSubTable(table);
+            subdat = dat["plural"];
+            subtable.insertAdjacentHTML("beforeend",`</th><th><b>Plural</b></th><th>f./m.</th><th>n.</th></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${root + subdat["!n"]["nominative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["!n"]["accusative"]}</td><td>${root + subdat["n"]["accusative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + subdat["!n"]["genitive"]}</td><td>${root + subdat["n"]["genitive"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
+            subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + subdat["!n"]["dative"]}</td><td>${root + subdat["n"]["dative"]}</td></tr>`);
+        }
+    } else return false;
+    return true;
+}
+
 function search(word){
     if(current_word === word){
         searching = false;
@@ -69,8 +271,8 @@ function search(word){
         Warning.classList.remove("active");
         dictionary.classList.add("active");
     
-        Word.querySelector("p").innerText = word + (result["root"] ? ", " + result["root"] + "-" : "");
-        Word.querySelector("span").innerText = result["type"] + (result["declension"] ? " / " + result["declension"] : "") + (result["gender"] ? " / " + result["gender"] : "")
+        Word.querySelector("p").innerText = word + (result["root"] ? ", " + result["root"] + "is" : "") + (result["type"] === "verb" ? ", " + result["infinitive"] : "");
+        Word.querySelector("span").innerText = result["type"] + (result["declension"] ? " / " + result["declension"] : "") + (result["gender"] ? " / " + result["gender"] + "." : "")
         Meaning.querySelector(".details span").innerText = result["meaning"];
 
         if(result["flag"]){
@@ -80,148 +282,13 @@ function search(word){
             return;
         }
 
+        var exceptions = result["exceptions"] ? result["exceptions"] : [];
+
         Forms.classList.add("active");
         var table = Forms.querySelector("table");
         table.replaceChildren();
 
-        if(result["type"] === "noun"){
-            var dat = formdata["noun"], root;
-
-            table.insertAdjacentHTML("beforeend",`<tr><th></th><th>Singular</th><th>Plural</th></tr>`);
-
-            if(result["declension"] === "I"){
-                root = word.substring(0,word.length-1);
-                dat = dat["I"];
-            } else if(result["declension"] === "II"){
-                root = word.substring(0,word.length-2+(word.charAt(word.length-1) === "r"));
-                dat = dat["II"][word.charAt(word.length-1) === "r" ? "r" : "u"+word.charAt(word.length-1)];
-            } else if(result["declension"] === "III"){
-                root = result["root"];
-                dat = dat["III"][result["gender"] == "n" ? "n" : "!n"];
-            } else if(result["declension"] === "IV"){
-                root = word.substring(0,word.length-2);
-                dat = dat["IV"];
-            }
-
-            table.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${word}</td><td>${root + dat["plural"]["nominative"]}</td></tr>`);
-            table.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${dat["singular"]["accusative"] ? root + dat["singular"]["accusative"] : word}</td><td>${root + dat["plural"]["accusative"]}</td></tr>`);
-            table.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + dat["singular"]["genitive"]}</td><td>${root + dat["plural"]["genitive"]}</td></tr>`);
-            table.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + dat["singular"]["ablative"]}</td><td>${root + dat["plural"]["ablative"]}</td></tr>`);
-            table.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + dat["singular"]["dative"]}</td><td>${root + dat["plural"]["dative"]}</td></tr>`);
-        } else if(result["type"] === "verb"){
-            var dat = formdata["verb"][result["declension"]], subdat, linked, 
-            root = word.substring(0,word.length-1-(result["declension"] === "II" || result["declension"] === "III spec" || result["declension"] === "IV"));
-
-            // table.insertAdjacentHTML("beforeend",`<span>does not work (yet)</span><br>`);
-
-            var container, content;
-            
-            container = createInteractiveDropdown(table,"Active");
-            content = document.createElement("table");
-
-            subdat = dat["active"]["present"];
-            content.insertAdjacentHTML("beforeend",`<tr><th>Present</th><th>Singular</th><th>Plural</th></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${root + subdat["1s"]}</td><td>${root + subdat["1p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${root + subdat["3s"]}</td><td>${root + subdat["3p"]}</td></tr>`);
-
-            content.insertAdjacentHTML("beforeend",`<tr><th></th></tr>`);
-
-            subdat = formdata["verb"]["imperfect"]["active"]["past"];
-            linked = root + dat["past-imperfect-link"];
-            content.insertAdjacentHTML("beforeend",`<tr><th>Past Imperfect</th><th>Singular</th><th>Plural</th></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
-
-            content.insertAdjacentHTML("beforeend",`<tr><th></th></tr>`);
-
-            subdat = formdata["verb"]["imperfect"]["active"]["future"][result["declension"] === "I" || result["declension"] === "II" ? "I~II" : "!I~II"];
-            linked = root + dat["future-imperfect-link"];
-            content.insertAdjacentHTML("beforeend",`<tr><th>Future Imperfect</th><th>Singular</th><th>Plural</th></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
-
-            container.appendChild(content);
-
-            container = createInteractiveDropdown(table,"Passive");
-            content = document.createElement("table");
-
-            subdat = dat["passive"]["present"];
-            content.insertAdjacentHTML("beforeend",`<tr><th>Present</th><th>Singular</th><th>Plural</th></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${root + subdat["1s"]}</td><td>${root + subdat["1p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${root + subdat["3s"]}</td><td>${root + subdat["3p"]}</td></tr>`);
-
-            content.insertAdjacentHTML("beforeend",`<tr><th></th></tr>`);
-
-            subdat = formdata["verb"]["imperfect"]["passive"]["past"];
-            linked = root + dat["past-imperfect-link"];
-            content.insertAdjacentHTML("beforeend",`<tr><th>Past Imperfect</th><th>Singular</th><th>Plural</th></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
-
-            content.insertAdjacentHTML("beforeend",`<tr><th></th></tr>`);
-
-            subdat = formdata["verb"]["imperfect"]["passive"]["future"][result["declension"] === "I" || result["declension"] === "II" ? "I~II" : "!I~II"];
-            linked = root + dat["future-imperfect-link"];
-            content.insertAdjacentHTML("beforeend",`<tr><th>Future Imperfect</th><th>Singular</th><th>Plural</th></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>1st</th><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>2nd</th><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
-            content.insertAdjacentHTML("beforeend",`<tr><th>3rd</th><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
-
-
-            container.appendChild(content);
-
-        } else if(result["type"] === "adjective"){
-            var dat = formdata["adjective"], subdat, root;
-
-            if(result["declension"] === "I~II"){
-                root = word.substring(0,word.length-2) + (word.charAt(word.length-1) === "r" ? "r" : "");
-                dat = dat["I~II"]["positive"];
-
-                subdat = dat["singular"];
-                table.insertAdjacentHTML("beforeend",`<tr><th><b>Singular</b></th><th>Feminine</th><th>Masculine</th><th>Neuter</th></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${root + subdat["f"]["nominative"]}</td><td>${word}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["f"]["accusative"]}</td><td>${root + subdat["m"]["accusative"]}</td><td>${root + subdat["n"]["accusative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + subdat["f"]["genitive"]}</td><td>${root + subdat["m"]["genitive"]}</td><td>${root + subdat["n"]["genitive"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["f"]["ablative"]}</td><td>${root + subdat["m"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + subdat["f"]["dative"]}</td><td>${root + subdat["m"]["dative"]}</td><td>${root + subdat["n"]["dative"]}</td></tr>`);
-
-                table.insertAdjacentHTML("beforeend",`<tr><th></th></tr>`);
-
-                subdat = dat["plural"];
-                table.insertAdjacentHTML("beforeend",`<tr><th><b>Plural</b></th><th>Feminine</th><th>Masculine</th><th>Neuter</th></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${root + subdat["f"]["nominative"]}</td><td>${root + subdat["m"]["nominative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${root + subdat["f"]["accusative"]}</td><td>${root + subdat["m"]["accusative"]}</td><td>${root + subdat["n"]["accusative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + subdat["f"]["genitive"]}</td><td>${root + subdat["m"]["genitive"]}</td><td>${root + subdat["n"]["genitive"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["f"]["ablative"]}</td><td>${root + subdat["m"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + subdat["f"]["dative"]}</td><td>${root + subdat["m"]["dative"]}</td><td>${root + subdat["n"]["dative"]}</td></tr>`);
-            } else if(result["declension"] === "III"){
-                root = word.substring(0,word.length-2);
-                dat = dat["III"]["positive"];
-
-                subdat = dat["singular"];
-                table.insertAdjacentHTML("beforeend",`</th><th><b>Singular</b></th><th colspan="2">Feminine/Masculine</th><th>Neuter</th></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td colspan="2">${root + subdat["!n"]["nominative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td colspan="2">${root + subdat["!n"]["accusative"]}</td><td>${root + subdat["n"]["accusative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td colspan="2">${root + subdat["!n"]["genitive"]}</td><td>${root + subdat["n"]["genitive"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td colspan="2">${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td colspan="2">${root + subdat["!n"]["dative"]}</td><td>${root + subdat["n"]["dative"]}</td></tr>`);
-
-                table.insertAdjacentHTML("beforeend",`<tr><th></th></tr>`);
-
-                subdat = dat["plural"];
-                table.insertAdjacentHTML("beforeend",`</th><th><b>Plural</b></th><th colspan="2">Feminine/Masculine</th><th>Neuter</th></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td colspan="2">${root + subdat["!n"]["nominative"]}</td><td>${root + subdat["n"]["nominative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td colspan="2">${root + subdat["!n"]["accusative"]}</td><td>${root + subdat["n"]["accusative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td colspan="2">${root + subdat["!n"]["genitive"]}</td><td>${root + subdat["n"]["genitive"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td colspan="2">${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
-                table.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td colspan="2">${root + subdat["!n"]["dative"]}</td><td>${root + subdat["n"]["dative"]}</td></tr>`);
-            }
-        } else Forms.classList.remove("active");
+        if(!form(table,word,result,exceptions)) Forms.classList.remove("active");
 
     }, 420 + Math.random() * 69);
 }
@@ -237,7 +304,7 @@ function normalize(word){
 }
 
 searchBar.addEventListener("keydown", function(e) {
-    if(e.key == "Enter" && e.target.value && !searching){
+    if(e.key === "Enter" && e.target.value && !searching){
         var x = document.getElementById(this.id + "autocomplete-list");
         if(x && x.children.length) searchBar.value = x.children[0].getElementsByTagName("input")[0].value;
         closeAllLists();
@@ -261,7 +328,7 @@ searchBar.addEventListener("input",function(e){
     var suggestions = 0;
 
     for(var word in dict) {
-        if (normalize(word).substring(0, val.length).toUpperCase() == val.toUpperCase()) {
+        if (normalize(word).substring(0, val.length).toUpperCase() === val.toUpperCase()) {
             b = document.createElement("DIV");
 
             b.innerHTML = "<b>" + word.substring(0, val.length) + "</b>" + word.substring(val.length);
@@ -276,7 +343,7 @@ searchBar.addEventListener("input",function(e){
                 closeAllLists();
             });
             a.appendChild(b);
-            if(++suggestions == MAXSUGGESTIONS) break;
+            if(++suggestions === MAXSUGGESTIONS) break;
         }
     }
 })

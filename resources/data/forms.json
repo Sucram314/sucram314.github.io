@@ -190,13 +190,19 @@
                 "3p":"ērunt"
             },
             "passive":{
-                "comment":"ugh argh ahh"
+                "1s":"um sum",
+                "2s":"um es",
+                "3s":"um est",
+                "1p":"a sumus",
+                "2p":"a estis",
+                "3p":"a sunt"
             }
         },
 
         "I":{
             "past-imperfect-link":"ā",
             "future-imperfect-link":"ā",
+            "present-partciple-link":"ā",
             
             "active":{
                 "present":{
@@ -244,6 +250,8 @@
         "II":{
             "past-imperfect-link":"ē",
             "future-imperfect-link":"ē",
+            "present-partciple-link":"ē",
+
             "active":{
                 "present":{
                     "1s":"eō",
@@ -290,6 +298,8 @@
         "III reg":{
             "past-imperfect-link":"ē",
             "future-imperfect-link":"",
+            "present-partciple-link":"ē",
+
             "active":{
                 "present":{
                     "1s":"ō",
@@ -336,6 +346,8 @@
         "III spec":{
             "past-imperfect-link":"iē",
             "future-imperfect-link":"i",
+            "present-partciple-link":"iē",
+
             "active":{
                 "present":{
                     "1s":"iō",
@@ -382,6 +394,8 @@
         "IV":{
             "past-imperfect-link":"iē",
             "future-imperfect-link":"i",
+            "present-partciple-link":"iē",
+
             "active":{
                 "present":{
                     "1s":"iō",
