@@ -1,5 +1,8 @@
-const header = document.getElementById("header");
-const button = document.getElementById("button");
+const html = document.querySelector("html"),
+header = document.getElementById("header"),
+button = document.getElementById("button"),
+themeSelector = header.querySelector(".theme-selector");
+
 let lastScroll = 0;
 let height = header.offsetHeight;
 
@@ -32,7 +35,7 @@ function hasScrolled() {
 
 let dropped = false;
 
-function drop(){
+button.addEventListener("click", function(){
     if(dropped){
         header.classList.remove("dropped");
         header.classList.add("notdropped");
@@ -41,6 +44,14 @@ function drop(){
         header.classList.add("dropped");
     }
     dropped = !dropped;
-}
+});
 
-button.addEventListener("click",drop);
+themeSelector.addEventListener("click", function(){
+    if(html.classList.contains("dark")){
+        html.classList.remove("dark");
+        localStorage.setItem("dark", false);
+    } else {
+        html.classList.add("dark");
+        localStorage.setItem("dark", true);
+    }
+})

@@ -13,13 +13,16 @@ fetch('./resources/data/forms.json')
     .then(data => {formdata = data;});
 
 const dictionary = document.querySelector(".dictionary-container"),
-searchBar = dictionary.querySelector("input"),
+Search = dictionary.querySelector(".search"),
+searchBar = Search.querySelector("input"),
 infoText = dictionary.querySelector(".info-text"),
 container = dictionary.querySelector(".dictionary-container ul"),
 Warning = dictionary.querySelector(".warning"),
 Word = dictionary.querySelector(".word"),
+Notes = dictionary.querySelector(".notes"),
 Meaning = dictionary.querySelector(".meaning"),
 Forms = dictionary.querySelector(".forms"),
+searchButton = dictionary.querySelector(".search i"),
 Xbutton = dictionary.querySelector(".search span");
 
 function createInteractiveDropdown(parent,title){
@@ -79,7 +82,7 @@ function form(table, word, result, exceptions=[]){
         subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${word}</td><td>${root + dat["plural"]["nominative"]}</td></tr>`);
         subtable.insertAdjacentHTML("beforeend",`<tr><th>Accusative</th><td>${dat["singular"]["accusative"] ? root + dat["singular"]["accusative"] : word}</td><td>${root + dat["plural"]["accusative"]}</td></tr>`);
         subtable.insertAdjacentHTML("beforeend",`<tr><th>Genitive</th><td>${root + dat["singular"]["genitive"]}</td><td>${root + (exceptions["i-stem"] ? "<b>i</b>" : "") + dat["plural"]["genitive"]}</td></tr>`);
-        subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + (exceptions.includes["abl-i-stem"] ? "<b>ī</b>" : dat["singular"]["ablative"])}</td><td>${root + dat["plural"]["ablative"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + (exceptions["abl-i-stem"] ? "<b>ī</b>" : dat["singular"]["ablative"])}</td><td>${root + dat["plural"]["ablative"]}</td></tr>`);
         subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${root + dat["singular"]["dative"]}</td><td>${root + dat["plural"]["dative"]}</td></tr>`);
 
     } else if(result["type"] === "verb"){
@@ -170,6 +173,19 @@ function form(table, word, result, exceptions=[]){
 
         subtable = createSubTable(content,"Aorist Passive");
         form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"});
+
+        container.appendChild(content);
+
+
+        container = createInteractiveDropdown(table,"Imperative");
+        content = document.createElement("table");
+
+        subtable = createSubTable(content);
+        
+        subtable.insertAdjacentHTML("beforeend",`<tr><th></th><th>2nd Singular</th><th>2nd Plural</th><th>1st Plural</th></tr>`);
+        
+        subdat = dat["imperative"]["present"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><th>Present</th><td>${exceptions["irreg-imperative"] ? "<b>" + root + "</b>" : root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td><td>${root + subdat["1p"]}</td></tr>`);
 
         container.appendChild(content);
 
@@ -271,6 +287,7 @@ function search(word){
         current_word = word;
         infoText.innerHTML = `Results for "<span>${word}</span>"`
         Warning.classList.remove("active");
+        Notes.classList.remove("active");
         dictionary.classList.add("active");
     
         Word.querySelector("p").innerText = word + (result["root"] ? ", " + result["root"] + "is" : "") + (result["type"] === "verb" ? ", " + result["infinitive"] : "");
@@ -279,9 +296,14 @@ function search(word){
 
         if(result["flag"]){
             Warning.classList.add("active");
-            Warning.querySelector("span").innerHTML = `The following entry has been flagged for further review. <br><br> Reason: ${result["flag"]} <br><br> Please take this entry <i>cum granō salis</i>.`;
+            Warning.querySelector("span").innerHTML = `The following entry has been flagged for further review. <br><br> Reason: <b>${result["flag"]}</b> <br><br> Please take this entry <i>cum granō salis</i>.`;
             Forms.classList.remove("active");
             return;
+        }
+
+        if(result["notes"]){
+            Notes.classList.add("active");
+            Notes.querySelector("span").innerText = " •  " + result["notes"].join("\n •  ");
         }
 
         var exceptions = result["exceptions"] ? result["exceptions"] : [];
@@ -296,23 +318,27 @@ function search(word){
 }
 
 function closeAllLists() {
-    var x = document.getElementsByClassName("autocomplete-items");
-    for (var i = 0; i < x.length; i++)
-        x[i].parentNode.removeChild(x[i]);
+    var x = Search.querySelector(".autocomplete-list");
+    if(!x) return;
+    x.replaceChildren();
+    Search.removeChild(x);
 }
 
 function normalize(word){
     return word.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
+function searchTopResult(){
+    var x = Search.querySelector(".autocomplete-list");
+    if(x && x.children.length) searchBar.value = x.children[0].getElementsByTagName("input")[0].value;
+    closeAllLists();
+    searching = true;
+    search(searchBar.value);
+}
+
 searchBar.addEventListener("keydown", function(e) {
-    if(e.key === "Enter" && e.target.value && !searching){
-        var x = document.getElementById(this.id + "autocomplete-list");
-        if(x && x.children.length) searchBar.value = x.children[0].getElementsByTagName("input")[0].value;
-        closeAllLists();
-        searching = true;
-        search(e.target.value);
-    }
+    if(e.key === "Enter" && e.target.value && !searching)
+        searchTopResult();
 })
 
 searchBar.addEventListener("input",function(e){
@@ -322,15 +348,14 @@ searchBar.addEventListener("input",function(e){
     if(!val) return;
 
     a = document.createElement("DIV");
-    a.setAttribute("id", this.id + "autocomplete-list");
-    a.setAttribute("class", "autocomplete-items");
+    a.classList.add("autocomplete-list");
 
-    this.parentNode.appendChild(a);
+    Search.appendChild(a);
 
     var suggestions = 0;
 
     for(var word in dict) {
-        if (normalize(word).substring(0, val.length).toUpperCase() === val.toUpperCase()) {
+        if(normalize(word).substring(0, val.length).toUpperCase() === val.toUpperCase()) {
             b = document.createElement("DIV");
 
             b.innerHTML = "<b>" + word.substring(0, val.length) + "</b>" + word.substring(val.length);
@@ -351,9 +376,12 @@ searchBar.addEventListener("input",function(e){
 })
 
 document.addEventListener("click", function(e){
-    closeAllLists(e.target);
+    if(e.target.isSameNode(searchBar)) return;
+    closeAllLists();
 });
 
-Xbutton.addEventListener("mousedown",function(e){
+Xbutton.addEventListener("click",function(e){
+    closeAllLists();
     searchBar.value = "";
-})
+    searchBar.focus();
+});

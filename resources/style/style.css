@@ -2,8 +2,13 @@ html {
     height : 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    background-color : white;
+    color : black;
 }
-
+html.dark{
+    background-color : rgb(41, 43, 49);
+    color : rgb(230,230,230);
+}
 body {
     position : relative;
     min-height : 100vh;
@@ -24,33 +29,35 @@ h2 {
     font-size : max(20px,3vw);
     margin-top : 0;
     margin-bottom : 2vw;
+    color : rgb(42, 42, 42);
+}
+html.dark h2{
+    color : rgb(188,188,188);
 }
 h3 {
-    transition : all 0.3s ease;
+    transition : margin 0.3s ease;
     font-family : "Roboto",sans-serif;
-    margin-left : 50px;
-    margin-right : 0px;
-    margin-top : 0px;
-    margin-bottom : 10px;
-    font-size : 2.4em;
+    margin : 0 0 10px 50px;
+    font-size : 38.4px;
 }
 h4 {
     font-family : "Roboto",sans-serif;
     margin-top : 10px;
-    font-size : 1.5em;
-    transition : 0.3s;
-}
-h4:hover{
-    color : rgb(0, 53, 150);
+    font-size : 24px;
 }
 p {
-    transition : all 0.3s ease;
+    transition : margin 0.3s ease;
     font-family : "Roboto",sans-serif;
-    margin-left : 70px;
-    margin-right : 70px;
-    margin-top : 10px;
-    margin-bottom : 10px;
-    font-size : 1.4em;
+    margin : 10px 70px 10px 70px;
+    font-size : 22.4px;
+}
+hr{
+    margin:auto;
+    width:95%;
+    border-color:black
+}
+html.dark hr{
+    border-color : rgb(230,230,230);
 }
 .search{
     justify-content : center;
@@ -62,9 +69,11 @@ p {
     position : relative;
 }
 .search input {
+    background-color : white;
+    color : black;
     font-family : "Roboto",sans-serif;
     padding : 0 0 0 40px;
-    font-size : 1.2em;
+    font-size : 19.2px;
     margin-top : 0px;
     margin-bottom : 0px;
     height : 50px;
@@ -76,15 +85,29 @@ p {
     border-radius : 5px 5px 0 0;
     box-sizing: border-box;
 }
+html.dark .search input {
+    background-color : rgb(41, 43, 49);
+    border : 1px solid rgb(111,111,111);
+    color : rgb(230,230,230);
+}
 .search input:focus{
     padding : 0 0 0 39px;
     border : 2px solid rgb(144, 183, 255);
 }
+html.dark .search input:focus{
+    border : 2px solid rgb(142, 151, 172);
+}
 .search input:focus ~ i{
     color : rgb(144, 183, 255);
 }
+html.dark .search input:focus ~ i{
+    color : rgb(142, 151, 172);
+}
 .search input::placeholder{
     color : rgb(144, 144, 144);
+}
+html.dark .search input::placeholder{
+    color : rgb(111, 111, 111);
 }
 .search :where(i,span){
     position : absolute;
@@ -92,16 +115,19 @@ p {
     transform : translateY(-50%);
     color : rgb(144, 144, 144);
 }
-.search i{
+html.dark .search:where(i,span){
+    color : rgb(111, 111, 111);
+}
+.search i{ 
     left : 16px;
     pointer-events : none;
-    font-size : 0.9em;
+    font-size : 14.4px;
 }
 .search span{
     margin : 0 0 0 0;
     right : 15px;
     cursor : pointer;
-    font-size : 0.9em;
+    font-size : 14.4px;
     display : none;
 }
 .search input:valid ~ span{
@@ -111,42 +137,64 @@ p {
     position : relative;
     display : inline-block;
 }
-.autocomplete-items{
+.autocomplete-list{
     user-select: none;
     font-family : "Roboto",sans-serif;
-    font-size : 1.2em;
+    font-size : 19.2px;
     position : absolute;
     z-index : 1000;
     top : 100%;
     left : 0px;
     right : 0px;
 }
-.autocomplete-items div {
+.autocomplete-list div {
     padding : 10px;
     cursor : pointer;
     border : 2px solid rgb(236, 236, 236);
     border-bottom : 0;
     border-top : 0;
     background-color : white;
+    transition : border 1s ease;
 }
-.autocomplete-items div:last-child{
+html.dark .autocomplete-list div {
+    background-color : rgb(41, 43, 49);
+    border : 2px solid rgb(49, 49, 49);
+    border-bottom : 0;
+    border-top : 0;
+    transition : border 1s ease;
+}
+.autocomplete-list div:last-child{
     border-bottom : 2px solid rgb(236, 236, 236);
+    transition : border 1s ease;
 }
-.autocomplete-items div:hover{
+html.dark .autocomplete-list div:last-child{
+    background-color : rgb(41, 43, 49);
+    border-bottom : 2px solid rgb(49, 49, 49);
+    transition : border 1s ease;
+}
+.autocomplete-list div:hover{
     background-color : rgb(236, 236, 236);
+    transition : border 1s ease;
+}
+html.dark .autocomplete-list div:hover{
+    background-color : 2px solid rgb(41, 43, 49);
+    transition : border 1s ease;
 }
 .dictionary-container.active ul{
     grid-template-rows: 1fr;
 }
 .dictionary-container ul{
-    transition : padding 0.3s ease;
+    background-color: white;
+    transition : padding-left 0.3s ease, grid-template-rows 0.3s ease;
     padding-left : 40px;
     display : grid;
     grid-template-rows: 0fr;
-    background-color : white;
     border-radius : 10px;
     margin : 0;
-    transition : all 0.3s ease;
+}
+html.dark .dictionary-container ul{
+    background-color: rgb(41, 43, 49);
+    transition : padding-left 0.3s ease, grid-template-rows 0.3s ease;
 }
 .dictionary-container ul > div{
     overflow : hidden;
@@ -156,7 +204,7 @@ p {
 }
 .dictionary-container ul span{
     font-family : "Roboto",sans-serif;
-    font-size : 1.4em;
+    font-size : 22.4px;
 }
 .dictionary-container ul li{
     display : block;
@@ -170,13 +218,19 @@ p {
     border-left : 4px solid rgb(0, 53, 150);
     padding-left : 20px;
 }
+html.dark .dictionary-container ul li .details{
+    border-left : 4px solid rgb(89, 103, 133);
+}
 .dictionary-container ul li p{
     margin : 0 0 0 0px;
-    font-size : 1.9em;
+    font-size : 30.4px;
 }
 .dictionary-container ul li span{
     margin : 0;
     color : rgb(80,80,80);
+}
+html.dark .dictionary-container ul li span{
+    color : rgb(175,175,175);
 }
 .dictionary-container ul .warning.active{
     display : block;
@@ -186,23 +240,47 @@ p {
     display : none;
 }
 .dictionary-container ul .warning p{
-    font-size : 2em;
-    font-weight : 500;
+    font-size : 32px;
+    font-weight : bold;
     color : red;
 }
 .dictionary-container ul .warning span{
-    font-size : 1.4em;
+    font-size : 22.4px;
+    color : rgb(196, 0, 0);
+}
+html.dark .dictionary-container ul .warning p{
     color : red;
+}
+html.dark .dictionary-container ul .warning span{
+    color : rgb(196, 0, 0);
 }
 .dictionary-container ul .word{
     margin-top : 20px;
 }
 .dictionary-container ul .word p{
-    font-size : 3em;
+    font-size : 48px;
     font-weight : 500;
 }
 .dictionary-container ul .word span{
-    font-size : 1.4em;
+    font-size : 22.4px;
+    color : rgb(80,80,80);
+}
+html.dark .dictionary-container ul .word span{
+    color : rgb(175,175,175);
+}
+.dictionary-container ul .notes.active{
+    display : block;
+}
+.dictionary-container ul .notes{
+    margin-top : 20px;
+    display : none;
+}
+.dictionary-container ul .notes p{
+    font-size : 32px;
+}
+
+.dictionary-container ul .notes span{
+    font-size : 22.4px;
     color : rgb(80,80,80);
 }
 .dictionary-container .forms.active{
@@ -219,26 +297,38 @@ p {
 .dictionary-container ul .forms table th{
     transition : padding 0.3s ease;
     font-family : "Roboto",sans-serif;
-    font-size : 1.2em;
+    font-size : 19.2px;
     font-weight : bold;
     color : rgb(40,40,40);
     padding : 10px;
 }
+html.dark .dictionary-container ul .forms table th{
+    color : rgb(215,215,215);
+}
 .dictionary-container ul .forms table th b{
     color : black;
+}
+html.dark .dictionary-container ul .forms table th b{
+    color : rgb(230,230,230);
 }
 .dictionary-container ul .forms table td{
     transition : padding 0.3s ease;
     font-family : "Roboto",sans-serif;
-    font-size : 1.2em;
+    font-size : 19.2px;
     font-weight : normal;
     color : rgb(80,80,80);
     padding : 10px;
 }
+html.dark .dictionary-container ul .forms table td{
+    color : rgb(175,175,175);
+}
 .dictionary-container ul .forms table span{
-    font-size : 1.6em;
+    font-size : 25.6px;
     font-weight : normal;
     color : black;
+}
+html.dark .dictionary-container ul .forms table span{
+    color : rgb(230,230,230);
 }
 .dictionary-container ul .forms .details table .interactive-dropdown-container{
     margin : 10px 0 30px 0;
@@ -252,6 +342,9 @@ p {
     border-radius : 4px;
     border-left : 4px solid rgb(12, 164, 206);
     padding-left : 20px;
+}
+html.dark .interactive-dropdown-container{
+    border-left : 4px solid rgb(89, 119, 133);
 }
 .interactive-dropdown-container > aside{
     min-height : 30px;
@@ -267,7 +360,7 @@ p {
     transform : translateY(-50%) rotate(90deg);
 }
 .interactive-dropdown-container aside > i{
-    font-size : 1.6em;
+    font-size : 25.6px;
     color : black;
     position : relative;
     top : 15px;
@@ -292,7 +385,7 @@ p {
     width : 100%;
 }
 .subtable span{
-    font-size : 1.2em !important;
+    font-size : 24px !important;
 }
 .subtable:last-child{
     margin : 0;
@@ -304,12 +397,18 @@ p {
 }
 .dictionary-container .info-text{
     margin : 30px 0 30px 0;
-    font-size : 1.1em;
+    font-size : 17.6px;
     color : rgb(118, 166, 255);
+}
+html.dark .dictionary-container .info-text{
+    color : rgb(124, 134, 159);
 }
 .dictionary-container .info-text span{
     font-weight : 600;
     color : rgb(95, 151, 255);
+}
+html.dark .dictionary-container .info-text span{
+    color : rgb(109, 124, 161);
 }
 a {
     color: inherit;
@@ -330,8 +429,8 @@ a {
     right : 0px; 
     top : 0px; 
     bottom : 0px; 
-    background-color : rgb(181, 207, 255);
-    z-index : 999;
+    background-color : black;
+    z-index : 6942069420;
 }
 #cover {
     display : flex;
@@ -345,6 +444,9 @@ a {
     background-color : rgb(181, 207, 255);
     float : top;
     z-index : 10;
+}
+html.dark #cover{
+    background-color: rgb(71, 77, 89);
 }
 #main {
     justify-content : center;
@@ -363,8 +465,45 @@ a {
     overflow : hidden;
     transition: top 0.2s ease, height 0.2s ease;
     background-color :rgb(152, 188, 255);
-    z-index : 11;
+    z-index : 69420;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+html.dark #header{
+    transition: top 0.2s ease, height 0.2s ease;
+    background-color : rgb(64, 72, 89);
+}
+.nav-container{
+    display : table;
+    width : auto;
+    height : 50px;
+    margin : 0 20px 0 20px;
+}
+.nav-container > div{
+    display : table-cell; 
+    vertical-align : middle;
+}
+.theme-selector{
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    text-align : center;
+    float : right;
+    width : 50px;
+    height : 50px;
+}
+.theme-selector div > i{
+    font-size : 32px;
+    display : block;
+}
+html.dark .theme-selector div > i{
+    display : none;
+}
+.theme-selector div > span{
+    font-size : 32px;
+    display : none;
+}
+html.dark .theme-selector div > span{
+    display : block;
 }
 #footer {
     position : absolute;
@@ -399,10 +538,7 @@ a {
 #icon {
     width:40px;
     height:40px;
-    margin-left:20px;
-    margin-right:10px;
-    margin-top:5px;
-    margin-bottom:0px;
+    margin : 5px 10px 0 0;
     float:left;
     border-radius:100%;
     box-shadow: 0 0 10px 1px rgba(0, 102, 255, 0.5);
@@ -421,17 +557,14 @@ nav {
 .link {
     transition : all 0.3s ease;
     color : rgb(63, 131, 255);
-    font-size : 0.9em;
+    font-size : 20.16px;
     margin-left : 30px;
 }
 .resource-title{
-    transition : all 0.3s ease;
+    transition : margin 0.3s ease;
     font-family : "Roboto",sans-serif;
-    margin-left : 60px;
-    margin-right : 0px;
-    margin-top : 10px;
-    margin-bottom : 10px;
-    font-size : 2em;
+    margin : 10px 0 10px 60px;
+    font-size : 32px;
 }
 .resource-section-container{
     overflow : hidden;
@@ -459,11 +592,15 @@ nav {
     border-radius : 10px;
     background-color : rgb(206, 222, 250);
 }
+html.dark .dictionary-container{
+    transition : padding 0.3s ease;
+    background-color : rgb(64, 72, 89);
+}
 .title{
     text-align : center;
     width : 100%;
     font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size : 2.5em;
+    font-size : 40px;
 }
 .link:hover{
     text-decoration : underline;
@@ -485,6 +622,9 @@ nav {
     justify-content: center;
     align-items : center;
     text-align : center;
+}
+.button div i{
+    font-size : 32px;
 }
 .dropdown{
     text-align : right;
@@ -513,18 +653,12 @@ nav {
         display : block;
     }
     h3 {
-        transition : all 0.3s ease;
-        margin-left : 20px;
-        margin-right : 0px;
-        margin-top : 100px;
-        margin-bottom : 10px;
+        transition : margin 0.3s ease;
+        margin : 0 0 10px 20px;
     }
     p {
-        transition : all 0.3s ease;
-        margin-left : 20px;
-        margin-right : 20px;
-        margin-top : 10px;
-        margin-bottom : 10px;
+        transition : margin 0.3s ease;
+        margin : 10px 20px 10px 20px;
     }
     .link {
         transition : all 0.3s ease;
@@ -532,33 +666,30 @@ nav {
     }
     .resource-title{
         transition : all 0.3s ease;
-        margin-left : 20px;
-        margin-right : 0px;
-        margin-top : 10px;
-        margin-bottom : 10px;
+        margin : 10px 0 10px 20px;
     }
     .dictionary-container{
-        transition : all 0.3s ease;
+        transition : padding 0.3s ease;
         padding : 10px;
     }
     .dictionary-container ul{
-        transition : all 0.3s ease;
+        transition : padding-left 0.3s ease, grid-template-rows 0.3s ease;
         padding-left : 20px;
     }
     .dictionary-container ul li .details{
-        transition : all 0.3s ease;
+        transition : padding-left 0.3s ease;
         padding-left : 10px;
     }
     .interactive-dropdown-container {
-        transition : all 0.3s ease;
+        transition : padding-left 0.3s ease;
         padding-left: 10px;
     }
     .dictionary-container ul .forms table th{
-        transition : all 0.3s ease;
+        transition : padding-left 0.3s ease;
         padding-left : 5px;
     }
     .dictionary-container ul .forms table td{
-        transition : all 0.3s ease;
+        transition : padding-left 0.3s ease;
         padding-left : 5px;
     }
 }

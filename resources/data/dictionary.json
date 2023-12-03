@@ -2,7 +2,9 @@
     "ab, ā": {
         "type": "preposition",
         "meaning": "from, by",
-        "flag": "abcumdeexprosine needs extra notes for ablative"
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
     },
     "abeō": {
         "type": "verb",
@@ -93,7 +95,10 @@
         "meaning": "young man",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "adversus": {
         "type": "preposition",
@@ -121,7 +126,10 @@
         "meaning": "aedile",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "aestās": {
         "type": "noun",
@@ -158,7 +166,12 @@
             "sfg": "alīus",
             "sfd": "aliī",
             "root": "ali"
-        }
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "irregular root: ali-"
+        ]
     },
     "alter": {
         "type": "adjective",
@@ -168,7 +181,12 @@
             "sfg": "alterīus",
             "sfd": "alterī",
             "root": "alter"
-        }
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "irregular root: alter-"
+        ]
     },
     "alter ... alter": {
         "type": "special",
@@ -251,7 +269,10 @@
         "meaning": "animal",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "annus": {
         "type": "noun",
@@ -350,7 +371,10 @@
         "meaning": "citadel",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "Asiāticus": {
         "type": "adjective",
@@ -426,7 +450,10 @@
         "meaning": "bird",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "avus": {
         "type": "noun",
@@ -700,7 +727,10 @@
         "meaning": "citizen",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "cīvitās": {
         "type": "noun",
@@ -814,7 +844,10 @@
         "meaning": "consular",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "contrā": {
         "type": "preposition",
@@ -885,7 +918,9 @@
     "cum": {
         "type": "preposition",
         "meaning": "with",
-        "flag": "abcumdeexprosine needs extra notes for ablative"
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
     },
     "cum ... agere": {
         "type": "special",
@@ -938,7 +973,9 @@
     "dē": {
         "type": "preposition",
         "meaning": "concerning, about",
-        "flag": "abcumdeexprosine needs extra notes for ablative"
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
     },
     "dea": {
         "type": "noun",
@@ -1015,7 +1052,10 @@
         "meaning": "tooth",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "dēpōnō": {
         "type": "verb",
@@ -1064,7 +1104,10 @@
         "infinitive": "dīcere",
         "aorist-root": "dīx",
         "aorist-passive-participle": "dict",
-        "meaning": "to talk"
+        "meaning": "to talk, speak",
+        "exceptions": {
+            "irreg-imperative": true
+        }
     },
     "difficilis": {
         "type": "adjective",
@@ -1169,7 +1212,10 @@
         "infinitive": "dūcere",
         "aorist-root": "dūx",
         "aorist-passive-participle": "duct",
-        "meaning": "to lead"
+        "meaning": "to lead",
+        "exceptions": {
+            "irreg-imperative": true
+        }
     },
     "dum": {
         "type": "adverb",
@@ -1289,7 +1335,9 @@
     "ex": {
         "type": "preposition",
         "meaning": "out of",
-        "flag": "abcumdeexprosine needs extra notes for ablative"
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
     },
     "excēdō": {
         "type": "verb",
@@ -1343,7 +1391,10 @@
         "infinitive": "facere",
         "aorist-root": "fēc",
         "aorist-passive-participle": "fact",
-        "meaning": "to do, make"
+        "meaning": "to do, make",
+        "exceptions": {
+            "irreg-imperative": true
+        }
     },
     "factum": {
         "type": "noun",
@@ -1397,6 +1448,9 @@
         "aorist-root": "tul",
         "aorist-passive-participle": "lāt",
         "meaning": "to bring, carry",
+        "exceptions": {
+            "irreg-imperative": true
+        },
         "flag": "irreg"
     },
     "ferōx": {
@@ -1446,7 +1500,10 @@
         "meaning": "end",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "finitīmus": {
         "type": "adjective",
@@ -1723,7 +1780,10 @@
         "meaning": "enemy",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "hūmānus": {
         "type": "adjective",
@@ -1807,7 +1867,9 @@
     "in": {
         "type": "preposition",
         "meaning": "in, into, on",
-        "flag": "motion dependent"
+        "notes": [
+            "Following nouns take the ablative case instead of the accusative, unless the verb is related to motion."
+        ]
     },
     "incendium": {
         "type": "noun",
@@ -1851,7 +1913,10 @@
         "meaning": "baby",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "inimīca": {
         "type": "noun",
@@ -1936,7 +2001,12 @@
             "sfg": "ipsīus",
             "sfd": "ipsī",
             "root": "ips"
-        }
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "irregular root: ips-"
+        ]
     },
     "īrātus": {
         "type": "adjective",
@@ -2237,7 +2307,11 @@
         "exceptions": {
             "i-stem": true,
             "abl-i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem",
+            "ablative i-stem"
+        ]
     },
     "marītus": {
         "type": "noun",
@@ -2281,7 +2355,10 @@
         "meaning": "month",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "mercātor": {
         "type": "noun",
@@ -2364,7 +2441,10 @@
         "meaning": "mount, mountain, hill",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "mors": {
         "type": "noun",
@@ -2374,7 +2454,10 @@
         "meaning": "death",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "mortuus": {
         "type": "adjective",
@@ -2447,7 +2530,11 @@
         "exceptions": {
             "i-stem": true,
             "abl-i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem",
+            "ablative i-stem"
+        ]
     },
     "ne": {
         "type": "interrogative",
@@ -2557,7 +2644,10 @@
         "meaning": "night",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "nūdus": {
         "type": "adjective",
@@ -2792,7 +2882,10 @@
         "meaning": "part",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "parvus": {
         "type": "adjective",
@@ -3015,7 +3108,10 @@
         "meaning": "bridge",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "populus": {
         "type": "noun",
@@ -3132,7 +3228,9 @@
     "prō": {
         "type": "preposition",
         "meaning": "in front of, on behalf of, for",
-        "flag": "abcumdeexprosine needs extra notes for ablative"
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
     },
     "prōditor": {
         "type": "noun",
@@ -3724,7 +3822,9 @@
     "sine": {
         "type": "preposition",
         "meaning": "without",
-        "flag": "abcumdeexprosine needs extra notes for ablative"
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
     },
     "sinister": {
         "type": "adjective",
@@ -3830,7 +3930,9 @@
     "sub": {
         "type": "preposition",
         "meaning": "under",
-        "flag": "motion dependent"
+        "notes": [
+            "Following nouns take the ablative case instead of the accusative, unless the verb is related to motion."
+        ]
     },
     "sub noctem": {
         "type": "special",
@@ -4010,7 +4112,11 @@
         "exceptions": {
             "sfg": "tōtīus",
             "sfd": "tōtī"
-        }
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "trahō": {
         "type": "verb",
@@ -4126,7 +4232,10 @@
         "meaning": "city",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "ursus": {
         "type": "noun",
@@ -4230,7 +4339,10 @@
         "meaning": "clothing",
         "exceptions": {
             "i-stem": true
-        }
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "vetō": {
         "type": "verb",

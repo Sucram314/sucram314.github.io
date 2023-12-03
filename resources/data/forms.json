@@ -245,6 +245,16 @@
 
                     }
                 }
+            },
+            "imperative":{
+                "present":{
+                    "2s":"ā",
+                    "2p":"āte",
+                    "1p":"āmus"
+                },
+                "future":{
+
+                }
             }
         },
         "II":{
@@ -292,6 +302,16 @@
                     "future":{
 
                     }
+                }
+            },
+            "imperative":{
+                "present":{
+                    "2s":"ē",
+                    "2p":"ēte",
+                    "1p":"eāmus"
+                },
+                "future":{
+
                 }
             }
         },
@@ -341,6 +361,16 @@
 
                     }
                 }
+            },
+            "imperative":{
+                "present":{
+                    "2s":"e",
+                    "2p":"ite",
+                    "1p":"āmus"
+                },
+                "future":{
+
+                }
             }
         },
         "III spec":{
@@ -389,6 +419,16 @@
 
                     }
                 }
+            },
+            "imperative":{
+                "present":{
+                    "2s":"e",
+                    "2p":"ite",
+                    "1p":"iāmus"
+                },
+                "future":{
+
+                }
             }
         },
         "IV":{
@@ -436,6 +476,16 @@
                     "future":{
 
                     }
+                }
+            },
+            "imperative":{
+                "present":{
+                    "2s":"e",
+                    "2p":"ite",
+                    "1p":"iāmus"
+                },
+                "future":{
+
                 }
             }
         }
