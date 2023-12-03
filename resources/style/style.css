@@ -1,5 +1,7 @@
 html {
-    height: 100%;
+    height : 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 body {
@@ -24,6 +26,7 @@ h2 {
     margin-bottom : 2vw;
 }
 h3 {
+    transition : all 0.3s ease;
     font-family : "Roboto",sans-serif;
     margin-left : 50px;
     margin-right : 0px;
@@ -41,6 +44,7 @@ h4:hover{
     color : rgb(0, 53, 150);
 }
 p {
+    transition : all 0.3s ease;
     font-family : "Roboto",sans-serif;
     margin-left : 70px;
     margin-right : 70px;
@@ -135,6 +139,8 @@ p {
     grid-template-rows: 1fr;
 }
 .dictionary-container ul{
+    transition : padding 0.3s ease;
+    padding-left : 40px;
     display : grid;
     grid-template-rows: 0fr;
     background-color : white;
@@ -159,6 +165,7 @@ p {
     justify-content : space-between;
 }
 .dictionary-container ul li .details{
+    transition : padding 0.3s ease;
     border-radius : 4px;
     border-left : 4px solid rgb(0, 53, 150);
     padding-left : 20px;
@@ -210,6 +217,7 @@ p {
     width : 100%;
 }
 .dictionary-container ul .forms table th{
+    transition : padding 0.3s ease;
     font-family : "Roboto",sans-serif;
     font-size : 1.2em;
     font-weight : bold;
@@ -220,6 +228,7 @@ p {
     color : black;
 }
 .dictionary-container ul .forms table td{
+    transition : padding 0.3s ease;
     font-family : "Roboto",sans-serif;
     font-size : 1.2em;
     font-weight : normal;
@@ -238,6 +247,7 @@ p {
     margin : 10px 0 10px 0;
 }
 .interactive-dropdown-container{
+    transition : padding 0.3s ease;
     min-height : 30px;
     border-radius : 4px;
     border-left : 4px solid rgb(12, 164, 206);
@@ -280,6 +290,9 @@ p {
 .subtable{
     margin : 0 0 30px 0;
     width : 100%;
+}
+.subtable span{
+    font-size : 1.2em !important;
 }
 .subtable:last-child{
     margin : 0;
@@ -406,11 +419,13 @@ nav {
     margin-left : auto;
 }
 .link {
+    transition : all 0.3s ease;
     color : rgb(63, 131, 255);
     font-size : 0.9em;
     margin-left : 30px;
 }
 .resource-title{
+    transition : all 0.3s ease;
     font-family : "Roboto",sans-serif;
     margin-left : 60px;
     margin-right : 0px;
@@ -433,6 +448,7 @@ nav {
     height : auto;
 }
 .dictionary-container{
+    transition : padding 0.3s ease;
     padding : 30px;
     margin-top : 30px;
     margin-left : auto;
@@ -497,32 +513,52 @@ nav {
         display : block;
     }
     h3 {
-        font-family : "Roboto",sans-serif;
+        transition : all 0.3s ease;
         margin-left : 20px;
         margin-right : 0px;
         margin-top : 100px;
         margin-bottom : 10px;
-        font-size : 2.4em;
     }
     p {
-        font-family : "Roboto",sans-serif;
+        transition : all 0.3s ease;
         margin-left : 20px;
         margin-right : 20px;
         margin-top : 10px;
         margin-bottom : 10px;
-        font-size : 1.4em;
     }
     .link {
-        color : rgb(63, 131, 255);
-        font-size : 0.9em;
+        transition : all 0.3s ease;
         margin-left : 0px;
     }
     .resource-title{
-        font-family : "Roboto",sans-serif;
+        transition : all 0.3s ease;
         margin-left : 20px;
         margin-right : 0px;
         margin-top : 10px;
         margin-bottom : 10px;
-        font-size : 2em;
+    }
+    .dictionary-container{
+        transition : all 0.3s ease;
+        padding : 10px;
+    }
+    .dictionary-container ul{
+        transition : all 0.3s ease;
+        padding-left : 20px;
+    }
+    .dictionary-container ul li .details{
+        transition : all 0.3s ease;
+        padding-left : 10px;
+    }
+    .interactive-dropdown-container {
+        transition : all 0.3s ease;
+        padding-left: 10px;
+    }
+    .dictionary-container ul .forms table th{
+        transition : all 0.3s ease;
+        padding-left : 5px;
+    }
+    .dictionary-container ul .forms table td{
+        transition : all 0.3s ease;
+        padding-left : 5px;
     }
 }

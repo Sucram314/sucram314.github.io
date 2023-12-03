@@ -42,9 +42,11 @@ function createInteractiveDropdown(parent,title){
     return inner;
 }
 
-function createSubTable(parent){
+function createSubTable(parent,title=""){
     var section = document.createElement("table");
     section.classList.add("subtable");
+
+    if(title) section.insertAdjacentHTML("beforeend",`<tr><th><span>${title}</span></th></tr>`)
     
     parent.appendChild(section);
     return section;
@@ -163,10 +165,10 @@ function form(table, word, result, exceptions=[]){
         container = createInteractiveDropdown(table,"Participle");
         content = document.createElement("table");
 
-        subtable = createSubTable(content);
+        subtable = createSubTable(content,"Present");
         form(subtable, root + dat["present-partciple-link"] + "ns", {"type":"adjective","declension":"III"});
 
-        subtable = createSubTable(content);
+        subtable = createSubTable(content,"Aorist Passive");
         form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"});
 
         container.appendChild(content);
@@ -201,7 +203,7 @@ function form(table, word, result, exceptions=[]){
             subdat = dat["singular"];
             subtable = createSubTable(table);
 
-            if(word.charAt(word.length-1) === "r"){
+            if(word.charAt(word.length-2) === "e" && word.charAt(word.length-1) === "r"){
                 root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2) + "r";
                 
                 subtable.insertAdjacentHTML("beforeend",`</th><th><b>Singular</b></th><th>f.</th><th>m.</th><th>n.</th></tr>`);
@@ -211,8 +213,8 @@ function form(table, word, result, exceptions=[]){
                 subtable.insertAdjacentHTML("beforeend",`<tr><th>Ablative</th><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["!n"]["ablative"]}</td><td>${root + subdat["n"]["ablative"]}</td></tr>`);
                 subtable.insertAdjacentHTML("beforeend",`<tr><th>Dative</th><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["!n"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["!n"]["dative"]}</td><td>${exceptions["sfd"] ? "<b>"+exceptions["sfd"]+"</b>" : root + subdat["n"]["dative"]}</td></tr>`);
 
-            } else if(word.charAt(word.length-2) === "n" && word.charAt(word.length-1) === "s"){
-                root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-3) + normalize(word.charAt(word.length-3)) + "nt";
+            } else if((word.charAt(word.length-2) === "n" && word.charAt(word.length-1) === "s") || word.charAt(word.length-1) === "x" || word.charAt(word.length-1) === "r"){
+                root = exceptions["root"] ? exceptions["root"] : (word.charAt(word.length-1) === "r" ? word.substring(0,word.length-2) + normalize(word.charAt(word.length-2)) + "r" : word.charAt(word.length-1) === "x" ? word.substring(0,word.length-1) + "c" : word.substring(0,word.length-3) + normalize(word.charAt(word.length-3)) + "nt");
 
                 subtable.insertAdjacentHTML("beforeend",`</th><th><b>Singular</b></th><th>f./m.</th><th>n.</th></tr>`);
                 subtable.insertAdjacentHTML("beforeend",`<tr><th>Nominative</th><td>${word}</td><td>${word}</td></tr>`);

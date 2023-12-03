@@ -366,8 +366,7 @@
     "audāx": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "bold",
-        "flag": "unchanging"
+        "meaning": "bold"
     },
     "audiō": {
         "type": "verb",
@@ -1403,8 +1402,7 @@
     "ferōx": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "fierce",
-        "flag": "unchanging"
+        "meaning": "fierce"
     },
     "fessus": {
         "type": "adjective",
@@ -1992,11 +1990,6 @@
         "root": "iūdic",
         "gender": "m",
         "meaning": "judge"
-    },
-    "Iuppiter": {
-        "type": "name",
-        "meaning": "3",
-        "flag": "goofy"
     },
     "iūs": {
         "type": "noun",
@@ -2769,8 +2762,7 @@
     "pār": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "equal",
-        "flag": "unchanging"
+        "meaning": "equal"
     },
     "parātus": {
         "type": "adjective",
