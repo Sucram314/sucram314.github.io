@@ -266,7 +266,7 @@
                 "present":{
                     "2s":"ā",
                     "2p":"āte",
-                    "1p":"āmus"
+                    "1p":"ēmus"
                 },
                 "future":{
 
@@ -1222,6 +1222,23 @@
                     "ablative":"quibus",
                     "dative":"quibus"
                 }
+            }
+        },
+
+        "sē":{
+            "singular":{
+                "nominative":"-",
+                "accusative":"sē",
+                "genitive":"suī",
+                "ablative":"sē",
+                "dative":"sibi"
+            },
+            "plural":{
+                "nominative":"-",
+                "accusative":"sē",
+                "genitive":"suī",
+                "ablative":"sē",
+                "dative":"sibi"
             }
         }
     }

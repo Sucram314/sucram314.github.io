@@ -3785,8 +3785,7 @@
     },
     "sē": {
         "type": "pronoun",
-        "meaning": "reflexive pronoun",
-        "flag": "idk"
+        "meaning": "oneself (reflexive pronoun)"
     },
     "sē dēdere": {
         "type": "special",
@@ -4085,8 +4084,7 @@
     "suus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "reflexive possesive adjective",
-        "flag": "explain this better"
+        "meaning": "one's own (reflexive possesive adjective)"
     },
     "taberna": {
         "type": "noun",
