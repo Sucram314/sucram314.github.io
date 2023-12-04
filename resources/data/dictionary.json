@@ -9,20 +9,26 @@
     "abeō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "abīre",
         "aorist-root": "abi",
         "aorist-passive-participle": "abit",
         "meaning": "to leave, depart",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "absum": {
         "type": "verb",
         "declension": "irreg",
+        "base": "sum",
         "infinitive": "abesse",
         "aorist-root": "āfu",
         "aorist-passive-participle": "",
         "meaning": "to be absent",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "accipiō": {
         "type": "verb",
@@ -52,11 +58,14 @@
     "adeō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "adīre",
         "aorist-root": "adi",
         "aorist-passive-participle": "adit",
         "meaning": "to approach",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "adhūc": {
         "type": "adverb",
@@ -81,11 +90,14 @@
     "adsum": {
         "type": "verb",
         "declension": "irreg",
+        "base": "sum",
         "infinitive": "adesse",
         "aorist-root": "adfu",
         "aorist-passive-participle": "",
         "meaning": "to be present",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "adulēscēns": {
         "type": "noun",
@@ -349,7 +361,12 @@
         "declension": "II",
         "gender": "n",
         "meaning": "weapons",
-        "flag": "plural form"
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form"
+        ]
     },
     "arma capere": {
         "type": "special",
@@ -403,11 +420,14 @@
     "auferō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "ferō",
         "infinitive": "auferre",
         "aorist-root": "abstul",
         "aorist-passive-participle": "ablāt",
         "meaning": "to steal, take away",
-        "flag": "irreg"
+        "exceptions": {
+            "irreg-imperative": true
+        }
     },
     "aureus": {
         "type": "adjective",
@@ -654,7 +674,12 @@
         "declension": "II",
         "gender": "n",
         "meaning": "camp",
-        "flag": "plural form"
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form"
+        ]
     },
     "caupō": {
         "type": "noun",
@@ -819,7 +844,10 @@
         "infinitive": "consistere",
         "aorist-root": "cōnstit",
         "aorist-passive-participle": "",
-        "meaning": "to stop"
+        "meaning": "to stop",
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "cōnstituō": {
         "type": "verb",
@@ -865,14 +893,19 @@
         "type": "noun",
         "declension": "I",
         "gender": "f",
-        "meaning": "abundance, supply (pl.forces)"
+        "meaning": "abundance, supply (pl. forces)"
     },
     "cōpiae": {
         "type": "noun",
         "declension": "I",
         "gender": "f",
         "meaning": "forces",
-        "flag": "plural form"
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form for this meaning"
+        ]
     },
     "cōpiōsus": {
         "type": "adjective",
@@ -1242,33 +1275,20 @@
         "gender": "m",
         "meaning": "general"
     },
-    "ea": {
-        "type": "pronoun",
-        "meaning": "she, it (f.)",
-        "flag": "irreg"
-    },
-    "eae": {
-        "type": "pronoun",
-        "meaning": "they (f.)",
-        "flag": "irreg"
-    },
     "effugiō": {
         "type": "verb",
         "declension": "III spec",
         "infinitive": "effugere",
         "aorist-root": "effūg",
-        "aorist-passive-participle": "",
-        "meaning": "to escape"
+        "aorist-passive-participle": "eff",
+        "meaning": "to escape",
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "ego": {
         "type": "pronoun",
-        "meaning": "I",
-        "flag": "irreg"
-    },
-    "eī": {
-        "type": "pronoun",
-        "meaning": "they (m.)",
-        "flag": "irreg"
+        "meaning": "I (pl. we)"
     },
     "elephantus": {
         "type": "noun",
@@ -1287,11 +1307,14 @@
     "eō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "īre",
         "aorist-root": "i",
         "aorist-passive-participle": "it",
         "meaning": "to go",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "epistula": {
         "type": "noun",
@@ -1358,11 +1381,14 @@
     "exeō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "exīre",
         "aorist-root": "exi",
         "aorist-passive-participle": "exit",
         "meaning": "to leave",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "exsilium": {
         "type": "noun",
@@ -1444,14 +1470,14 @@
     "ferō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "ferō",
         "infinitive": "ferre",
         "aorist-root": "tul",
         "aorist-passive-participle": "lāt",
         "meaning": "to bring, carry",
         "exceptions": {
             "irreg-imperative": true
-        },
-        "flag": "irreg"
+        }
     },
     "ferōx": {
         "type": "adjective",
@@ -1489,15 +1515,22 @@
         "declension": "III",
         "root": "fīn",
         "gender": "m",
-        "meaning": "terrotories",
-        "flag": "plural"
+        "meaning": "territories",
+        "exceptions": {
+            "plural": true,
+            "i-stem": true
+        },
+        "notes": [
+            "Must be in the plural form for this meaning",
+            "i-stem"
+        ]
     },
     "finis": {
         "type": "noun",
         "declension": "III",
         "root": "fīn",
         "gender": "m",
-        "meaning": "end",
+        "meaning": "end (territories pl.)",
         "exceptions": {
             "i-stem": true
         },
@@ -1601,7 +1634,10 @@
         "infinitive": "fugere",
         "aorist-root": "fūg",
         "aorist-passive-participle": "",
-        "meaning": "to flee"
+        "meaning": "to flee",
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "fugitīvus": {
         "type": "noun",
@@ -1716,7 +1752,14 @@
     "hīc, haec, hōc": {
         "type": "pronoun",
         "meaning": "this",
-        "flag": "irreg"
+        "exceptions": {
+            "sfg": "hūius",
+            "sfd": "huic"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "hiems": {
         "type": "noun",
@@ -1812,11 +1855,6 @@
         "type": "adverb",
         "meaning": "there"
     },
-    "id": {
-        "type": "pronoun",
-        "meaning": "it (n.)",
-        "flag": "irreg"
-    },
     "id quod": {
         "type": "special",
         "meaning": "that which"
@@ -1834,7 +1872,14 @@
     "ille, illa, illud": {
         "type": "pronoun",
         "meaning": "that",
-        "flag": "irreg"
+        "exceptions": {
+            "sfg": "illīus",
+            "sfd": "illī"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "imāgō": {
         "type": "noun",
@@ -1899,11 +1944,14 @@
     "ineō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "inīre",
         "aorist-root": "ini",
         "aorist-passive-participle": "init",
         "meaning": "to enter",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "īnfans": {
         "type": "noun",
@@ -1948,14 +1996,22 @@
         "infinitive": "inquere",
         "aorist-root": "inqui",
         "aorist-passive-participle": "",
-        "meaning": "to say"
+        "meaning": "to say",
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "insidiae": {
         "type": "noun",
         "declension": "I",
         "gender": "f",
         "meaning": "ambush, trick",
-        "flag": "plural form"
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form"
+        ]
     },
     "insula": {
         "type": "noun",
@@ -2013,14 +2069,21 @@
         "declension": "I~II",
         "meaning": "angry"
     },
-    "is": {
-        "type": "pronoun",
-        "meaning": "he, it (m.)",
-        "flag": "irreg"
-    },
     "is quī, eī quī": {
         "type": "special",
         "meaning": "he who, those who"
+    },
+    "is, ea, id": {
+        "type": "pronoun",
+        "meaning": "he,she,it",
+        "exceptions": {
+            "sfg": "ēius",
+            "sfd": "eī"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "itaque": {
         "type": "conjunction",
@@ -2149,8 +2212,7 @@
         "declension": "III",
         "root": "leōn",
         "gender": "m",
-        "meaning": "lion",
-        "flag": "i forgot why i starred this"
+        "meaning": "lion"
     },
     "leopardus": {
         "type": "noun",
@@ -2168,8 +2230,13 @@
         "type": "noun",
         "declension": "II",
         "gender": "m",
-        "meaning": "children(pl.)",
-        "flag": "always plural thing"
+        "meaning": "children",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form"
+        ]
     },
     "līberō": {
         "type": "verb",
@@ -2273,11 +2340,14 @@
     "mālō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "mālō",
         "infinitive": "mālle",
         "aorist-root": "mālu",
         "aorist-passive-participle": "",
         "meaning": "to prefer",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "malus": {
         "type": "adjective",
@@ -2587,14 +2657,17 @@
         "declension": "III",
         "meaning": "noble"
     },
-    "nolō": {
+    "nōlō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "nōlō",
         "infinitive": "nōlle",
         "aorist-root": "nōlu",
         "aorist-passive-participle": "",
         "meaning": "to not want, not be willing to",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "nōmen": {
         "type": "noun",
@@ -2616,11 +2689,6 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "ninth"
-    },
-    "nōs": {
-        "type": "pronoun",
-        "meaning": "we",
-        "flag": "irreg"
     },
     "noster": {
         "type": "adjective",
@@ -2752,10 +2820,17 @@
     "omnia": {
         "type": "noun",
         "declension": "III",
-        "root": "omnia",
+        "root": "omn",
         "gender": "n",
         "meaning": "everything",
-        "flag": "part of omnis"
+        "exceptions": {
+            "plural": true,
+            "i-stem": true
+        },
+        "notes": [
+            "Must be in the neuter plural form to have this meaning",
+            "i-stem"
+        ]
     },
     "omnis": {
         "type": "adjective",
@@ -2977,11 +3052,14 @@
     "pereō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "perīre",
         "aorist-root": "peri",
         "aorist-passive-participle": "perit",
         "meaning": "to die",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "perfuga": {
         "type": "noun",
@@ -3137,11 +3215,14 @@
     "possum": {
         "type": "verb",
         "declension": "irreg",
+        "base": "possum",
         "infinitive": "posse",
         "aorist-root": "potu",
         "aorist-passive-participle": "",
         "meaning": "to be able to",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "post": {
         "type": "preposition",
@@ -3380,17 +3461,19 @@
     },
     "quī, quae, quod": {
         "type": "pronoun",
-        "meaning": "relative pronoun",
-        "flag": "irreg"
+        "meaning": "who (relative pronoun)",
+        "exceptions": {
+            "sfg": "cūius",
+            "sfd": "cui"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "quia": {
         "type": "conjunction",
         "meaning": "because"
-    },
-    "quid": {
-        "type": "interrogative",
-        "meaning": "what",
-        "flag": "irreg"
     },
     "quīdam": {
         "type": "adjective",
@@ -3422,10 +3505,17 @@
         "declension": "I~II",
         "meaning": "fifth"
     },
-    "quis": {
-        "type": "interrogative",
+    "quis, quis, quid": {
+        "type": "pronoun",
         "meaning": "who",
-        "flag": "irreg"
+        "exceptions": {
+            "sfg": "cūius",
+            "sfd": "cui"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "quō": {
         "type": "interrogative",
@@ -3460,11 +3550,14 @@
     "redeō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "redīre",
         "aorist-root": "redi",
         "aorist-passive-participle": "redit",
         "meaning": "to return",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "redūcō": {
         "type": "verb",
@@ -3505,10 +3598,9 @@
     },
     "rēs": {
         "type": "noun",
-        "declension": 69,
+        "declension": "V",
         "gender": "f",
-        "meaning": "thing",
-        "flag": "fifth declension?"
+        "meaning": "thing"
     },
     "resistō": {
         "type": "verb",
@@ -3516,7 +3608,10 @@
         "infinitive": "resistere",
         "aorist-root": "restit",
         "aorist-passive-participle": "",
-        "meaning": "to resist"
+        "meaning": "to resist",
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "respondeō": {
         "type": "verb",
@@ -3920,7 +4015,10 @@
         "infinitive": "studēre",
         "aorist-root": "studu",
         "aorist-passive-participle": "",
-        "meaning": "to be eager (modal)"
+        "meaning": "to be eager (modal)",
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "stultus": {
         "type": "adjective",
@@ -3945,11 +4043,14 @@
     "sum": {
         "type": "verb",
         "declension": "irreg",
+        "base": "sum",
         "infinitive": "esse",
         "aorist-root": "fu",
         "aorist-passive-participle": "",
         "meaning": "to be",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "summus": {
         "type": "adjective",
@@ -4079,7 +4180,12 @@
         "declension": "I",
         "gender": "f",
         "meaning": "public baths",
-        "flag": "always plural thing"
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form"
+        ]
     },
     "tibi adpropinquō": {
         "type": "special",
@@ -4094,8 +4200,7 @@
         "declension": "III",
         "root": "tigr",
         "gender": "m",
-        "meaning": "tiger",
-        "flag": "this as well"
+        "meaning": "tiger"
     },
     "timeō": {
         "type": "verb",
@@ -4103,7 +4208,8 @@
         "infinitive": "timēre",
         "aorist-root": "timu",
         "aorist-passive-participle": "",
-        "meaning": "to fear"
+        "meaning": "to fear",
+        "flag": "funny passives"
     },
     "tōtus": {
         "type": "adjective",
@@ -4133,11 +4239,14 @@
     "trānseō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "eō",
         "infinitive": "trānsīre",
         "aorist-root": "trānsi",
         "aorist-passive-participle": "trānsit",
         "meaning": "to cross",
-        "flag": "irreg"
+        "exceptions": {
+            "limited-passive": true
+        }
     },
     "trēdecim": {
         "type": "number",
@@ -4176,8 +4285,7 @@
     },
     "tū": {
         "type": "pronoun",
-        "meaning": "you",
-        "flag": "irreg"
+        "meaning": "you"
     },
     "tūba": {
         "type": "noun",
@@ -4472,16 +4580,14 @@
     "volō": {
         "type": "verb",
         "declension": "irreg",
+        "base": "volō",
         "infinitive": "velle",
         "aorist-root": "volu",
         "aorist-passive-participle": "",
         "meaning": "to want, be willing to",
-        "flag": "irreg"
-    },
-    "vōs": {
-        "type": "pronoun",
-        "meaning": "you (pl.)",
-        "flag": "irreg"
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "vulnerō": {
         "type": "verb",

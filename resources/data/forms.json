@@ -117,6 +117,22 @@
                 "ablative":"ibus",
                 "dative":"ibus"
             }
+        },
+        "V":{
+            "singular": {
+                "nominative":"ēs",
+                "accusative":"em",
+                "genitive":"eī",
+                "ablative":"ē",
+                "dative":"reī"
+            },
+            "plural": {
+                "nominative":"ēs",
+                "accusative":"ēs",
+                "genitive":"ērum",
+                "ablative":"ēbus",
+                "dative":"ēbus"
+            }
         }
     },
 
@@ -202,7 +218,7 @@
         "I":{
             "past-imperfect-link":"ā",
             "future-imperfect-link":"ā",
-            "present-partciple-link":"ā",
+            "present-participle-link":"ā",
             
             "active":{
                 "present":{
@@ -260,7 +276,7 @@
         "II":{
             "past-imperfect-link":"ē",
             "future-imperfect-link":"ē",
-            "present-partciple-link":"ē",
+            "present-participle-link":"ē",
 
             "active":{
                 "present":{
@@ -318,7 +334,7 @@
         "III reg":{
             "past-imperfect-link":"ē",
             "future-imperfect-link":"",
-            "present-partciple-link":"ē",
+            "present-participle-link":"ē",
 
             "active":{
                 "present":{
@@ -376,7 +392,7 @@
         "III spec":{
             "past-imperfect-link":"iē",
             "future-imperfect-link":"i",
-            "present-partciple-link":"iē",
+            "present-participle-link":"iē",
 
             "active":{
                 "present":{
@@ -434,7 +450,7 @@
         "IV":{
             "past-imperfect-link":"iē",
             "future-imperfect-link":"i",
-            "present-partciple-link":"iē",
+            "present-participle-link":"iē",
 
             "active":{
                 "present":{
@@ -487,6 +503,336 @@
                 "future":{
 
                 }
+            }
+        },
+        "irreg":{
+            "sum":{
+                "present-participle":false,
+                
+                "active":{
+                    "irregular-imperfect":true,
+
+                    "present":{
+                        "1s":"sum",
+                        "2s":"es",
+                        "3s":"est",
+                        "1p":"sumus",
+                        "2p":"estis",
+                        "3p":"sunt"
+                    },
+                    "past":{
+                        "1s":"eram",
+                        "2s":"erās",
+                        "3s":"erat",
+                        "1p":"erāmus",
+                        "2p":"erātis",
+                        "3p":"erant"
+                    },
+                    "future":{
+                        "1s":"erō",
+                        "2s":"eris",
+                        "3s":"erit",
+                        "1p":"erimus",
+                        "2p":"eritis",
+                        "3p":"erunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":false,
+                "imperative":{
+                    "present":{
+                        "2s":"es",
+                        "2p":"este",
+                        "1p":"sīmus"
+                    },
+                    "future":{
+    
+                    }
+                }
+            },
+            "eō":{
+                "past-imperfect-link":"ī",
+                "future-imperfect-link":"ī",
+                "similar-declension":"I~II",
+                "imperfect-root" : "",
+
+                "present-participle":{
+                    "content":"iēns",
+                    "root":"eunt"
+                },
+                "active":{
+                    "present":{
+                        "1s":"eō",
+                        "2s":"īs",
+                        "3s":"it",
+                        "1p":"īmus",
+                        "2p":"ītis",
+                        "3p":"eunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":{
+                    "present":{
+                        "1s":"",
+                        "2s":"",
+                        "3s":"ī",
+                        "1p":"",
+                        "2p":"",
+                        "3p":""
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "imperative":{
+                    "present":{
+                        "2s":"ī",
+                        "2p":"īte",
+                        "1p":"eāmus"
+                    },
+                    "future":{
+    
+                    }
+                }
+            },
+            "ferō":{
+                "past-imperfect-link":"ē",
+                "future-imperfect-link":"",
+                "similar-declension":"!I~II",
+                "imperfect-root" : "fer",
+
+                "present-participle":"ferēns",
+
+                "active":{
+                    "present":{
+                        "1s":"ferō",
+                        "2s":"fers",
+                        "3s":"fert",
+                        "1p":"ferimus",
+                        "2p":"fertis",
+                        "3p":"ferunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":{
+                    "present":{
+                        "1s":"feror",
+                        "2s":"ferris",
+                        "3s":"fertur",
+                        "1p":"ferimur",
+                        "2p":"feriminī",
+                        "3p":"feruntur"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "imperative":{
+                    "present":{
+                        "2s":"fer",
+                        "2p":"ferte",
+                        "1p":"ferāmus"
+                    },
+                    "future":{
+    
+                    }
+                }
+            },
+            "volō":{
+                "past-imperfect-link":"ē",
+                "future-imperfect-link":"",
+                "similar-declension":"!I~II",
+                "imperfect-root" : "vol",
+
+                "present-participle":"volens",
+                
+                "active":{
+                    "present":{
+                        "1s":"volō",
+                        "2s":"vīs",
+                        "3s":"vult",
+                        "1p":"volumus",
+                        "2p":"vultis",
+                        "3p":"volunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":false,
+                "imperative":false
+            },
+            "nōlō":{
+                "past-imperfect-link":"ē",
+                "future-imperfect-link":"",
+                "similar-declension":"!I~II",
+                "imperfect-root" : "nōl",
+
+                "present-participle":"nōlēns",
+                
+                "active":{
+                    "present":{
+                        "1s":"nōlō",
+                        "2s":"nōn vīs",
+                        "3s":"nōn vult",
+                        "1p":"nōlumus",
+                        "2p":"nōn vultis",
+                        "3p":"nōlunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":false,
+                "imperative":{
+                    "present":{
+                        "2s":"nolī",
+                        "2p":"nolīte",
+                        "1p":"nolīmus ??"
+                    },
+                    "future":{
+
+                    }
+                }
+            },
+            "mālō":{
+                "past-imperfect-link":"ē",
+                "future-imperfect-link":"",
+                "similar-declension":"!I~II",
+                "imperfect-root" : "māl",
+
+                "present-participle":"mālēns",
+                
+                "active":{
+                    "present":{
+                        "1s":"mālō",
+                        "2s":"māvīs",
+                        "3s":"māvult",
+                        "1p":"mālumus",
+                        "2p":"māvultis",
+                        "3p":"mālunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":false,
+                "imperative":false
+            },
+            "possum":{
+                "present-participle":"potēns",
+                
+                "active":{
+                    "irregular-imperfect":true,
+
+                    "present":{
+                        "1s":"possum",
+                        "2s":"potes",
+                        "3s":"potest",
+                        "1p":"possumus",
+                        "2p":"potestis",
+                        "3p":"possunt"
+                    },
+                    "past":{
+                        "1s":"poteram",
+                        "2s":"poterās",
+                        "3s":"poterat",
+                        "1p":"poterāmus",
+                        "2p":"poterātis",
+                        "3p":"poterant"
+                    },
+                    "future":{
+                        "1s":"poterō",
+                        "2s":"poteris",
+                        "3s":"poterit",
+                        "1p":"poterimus",
+                        "2p":"poteritis",
+                        "3p":"poterunt"
+                    },
+                    "perfect":{
+                        "present":{
+    
+                        },
+                        "past":{
+    
+                        },
+                        "future":{
+    
+                        }
+                    }
+                },
+                "passive":false,
+                "imperative":false
             }
         }
     },
@@ -589,6 +935,293 @@
             },
             "superlative":{
 
+            }
+        }
+    },
+
+    "pronoun":{
+        "is, ea, id":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"ea",
+                    "accusative":"eam",
+                    "genitive":"ēius",
+                    "ablative":"eā",
+                    "dative":"eī"
+                },
+                "m":{
+                    "nominative":"is",
+                    "accusative":"eum",
+                    "genitive":"ēius",
+                    "ablative":"eō",
+                    "dative":"eī"
+                },
+                "n":{
+                    "nominative":"id",
+                    "accusative":"id",
+                    "genitive":"ēius",
+                    "ablative":"eō",
+                    "dative":"eī"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"eae",
+                    "accusative":"eās",
+                    "genitive":"eārum",
+                    "ablative":"eīs",
+                    "dative":"eīs"
+                },
+                "m":{
+                    "nominative":"eī",
+                    "accusative":"eōs",
+                    "genitive":"eōrum",
+                    "ablative":"eīs",
+                    "dative":"eīs"
+                },
+                "n":{
+                    "nominative":"ea",
+                    "accusative":"ea",
+                    "genitive":"eōrum",
+                    "ablative":"eīs",
+                    "dative":"eīs"
+                }
+            }
+        },
+
+        "ego":{
+            "singular":{
+                "nominative":"ego",
+                "accusative":"mē",
+                "genitive":"meī",
+                "ablative":"mē",
+                "dative":"mihi"
+            },
+            "plural":{
+                "nominative":"nōs",
+                "accusative":"nōs",
+                "genitive":"nōstrī",
+                "ablative":"nōbīs",
+                "dative":"nōbīs"
+            }
+        },
+
+        "tū":{
+            "singular":{
+                "nominative":"tū",
+                "accusative":"tē",
+                "genitive":"tuī",
+                "ablative":"tē",
+                "dative":"tibi"
+            },
+            "plural":{
+                "nominative":"vōs",
+                "accusative":"vōs",
+                "genitive":"vestrī",
+                "ablative":"vōbīs",
+                "dative":"vōbīs"
+            }
+        },
+
+        "hīc, haec, hōc":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"haec",
+                    "accusative":"hanc",
+                    "genitive":"hūius",
+                    "ablative":"hāc",
+                    "dative":"huic"
+                },
+                "m":{
+                    "nominative":"hīc",
+                    "accusative":"hunc",
+                    "genitive":"hūius",
+                    "ablative":"hōc",
+                    "dative":"huic"
+                },
+                "n":{
+                    "nominative":"hoc",
+                    "accusative":"hoc",
+                    "genitive":"hūius",
+                    "ablative":"hōc",
+                    "dative":"huic"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"hae",
+                    "accusative":"hās",
+                    "genitive":"hārum",
+                    "ablative":"hīs",
+                    "dative":"hīs"
+                },
+                "m":{
+                    "nominative":"hī",
+                    "accusative":"hōs",
+                    "genitive":"hōrum",
+                    "ablative":"hīs",
+                    "dative":"hīs"
+                },
+                "n":{
+                    "nominative":"haec",
+                    "accusative":"haec",
+                    "genitive":"hōrum",
+                    "ablative":"hīs",
+                    "dative":"hīs"
+                }
+            }
+        },
+
+        "ille, illa, illud":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"illa",
+                    "accusative":"illam",
+                    "genitive":"illīus",
+                    "ablative":"illā",
+                    "dative":"illī"
+                },
+                "m":{
+                    "nominative":"ille",
+                    "accusative":"illum",
+                    "genitive":"illīus",
+                    "ablative":"illō",
+                    "dative":"illī"
+                },
+                "n":{
+                    "nominative":"illud",
+                    "accusative":"illud",
+                    "genitive":"illīus",
+                    "ablative":"illō",
+                    "dative":"illī"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"illae",
+                    "accusative":"illās",
+                    "genitive":"illārum",
+                    "ablative":"illīs",
+                    "dative":"illīs"
+                }, 
+                "m":{
+                    "nominative":"illī",
+                    "accusative":"illōs",
+                    "genitive":"illōrum",
+                    "ablative":"illīs",
+                    "dative":"illīs"
+                },
+                "n":{
+                    "nominative":"illa",
+                    "accusative":"illa",
+                    "genitive":"illōrum",
+                    "ablative":"illīs",
+                    "dative":"illīs"
+                }
+            }
+        },
+
+        "quis, quis, quid":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"quis",
+                    "accusative":"quam",
+                    "genitive":"cūius",
+                    "ablative":"quā",
+                    "dative":"cui"
+                },
+                "m":{
+                    "nominative":"quis",
+                    "accusative":"quem",
+                    "genitive":"cūius",
+                    "ablative":"quō",
+                    "dative":"cui"
+                },
+                "n":{
+                    "nominative":"quid",
+                    "accusative":"quid",
+                    "genitive":"cūius",
+                    "ablative":"quō",
+                    "dative":"cui"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"quae",
+                    "accusative":"quās",
+                    "genitive":"quārum",
+                    "ablative":"quibus",
+                    "dative":"quibus"
+                },
+                "m":{
+                    "nominative":"quī",
+                    "accusative":"quōs",
+                    "genitive":"quōrum",
+                    "ablative":"quibus",
+                    "dative":"quibus"
+                },
+                "n":{
+                    "nominative":"quae",
+                    "accusative":"quae",
+                    "genitive":"quōrum",
+                    "ablative":"quibus",
+                    "dative":"quibus"
+                }
+            }
+        },
+
+        "quī, quae, quod":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"quae",
+                    "accusative":"quam",
+                    "genitive":"cūius",
+                    "ablative":"quā",
+                    "dative":"cui"
+                },
+                "m":{
+                    "nominative":"quī",
+                    "accusative":"quem",
+                    "genitive":"cūius",
+                    "ablative":"quō",
+                    "dative":"cui"
+                },
+                "n":{
+                    "nominative":"quod",
+                    "accusative":"quod",
+                    "genitive":"cūius",
+                    "ablative":"quō",
+                    "dative":"cui"
+                }
+                
+            },
+            "plural":{
+                "f":{
+                    "nominative":"quae",
+                    "accusative":"quās",
+                    "genitive":"quārum",
+                    "ablative":"quibus",
+                    "dative":"quibus"
+                },
+                "m":{
+                    "nominative":"quī",
+                    "accusative":"quōs",
+                    "genitive":"quōrum",
+                    "ablative":"quibus",
+                    "dative":"quibus"
+                },
+                "n":{
+                    "nominative":"quae",
+                    "accusative":"quae",
+                    "genitive":"quōrum",
+                    "ablative":"quibus",
+                    "dative":"quibus"
+                }
             }
         }
     }
