@@ -177,7 +177,9 @@
         "exceptions": {
             "sfg": "alīus",
             "sfd": "aliī",
-            "root": "ali"
+            "root": "ali",
+            "no-comparative": true,
+            "no-superlative": true
         },
         "notes": [
             "special funny genitive",
@@ -192,7 +194,9 @@
         "exceptions": {
             "sfg": "alterīus",
             "sfd": "alterī",
-            "root": "alter"
+            "root": "alter",
+            "no-comparative": true,
+            "no-superlative": true
         },
         "notes": [
             "special funny genitive",
@@ -396,7 +400,11 @@
     "Asiāticus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "Asian"
+        "meaning": "Asian",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "atrium": {
         "type": "noun",
@@ -545,7 +553,11 @@
     "bonus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "good"
+        "meaning": "good",
+        "exceptions": {
+            "comparative": "melior",
+            "superlative": "optimus"
+        }
     },
     "bracchium": {
         "type": "noun",
@@ -627,11 +639,6 @@
         "gender": "m",
         "meaning": "prisoner"
     },
-    "captus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "captured"
-    },
     "caput": {
         "type": "noun",
         "declension": "III",
@@ -656,7 +663,11 @@
     "Carthāginiēnsis": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "Carthaginian"
+        "meaning": "Carthaginian",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "carus": {
         "type": "adjective",
@@ -721,7 +732,11 @@
     "cēterus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "the rest (of)"
+        "meaning": "the rest (of)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "cibus": {
         "type": "noun",
@@ -1031,7 +1046,11 @@
     "decimus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "tenth"
+        "meaning": "tenth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "dēdō": {
         "type": "verb",
@@ -1123,7 +1142,11 @@
     "dexter": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "right"
+        "meaning": "right",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "dextra": {
         "type": "noun",
@@ -1237,7 +1260,11 @@
     "dūcentī": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "two hundred"
+        "meaning": "two hundred",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "dūcō": {
         "type": "verb",
@@ -1258,6 +1285,10 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "two (adj.)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        },
         "flag": "conjugates weird"
     },
     "duodecim": {
@@ -1280,7 +1311,7 @@
         "declension": "III spec",
         "infinitive": "effugere",
         "aorist-root": "effūg",
-        "aorist-passive-participle": "eff",
+        "aorist-passive-participle": "",
         "meaning": "to escape",
         "exceptions": {
             "limited-passive": true
@@ -1541,7 +1572,11 @@
     "finitīmus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "neighbouring"
+        "meaning": "neighbouring",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "flamma": {
         "type": "noun",
@@ -1655,17 +1690,29 @@
     "futūrus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "future"
+        "meaning": "future",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "geminus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "twin"
+        "meaning": "twin",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "Germānus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "German"
+        "meaning": "German",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "gerō": {
         "type": "verb",
@@ -1770,8 +1817,7 @@
     },
     "hinc": {
         "type": "adverb",
-        "meaning": "from here,hence",
-        "flag": " wb the other variations + illinc illicejwjjene"
+        "meaning": "from here, hence"
     },
     "histōria": {
         "type": "noun",
@@ -1828,6 +1874,10 @@
             "i-stem"
         ]
     },
+    "hūc": {
+        "type": "adverb",
+        "meaning": "to here, hither"
+    },
     "hūmānus": {
         "type": "adjective",
         "declension": "I~II",
@@ -1863,6 +1913,10 @@
         "type": "adjective",
         "declension": "III",
         "meaning": "(the) same",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        },
         "flag": "irreg"
     },
     "ille ... hīc": {
@@ -1880,6 +1934,18 @@
             "special funny genitive",
             "special funny dative"
         ]
+    },
+    "illīc": {
+        "type": "adverb",
+        "meaning": "there"
+    },
+    "illinc": {
+        "type": "adverb",
+        "meaning": "from there,thence"
+    },
+    "illūc": {
+        "type": "adverb",
+        "meaning": "to there, thither"
     },
     "imāgō": {
         "type": "noun",
@@ -2056,7 +2122,9 @@
         "exceptions": {
             "sfg": "ipsīus",
             "sfd": "ipsī",
-            "root": "ips"
+            "root": "ips",
+            "no-comparative": true,
+            "no-superlative": true
         },
         "notes": [
             "special funny genitive",
@@ -2260,7 +2328,11 @@
     "ligneus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "wooden"
+        "meaning": "wooden",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "lingua": {
         "type": "noun",
@@ -2332,10 +2404,14 @@
         "type": "adverb",
         "meaning": "really"
     },
-    "magnus": {
+    "māgnus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "big, great"
+        "meaning": "big, great",
+        "exceptions": {
+            "comparative": "maior",
+            "superlative": "maximus"
+        }
     },
     "mālō": {
         "type": "verb",
@@ -2352,7 +2428,11 @@
     "malus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "bad"
+        "meaning": "bad",
+        "exceptions": {
+            "comparative": "pēior",
+            "superlative": "pessimus"
+        }
     },
     "maneō": {
         "type": "verb",
@@ -2400,12 +2480,6 @@
         "type": "adverb",
         "meaning": "especially, most of all"
     },
-    "maximus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "very big, biggest, very great, greatest",
-        "flag": "superlatives"
-    },
     "medicus": {
         "type": "noun",
         "declension": "II",
@@ -2415,7 +2489,11 @@
     "medius": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "the middle of"
+        "meaning": "the middle of",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "mensis": {
         "type": "noun",
@@ -2446,7 +2524,11 @@
     "meus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "my"
+        "meaning": "my",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "mihi est liber": {
         "type": "special",
@@ -2464,12 +2546,6 @@
         "declension": "I",
         "gender": "f",
         "meaning": "threat"
-    },
-    "minimus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "very small, smallest",
-        "flag": "superlatives"
     },
     "mirmillō": {
         "type": "noun",
@@ -2532,7 +2608,11 @@
     "mortuus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "dead"
+        "meaning": "dead",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "mōs": {
         "type": "noun",
@@ -2544,7 +2624,12 @@
     "multus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "much (many pl.)"
+        "meaning": "much (many pl.)",
+        "exceptions": {
+            "comparative": "plūs",
+            "superlative": "plūrimus",
+            "wtf-extremely-irregular-anomaly": true
+        }
     },
     "mūniō": {
         "type": "verb",
@@ -2583,7 +2668,11 @@
     "nātus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "of age"
+        "meaning": "of age",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "nauta": {
         "type": "noun",
@@ -2676,11 +2765,6 @@
         "gender": "n",
         "meaning": "name"
     },
-    "nōmine": {
-        "type": "?",
-        "meaning": "called",
-        "flag": "idk"
-    },
     "nōn": {
         "type": "adverb",
         "meaning": "no, not"
@@ -2688,12 +2772,20 @@
     "nōnus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "ninth"
+        "meaning": "ninth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "noster": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "our"
+        "meaning": "our",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "novem": {
         "type": "number",
@@ -2787,7 +2879,11 @@
     "octāvus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "eigth"
+        "meaning": "eigth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "octō": {
         "type": "number",
@@ -2835,7 +2931,11 @@
     "omnis": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "each, every (all pl.)"
+        "meaning": "each, every (all pl.)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "oppidum": {
         "type": "noun",
@@ -2858,12 +2958,6 @@
         "aorist-root": "oppūgnāv",
         "aorist-passive-participle": "oppūgnāt",
         "meaning": "to attack"
-    },
-    "optimus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "very good, best, excellent",
-        "flag": "superlatives"
     },
     "ōrāculum": {
         "type": "noun",
@@ -2927,7 +3021,11 @@
     "pār": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "equal"
+        "meaning": "equal",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "parātus": {
         "type": "adjective",
@@ -2965,7 +3063,11 @@
     "parvus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "small"
+        "meaning": "small",
+        "exceptions": {
+            "comparative": "minor",
+            "superlative": "minimus"
+        }
     },
     "pastor": {
         "type": "noun",
@@ -3094,12 +3196,6 @@
         "gender": "m",
         "meaning": "foot"
     },
-    "pessimus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "very bad, worst, terrible",
-        "flag": "superlatives"
-    },
     "piger": {
         "type": "adjective",
         "declension": "I~II",
@@ -3138,12 +3234,6 @@
         "declension": "III",
         "meaning": "more",
         "flag": "comparative"
-    },
-    "plūrimus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "very much",
-        "flag": "comparitives and superlatives???"
     },
     "pluvia": {
         "type": "noun",
@@ -3209,8 +3299,7 @@
         "infinitive": "portāre",
         "aorist-root": "portāv",
         "aorist-passive-participle": "portāt",
-        "meaning": "to carry, bring",
-        "flag": "check def pls"
+        "meaning": "to carry"
     },
     "possum": {
         "type": "verb",
@@ -3263,7 +3352,11 @@
     "praeteritus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "past"
+        "meaning": "past",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "praetor": {
         "type": "noun",
@@ -3291,7 +3384,11 @@
     "prīmus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "first"
+        "meaning": "first",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "princeps": {
         "type": "noun",
@@ -3420,7 +3517,11 @@
     "quālis": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "what kind (of)"
+        "meaning": "what kind (of)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "quam celerrimē": {
         "type": "special",
@@ -3445,7 +3546,11 @@
     "quartus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "fourth"
+        "meaning": "fourth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "quattuor": {
         "type": "number",
@@ -3477,8 +3582,13 @@
     },
     "quīdam": {
         "type": "adjective",
-        "declension": "I~II",
-        "meaning": "a certain (some pl.)"
+        "declension": "III",
+        "meaning": "a certain (some pl.)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "flag": "irreg"
     },
     "quidem": {
         "type": "adverb",
@@ -3503,7 +3613,11 @@
     "quīntus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "fifth"
+        "meaning": "fifth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "quis, quis, quid": {
         "type": "pronoun",
@@ -3794,7 +3908,11 @@
     "secundus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "second"
+        "meaning": "second",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "sed": {
         "type": "conjunction",
@@ -3853,7 +3971,11 @@
     "septimus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "seventh"
+        "meaning": "seventh",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "servō": {
         "type": "verb",
@@ -3876,7 +3998,11 @@
     "sextus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "sixth"
+        "meaning": "sixth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "sī": {
         "type": "conjunction",
@@ -3923,7 +4049,11 @@
     "sinister": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "left"
+        "meaning": "left",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "sinistra": {
         "type": "noun",
@@ -3944,7 +4074,17 @@
     "sōlus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "alone, only"
+        "meaning": "alone, only",
+        "exceptions": {
+            "sfg": "sōlīus",
+            "sfd": "sōlī",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "sordidus": {
         "type": "adjective",
@@ -4054,7 +4194,11 @@
     "summus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "at the top of, highest"
+        "meaning": "at the top of, highest",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "super": {
         "type": "preposition",
@@ -4084,7 +4228,11 @@
     "suus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "one's own (reflexive possesive adjective)"
+        "meaning": "one's own (reflexive possesive adjective)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "taberna": {
         "type": "noun",
@@ -4165,7 +4313,11 @@
     "tertius": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "third"
+        "meaning": "third",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "testimōnium": {
         "type": "noun",
@@ -4206,8 +4358,7 @@
         "infinitive": "timēre",
         "aorist-root": "timu",
         "aorist-passive-participle": "",
-        "meaning": "to fear",
-        "flag": "funny passives"
+        "meaning": "to fear"
     },
     "tōtus": {
         "type": "adjective",
@@ -4215,7 +4366,9 @@
         "meaning": "whole, entire",
         "exceptions": {
             "sfg": "tōtīus",
-            "sfd": "tōtī"
+            "sfd": "tōtī",
+            "no-comparative": true,
+            "no-superlative": true
         },
         "notes": [
             "special funny genitive",
@@ -4279,7 +4432,11 @@
     "Trōiānus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "Trojan"
+        "meaning": "Trojan",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "tū": {
         "type": "pronoun",
@@ -4419,7 +4576,11 @@
     "Vestālis": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "Vestal"
+        "meaning": "Vestal",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
     },
     "vestem gerere": {
         "type": "special",

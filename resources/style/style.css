@@ -1,58 +1,58 @@
 html {
-    height : 100%;
+    height: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    background-color : white;
-    color : black;
+    background-color: white;
+    color: black;
 }
 html.dark{
-    background-color : rgb(41, 43, 49);
-    color : rgb(230,230,230);
+    background-color: rgb(41, 43, 49);
+    color: rgb(230,230,230);
 }
 body {
-    position : relative;
-    min-height : 100vh;
-    margin : 0;
-    padding-bottom : 0;
-    margin-bottom : 0;
-    overflow-x : hidden;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
 }
 h1 {
-    text-align : center;
-    font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size : max(60px,9vw);
-    margin : 0;
+    text-align: center;
+    font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-size: max(60px,9vw);
+    margin: 0;
 }
 html.dark h1{
-    color : white;
+    color: white;
 }
 h2 {
-    text-align : center;
-    font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size : max(20px,3vw);
-    margin-top : 0;
-    margin-bottom : 2vw;
-    color : rgb(42, 42, 42);
+    text-align: center;
+    font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-size: max(20px,3vw);
+    margin-top: 0;
+    margin-bottom: 2vw;
+    color: rgb(42, 42, 42);
 }
 html.dark h2{
-    color : rgb(230,230,230);
+    color: rgb(230,230,230);
 }
 h3 {
-    transition : margin 0.3s ease;
-    font-family : "Roboto",sans-serif;
-    margin : 0 0 10px 50px;
-    font-size : 38.4px;
+    transition: margin 0.3s ease;
+    font-family: "Roboto",sans-serif;
+    margin: 0 0 10px 50px;
+    font-size: 38.4px;
 }
 h4 {
-    font-family : "Roboto",sans-serif;
-    margin-top : 10px;
-    font-size : 24px;
+    font-family: "Roboto",sans-serif;
+    margin-top: 10px;
+    font-size: 24px;
 }
 p {
-    transition : margin 0.3s ease;
-    font-family : "Roboto",sans-serif;
-    margin : 10px 70px 10px 70px;
-    font-size : 22.4px;
+    transition: margin 0.3s ease;
+    font-family: "Roboto",sans-serif;
+    margin: 10px 70px 10px 70px;
+    font-size: 22.4px;
 }
 hr{
     margin:auto;
@@ -60,667 +60,674 @@ hr{
     border-color:black
 }
 html.dark hr{
-    border-color : rgb(230,230,230);
+    border-color: rgb(230,230,230);
 }
 .search{
-    justify-content : center;
-    width : 80%;
-    height : auto;
-    margin-top : 15px;
-    margin-left : auto;
-    margin-right : auto;
-    position : relative;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 .search input {
-    background-color : white;
-    color : black;
-    font-family : "Roboto",sans-serif;
-    padding : 0 0 0 40px;
-    font-size : 19.2px;
-    margin-top : 0px;
-    margin-bottom : 0px;
-    height : 50px;
-    width : 100%;
-    margin-left : auto;
-    margin-right : auto;
-    outline : none;
-    border : 1px solid rgb(144, 144, 144);
-    border-radius : 5px 5px 0 0;
+    background-color: white;
+    color: black;
+    font-family: "Roboto",sans-serif;
+    padding: 0 40px 0 40px;
+    font-size: 19.2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: 1px solid rgb(144, 144, 144);
+    border-radius: 5px 5px 0 0;
     box-sizing: border-box;
 }
 html.dark .search input {
-    background-color : rgb(41, 43, 49);
-    border : 1px solid rgb(111,111,111);
-    color : rgb(230,230,230);
+    background-color: rgb(41, 43, 49);
+    border: 1px solid rgb(111,111,111);
+    color: rgb(230,230,230);
 }
 .search input:focus{
-    padding : 0 0 0 39px;
-    border : 2px solid rgb(144, 183, 255);
+    padding: 0 39px 0 39px;
+    border: 2px solid rgb(144, 183, 255);
 }
 html.dark .search input:focus{
-    border : 2px solid rgb(142, 151, 172);
+    border: 2px solid rgb(142, 151, 172);
 }
 .search input:focus ~ i{
-    color : rgb(144, 183, 255);
+    color: rgb(144, 183, 255);
 }
 html.dark .search input:focus ~ i{
-    color : rgb(142, 151, 172);
+    color: rgb(142, 151, 172);
 }
 .search input::placeholder{
-    color : rgb(144, 144, 144);
+    color: rgb(144, 144, 144);
 }
 html.dark .search input::placeholder{
-    color : rgb(111, 111, 111);
+    color: rgb(111, 111, 111);
 }
 .search :where(i,span){
-    position : absolute;
-    top : 50%;
-    transform : translateY(-50%);
-    color : rgb(144, 144, 144);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(144, 144, 144);
 }
 html.dark .search:where(i,span){
-    color : rgb(111, 111, 111);
+    color: rgb(111, 111, 111);
 }
 .search i{ 
-    left : 16px;
-    pointer-events : none;
-    font-size : 14.4px;
+    left: 16px;
+    pointer-events: none;
+    font-size: 14.4px;
 }
 .search span{
-    margin : 0 0 0 0;
-    right : 15px;
-    cursor : pointer;
-    font-size : 14.4px;
-    display : none;
+    margin: 0 0 0 0;
+    right: 15px;
+    cursor: pointer;
+    font-size: 14.4px;
+    display: none;
 }
 .search input:valid ~ span{
-    display : block;
+    display: block;
 }
 .autocomplete{
-    position : relative;
-    display : inline-block;
+    position: relative;
+    display: inline-block;
 }
 .autocomplete-list{
     user-select: none;
-    font-family : "Roboto",sans-serif;
-    font-size : 19.2px;
-    position : absolute;
-    z-index : 1000;
-    top : 100%;
-    left : 0px;
-    right : 0px;
+    font-family: "Roboto",sans-serif;
+    font-size: 19.2px;
+    position: absolute;
+    z-index: 1000;
+    top: 100%;
+    left: 0px;
+    right: 0px;
 }
 .autocomplete-list div {
-    padding : 10px;
-    cursor : pointer;
-    border : 2px solid rgb(236, 236, 236);
-    border-bottom : 0;
-    border-top : 0;
-    background-color : white;
-    transition : border 1s ease;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(236, 236, 236);
+    border-bottom: 0;
+    border-top: 0;
+    background-color: white;
+    transition: border 1s ease;
 }
 html.dark .autocomplete-list div {
-    background-color : rgb(41, 43, 49);
-    border : 2px solid rgb(49, 49, 49);
-    border-bottom : 0;
-    border-top : 0;
-    transition : border 1s ease;
+    background-color: rgb(41, 43, 49);
+    border: 2px solid rgb(49, 49, 49);
+    border-bottom: 0;
+    border-top: 0;
+    transition: border 1s ease;
 }
 .autocomplete-list div:last-child{
-    border-bottom : 2px solid rgb(236, 236, 236);
-    transition : border 1s ease;
+    border-bottom: 2px solid rgb(236, 236, 236);
+    transition: border 1s ease;
 }
 html.dark .autocomplete-list div:last-child{
-    background-color : rgb(41, 43, 49);
-    border-bottom : 2px solid rgb(49, 49, 49);
-    transition : border 1s ease;
+    background-color: rgb(41, 43, 49);
+    border-bottom: 2px solid rgb(49, 49, 49);
+    transition: border 1s ease;
 }
 .autocomplete-list div:hover{
-    background-color : rgb(236, 236, 236);
-    transition : border 1s ease;
+    background-color: rgb(236, 236, 236);
+    transition: border 1s ease;
 }
 html.dark .autocomplete-list div:hover{
-    background-color : 2px solid rgb(41, 43, 49);
-    transition : border 1s ease;
+    background-color: 2px solid rgb(41, 43, 49);
+    transition: border 1s ease;
 }
 .dictionary-container.active ul{
     grid-template-rows: 1fr;
 }
 .dictionary-container ul{
     background-color: white;
-    transition : padding-left 0.3s ease, grid-template-rows 0.3s ease;
-    padding-left : 40px;
-    display : grid;
+    transition: padding 0.3s ease, grid-template-rows 0.3s ease;
+    padding: 0 40px 0 40px;
+    display: grid;
     grid-template-rows: 0fr;
-    border-radius : 10px;
-    margin : 0;
+    border-radius: 10px;
+    margin: 0;
 }
 html.dark .dictionary-container ul{
     background-color: rgb(41, 43, 49);
-    transition : padding-left 0.3s ease, grid-template-rows 0.3s ease;
+    transition: padding-left 0.3s ease, grid-template-rows 0.3s ease;
 }
 .dictionary-container ul > div{
-    overflow : hidden;
+    overflow: hidden;
 }
 .dictionary-container ul > div li:last-child{
-    margin-bottom : 20px;
+    margin-bottom: 20px;
 }
 .dictionary-container ul span{
-    font-family : "Roboto",sans-serif;
-    font-size : 22.4px;
+    font-family: "Roboto",sans-serif;
+    font-size: 22.4px;
 }
 .dictionary-container ul li{
-    display : block;
-    margin-bottom : 15px;
-    padding-bottom : 15px;
-    justify-content : space-between;
+    display: block;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
 }
 .dictionary-container ul li .details{
-    transition : padding 0.3s ease;
-    border-radius : 4px;
-    border-left : 4px solid rgb(0, 53, 150);
-    padding-left : 20px;
+    transition: padding 0.3s ease, margin-left 0.3s ease;
+    border-radius: 4px;
+    border-left: 4px solid rgb(0, 53, 150);
+    padding-left: 20px;
 }
 html.dark .dictionary-container ul li .details{
-    border-left : 4px solid rgb(89, 103, 133);
+    border-left: 4px solid rgb(89, 103, 133);
 }
 .dictionary-container ul li p{
-    margin : 0 0 0 0px;
-    font-size : 30.4px;
+    margin: 0 0 0 0px;
+    font-size: 30.4px;
 }
 .dictionary-container ul li span{
-    margin : 0;
-    color : rgb(80,80,80);
+    margin: 0;
+    color: rgb(80,80,80);
 }
 html.dark .dictionary-container ul li span{
-    color : rgb(175,175,175);
+    color: rgb(175,175,175);
 }
 .dictionary-container ul .warning.active{
-    display : block;
+    display: block;
 }
 .dictionary-container ul .warning{
-    margin-top : 20px;
-    display : none;
+    margin-top: 20px;
+    display: none;
 }
 .dictionary-container ul .warning p{
-    font-size : 32px;
-    font-weight : bold;
-    color : red;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
 }
 .dictionary-container ul .warning span{
-    font-size : 22.4px;
-    color : rgb(196, 0, 0);
+    font-size: 22.4px;
+    color: rgb(196, 0, 0);
 }
 html.dark .dictionary-container ul .warning p{
-    color : red;
+    color: red;
 }
 html.dark .dictionary-container ul .warning span{
-    color : rgb(196, 0, 0);
+    color: rgb(196, 0, 0);
 }
 .dictionary-container ul .word{
-    margin-top : 20px;
+    margin-top: 20px;
 }
 .dictionary-container ul .word p{
-    font-size : 48px;
-    font-weight : 500;
+    font-size: 48px;
+    font-weight: 500;
 }
 .dictionary-container ul .word span{
-    font-size : 22.4px;
-    color : rgb(80,80,80);
+    font-size: 22.4px;
+    color: rgb(80,80,80);
 }
 html.dark .dictionary-container ul .word span{
-    color : rgb(175,175,175);
+    color: rgb(175,175,175);
 }
 .dictionary-container ul .notes.active{
-    display : block;
+    display: block;
 }
 .dictionary-container ul .notes{
-    margin-top : 20px;
-    display : none;
+    margin-top: 20px;
+    display: none;
 }
 .dictionary-container ul .notes p{
-    font-size : 32px;
+    font-size: 32px;
 }
 
 .dictionary-container ul .notes span{
-    font-size : 22.4px;
-    color : rgb(80,80,80);
+    font-size: 22.4px;
+    color: rgb(80,80,80);
 }
 .dictionary-container .forms.active{
-    display : block;
+    display: block;
 }
 .dictionary-container .forms{
-    margin-right : 30px;
-    display : none;
+    margin-right: 30px;
+    display: none;
 }
 .dictionary-container ul .forms table{
-    table-layout : fixed;
-    width : 100%;
+    table-layout: fixed;
+    width: 100%;
 }
 .dictionary-container ul .forms table th{
-    transition : padding 0.3s ease;
-    font-family : "Roboto",sans-serif;
-    font-size : 19.2px;
-    font-weight : bold;
-    color : rgb(40,40,40);
-    padding : 10px;
+    transition: padding 0.3s ease;
+    font-family: "Roboto",sans-serif;
+    font-size: 19.2px;
+    font-weight: bold;
+    color: rgb(40,40,40);
+    padding: 10px;
 }
 html.dark .dictionary-container ul .forms table th{
-    color : rgb(215,215,215);
+    color: rgb(215,215,215);
 }
 .dictionary-container ul .forms table th b{
-    color : black;
+    color: black;
 }
 html.dark .dictionary-container ul .forms table th b{
-    color : rgb(230,230,230);
+    color: rgb(230,230,230);
 }
 .dictionary-container ul .forms table td{
-    transition : padding 0.3s ease;
-    font-family : "Roboto",sans-serif;
-    font-size : 19.2px;
-    font-weight : normal;
-    color : rgb(80,80,80);
-    padding : 10px;
+    transition: padding 0.3s ease;
+    font-family: "Roboto",sans-serif;
+    font-size: 19.2px;
+    font-weight: normal;
+    color: rgb(80,80,80);
+    padding: 10px;
 }
 html.dark .dictionary-container ul .forms table td{
-    color : rgb(175,175,175);
+    color: rgb(175,175,175);
 }
 .dictionary-container ul .forms table span{
-    font-size : 25.6px;
-    font-weight : normal;
-    color : black;
+    font-size: 25.6px;
+    font-weight: normal;
+    color: black;
 }
 html.dark .dictionary-container ul .forms table span{
-    color : rgb(230,230,230);
+    color: rgb(230,230,230);
 }
 .dictionary-container ul .forms .details table .interactive-dropdown-container{
-    margin : 10px 0 30px 0;
+    margin: 10px 0 30px 0;
 }
 .dictionary-container ul .forms .details table .interactive-dropdown-container:last-child{
-    margin : 10px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 .interactive-dropdown-container{
-    transition : padding 0.3s ease;
-    min-height : 30px;
-    border-radius : 4px;
-    border-left : 4px solid rgb(12, 164, 206);
-    padding-left : 20px;
+    transition: padding 0.3s ease;
+    min-height: 30px;
+    border-radius: 4px;
+    border-left: 4px solid rgb(12, 164, 206);
+    padding-left: 20px;
 }
 html.dark .interactive-dropdown-container{
-    border-left : 4px solid rgb(89, 119, 133);
+    border-left: 4px solid rgb(89, 119, 133);
 }
 .interactive-dropdown-container > aside{
-    min-height : 30px;
-    width : 100%;
+    min-height: 30px;
+    width: 100%;
 }
 .interactive-dropdown-container aside > span{
-    position : relative;
-    margin-top : 15px;
-    transform : translateY(-50%);
+    position: relative;
+    margin-top: 15px;
+    transform: translateY(-50%);
     user-select: none;
 }
 .interactive-dropdown-container.open aside > i{
-    transform : translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
 }
 .interactive-dropdown-container aside > i{
-    font-size : 25.6px;
-    color : black;
-    position : relative;
-    top : 15px;
-    float : right;
-    transform-origin : center;
-    transform : translateY(-50%) rotate(0deg);
-    transition : all 0.3s ease;
+    font-size: 25.6px;
+    color: black;
+    position: relative;
+    top: 15px;
+    float: right;
+    transform-origin: center;
+    transform: translateY(-50%) rotate(0deg);
+    transition: all 0.3s ease;
 }
 html.dark .interactive-dropdown-container aside > i{
-    color : rgb(230,230,230);
+    color: rgb(230,230,230);
 }
 .interactive-dropdown-container.open > .interactive-dropdown{
-    grid-template-rows : 1fr;
+    grid-template-rows: 1fr;
 }
 .interactive-dropdown{
-    display : grid;
-    grid-template-rows : 0fr;
-    transition : all 0.3s ease;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: all 0.3s ease;
 }
 .interactive-dropdown > div{
-    overflow : hidden;
+    overflow: hidden;
 }
 .subtable{
-    margin : 0 0 30px 0;
-    width : 100%;
+    margin: 0 0 30px 0;
+    width: 100%;
 }
 .subtable span{
-    font-size : 24px !important;
+    font-size: 24px !important;
 }
 .subtable:last-child{
-    margin : 0;
+    margin: 0;
 }
 .dictionary-container ul li:last-child{
-    margin-bottom : 0px;
-    padding-bottom : 10px;
-    justify-content : none;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    justify-content: none;
 }
 .dictionary-container .info{
-    text-align : center;
-    height : 35.2px;
-    width : 100%;
-    padding : 30px 0 30px 0;
+    text-align: center;
+    height: 35.2px;
+    width: 100%;
+    padding: 30px 0 30px 0;
 }
 .dictionary-container .info-text{
-    margin : 0;
-    text-align : center;
-    font-size : 17.6px;
-    color : rgb(118, 166, 255);
+    margin: 0;
+    text-align: center;
+    font-size: 17.6px;
+    color: rgb(118, 166, 255);
 }
 html.dark .dictionary-container .info-text{
-    color : rgb(124, 134, 159);
+    color: rgb(124, 134, 159);
 }
 .dictionary-container .info-text span{
-    font-weight : 600;
-    color : rgb(95, 151, 255);
+    font-weight: 600;
+    color: rgb(95, 151, 255);
 }
 html.dark .dictionary-container .info-text span{
-    color : rgb(109, 124, 161);
+    color: rgb(109, 124, 161);
 }
 a {
     color: inherit;
     text-decoration: none;
 }
 .centre {
-    display : block;
-    margin-left : auto;
-    margin-right : auto;
-    margin-top : 0;
-    margin-bottom : 0;
-    width : 14vw;
-    min-width : 93px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 14vw;
+    min-width: 93px;
 }
 #hideAll {
-    position : fixed;
-    left : 0px; 
-    right : 0px; 
-    top : 0px; 
-    bottom : 0px; 
-    background-color : black;
-    z-index : 6942069420;
+    position: fixed;
+    left: 0px; 
+    right: 0px; 
+    top: 0px; 
+    bottom: 0px; 
+    background-color: black;
+    z-index: 6942069420;
 }
 #cover {
-    display : flex;
+    display: flex;
     justify-content: center;
-    align-items : center;
-    width : 100%;
-    height : 100vh;
-    min-height : 230px;
-    left : 0;
-    top : 0;
-    background-color : rgb(181, 207, 255);
-    float : top;
-    z-index : 10;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 230px;
+    left: 0;
+    top: 0;
+    background-color: rgb(181, 207, 255);
+    float: top;
+    z-index: 10;
 }
 html.dark #cover{
     background-color: rgb(71, 77, 89);
 }
 #main {
-    justify-content : center;
-    margin-top : 100px;
-    padding-bottom : 100px;
-    height : auto;
-    width : 100%;
-    max-width : 960px;
-    margin-left : auto;
-    margin-right : auto;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #header {
-    position : fixed;
-    width : 100%;
-    left : 0;
-    overflow : hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
     transition: top 0.2s ease, height 0.2s ease;
     background-color :rgb(152, 188, 255);
-    z-index : 69420;
+    z-index: 69420;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
 }
 html.dark #header{
     transition: top 0.2s ease, height 0.2s ease;
-    background-color : rgb(64, 72, 89);
+    background-color: rgb(64, 72, 89);
 }
 .nav-container{
-    display : table;
-    width : auto;
-    height : 50px;
-    margin : 0 20px 0 20px;
+    display: table;
+    width: auto;
+    height: 50px;
+    margin: 0 20px 0 20px;
 }
 .nav-container > div{
-    display : table-cell; 
-    vertical-align : middle;
+    display: table-cell; 
+    vertical-align: middle;
 }
 .theme-selector{
-    display : flex;
+    display: flex;
     justify-content: center;
-    align-items : center;
-    text-align : center;
-    float : right;
-    width : 50px;
-    height : 50px;
+    align-items: center;
+    text-align: center;
+    float: right;
+    width: 50px;
+    height: 50px;
 }
 .theme-selector div > i{
-    font-size : 32px;
-    display : block;
+    font-size: 32px;
+    display: block;
 }
 html.dark .theme-selector div > i{
-    display : none;
+    display: none;
 }
 .theme-selector div > span{
-    font-size : 32px;
-    display : none;
+    font-size: 32px;
+    display: none;
 }
 html.dark .theme-selector div > span{
-    display : block;
+    display: block;
 }
 #footer {
-    position : absolute;
-    bottom : 0;
-    margin-top : 50px;
-    margin-bottom : 0px;
-    background-color : rgb(243, 243, 243);
-    width : 100%;
-    height : 50px;
-    overflow : hidden;
+    position: absolute;
+    bottom: 0;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
 }
 html.dark #footer {
-    background-color : rgb(51, 54, 58);
+    background-color: rgb(51, 54, 58);
 }
 .footer-icon.fa-github{
     color:rgb(56, 56, 56);
 }
 html.dark .footer-icon.fa-github{
-    color : rgb(200,200,200);
+    color: rgb(200,200,200);
 }
 .footer-icon.fa-youtube-play{
-    color : #ff4747;
+    color: #ff4747;
 }
 .footer-icon.fa-envelope{
-    color : #aaaaaa;
+    color: #aaaaaa;
 }
 #footer-container{
-    width : 100%;
-    height : 100%;
-    max-width : 960px;
-    margin-left : auto;
-    margin-right : auto;
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer-icon {
-    font-size : 36px;
-    margin-right : 10px;
-    float : left;
-    transition : transform 0.2s ease, filter 0.2s ease;
+    font-size: 36px;
+    margin-right: 10px;
+    float: left;
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
 .footer-icon:hover{
-    transform : scale(1.1);
-    filter : brightness(1.2);
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
 #icon {
     width:40px;
     height:40px;
-    margin : 5px 10px 0 0;
+    margin: 5px 10px 0 0;
     float:left;
     border-radius:100%;
     box-shadow: 0 0 10px 1px rgba(0, 102, 255, 0.5);
-    transition : transform 0.2s ease, filter 0.2s ease;
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
 html.dark #icon{
     box-shadow: 0 0 10px 1px rgba(0, 18, 46, 0.5);
 }
 #icon:hover{
-    transform : scale(1.05);
-    filter : brightness(1.2);
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
 nav {
-    width : 100%;
-    max-width : 960px;
-    margin-right : auto;
-    margin-left : auto;
+    width: 100%;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .link {
-    transition : all 0.3s ease;
-    color : rgb(63, 131, 255);
-    font-size : 20.16px;
-    margin-left : 30px;
+    transition: all 0.3s ease;
+    color: rgb(63, 131, 255);
+    font-size: 20.16px;
+    margin-left: 30px;
 }
 html.dark .link{
-    color : rgb(67, 130, 207)
+    color: rgb(67, 130, 207)
 }
 .resource-title{
-    transition : margin 0.3s ease;
-    font-family : "Roboto",sans-serif;
-    margin : 10px 0 10px 60px;
-    font-size : 32px;
+    transition: margin 0.3s ease;
+    font-family: "Roboto",sans-serif;
+    margin: 10px 0 10px 60px;
+    font-size: 32px;
 }
 .resource-section-container{
-    overflow : hidden;
-    white-space : nowrap;
-    width : 100%;
-    height : auto;
-    margin-top : 20px;
-    margin-bottom : 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .resource-container{
-    overflow : hidden;
-    white-space : nowrap;
-    width : 100%;
-    height : auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: auto;
 }
 .dictionary-container{
-    transition : padding 0.3s ease;
-    padding : 30px;
-    margin-top : 30px;
-    margin-left : auto;
-    margin-right : auto;
-    width : 80%;
-    min-width : 400px;
-    height : auto;
-    border-radius : 10px;
-    background-color : rgb(206, 222, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-html.dark .dictionary-container{
-    transition : padding 0.3s ease;
-    background-color : rgb(64, 72, 89);
+.dictionary-container > div{
+    transition: padding 0.3s ease, margin 0.3s ease;
+    padding: 30px;
+    width: 100%;
+    margin: 30px 40px 0 40px;
+    min-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(206, 222, 250);
 }
+html.dark .dictionary-container > div{
+    transition: padding 0.3s ease, margin 0.3s ease;
+    background-color: rgb(64, 72, 89);
+}
+
 .title{
-    text-align : center;
-    width : 100%;
-    font-family : "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size : 40px;
+    text-align: center;
+    width: 100%;
+    font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-size: 40px;
 }
 .link:hover{
-    text-decoration : underline;
+    text-decoration: underline;
 }
 .up {
-    top : -51px;
+    top: -51px;
 }
 .down {
-    top : 0;
+    top: 0;
 }
 .notdropped {
-    height : 50px;
+    height: 50px;
 }
 .dropped {
-    height : 50px;
+    height: 50px;
 }
 .button {
-    display : flex;
+    display: flex;
     justify-content: center;
-    align-items : center;
-    text-align : center;
+    align-items: center;
+    text-align: center;
 }
 .button div i{
-    font-size : 32px;
+    font-size: 32px;
 }
 .dropdown{
-    text-align : right;
-    position : absolute;
-    top : 50px;
-    width : 100%;
-    height : 100px;
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 100px;
 }
 .desktop {
-    display : block;
+    display: block;
 }
 .mobile {
-    display : none;
+    display: none;
 }
 @media(max-width: 600px){
     .up {
-        top : 0px;
+        top: 0px;
     }
     .dropped {
-        height : 150px;
+        height: 150px;
     }
     .desktop {
-        display : none;
+        display: none;
     }
     .mobile {
-        display : block;
+        display: block;
     }
     h3 {
-        transition : margin 0.3s ease;
-        margin : 0 0 10px 20px;
+        transition: margin 0.3s ease;
+        margin: 0 0 10px 20px;
     }
     p {
-        transition : margin 0.3s ease;
-        margin : 10px 20px 10px 20px;
+        transition: margin 0.3s ease;
+        margin: 10px 20px 10px 20px;
     }
     .link {
-        transition : all 0.3s ease;
-        margin-left : 0px;
+        transition: all 0.3s ease;
+        margin-left: 0px;
     }
     .resource-title{
-        transition : all 0.3s ease;
-        margin : 10px 0 10px 20px;
+        transition: all 0.3s ease;
+        margin: 10px 0 10px 20px;
     }
-    .dictionary-container{
-        transition : padding 0.3s ease;
-        padding : 10px;
+    .dictionary-container > div{
+        transition: padding 0.3s ease, margin 0.3s ease;
+        padding: 10px;
+        padding-left: 20px;
+        margin: 30px 10px 0 10px;
     }
     .dictionary-container ul{
-        transition : padding-left 0.3s ease, grid-template-rows 0.3s ease;
-        padding-left : 20px;
+        transition: padding 0.3s ease, grid-template-rows 0.3s ease;
+        padding: 0 20px 0 20px;
     }
     .dictionary-container ul li .details{
-        transition : padding-left 0.3s ease;
-        padding-left : 10px;
+        transition: padding-left 0.3s ease;
+        padding-left: 10px;
     }
     .interactive-dropdown-container {
-        transition : padding-left 0.3s ease;
+        transition: padding-left 0.3s ease;
         padding-left: 10px;
     }
     .dictionary-container ul .forms table th{
-        transition : padding-left 0.3s ease;
-        padding-left : 5px;
+        transition: padding-left 0.3s ease;
+        padding-left: 5px;
     }
     .dictionary-container ul .forms table td{
-        transition : padding-left 0.3s ease;
-        padding-left : 5px;
+        transition: padding-left 0.3s ease;
+        padding-left: 5px;
     }
 }
