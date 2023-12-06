@@ -3229,12 +3229,6 @@
         "type": "conjunction",
         "meaning": "generally"
     },
-    "plūrēs": {
-        "type": "adjective",
-        "declension": "III",
-        "meaning": "more",
-        "flag": "comparative"
-    },
     "pluvia": {
         "type": "noun",
         "declension": "I",

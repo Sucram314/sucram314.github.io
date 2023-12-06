@@ -1,8 +1,9 @@
 const MAXSUGGESTIONS = 10;
-var dict, formdata;
+var dict, formdata, redirects;
 
 var searching = false;
 var current_word = "";
+var redirected = false;
 
 fetch('./resources/data/dictionary.json')
     .then(res => res.json())
@@ -11,6 +12,10 @@ fetch('./resources/data/dictionary.json')
 fetch('./resources/data/forms.json')
     .then(res => res.json())
     .then(data => {formdata = data;});
+
+fetch('./resources/data/redirects.json')
+    .then(res => res.json())
+    .then(data => {redirects = data;});
 
 const dictionary = document.querySelector(".dictionary-container"),
 Search = dictionary.querySelector(".search"),
@@ -446,6 +451,45 @@ function form(table, word, result, exceptions={}, recursed=false){
     return true;
 }
 
+function generateRedirects(){
+    var temp, result, exceptions, cells, redirect, redirects_={};
+    for(const word in dict){
+        temp = document.createElement("table");
+        
+        result = dict[word];
+
+        if(result["flag"]) continue;
+
+        exceptions = result["exceptions"] ? result["exceptions"] : {};
+
+        var parts_ = parts(word, result, exceptions);
+        for(const part in parts_){
+            redirect = parts_[part];
+            if(redirect !== word){
+                redirects_[redirect] = word;
+            }
+        }
+
+        form(temp,word,result,exceptions);
+
+        cells = temp.getElementsByTagName("td");
+
+        for(const cell in cells){
+            redirect = cells[cell].innerText;
+            if(!redirect || redirect === "-") continue;
+            if(redirect !== word){
+                redirects_[redirect] = word;
+            }
+        }
+    }
+
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(redirects_));
+    var dlAnchorElem = document.getElementById("downloadAnchorElem");
+    dlAnchorElem.setAttribute("href", dataStr);
+    dlAnchorElem.setAttribute("download", "redirects.json");
+    dlAnchorElem.click();
+}
+
 function parts(word, result, exceptions){
     if(result["type"] === "noun"){
         var dat = formdata["noun"], root;
@@ -470,26 +514,33 @@ function parts(word, result, exceptions){
         } else if(result["declension"] === "V"){
             root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2);
             dat = dat["V"];
+        } else if(result["declension"] === "indeclinable"){
+            return [word];
         }
 
-        if(exceptions["plural"]) return word + ", " + root + (exceptions["i-stem"] ? "i" : "") + dat["plural"]["genitive"]
+        if(exceptions["plural"]) return [word, root + (exceptions["i-stem"] ? "i" : "") + dat["plural"]["genitive"]]
         
-        return word + ", " + root + dat["singular"]["genitive"];
+        return [word, root + dat["singular"]["genitive"]];
 
-    } else if(result["type"] === "verb") return word + ", " + result["infinitive"] + ", " + result["aorist-root"]+"ī" + (result["aorist-passive-participle"] ? ", " + result["aorist-passive-participle"] + "um" : "")
+    } else if(result["type"] === "verb"){
+        var res = [word, result["infinitive"], result["aorist-root"]+"ī"];
+        if(result["aorist-passive-participle"]) res.push(result["aorist-passive-participle"] + "um");
+        return res;
+    }
     
-    else return word;
+    return word.split(", ");
 }
 
 function search(word){
     if(current_word === word){
+        infoText.innerHTML = redirected ? `Results for "<span>${word}</span>" (redirected from "<span>${redirected}</span>")` : `Results for "<span>${word}</span>"`;
         searching = false;
         return;
     }
 
     dictionary.classList.remove("active");
     
-    infoText.innerHTML = `Fetching data for "<span>${word}</span>" ...`
+    infoText.innerHTML = redirected ? `Fetching data for "<span>${word}</span>" (redirected from "<span>${redirected}</span>") ...` : `Fetching data for "<span>${word}</span>" ...`
 
     result = dict[word];
 
@@ -504,14 +555,15 @@ function search(word){
         searching = false;
 
         current_word = word;
-        infoText.innerHTML = `Results for "<span>${word}</span>"`
+        console.log(redirected);
+        infoText.innerHTML = redirected ? `Results for "<span>${word}</span>" (redirected from "<span>${redirected}</span>")` : `Results for "<span>${word}</span>"`
         Warning.classList.remove("active");
         Notes.classList.remove("active");
         dictionary.classList.add("active");
 
         var exceptions = result["exceptions"] ? result["exceptions"] : {};
     
-        Word.querySelector("p").innerText = parts(word, result, exceptions);
+        Word.querySelector("p").innerText = parts(word, result, exceptions).join(", ");
         Word.querySelector("span").innerText = result["type"] + (result["declension"] ? " / " + result["declension"] : "") + (result["gender"] ? " / " + result["gender"] + "." : "")
         Meaning.querySelector(".details span").innerText = result["meaning"];
 
@@ -533,7 +585,7 @@ function search(word){
 
         if(!form(table,word,result,exceptions)) Forms.classList.remove("active");
 
-    }, 420 + Math.random() * 69);
+    }, 300);
 }
 
 function closeAllLists() {
@@ -549,8 +601,14 @@ function normalize(word){
 
 function searchTopResult(){
     var x = Search.querySelector(".autocomplete-list");
-    if(x && x.children.length) searchBar.value = x.children[0].getElementsByTagName("input")[0].value;
+    if(x && x.children.length){
+        var stuff = x.children[0].getElementsByTagName("input");
+        searchBar.value = stuff[0].value;
+        if(stuff.length == 2) redirected = stuff[1].value;
+        else redirected = false;
+    }
     closeAllLists();
+    searchBar.blur();
     searching = true;
     search(searchBar.value);
 }
@@ -561,7 +619,7 @@ searchBar.addEventListener("keydown", function(e) {
 })
 
 searchBar.addEventListener("input",function(e){
-    var a, b, val = normalize(this.value);
+    var a, b, val = this.value;
 
     closeAllLists();
     if(!val) return;
@@ -571,26 +629,147 @@ searchBar.addEventListener("input",function(e){
 
     Search.appendChild(a);
 
-    var suggestions = 0;
+    var suggestions = 0, suggested={};
 
-    for(var word in dict) {
-        if(normalize(word).substring(0, val.length).toUpperCase() === val.toUpperCase()) {
-            b = document.createElement("div");
+    for(const word in dict) {
+        var flag = false, skipping = false, whitespace = true, i=0, j=0;
 
-            b.innerHTML = "<b>" + word.substring(0, val.length) + "</b>" + word.substring(val.length);
-            b.innerHTML += "<input type='hidden' value='" + word + "'>";
+        for(i=0; i<val.length; ++i){
+            if(j == word.length){
+                flag = true;
+                break;
+            }
 
-            b.addEventListener("click", function(e) {
-                searchBar.value = this.getElementsByTagName("input")[0].value;
-                if(!searching){
-                    searching = true;
-                    search(searchBar.value);
+            if(val.charAt(i) === ","){
+                if(skipping || word.charAt(j) === ","){
+                    ++j;
+                    continue;
                 }
-                closeAllLists();
-            });
-            a.appendChild(b);
-            if(++suggestions === MAXSUGGESTIONS) break;
+                flag = true;
+                break;
+            }
+
+            if(val.charAt(i) === " "){
+                skipping = true;
+                if(word.charAt(j) === " ") ++j;
+                continue;
+            }
+
+            if(word.charAt(j) === "," || word.charAt(j) === " "){
+                ++j;
+                --i;
+                continue;
+            }
+
+            skipping = false;
+            whitespace = false;
+
+            if("āēīōū".includes(val.charAt(i).toLowerCase())){
+                if(val.charAt(i).toLowerCase() != word.charAt(j).toLowerCase()){
+                    flag = true;
+                    break;
+                }
+            } else if(val.charAt(i).toLowerCase() != normalize(word.charAt(j)).toLowerCase()){
+                flag = true;
+                break;
+            }
+
+            ++j;
         }
+
+        if(flag || whitespace) continue;
+
+        b = document.createElement("div");
+
+        b.innerHTML = "<b>" + word.substring(0, j) + "</b>" + word.substring(j);
+        b.innerHTML += "<input type='hidden' value='" + word + "'>";
+
+        b.addEventListener("click", function(e) {
+            searchBar.value = this.getElementsByTagName("input")[0].value;
+            if(!searching){
+                searching = true;
+                redirected = false;
+                search(searchBar.value);
+            }
+            closeAllLists();
+        });
+        if(j == word.length) a.prepend(b);
+        else a.appendChild(b);
+
+        suggested[word] = true;
+        if(++suggestions === MAXSUGGESTIONS) return;
+    }
+
+    for(const word in redirects) {
+        if(suggested[redirects[word]]) continue;
+
+        var flag = false, skipping = false, whitespace = true, i=0, j=0;
+
+        for(i=0; i<val.length; ++i){
+            if(j == word.length){
+                flag = true;
+                break;
+            }
+
+            if(val.charAt(i) === ","){
+                if(skipping || word.charAt(j) === ","){
+                    ++j;
+                    continue;
+                }
+                flag = true;
+                break;
+            }
+
+            if(val.charAt(i) === " "){
+                skipping = true;
+                if(word.charAt(j) === " ") ++j;
+                continue;
+            }
+
+            if(word.charAt(j) === "," || word.charAt(j) === " "){
+                ++j;
+                --i;
+                continue;
+            }
+
+            skipping = false;
+            whitespace = false;
+
+            if("āēīōū".includes(val.charAt(i).toLowerCase())){
+                if(val.charAt(i).toLowerCase() != word.charAt(j).toLowerCase()){
+                    flag = true;
+                    break;
+                }
+            } else if(val.charAt(i).toLowerCase() != normalize(word.charAt(j)).toLowerCase()){
+                flag = true;
+                break;
+            }
+
+            ++j;
+        }
+
+        if(flag || whitespace) continue;
+
+        b = document.createElement("div");
+
+        b.innerHTML = "<b>" + word.substring(0, j) + "</b>" + word.substring(j) + " → " + redirects[word];
+        b.innerHTML += "<input type='hidden' value='" + redirects[word] + "'>";
+        b.innerHTML += "<input type='hidden' value='" + word + "'>";
+
+        b.addEventListener("click", function(e) {
+            var stuff = this.getElementsByTagName("input");
+            searchBar.value = stuff[0].value;
+            if(!searching){
+                searching = true;
+                redirected = stuff[1].value;
+                search(searchBar.value);
+            }
+            closeAllLists();
+        });
+        if(j == word.length) a.prepend(b);
+        else a.appendChild(b);
+        suggested[redirects[word]] = true;
+        if(++suggestions === MAXSUGGESTIONS) return;
     }
 })
 

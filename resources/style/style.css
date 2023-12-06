@@ -2,8 +2,10 @@ html {
     height: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    font-size: 16px;
     background-color: white;
     color: black;
+    transition: font-size 0.3s ease;
 }
 html.dark{
     background-color: rgb(41, 43, 49);
@@ -41,18 +43,18 @@ h3 {
     transition: margin 0.3s ease;
     font-family: "Roboto",sans-serif;
     margin: 0 0 10px 50px;
-    font-size: 38.4px;
+    font-size: 2.4em;
 }
 h4 {
     font-family: "Roboto",sans-serif;
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 p {
     transition: margin 0.3s ease;
     font-family: "Roboto",sans-serif;
     margin: 10px 70px 10px 70px;
-    font-size: 22.4px;
+    font-size: 1.4em;
 }
 hr{
     margin:auto;
@@ -76,7 +78,7 @@ html.dark hr{
     color: black;
     font-family: "Roboto",sans-serif;
     padding: 0 40px 0 40px;
-    font-size: 19.2px;
+    font-size: 1.2em;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 50px;
@@ -124,13 +126,13 @@ html.dark .search:where(i,span){
 .search i{ 
     left: 16px;
     pointer-events: none;
-    font-size: 14.4px;
+    font-size: 0.9em;
 }
 .search span{
     margin: 0 0 0 0;
     right: 15px;
     cursor: pointer;
-    font-size: 14.4px;
+    font-size: 0.9em;
     display: none;
 }
 .search input:valid ~ span{
@@ -143,7 +145,7 @@ html.dark .search:where(i,span){
 .autocomplete-list{
     user-select: none;
     font-family: "Roboto",sans-serif;
-    font-size: 19.2px;
+    font-size: 1.2em;
     position: absolute;
     z-index: 1000;
     top: 100%;
@@ -207,7 +209,7 @@ html.dark .dictionary-container ul{
 }
 .dictionary-container ul span{
     font-family: "Roboto",sans-serif;
-    font-size: 22.4px;
+    font-size: 1.4em;
 }
 .dictionary-container ul li{
     display: block;
@@ -226,7 +228,7 @@ html.dark .dictionary-container ul li .details{
 }
 .dictionary-container ul li p{
     margin: 0 0 0 0px;
-    font-size: 30.4px;
+    font-size: 1.9em;
 }
 .dictionary-container ul li span{
     margin: 0;
@@ -243,12 +245,12 @@ html.dark .dictionary-container ul li span{
     display: none;
 }
 .dictionary-container ul .warning p{
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
     color: red;
 }
 .dictionary-container ul .warning span{
-    font-size: 22.4px;
+    font-size: 1.4em;
     color: rgb(196, 0, 0);
 }
 html.dark .dictionary-container ul .warning p{
@@ -261,11 +263,11 @@ html.dark .dictionary-container ul .warning span{
     margin-top: 20px;
 }
 .dictionary-container ul .word p{
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 500;
 }
 .dictionary-container ul .word span{
-    font-size: 22.4px;
+    font-size: 1.4em;
     color: rgb(80,80,80);
 }
 html.dark .dictionary-container ul .word span{
@@ -279,11 +281,11 @@ html.dark .dictionary-container ul .word span{
     display: none;
 }
 .dictionary-container ul .notes p{
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .dictionary-container ul .notes span{
-    font-size: 22.4px;
+    font-size: 1.4em;
     color: rgb(80,80,80);
 }
 .dictionary-container .forms.active{
@@ -300,7 +302,7 @@ html.dark .dictionary-container ul .word span{
 .dictionary-container ul .forms table th{
     transition: padding 0.3s ease;
     font-family: "Roboto",sans-serif;
-    font-size: 19.2px;
+    font-size: 1.2em;
     font-weight: bold;
     color: rgb(40,40,40);
     padding: 10px;
@@ -317,7 +319,7 @@ html.dark .dictionary-container ul .forms table th b{
 .dictionary-container ul .forms table td{
     transition: padding 0.3s ease;
     font-family: "Roboto",sans-serif;
-    font-size: 19.2px;
+    font-size: 1.2em;
     font-weight: normal;
     color: rgb(80,80,80);
     padding: 10px;
@@ -326,7 +328,7 @@ html.dark .dictionary-container ul .forms table td{
     color: rgb(175,175,175);
 }
 .dictionary-container ul .forms table span{
-    font-size: 25.6px;
+    font-size: 1.6em;
     font-weight: normal;
     color: black;
 }
@@ -363,7 +365,7 @@ html.dark .interactive-dropdown-container{
     transform: translateY(-50%) rotate(90deg);
 }
 .interactive-dropdown-container aside > i{
-    font-size: 25.6px;
+    font-size: 1.6em;
     color: black;
     position: relative;
     top: 15px;
@@ -410,7 +412,7 @@ html.dark .interactive-dropdown-container aside > i{
 .dictionary-container .info-text{
     margin: 0;
     text-align: center;
-    font-size: 17.6px;
+    font-size: 1.1em;
     color: rgb(118, 166, 255);
 }
 html.dark .dictionary-container .info-text{
@@ -505,14 +507,14 @@ html.dark #header{
     height: 50px;
 }
 .theme-selector div > i{
-    font-size: 32px;
+    font-size: 2em;
     display: block;
 }
 html.dark .theme-selector div > i{
     display: none;
 }
 .theme-selector div > span{
-    font-size: 32px;
+    font-size: 2em;
     display: none;
 }
 html.dark .theme-selector div > span{
@@ -585,7 +587,7 @@ nav {
 .link {
     transition: all 0.3s ease;
     color: rgb(63, 131, 255);
-    font-size: 20.16px;
+    font-size: 1em;
     margin-left: 30px;
 }
 html.dark .link{
@@ -595,7 +597,7 @@ html.dark .link{
     transition: margin 0.3s ease;
     font-family: "Roboto",sans-serif;
     margin: 10px 0 10px 60px;
-    font-size: 32px;
+    font-size: 2em;
 }
 .resource-section-container{
     overflow: hidden;
@@ -636,7 +638,7 @@ html.dark .dictionary-container > div{
     text-align: center;
     width: 100%;
     font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
-    font-size: 40px;
+    font-size: 2.5em;
 }
 .link:hover{
     text-decoration: underline;
@@ -676,6 +678,10 @@ html.dark .dictionary-container > div{
     display: none;
 }
 @media(max-width: 600px){
+    html{
+        font-size: 14px;
+        transition: font-size 0.3s ease;
+    }
     .up {
         top: 0px;
     }
