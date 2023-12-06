@@ -228,10 +228,20 @@
         "meaning": "friend (f.)"
     },
     "amīcus": {
-        "type": "noun",
-        "declension": "II",
-        "gender": "m",
-        "meaning": "friend (m.)"
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "friend (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "friendly"
+            }
+        }
     },
     "āmittō": {
         "type": "verb",
@@ -1910,14 +1920,12 @@
         "meaning": "that which"
     },
     "īdem, eadem, idem": {
-        "type": "adjective",
-        "declension": "III",
+        "type": "pronoun",
         "meaning": "(the) same",
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
-        },
-        "flag": "irreg"
+        }
     },
     "ille ... hīc": {
         "type": "special",
@@ -2039,10 +2047,20 @@
         "meaning": "enemy (f.)"
     },
     "inimīcus": {
-        "type": "noun",
-        "declension": "II",
-        "gender": "m",
-        "meaning": "enemy (m.)"
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "enemy (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "hostile"
+            }
+        }
     },
     "iniuria": {
         "type": "noun",
@@ -3574,15 +3592,13 @@
         "type": "conjunction",
         "meaning": "because"
     },
-    "quīdam": {
-        "type": "adjective",
-        "declension": "III",
+    "quīdam, quaedam, quiddam": {
+        "type": "pronoun",
         "meaning": "a certain (some pl.)",
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
-        },
-        "flag": "irreg"
+        }
     },
     "quidem": {
         "type": "adverb",
@@ -3642,8 +3658,17 @@
         "meaning": "also"
     },
     "quot": {
-        "type": "interrogative",
-        "meaning": "how many"
+        "multiple-definitions": true,
+        "content": {
+            "interrogative": {
+                "type": "interrogative",
+                "meaning": "how many"
+            },
+            "special": {
+                "type": "special",
+                "meaning": "all who"
+            }
+        }
     },
     "quotannīs": {
         "type": "adverb",
@@ -3782,10 +3807,24 @@
         "meaning": "Roman (f.)"
     },
     "Rōmānus": {
-        "type": "noun",
-        "declension": "II",
-        "gender": "m",
-        "meaning": "Roman (m.)"
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "Roman (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "Roman",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true
+                }
+            }
+        }
     },
     "rotūndus": {
         "type": "adjective",
@@ -4423,13 +4462,30 @@
         "declension": "III",
         "meaning": "sad"
     },
+    "Trōiāna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "Trojan"
+    },
     "Trōiānus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "Trojan",
-        "exceptions": {
-            "no-comparative": true,
-            "no-superlative": true
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "Trojan"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "Trojan",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true
+                }
+            }
         }
     },
     "tū": {
@@ -4452,8 +4508,17 @@
         "meaning": "disgraceful, shameful"
     },
     "ubi": {
-        "type": "interrogative",
-        "meaning": "where"
+        "multiple-definitions": true,
+        "content": {
+            "interrogative": {
+                "type": "interrogative",
+                "meaning": "where"
+            },
+            "conjunction": {
+                "type": "conjunction",
+                "meaning": "after"
+            }
+        }
     },
     "unde": {
         "type": "interrogative",
@@ -4474,8 +4539,28 @@
         "meaning": "perfume"
     },
     "ūnus": {
-        "type": "number",
-        "meaning": "one"
+        "multiple-definitions": true,
+        "content": {
+            "number": {
+                "type": "number",
+                "meaning": "one"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "one",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true,
+                    "sfg": "unīus",
+                    "sfd": "unī"
+                },
+                "notes": [
+                    "special funny genitive",
+                    "special funny dative"
+                ]
+            }
+        }
     },
     "ūnus ex eīs": {
         "type": "special",

@@ -1009,6 +1009,56 @@
             }
         },
 
+        "īdem, eadem, idem":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"eadam",
+                    "accusative":"eandem",
+                    "genitive":"ēiusdem",
+                    "ablative":"eādem",
+                    "dative":"eīdem"
+                },
+                "m":{
+                    "nominative":"īdem",
+                    "accusative":"eundem",
+                    "genitive":"ēiusdem",
+                    "ablative":"eōdem",
+                    "dative":"eīdem"
+                },
+                "n":{
+                    "nominative":"idem",
+                    "accusative":"idem",
+                    "genitive":"ēiusdem",
+                    "ablative":"eōdem",
+                    "dative":"eīdem"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"eaedem",
+                    "accusative":"eāsdem",
+                    "genitive":"eārundem",
+                    "ablative":"eīsdem",
+                    "dative":"eīsdem"
+                },
+                "m":{
+                    "nominative":"eīdem",
+                    "accusative":"eōsdem",
+                    "genitive":"eōrundem",
+                    "ablative":"eīsdem",
+                    "dative":"eīsdem"
+                },
+                "n":{
+                    "nominative":"eadem",
+                    "accusative":"eadem",
+                    "genitive":"eōrundem",
+                    "ablative":"eīsdem",
+                    "dative":"eīsdem"
+                }
+            }
+        },
+
         "ego":{
             "singular":{
                 "nominative":"ego",
@@ -1240,6 +1290,57 @@
                     "genitive":"quōrum",
                     "ablative":"quibus",
                     "dative":"quibus"
+                }
+            }
+        },
+
+        "quīdam, quaedam, quiddam":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"quaedam",
+                    "accusative":"quandam",
+                    "genitive":"cūiusdam",
+                    "ablative":"quādam",
+                    "dative":"cuidam"
+                },
+                "m":{
+                    "nominative":"quīdam",
+                    "accusative":"quendam",
+                    "genitive":"cūiusdam",
+                    "ablative":"quōdam",
+                    "dative":"cuidam"
+                },
+                "n":{
+                    "nominative":"quiddam",
+                    "accusative":"quiddam",
+                    "genitive":"cūiusdam",
+                    "ablative":"quōdam",
+                    "dative":"cuidam"
+                }
+                
+            },
+            "plural":{
+                "f":{
+                    "nominative":"quaedam",
+                    "accusative":"quāsdam",
+                    "genitive":"quārundam",
+                    "ablative":"quibusdam",
+                    "dative":"quibusdam"
+                },
+                "m":{
+                    "nominative":"quīdam",
+                    "accusative":"quōsdam",
+                    "genitive":"quōrundam",
+                    "ablative":"quibusdam",
+                    "dative":"quibusdam"
+                },
+                "n":{
+                    "nominative":"quaedam",
+                    "accusative":"quaedam",
+                    "genitive":"quōrundam",
+                    "ablative":"quibusdam",
+                    "dative":"quibusdam"
                 }
             }
         },

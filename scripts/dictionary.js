@@ -1,9 +1,10 @@
 const MAXSUGGESTIONS = 10;
 var dict, formdata, redirects;
 
-var searching = false;
-var current_word = "";
-var redirected = false;
+var searching = false,
+current_word = "",
+current_key = "",
+redirected = false;
 
 fetch('./resources/data/dictionary.json')
     .then(res => res.json())
@@ -456,29 +457,62 @@ function generateRedirects(){
     for(const word in dict){
         temp = document.createElement("table");
         
-        result = dict[word];
+        var result_ = dict[word];
+        result_ = result_["multiple-definitions"] ? result_["content"] : {"":result_};
 
-        if(result["flag"]) continue;
+        for(var key in result_){
+            var result = result_[key];
 
-        exceptions = result["exceptions"] ? result["exceptions"] : {};
+            if(result["flag"]) continue;
 
-        var parts_ = parts(word, result, exceptions);
-        for(const part in parts_){
-            redirect = parts_[part];
-            if(redirect !== word){
-                redirects_[redirect] = word;
+            exceptions = result["exceptions"] ? result["exceptions"] : {};
+
+            var parts_ = parts(word, result, exceptions);
+            for(const part in parts_){
+                redirect = parts_[part];
+                if(redirect !== word){
+                    if(key && redirects_[redirect]){
+                        if(redirects_[redirect]["word"]){
+                            redirects_[redirect]["keys"][key] = true;
+                        } else {
+                            redirects_[redirect] = {"word":word}
+                            redirects_[redirect]["keys"] = {[key]:true};
+                        }
+                    } else {
+                        if(key){
+                            redirects_[redirect] = {"word":word};
+                            redirects_[redirect]["keys"] = {[key]:true};
+                        } else {
+                            redirects_[redirect] = word;
+                        }
+                    }
+                }
             }
-        }
 
-        form(temp,word,result,exceptions);
+            form(temp,word,result,exceptions);
 
-        cells = temp.getElementsByTagName("td");
+            cells = temp.getElementsByTagName("td");
 
-        for(const cell in cells){
-            redirect = cells[cell].innerText;
-            if(!redirect || redirect === "-") continue;
-            if(redirect !== word){
-                redirects_[redirect] = word;
+            for(const cell in cells){
+                redirect = cells[cell].innerText;
+                if(!redirect || redirect === "-") continue;
+                if(redirect !== word){
+                    if(key && redirects_[redirect]){
+                        if(redirects_[redirect]["word"]){
+                            redirects_[redirect]["keys"][key] = true;
+                        } else {
+                            redirects_[redirect] = {"word":word}
+                            redirects_[redirect]["keys"] = {[key]:true};
+                        }
+                    } else {
+                        if(key){
+                            redirects_[redirect] = {"word":word};
+                            redirects_[redirect]["keys"] = {[key]:true};
+                        } else {
+                            redirects_[redirect] = word;
+                        }
+                    }
+                }
             }
         }
     }
@@ -531,21 +565,23 @@ function parts(word, result, exceptions){
     return word.split(", ");
 }
 
-function search(word){
-    if(current_word === word){
-        infoText.innerHTML = redirected ? `Results for "<span>${word}</span>" (redirected from "<span>${redirected}</span>")` : `Results for "<span>${word}</span>"`;
+function search(word, key=""){
+    if(current_word === word && current_key === key){
+        infoText.innerHTML = `Results for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")}`;
         searching = false;
         return;
     }
 
     dictionary.classList.remove("active");
     
-    infoText.innerHTML = redirected ? `Fetching data for "<span>${word}</span>" (redirected from "<span>${redirected}</span>") ...` : `Fetching data for "<span>${word}</span>" ...`
+    infoText.innerHTML = `Fetching data for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")} ...`;
 
-    result = dict[word];
+    var result = dict[word];
+    if(result["multiple-definitions"]) result = result["content"][key];
 
     if(result === undefined){
         current_word = "";
+        current_key = "";
         searching = false;
         infoText.innerHTML = `Could not find the word "<span>${(word.length > 20 ? word.substring(0,20) + "..." : word)}</span>" - consider checking the spelling?<br>(or requesting a word to be added)`
         return;
@@ -555,8 +591,8 @@ function search(word){
         searching = false;
 
         current_word = word;
-        console.log(redirected);
-        infoText.innerHTML = redirected ? `Results for "<span>${word}</span>" (redirected from "<span>${redirected}</span>")` : `Results for "<span>${word}</span>"`
+        current_key = key;
+        infoText.innerHTML = `Results for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")}`;
         Warning.classList.remove("active");
         Notes.classList.remove("active");
         dictionary.classList.add("active");
@@ -585,7 +621,7 @@ function search(word){
 
         if(!form(table,word,result,exceptions)) Forms.classList.remove("active");
 
-    }, 300);
+    }, 420 + Math.random()*69);
 }
 
 function closeAllLists() {
@@ -600,17 +636,21 @@ function normalize(word){
 }
 
 function searchTopResult(){
-    var x = Search.querySelector(".autocomplete-list");
+    var x = Search.querySelector(".autocomplete-list"), word, key, redirect;
     if(x && x.children.length){
-        var stuff = x.children[0].getElementsByTagName("input");
-        searchBar.value = stuff[0].value;
-        if(stuff.length == 2) redirected = stuff[1].value;
-        else redirected = false;
+        x = x.children[0];
+
+        word = x.querySelector(".word"),
+        key = x.querySelector(".key"),
+        redirect = x.querySelector(".redirect");
+
+        searchBar.value = word.value;
+        if(redirect) redirected = redirect.value;
     }
     closeAllLists();
     searchBar.blur();
     searching = true;
-    search(searchBar.value);
+    search(searchBar.value, key ? key.value : "");
 }
 
 searchBar.addEventListener("keydown", function(e) {
@@ -679,29 +719,44 @@ searchBar.addEventListener("input",function(e){
 
         if(flag || whitespace) continue;
 
-        b = document.createElement("div");
+        var defs = dict[word]["multiple-definitions"] ? dict[word]["content"] : {"":dict[word]};
 
-        b.innerHTML = "<b>" + word.substring(0, j) + "</b>" + word.substring(j);
-        b.innerHTML += "<input type='hidden' value='" + word + "'>";
+        for(const key in defs){
+            b = document.createElement("div");
 
-        b.addEventListener("click", function(e) {
-            searchBar.value = this.getElementsByTagName("input")[0].value;
-            if(!searching){
-                searching = true;
-                redirected = false;
-                search(searchBar.value);
-            }
-            closeAllLists();
-        });
-        if(j == word.length) a.prepend(b);
-        else a.appendChild(b);
+            b.innerHTML = `<b>${word.substring(0, j)}</b>${word.substring(j) + (key ? " (" + key + ")" : "")}`;
+            b.innerHTML += `<input type="hidden" value="${word}" class="word">`;
+            if(key) b.innerHTML += `<input type="hidden" value="${key}" class="key">`;
 
-        suggested[word] = true;
-        if(++suggestions === MAXSUGGESTIONS) return;
+            b.addEventListener("click", function(e) {
+                var word = this.querySelector(".word"),
+                key = this.querySelector(".key");
+
+                searchBar.value = word.value;
+                if(!searching){
+                    searching = true;
+                    redirected = false;
+                    search(searchBar.value, key ? key.value : "");
+                }
+                closeAllLists();
+            });
+            if(j == word.length) a.prepend(b);
+            else a.appendChild(b);
+
+            suggested[word] = true;
+            if(++suggestions === MAXSUGGESTIONS) return;
+        }
     }
 
     for(const word in redirects) {
-        if(suggested[redirects[word]]) continue;
+        var toword, keys={"":true};
+        if(redirects[word]["keys"]){
+            toword = redirects[word]["word"];
+            keys = redirects[word]["keys"];
+        }
+        else toword = redirects[word];
+
+        if(suggested[toword]) continue;
 
         var flag = false, skipping = false, whitespace = true, i=0, j=0;
 
@@ -750,26 +805,33 @@ searchBar.addEventListener("input",function(e){
 
         if(flag || whitespace) continue;
 
-        b = document.createElement("div");
+        for(const key in keys){
+            b = document.createElement("div");
 
-        b.innerHTML = "<b>" + word.substring(0, j) + "</b>" + word.substring(j) + " → " + redirects[word];
-        b.innerHTML += "<input type='hidden' value='" + redirects[word] + "'>";
-        b.innerHTML += "<input type='hidden' value='" + word + "'>";
+            b.innerHTML = `<b>${word.substring(0, j)}</b>${word.substring(j) + " → " + toword + (key ? " (" + key + ")" : "")}`;
+            b.innerHTML += `<input type="hidden" value="${toword}" class="word">`;
+            if(key) b.innerHTML += `<input type="hidden" value="${key}" class="key">`;
+            b.innerHTML += `<input type="hidden" value="${word}" class="redirect">`;
 
-        b.addEventListener("click", function(e) {
-            var stuff = this.getElementsByTagName("input");
-            searchBar.value = stuff[0].value;
-            if(!searching){
-                searching = true;
-                redirected = stuff[1].value;
-                search(searchBar.value);
-            }
-            closeAllLists();
-        });
-        if(j == word.length) a.prepend(b);
-        else a.appendChild(b);
-        suggested[redirects[word]] = true;
-        if(++suggestions === MAXSUGGESTIONS) return;
+            b.addEventListener("click", function(e) {
+                var word = this.querySelector(".word"),
+                key = this.querySelector(".key"),
+                redirect = this.querySelector(".redirect");
+
+                searchBar.value = word.value;
+                
+                if(!searching){
+                    searching = true;
+                    redirected = redirect.value;
+                    search(searchBar.value, key ? key.value : "");
+                }
+                closeAllLists();
+            });
+            if(j == word.length) a.prepend(b);
+            else a.appendChild(b);
+            suggested[toword] = true;
+            if(++suggestions === MAXSUGGESTIONS) return;
+        }
     }
 })
 

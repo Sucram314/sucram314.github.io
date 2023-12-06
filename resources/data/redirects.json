@@ -1315,17 +1315,222 @@
     "ambulēmus": "ambulō",
     "ambulor": "ambulō",
     "amēmus": "amō",
-    "amīcā": "amīca",
-    "amīcae": "amīca",
-    "amīcam": "amīca",
-    "amīcārum": "amīca",
-    "amīcās": "amīca",
-    "amīcī": "amīcus",
-    "amīcīs": "amīcus",
-    "amīcō": "amīcus",
-    "amīcōrum": "amīcus",
-    "amīcōs": "amīcus",
-    "amīcum": "amīcus",
+    "amīcā": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīca": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcae": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcam": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcārum": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcās": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcī": {
+        "word": "amīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "amīcior": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōra": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōre": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōrem": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōrēs": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōrī": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōribus": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōris": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīciōrum": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcīs": {
+        "word": "amīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "amīcissima": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimā": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimae": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimam": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimārum": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimās": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimī": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimīs": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimō": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimōrum": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimōs": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimum": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcissimus": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcius": {
+        "word": "amīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "amīcō": {
+        "word": "amīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "amīcōrum": {
+        "word": "amīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "amīcōs": {
+        "word": "amīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "amīcum": {
+        "word": "amīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
     "āmīsērunt": "āmittō",
     "āmīsī": "āmittō",
     "āmīsimus": "āmittō",
@@ -4170,7 +4375,9 @@
     "cucurristis": "currō",
     "cucurrit": "currō",
     "cui": "quis, quis, quid",
+    "cuidam": "quīdam, quaedam, quiddam",
     "cūius": "quis, quis, quid",
+    "cūiusdam": "quīdam, quaedam, quiddam",
     "cupe": "cupiō",
     "cupere": "cupiō",
     "cuperis": "cupiō",
@@ -6570,11 +6777,18 @@
     "dūxit": "dūcō",
     "ea": "is, ea, id",
     "eā": "is, ea, id",
+    "eadam": "īdem, eadem, idem",
+    "eadem": "īdem, eadem, idem",
+    "eādem": "īdem, eadem, idem",
     "eae": "is, ea, id",
+    "eaedem": "īdem, eadem, idem",
     "eam": "is, ea, id",
     "eāmus": "eō",
+    "eandem": "īdem, eadem, idem",
     "eārum": "is, ea, id",
+    "eārundem": "īdem, eadem, idem",
     "eās": "is, ea, id",
+    "eāsdem": "īdem, eadem, idem",
     "effuge": "effugiō",
     "effugere": "effugiō",
     "effūgērunt": "effugiō",
@@ -6644,8 +6858,11 @@
     "ēgit": "agō",
     "eī": "is, ea, id",
     "eī quī": "is quī, eī quī",
+    "eīdem": "īdem, eadem, idem",
     "eīs": "is, ea, id",
+    "eīsdem": "īdem, eadem, idem",
     "ēius": "is, ea, id",
+    "ēiusdem": "īdem, eadem, idem",
     "elephantī": "elephantus",
     "elephantīs": "elephantus",
     "elephantō": "elephantus",
@@ -6771,8 +6988,11 @@
     "emunt": "emō",
     "emuntur": "emō",
     "eō": "is, ea, id",
+    "eōdem": "īdem, eadem, idem",
     "eōrum": "is, ea, id",
+    "eōrundem": "īdem, eadem, idem",
     "eōs": "is, ea, id",
+    "eōsdem": "īdem, eadem, idem",
     "epistulā": "epistula",
     "epistulae": "epistula",
     "epistulam": "epistula",
@@ -6928,6 +7148,7 @@
     "este": "sum",
     "estis": "sum",
     "eum": "is, ea, id",
+    "eundem": "īdem, eadem, idem",
     "eunt": "eō",
     "euntem": "eō",
     "euntēs": "eō",
@@ -8835,6 +9056,8 @@
     "ībō": "eō",
     "ībunt": "eō",
     "id": "is, ea, id",
+    "īdem": "īdem, eadem, idem",
+    "idem": "īdem, eadem, idem",
     "iēcērunt": "iaciō",
     "iēcī": "iaciō",
     "iēcimus": "iaciō",
@@ -9203,17 +9426,222 @@
     "iniistī": "ineō",
     "iniistis": "ineō",
     "iniit": "ineō",
-    "inimīcā": "inimīca",
-    "inimīcae": "inimīca",
-    "inimīcam": "inimīca",
-    "inimīcārum": "inimīca",
-    "inimīcās": "inimīca",
-    "inimīcī": "inimīcus",
-    "inimīcīs": "inimīcus",
-    "inimīcō": "inimīcus",
-    "inimīcōrum": "inimīcus",
-    "inimīcōs": "inimīcus",
-    "inimīcum": "inimīcus",
+    "inimīcā": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīca": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcae": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcam": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcārum": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcās": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcī": {
+        "word": "inimīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "inimīcior": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōra": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōre": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōrem": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōrēs": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōrī": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōribus": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōris": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīciōrum": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcīs": {
+        "word": "inimīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "inimīcissima": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimā": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimae": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimam": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimārum": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimās": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimī": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimīs": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimō": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimōrum": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimōs": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimum": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcissimus": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcius": {
+        "word": "inimīcus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "inimīcō": {
+        "word": "inimīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "inimīcōrum": {
+        "word": "inimīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "inimīcōs": {
+        "word": "inimīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "inimīcum": {
+        "word": "inimīcus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
     "inīmus": "ineō",
     "inīre": "ineō",
     "inīs": "ineō",
@@ -15053,6 +15481,7 @@
     "pūnīvistis": "pūniō",
     "pūnīvit": "pūniō",
     "quā": "quis, quis, quid",
+    "quādam": "quīdam, quaedam, quiddam",
     "quadrīgā": "quadrīga",
     "quadrīgae": "quadrīga",
     "quadrīgam": "quadrīga",
@@ -15060,6 +15489,7 @@
     "quadrīgās": "quadrīga",
     "quadrīgīs": "quadrīga",
     "quae": "quis, quis, quid",
+    "quaedam": "quīdam, quaedam, quiddam",
     "quaestōre": "quaestor",
     "quaestōrem": "quaestor",
     "quaestōrēs": "quaestor",
@@ -15075,6 +15505,7 @@
     "quālibus": "quālis",
     "quālium": "quālis",
     "quam": "quis, quis, quid",
+    "quandam": "quīdam, quaedam, quiddam",
     "quarta": "quartus",
     "quartā": "quartus",
     "quartae": "quartus",
@@ -15088,11 +15519,17 @@
     "quartōs": "quartus",
     "quartum": "quartus",
     "quārum": "quis, quis, quid",
+    "quārundam": "quīdam, quaedam, quiddam",
     "quās": "quis, quis, quid",
+    "quāsdam": "quīdam, quaedam, quiddam",
     "quem": "quis, quis, quid",
+    "quendam": "quīdam, quaedam, quiddam",
     "quī": "quis, quis, quid",
     "quibus": "quis, quis, quid",
+    "quibusdam": "quīdam, quaedam, quiddam",
     "quid": "quis, quis, quid",
+    "quīdam": "quīdam, quaedam, quiddam",
+    "quiddam": "quīdam, quaedam, quiddam",
     "quiescam": "quiescō",
     "quiescāmus": "quiescō",
     "quiescar": "quiescō",
@@ -15226,8 +15663,11 @@
     "quis": "quis, quis, quid",
     "quō": "quis, quis, quid",
     "quod": "quī, quae, quod",
+    "quōdam": "quīdam, quaedam, quiddam",
     "quōrum": "quis, quis, quid",
+    "quōrundam": "quīdam, quaedam, quiddam",
     "quōs": "quis, quis, quid",
+    "quōsdam": "quīdam, quaedam, quiddam",
     "raedā": "raeda",
     "raedae": "raeda",
     "raedam": "raeda",
@@ -16110,17 +16550,84 @@
     "rogāvit": "rogō",
     "rogēmus": "rogō",
     "rogor": "rogō",
-    "Rōmānā": "Rōmāna",
-    "Rōmānae": "Rōmāna",
-    "Rōmānam": "Rōmāna",
-    "Rōmānārum": "Rōmāna",
-    "Rōmānās": "Rōmāna",
-    "Rōmānī": "Rōmānus",
-    "Rōmānīs": "Rōmānus",
-    "Rōmānō": "Rōmānus",
-    "Rōmānōrum": "Rōmānus",
-    "Rōmānōs": "Rōmānus",
-    "Rōmānum": "Rōmānus",
+    "Rōmānā": {
+        "word": "Rōmānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Rōmāna": {
+        "word": "Rōmānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Rōmānae": {
+        "word": "Rōmānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Rōmānam": {
+        "word": "Rōmānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Rōmānārum": {
+        "word": "Rōmānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Rōmānās": {
+        "word": "Rōmānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Rōmānī": {
+        "word": "Rōmānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Rōmānīs": {
+        "word": "Rōmānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Rōmānō": {
+        "word": "Rōmānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Rōmānōrum": {
+        "word": "Rōmānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Rōmānōs": {
+        "word": "Rōmānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Rōmānum": {
+        "word": "Rōmānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
     "rotūnda": "rotūndus",
     "rotūndā": "rotūndus",
     "rotūndae": "rotūndus",
@@ -18661,18 +19168,84 @@
     "tristissimus": "tristis",
     "tristium": "tristis",
     "tristius": "tristis",
-    "Trōiāna": "Trōiānus",
-    "Trōiānā": "Trōiānus",
-    "Trōiānae": "Trōiānus",
-    "Trōiānam": "Trōiānus",
-    "Trōiānārum": "Trōiānus",
-    "Trōiānās": "Trōiānus",
-    "Trōiānī": "Trōiānus",
-    "Trōiānīs": "Trōiānus",
-    "Trōiānō": "Trōiānus",
-    "Trōiānōrum": "Trōiānus",
-    "Trōiānōs": "Trōiānus",
-    "Trōiānum": "Trōiānus",
+    "Trōiānā": {
+        "word": "Trōiānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Trōiāna": {
+        "word": "Trōiānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Trōiānae": {
+        "word": "Trōiānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Trōiānam": {
+        "word": "Trōiānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Trōiānārum": {
+        "word": "Trōiānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Trōiānās": {
+        "word": "Trōiānus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "Trōiānī": {
+        "word": "Trōiānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Trōiānīs": {
+        "word": "Trōiānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Trōiānō": {
+        "word": "Trōiānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Trōiānōrum": {
+        "word": "Trōiānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Trōiānōs": {
+        "word": "Trōiānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
+    "Trōiānum": {
+        "word": "Trōiānus",
+        "keys": {
+            "noun": true,
+            "adjective": true
+        }
+    },
     "tūbā": "tūba",
     "tūbae": "tūba",
     "tūbam": "tūba",
@@ -18716,11 +19289,95 @@
     "turpissimus": "turpis",
     "turpium": "turpis",
     "turpius": "turpis",
+    "ūna": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnā": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnae": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnam": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnārum": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnās": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
     "unguenta": "unguentum",
     "unguentī": "unguentum",
     "unguentīs": "unguentum",
     "unguentō": "unguentum",
     "unguentōrum": "unguentum",
+    "unī": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnī": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnīs": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "unīus": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnō": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnōrum": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnōs": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
+    "ūnum": {
+        "word": "ūnus",
+        "keys": {
+            "adjective": true
+        }
+    },
     "urbe": "urbs",
     "urbem": "urbs",
     "urbēs": "urbs",
