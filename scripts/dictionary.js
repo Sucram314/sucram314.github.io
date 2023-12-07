@@ -577,7 +577,6 @@ function search(word, key=""){
     infoText.innerHTML = `Fetching data for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")} ...`;
 
     var result = dict[word];
-    if(result["multiple-definitions"]) result = result["content"][key];
 
     if(result === undefined){
         current_word = "";
@@ -586,6 +585,8 @@ function search(word, key=""){
         infoText.innerHTML = `Could not find the word "<span>${(word.length > 20 ? word.substring(0,20) + "..." : word)}</span>" - consider checking the spelling?<br>(or requesting a word to be added)`
         return;
     }
+
+    if(result["multiple-definitions"]) result = result["content"][key];
 
     setTimeout(() => {
         searching = false;
