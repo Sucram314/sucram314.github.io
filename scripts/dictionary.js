@@ -261,14 +261,15 @@ function form(table, word, result, exceptions={}, recursed=false){
             subtable = createSubTable(content,"Present");
             if(typeof dat["present-participle"] === "string") form(subtable, root + dat["present-participle"], {"type":"adjective","declension":"III"}, true);
             else form(subtable, root + dat["present-participle"]["content"], {"type":"adjective","declension":"III"},{"root" :root + dat["present-participle"]["root"]}, true);
-        }
+        } 
 
         if(result["aorist-passive-participle"]){
             subtable = createSubTable(content,"Aorist Passive");
             form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"}, {}, true);
-        } else createSubTable(content,"no aorist passive");
-
-        if(content.children.length == 0) createSubTable(content,"no participle");
+        } else {
+            if(content.children.length == 0) createSubTable(content,"no participle");
+            else createSubTable(content,"no aorist passive");
+        }
 
         container.appendChild(content);
 

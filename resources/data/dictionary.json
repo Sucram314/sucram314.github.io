@@ -1610,6 +1610,11 @@
         "type": "adverb",
         "meaning": "perhaps"
     },
+    "fortis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "brave"
+    },
     "fortiter": {
         "type": "adverb",
         "meaning": "bravely"
