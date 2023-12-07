@@ -74,14 +74,16 @@ html.dark hr{
     position: relative;
 }
 .search input {
+    transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
     background-color: white;
     color: black;
     font-family: "Roboto",sans-serif;
     padding: 0 40px 0 40px;
-    font-size: 19.2px;
+    font-size: 1.2em;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 50px;
+    max-height : 50px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -96,6 +98,7 @@ html.dark .search input {
     color: rgb(230,230,230);
 }
 .search input:focus{
+    transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
     padding: 0 39px 0 39px;
     border: 2px solid rgb(144, 183, 255);
 }
@@ -124,15 +127,17 @@ html.dark .search:where(i,span){
     color: rgb(111, 111, 111);
 }
 .search i{ 
+    transition: left 0.3s ease;
     left: 16px;
     pointer-events: none;
-    font-size: 14.4px;
+    font-size: 0.9em;
 }
 .search span{
+    transition: right 0.3s ease;
     margin: 0 0 0 0;
-    right: 15px;
+    right: 16px;
     cursor: pointer;
-    font-size: 14.4px;
+    font-size: 0.9em;
     display: none;
 }
 .search input:valid ~ span{
@@ -687,6 +692,23 @@ html.dark .dictionary-container > div{
     width: 100%;
     height: 100px;
 }
+.dropdown > div{
+    display: grid;
+    float: right;
+    height : 100px;
+    margin : 0;
+    padding : 0;
+}
+.dropdown div > aside{
+    display: table;
+    text-align : right;
+    padding-right : 10px;
+}
+.dropdown div aside > h4{
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
 .desktop {
     display: block;
 }
@@ -729,7 +751,6 @@ html.dark .dictionary-container > div{
     .dictionary-container > div{
         transition: padding 0.3s ease, margin 0.3s ease;
         padding: 10px;
-        padding-left: 20px;
         margin: 30px 10px 0 10px;
     }
     .dictionary-container ul{
@@ -755,6 +776,24 @@ html.dark .dictionary-container > div{
     .dictionary-container ul .forms table td{
         transition: padding-left 0.3s ease;
         padding-left: 5px;
+    }
+    .search input {
+        transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+        padding: 0 30px 0 30px;
+        max-height : 40px;
+        border-radius: 3px 3px 0 0;
+    }
+    .search input:focus{
+        transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+        padding: 0 29px 0 29px;
+    }
+    .search i{ 
+        transition: left 0.3s ease;
+        left: 12px;
+    }
+    .search span{
+        transition: right 0.3s ease;
+        right: 12px;
     }
 }
 
