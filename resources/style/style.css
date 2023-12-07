@@ -48,7 +48,7 @@ h3 {
 h4 {
     font-family: "Roboto",sans-serif;
     margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 24px;
 }
 p {
     transition: margin 0.3s ease;
@@ -78,7 +78,7 @@ html.dark hr{
     color: black;
     font-family: "Roboto",sans-serif;
     padding: 0 40px 0 40px;
-    font-size: 1.2em;
+    font-size: 19.2px;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 50px;
@@ -126,13 +126,13 @@ html.dark .search:where(i,span){
 .search i{ 
     left: 16px;
     pointer-events: none;
-    font-size: 0.9em;
+    font-size: 14.4px;
 }
 .search span{
     margin: 0 0 0 0;
     right: 15px;
     cursor: pointer;
-    font-size: 0.9em;
+    font-size: 14.4px;
     display: none;
 }
 .search input:valid ~ span{
@@ -218,23 +218,31 @@ html.dark .dictionary-container ul{
     justify-content: space-between;
 }
 .dictionary-container ul li .details{
-    transition: padding 0.3s ease, margin-left 0.3s ease;
+    transition: padding 0.3s ease, border-left-width 0.3s ease, border-radius;
     border-radius: 4px;
-    border-left: 4px solid rgb(0, 53, 150);
+    border-left-color: rgb(0, 53, 150);
+    border-left-style: solid;
+    border-left-width : 4px;
     padding-left: 20px;
 }
 html.dark .dictionary-container ul li .details{
-    border-left: 4px solid rgb(89, 103, 133);
+    border-left-color: rgb(89, 103, 133);
+}
+.dictionary-container ul li .details > span{
+    color: rgb(80,80,80);
+}
+html.dark .dictionary-container ul li .details > span{
+    color: rgb(175,175,175);
 }
 .dictionary-container ul li p{
     margin: 0 0 0 0px;
     font-size: 1.9em;
 }
-.dictionary-container ul li span{
+.dictionary-container ul li > span{
     margin: 0;
     color: rgb(80,80,80);
 }
-html.dark .dictionary-container ul li span{
+html.dark .dictionary-container ul li > span{
     color: rgb(175,175,175);
 }
 .dictionary-container ul .warning.active{
@@ -292,7 +300,6 @@ html.dark .dictionary-container ul .word span{
     display: block;
 }
 .dictionary-container .forms{
-    margin-right: 30px;
     display: none;
 }
 .dictionary-container ul .forms table{
@@ -342,23 +349,26 @@ html.dark .dictionary-container ul .forms table span{
     margin: 10px 0 10px 0;
 }
 .interactive-dropdown-container{
-    transition: padding 0.3s ease;
+    transition: padding 0.3s ease, border-left-width 0.3s ease, border-radius 0.3s ease;
     min-height: 30px;
     border-radius: 4px;
-    border-left: 4px solid rgb(12, 164, 206);
-    padding-left: 20px;
+    border-left-color: rgb(12, 164, 206);
+    border-left-style: solid;
+    border-left-width : 4px;
+    padding-left: 10px;
 }
 html.dark .interactive-dropdown-container{
-    border-left: 4px solid rgb(89, 119, 133);
+    border-left-color: rgb(89, 119, 133);
 }
 .interactive-dropdown-container > aside{
+    display: table;
     min-height: 30px;
     width: 100%;
 }
 .interactive-dropdown-container aside > span{
+    display: table-cell;
+    vertical-align: middle;
     position: relative;
-    margin-top: 15px;
-    transform: translateY(-50%);
     user-select: none;
 }
 .interactive-dropdown-container.open aside > i{
@@ -393,7 +403,7 @@ html.dark .interactive-dropdown-container aside > i{
     width: 100%;
 }
 .subtable span{
-    font-size: 24px !important;
+    font-size: 1.2em !important;
 }
 .subtable:last-child{
     margin: 0;
@@ -401,13 +411,16 @@ html.dark .interactive-dropdown-container aside > i{
 .dictionary-container ul li:last-child{
     margin-bottom: 0px;
     padding-bottom: 10px;
-    justify-content: none;
 }
 .dictionary-container .info{
+    display: table;
     text-align: center;
-    height: 35.2px;
+    height: 6em;
     width: 100%;
-    padding: 30px 0 30px 0;
+}
+.dictionary-container .info > div{
+    display: table-cell;
+    vertical-align: middle;
 }
 .dictionary-container .info-text{
     margin: 0;
@@ -507,14 +520,14 @@ html.dark #header{
     height: 50px;
 }
 .theme-selector div > i{
-    font-size: 2em;
+    font-size: 32px;
     display: block;
 }
 html.dark .theme-selector div > i{
     display: none;
 }
 .theme-selector div > span{
-    font-size: 2em;
+    font-size: 32px;
     display: none;
 }
 html.dark .theme-selector div > span{
@@ -561,6 +574,9 @@ html.dark .footer-icon.fa-github{
 .footer-icon:hover{
     transform: scale(1.1);
     filter: brightness(1.2);
+}
+#copyright{
+    font-size : 16px;
 }
 #icon {
     width:40px;
@@ -679,7 +695,7 @@ html.dark .dictionary-container > div{
 }
 @media(max-width: 600px){
     html{
-        font-size: 14px;
+        font-size: 12px;
         transition: font-size 0.3s ease;
     }
     .up {
@@ -721,12 +737,16 @@ html.dark .dictionary-container > div{
         padding: 0 20px 0 20px;
     }
     .dictionary-container ul li .details{
-        transition: padding-left 0.3s ease;
+        transition: padding-left 0.3s ease, border-left-width 0.3s ease, border-radius 0.3s ease;
         padding-left: 10px;
+        border-left-width: 3px;
+        border-radius: 3px;
     }
     .interactive-dropdown-container {
-        transition: padding-left 0.3s ease;
-        padding-left: 10px;
+        transition: padding-left 0.3s ease, border-left-width 0.3s ease, border-radius 0.3s ease;
+        padding-left: 5px;
+        border-left-width: 3px;
+        border-radius: 3px;
     }
     .dictionary-container ul .forms table th{
         transition: padding-left 0.3s ease;
@@ -735,5 +755,15 @@ html.dark .dictionary-container > div{
     .dictionary-container ul .forms table td{
         transition: padding-left 0.3s ease;
         padding-left: 5px;
+    }
+}
+
+.goofy {
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
     }
 }

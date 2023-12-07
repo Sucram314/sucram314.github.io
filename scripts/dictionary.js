@@ -18,7 +18,8 @@ fetch('./resources/data/redirects.json')
     .then(res => res.json())
     .then(data => {redirects = data;});
 
-const dictionary = document.querySelector(".dictionary-container"),
+const HTML = document.querySelector("html"),
+dictionary = document.querySelector(".dictionary-container"),
 Search = dictionary.querySelector(".search"),
 searchBar = Search.querySelector("input"),
 infoText = dictionary.querySelector(".info-text"),
@@ -254,7 +255,7 @@ function form(table, word, result, exceptions={}, recursed=false){
 
         if(result["declension"] !== "irreg"){
             subtable = createSubTable(content,"Present");
-            form(subtable, root + dat["present-participle-link"] + "ns", {"type":"adjective","declension":"III"}, true);
+            form(subtable, root + dat["present-participle-link"] + "ns", {"type":"adjective","declension":"III"}, {}, true);
         } else if(dat["present-participle"]){
             subtable = createSubTable(content,"Present");
             if(typeof dat["present-participle"] === "string") form(subtable, root + dat["present-participle"], {"type":"adjective","declension":"III"}, true);
@@ -263,7 +264,7 @@ function form(table, word, result, exceptions={}, recursed=false){
 
         if(result["aorist-passive-participle"]){
             subtable = createSubTable(content,"Aorist Passive");
-            form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"}, true);
+            form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"}, {}, true);
         } else createSubTable(content,"no aorist passive");
 
         if(content.children.length == 0) createSubTable(content,"no participle");
@@ -525,6 +526,8 @@ function generateRedirects(){
 }
 
 function parts(word, result, exceptions){
+    if(result["flag"]) return [word];
+
     if(result["type"] === "noun"){
         var dat = formdata["noun"], root;
 
@@ -566,6 +569,11 @@ function parts(word, result, exceptions){
 }
 
 function search(word, key=""){
+    if(word === "verysecretpasswordthatnobodywilleverfindunlesstheycheckthesourcecode"){
+        alert("what is bro cooking");
+        HTML.classList.add("goofy");
+    }
+
     if(current_word === word && current_key === key){
         infoText.innerHTML = `Results for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")}`;
         searching = false;

@@ -920,18 +920,6 @@
         "gender": "f",
         "meaning": "abundance, supply (pl. forces)"
     },
-    "cōpiae": {
-        "type": "noun",
-        "declension": "I",
-        "gender": "f",
-        "meaning": "forces",
-        "exceptions": {
-            "plural": true
-        },
-        "notes": [
-            "Must be in the plural form for this meaning"
-        ]
-    },
     "cōpiōsus": {
         "type": "adjective",
         "declension": "I~II",
@@ -1292,14 +1280,24 @@
         "meaning": "while"
     },
     "duo": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "two (adj.)",
-        "exceptions": {
-            "no-comparative": true,
-            "no-superlative": true
-        },
-        "flag": "conjugates weird"
+        "multiple-definitions": true,
+        "content": {
+            "number": {
+                "type": "number",
+                "meaning": "two",
+                "flag": "conjugates weird"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "two",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true
+                },
+                "flag": "conjugates weird"
+            }
+        }
     },
     "duodecim": {
         "type": "number",
@@ -1550,21 +1548,6 @@
     "fīnem bellī faciō": {
         "type": "special",
         "meaning": "I end the war"
-    },
-    "fīnēs": {
-        "type": "noun",
-        "declension": "III",
-        "root": "fīn",
-        "gender": "m",
-        "meaning": "territories",
-        "exceptions": {
-            "plural": true,
-            "i-stem": true
-        },
-        "notes": [
-            "Must be in the plural form for this meaning",
-            "i-stem"
-        ]
     },
     "finis": {
         "type": "noun",
