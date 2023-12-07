@@ -19,6 +19,7 @@ fetch('./resources/data/redirects.json')
     .then(data => {redirects = data;});
 
 const HTML = document.querySelector("html"),
+SUS = document.getElementById("sus"),
 dictionary = document.querySelector(".dictionary-container"),
 Search = dictionary.querySelector(".search"),
 searchBar = Search.querySelector("input"),
@@ -573,9 +574,12 @@ function search(word, key=""){
         alert("what is bro cooking");
         HTML.classList.add("goofy");
     } else if(word === "omnibus noctibus"){
-        document.getElementById("sus").classList.add("active");
+        dictionary.classList.remove("active");
+        SUS.classList.add("active");
+        searching = false;
         return;
     }
+    SUS.classList.remove("active");
 
     if(current_word === word && current_key === key){
         infoText.innerHTML = `Results for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")}`;
