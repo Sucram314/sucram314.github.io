@@ -800,6 +800,15 @@ html.dark .dictionary-container > div{
 .goofy {
     animation: rotate 1.5s linear infinite;
 }
+#sus{
+    z-index: 100000000;
+    width: 100%;
+    display: none;
+}
+
+#sus.active{
+    display: block;
+}
 
 @keyframes rotate {
     to {

@@ -572,6 +572,9 @@ function search(word, key=""){
     if(word === "verysecretpasswordthatnobodywilleverfindunlesstheycheckthesourcecode"){
         alert("what is bro cooking");
         HTML.classList.add("goofy");
+    } else if(word === "omnibus noctibus"){
+        document.getElementById("sus").classList.add("active");
+        return;
     }
 
     if(current_word === word && current_key === key){
