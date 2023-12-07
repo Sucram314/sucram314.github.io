@@ -88,18 +88,17 @@ html.dark hr{
     margin-left: auto;
     margin-right: auto;
     outline: none;
-    border: 1px solid rgb(144, 144, 144);
+    border: 2px solid rgb(144, 144, 144);
     border-radius: 5px 5px 0 0;
     box-sizing: border-box;
 }
 html.dark .search input {
     background-color: rgb(41, 43, 49);
-    border: 1px solid rgb(111,111,111);
+    border: 2px solid rgb(111,111,111);
     color: rgb(230,230,230);
 }
 .search input:focus{
     transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
-    padding: 0 39px 0 39px;
     border: 2px solid rgb(144, 183, 255);
 }
 html.dark .search input:focus{
@@ -782,10 +781,6 @@ html.dark .dictionary-container > div{
         padding: 0 30px 0 30px;
         max-height : 40px;
         border-radius: 3px 3px 0 0;
-    }
-    .search input:focus{
-        transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
-        padding: 0 29px 0 29px;
     }
     .search i{ 
         transition: left 0.3s ease;

@@ -570,15 +570,38 @@ function parts(word, result, exceptions){
 }
 
 function search(word, key=""){
-    if(word === "verysecretpasswordthatnobodywilleverfindunlesstheycheckthesourcecode"){
+    if(word === "verysecretpasswordthatnobodywilleverfindunlesstheycheckthesourcecode" && !HTML.classList.contains("goofy")){
         alert("what is bro cooking");
         HTML.classList.add("goofy");
+        searching = false;
+        return;
+    } else if(word === "verysecretdisablingcodethatnobodywilleverfindunlesstheycheckthesourcecode" && HTML.classList.contains("goofy")){
+        alert("PRESS OK PLS IM GONNA VOMIT");
+        HTML.classList.remove("goofy");
+        searching = false;
+        return;
     } else if(word === "omnibus noctibus"){
+        alert("im sorry but daniel cui requested this to be added");
         dictionary.classList.remove("active");
         SUS.classList.add("active");
         searching = false;
         return;
+    } else if(word === "\u0073\u0075\u0062\u0073\u0063\u0072\u0069\u0062\u0065\u0020\u0074\u006f\u0020\u0073\u0075\u0063\u0072\u0061\u006d\u0033\u0031\u0034"){
+        alert("\u0079\u0065\u0073\u0020\u0070\u006c\u0065\u0061\u0073\u0065");
+        var amogus = document.getElementsByTagName("\u002a");
+        for(var i=0; i<amogus.length; i++){
+            var amogussy = Math.floor(Math.random() * 256),
+            amogussier = Math.floor(Math.random() * 256),
+            amogussiest = Math.floor(Math.random() * 256);
+
+            amogus[i].style.color = `rgb(${amogussy},${amogussier},${amogussiest})`
+            amogus[i].style["background-color"] = `rgb(${255-amogussy},${255-amogussier},${255-amogussiest})`;
+        }
+
+        searching = false;
+        return;
     }
+    
     SUS.classList.remove("active");
 
     if(current_word === word && current_key === key){
