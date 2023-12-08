@@ -6,6 +6,7 @@ html {
     background-color: white;
     color: black;
     transition: font-size 0.3s ease;
+    text-rendering: optimizeLegibility; 
 }
 html.dark{
     background-color: rgb(41, 43, 49);
@@ -21,7 +22,7 @@ body {
 }
 h1 {
     text-align: center;
-    font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-family: "Comic Sans", "Comic Sans MS", "Comic", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
     font-size: max(60px,9vw);
     margin: 0;
 }
@@ -30,7 +31,7 @@ html.dark h1{
 }
 h2 {
     text-align: center;
-    font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-family: "Comic Sans", "Comic Sans MS", "Comic", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
     font-size: max(20px,3vw);
     margin-top: 0;
     margin-bottom: 2vw;
@@ -688,7 +689,7 @@ html.dark .dictionary-container > div{
 .title{
     text-align: center;
     width: 100%;
-    font-family: "Comic Sans MS","Comic Sans","Comic",sans-serif;
+    font-family: "Comic Sans", "Comic Sans MS", "Comic", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
     font-size: 2.5em;
 }
 .link:hover{
