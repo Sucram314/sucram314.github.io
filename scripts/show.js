@@ -4,9 +4,6 @@ window.addEventListener("DOMContentLoaded", function() {
 });
 
 window.onload = function(){
-    document.getElementById("hideAll").style.display="none";
-}
-
-window.onbeforeunload = function () {
     window.scrollTo(0, 0);
+    document.getElementById("hideAll").style.display="none";
 }
