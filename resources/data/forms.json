@@ -196,6 +196,45 @@
             }
         },
 
+        "perfect":{
+            "active":{
+                "past":{
+                    "1s":"eram",
+                    "2s":"erās",
+                    "3s":"erat",
+                    "1p":"erāmus",
+                    "2p":"erātis",
+                    "3p":"erant"
+                },
+                "future":{
+                    "1s":"erō",
+                    "2s":"eris",
+                    "3s":"erit",
+                    "1p":"erimus",
+                    "2p":"eritis",
+                    "3p":"erint"
+                }
+            },
+            "passive":{
+                "past":{
+                    "1s":"um eram",
+                    "2s":"um erās",
+                    "3s":"um erat",
+                    "1p":"a erāmus",
+                    "2p":"a erātis",
+                    "3p":"a erant"
+                },
+                "future":{
+                    "1s":"um erō",
+                    "2s":"um eris",
+                    "3s":"um erit",
+                    "1p":"a erimus",
+                    "2p":"a eritis",
+                    "3p":"a erunt"
+                }
+            }
+        },
+
         "aorist":{
             "active":{
                 "1s":"ī",
@@ -228,17 +267,6 @@
                     "1p":"āmus",
                     "2p":"ātis",
                     "3p":"ant"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "passive":{
@@ -249,17 +277,6 @@
                     "1p":"āmur",
                     "2p":"āminī",
                     "3p":"antur"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "imperative":{
@@ -286,17 +303,6 @@
                     "1p":"ēmus",
                     "2p":"ētis",
                     "3p":"ent"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "passive":{
@@ -307,17 +313,6 @@
                     "1p":"ēmur",
                     "2p":"ēminī",
                     "3p":"entur"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "imperative":{
@@ -344,17 +339,6 @@
                     "1p":"imus",
                     "2p":"itis",
                     "3p":"unt"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "passive":{
@@ -365,17 +349,6 @@
                     "1p":"imur",
                     "2p":"iminī",
                     "3p":"untur"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "imperative":{
@@ -402,17 +375,6 @@
                     "1p":"imus",
                     "2p":"itis",
                     "3p":"iunt"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "passive":{
@@ -423,17 +385,6 @@
                     "1p":"imur",
                     "2p":"iminī",
                     "3p":"iuntur"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "imperative":{
@@ -460,17 +411,6 @@
                     "1p":"īmus",
                     "2p":"ītis",
                     "3p":"iunt"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "passive":{
@@ -481,17 +421,6 @@
                     "1p":"īmur",
                     "2p":"īminī",
                     "3p":"iuntur"
-                },
-                "perfect":{
-                    "present":{
-
-                    },
-                    "past":{
-
-                    },
-                    "future":{
-
-                    }
                 }
             },
             "imperative":{
@@ -535,17 +464,6 @@
                         "1p":"erimus",
                         "2p":"eritis",
                         "3p":"erunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":false,
@@ -578,17 +496,6 @@
                         "1p":"īmus",
                         "2p":"ītis",
                         "3p":"eunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":{
@@ -599,17 +506,6 @@
                         "1p":"",
                         "2p":"",
                         "3p":""
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "imperative":{
@@ -639,17 +535,6 @@
                         "1p":"ferimus",
                         "2p":"fertis",
                         "3p":"ferunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":{
@@ -660,17 +545,6 @@
                         "1p":"ferimur",
                         "2p":"feriminī",
                         "3p":"feruntur"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "imperative":{
@@ -700,17 +574,6 @@
                         "1p":"volumus",
                         "2p":"vultis",
                         "3p":"volunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":false,
@@ -732,17 +595,6 @@
                         "1p":"nōlumus",
                         "2p":"nōn vultis",
                         "3p":"nōlunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":false,
@@ -773,17 +625,6 @@
                         "1p":"mālumus",
                         "2p":"māvultis",
                         "3p":"mālunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":false,
@@ -818,17 +659,6 @@
                         "1p":"poterimus",
                         "2p":"poteritis",
                         "3p":"poterunt"
-                    },
-                    "perfect":{
-                        "present":{
-    
-                        },
-                        "past":{
-    
-                        },
-                        "future":{
-    
-                        }
                     }
                 },
                 "passive":false,

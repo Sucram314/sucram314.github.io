@@ -124,7 +124,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         container = createInteractiveDropdown(table,"Active");
         content = document.createElement("table");
         content.classList.add("gridtable");
-        content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr>`);
+        content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr>`);
         
         subtable = createSubTable(content.rows[0].cells[0],"Present");
         subdat = dat["active"]["present"];
@@ -168,6 +168,20 @@ function form(table, word, result, exceptions={}, recursed=false){
             subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
         }
 
+        subtable = createSubTable(content.rows[2].cells[0],"Past Perfect");
+        subdat = formdata["verb"]["perfect"]["active"]["past"];
+        newRoot = result["aorist-root"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content.rows[2].cells[1],"Future Perfect");
+        subdat = formdata["verb"]["perfect"]["active"]["future"];
+        newRoot = result["aorist-root"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
         container.appendChild(content);
 
 
@@ -176,7 +190,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         content.classList.add("gridtable");
         if(exceptions["intransitive"]) createSubTable(content,"no passive");
         else {
-            content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr>`);
+            content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr>`);
             if(exceptions["limited-passive"]){
                 subtable = createSubTable(content.rows[0].cells[0],"Present");
                 subdat = dat["passive"]["present"];
@@ -191,7 +205,7 @@ function form(table, word, result, exceptions={}, recursed=false){
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>-</td></tr>`);
-                } else subtable.insertAdjacentHTML("beforeend",`<tr><td colspan="2">no aorist</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr>`);
+                } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no aorist</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
 
                 subtable = createSubTable(content.rows[1].cells[0],"Past Imperfect");
                 subdat = formdata["verb"]["imperfect"]["passive"]["past"];
@@ -206,6 +220,25 @@ function form(table, word, result, exceptions={}, recursed=false){
                 subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
                 subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
                 subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["3s"]}</td><td>-</td></tr>`);
+
+                subtable = createSubTable(content.rows[2].cells[0],"Past Perfect");
+                if(result["aorist-passive-participle"]){
+                    subdat = formdata["verb"]["perfect"]["passive"]["past"];
+                    newRoot =  result["aorist-passive-participle"];
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>-</td></tr>`);
+                } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no past perfect</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
+                
+                subtable = createSubTable(content.rows[2].cells[1],"Future Perfect");
+                if(result["aorist-passive-participle"]){
+                    subdat = formdata["verb"]["perfect"]["passive"]["future"];
+                    newRoot =  result["aorist-passive-participle"];
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>-</td><td>-</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>-</td></tr>`);
+                } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no future perfect</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
+
             } else {
                 subtable = createSubTable(content.rows[0].cells[0],"Present");
                 subdat = dat["passive"]["present"];
@@ -220,7 +253,7 @@ function form(table, word, result, exceptions={}, recursed=false){
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
-                } else subtable.insertAdjacentHTML("beforeend",`<tr><td colspan="2">no aorist</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr>`);
+                } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no aorist</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
 
                 subtable = createSubTable(content.rows[1].cells[0],"Past Imperfect");
                 subdat = formdata["verb"]["imperfect"]["passive"]["past"];
@@ -235,6 +268,24 @@ function form(table, word, result, exceptions={}, recursed=false){
                 subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
                 subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
                 subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+                subtable = createSubTable(content.rows[2].cells[0],"Past Perfect");
+                if(result["aorist-passive-participle"]){
+                    subdat = formdata["verb"]["perfect"]["passive"]["past"];
+                    newRoot =  result["aorist-passive-participle"];
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+                } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no past perfect</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
+                
+                subtable = createSubTable(content.rows[2].cells[1],"Future Perfect");
+                if(result["aorist-passive-participle"]){
+                    subdat = formdata["verb"]["perfect"]["passive"]["future"];
+                    newRoot =  result["aorist-passive-participle"];
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+                    subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+                } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no future perfect</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
             }
         }
 
@@ -258,7 +309,7 @@ function form(table, word, result, exceptions={}, recursed=false){
             form(subtable, result["aorist-passive-participle"] + "us", {"type":"adjective","declension":"I~II"}, {}, true);
         } else {
             if(content.children.length == 0) createSubTable(content,"no participle");
-            else createSubTable(content,"Aorist Passive").insertAdjacentHTML("beforeend",`<tr><td>no aorist passive</td></tr>`);
+            else createSubTable(content,"Aorist Passive").insertAdjacentHTML("beforeend",`<tfoot><tr><td>no aorist passive</td></tr></tfoot>`);
         }
 
         container.appendChild(content);
@@ -483,7 +534,7 @@ function generateRedirects(){
 
             form(temp,word,result,exceptions);
 
-            cells = temp.getElementsByTagName("td");
+            cells = temp.querySelectorAll("table.subtable > tbody > tr > td");
 
             for(const cell in cells){
                 redirect = cells[cell].innerText;
