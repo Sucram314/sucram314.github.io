@@ -51,6 +51,12 @@
         "declension": "III",
         "meaning": "harsh"
     },
+    "aciēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "battle-line"
+    },
     "ad": {
         "type": "preposition",
         "meaning": "to"
@@ -142,6 +148,11 @@
         "notes": [
             "i-stem"
         ]
+    },
+    "aequus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "fair, equal, just"
     },
     "aestās": {
         "type": "noun",
@@ -592,6 +603,19 @@
         "aorist-passive-participle": "cās",
         "meaning": "to fall"
     },
+    "caedēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "caed",
+        "gender": "f",
+        "meaning": "masacre",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
     "caelum": {
         "type": "noun",
         "declension": "II",
@@ -972,6 +996,11 @@
         "type": "special",
         "meaning": "speak with ..."
     },
+    "cupidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "disirous (of), fond (of), eager (for)"
+    },
     "cupiō": {
         "type": "verb",
         "declension": "III spec",
@@ -1015,6 +1044,12 @@
     "currum agere": {
         "type": "special",
         "meaning": "to drive a chariot"
+    },
+    "currus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "chariot"
     },
     "dē": {
         "type": "preposition",
@@ -1162,6 +1197,12 @@
         "exceptions": {
             "irreg-imperative": true
         }
+    },
+    "diēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "m",
+        "meaning": "day"
     },
     "difficilis": {
         "type": "adjective",
@@ -1428,6 +1469,12 @@
         "exceptions": {
             "limited-passive": true
         }
+    },
+    "exercitus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "army"
     },
     "exsilium": {
         "type": "noun",
@@ -1915,6 +1962,18 @@
             "no-superlative": true
         }
     },
+    "Īdūs": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "f",
+        "meaning": "Ides",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "Must be in the plural form"
+        ]
+    },
     "ille ... hīc": {
         "type": "special",
         "meaning": "the former ... the latter"
@@ -2028,6 +2087,11 @@
             "i-stem"
         ]
     },
+    "ingēns": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "huge"
+    },
     "inimīca": {
         "type": "noun",
         "declension": "I",
@@ -2049,6 +2113,11 @@
                 "meaning": "hostile"
             }
         }
+    },
+    "inīquus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "unfair, unequal, unjust"
     },
     "iniuria": {
         "type": "noun",
@@ -2326,6 +2395,12 @@
         "gender": "m",
         "meaning": "freedman"
     },
+    "libra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "scale"
+    },
     "licet": {
         "type": "special",
         "meaning": "2",
@@ -2521,6 +2596,12 @@
         "gender": "m",
         "meaning": "merchant"
     },
+    "meridiēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "m",
+        "meaning": "midday"
+    },
     "mēta": {
         "type": "noun",
         "declension": "I",
@@ -2546,6 +2627,13 @@
         "root": "mīlit",
         "gender": "m",
         "meaning": "soldier"
+    },
+    "mīlle": {
+        "type": "noun",
+        "declension": "indeclinable",
+        "gender": "n",
+        "meaning": "thousand",
+        "flag": "singular indeclinable"
     },
     "mina": {
         "type": "noun",
@@ -2775,6 +2863,10 @@
         "type": "adverb",
         "meaning": "no, not"
     },
+    "nōndum": {
+        "type": "adverb",
+        "meaning": "not yet"
+    },
     "nōnus": {
         "type": "adjective",
         "declension": "I~II",
@@ -2865,6 +2957,11 @@
     "ob": {
         "type": "preposition",
         "meaning": "because of"
+    },
+    "oblītus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "forgetful (of)"
     },
     "obsideō": {
         "type": "verb",
@@ -3186,6 +3283,11 @@
         "declension": "II",
         "gender": "n",
         "meaning": "peristyle"
+    },
+    "perītus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "acquainted (with), experienced (in), skilled (in)"
     },
     "perveniō": {
         "type": "verb",
@@ -3604,7 +3706,11 @@
         "type": "number",
         "meaning": "fifteen"
     },
-    "quinque": {
+    "quīnquāgintā": {
+        "type": "number",
+        "meaning": "fifty"
+    },
+    "quīnque": {
         "type": "number",
         "meaning": "five"
     },
@@ -4029,6 +4135,10 @@
         "type": "conjunction",
         "meaning": "if"
     },
+    "Sī hūc vēneris, tē iuvābō": {
+        "type": "special",
+        "meaning": "If you will have come here, I will help you."
+    },
     "sīc": {
         "type": "conjunction",
         "meaning": "thus"
@@ -4126,6 +4236,12 @@
         "aorist-root": "spectāv",
         "aorist-passive-participle": "spectāt",
         "meaning": "to watch"
+    },
+    "spēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "hope, expectation"
     },
     "spīna": {
         "type": "noun",
@@ -4330,6 +4446,14 @@
         "declension": "I",
         "gender": "f",
         "meaning": "earth, ground"
+    },
+    "terreō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "terrēre",
+        "aorist-root": "terru",
+        "aorist-passive-participle": "territ",
+        "meaning": "to frighten"
     },
     "tertius": {
         "type": "adjective",
