@@ -597,8 +597,8 @@
     },
     "cadō": {
         "type": "verb",
-        "declension": "I",
-        "infinitive": "cadāre",
+        "declension": "III reg",
+        "infinitive": "cadere",
         "aorist-root": "cecid",
         "aorist-passive-participle": "cās",
         "meaning": "to fall"
