@@ -427,6 +427,10 @@
             "no-superlative": true
         }
     },
+    "atque": {
+        "type": "conjunction",
+        "meaning": "and"
+    },
     "atrium": {
         "type": "noun",
         "declension": "II",
@@ -846,6 +850,14 @@
         "root": "n",
         "gender": "cognōmin",
         "meaning": "cognomen"
+    },
+    "cognoscō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "cognoscere",
+        "perfect-root": "cognōv",
+        "perfect-passive-participle": "cognit",
+        "meaning": "to learn"
     },
     "cōgō": {
         "type": "verb",
@@ -1435,6 +1447,10 @@
         "type": "adverb",
         "meaning": "even"
     },
+    "etsī": {
+        "type": "conjunction",
+        "meaning": "although"
+    },
     "ex": {
         "type": "preposition",
         "meaning": "out of",
@@ -1475,6 +1491,14 @@
         "declension": "IV",
         "gender": "m",
         "meaning": "army"
+    },
+    "exīstimō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "exīstimāre",
+        "perfect-root": "exīstimāv",
+        "perfect-passive-participle": "exīstimāt",
+        "meaning": "to think"
     },
     "exsilium": {
         "type": "noun",
@@ -2190,6 +2214,14 @@
         "perfect-passive-participle": "invent",
         "meaning": "to find, discover"
     },
+    "invideō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "invidēre",
+        "perfect-root": "invīd",
+        "perfect-passive-participle": "invīs",
+        "meaning": "to envy"
+    },
     "ipse": {
         "type": "adjective",
         "declension": "I~II",
@@ -2426,6 +2458,10 @@
         "declension": "II",
         "gender": "m",
         "meaning": "place"
+    },
+    "longē": {
+        "type": "adverb",
+        "meaning": "by far"
     },
     "longus": {
         "type": "adjective",
@@ -3443,6 +3479,12 @@
         "gender": "f",
         "meaning": "power"
     },
+    "praeda": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "plunder, booty"
+    },
     "praeter": {
         "type": "preposition",
         "meaning": "past"
@@ -3590,6 +3632,11 @@
         "perfect-root": "pulsāv",
         "perfect-passive-participle": "pulsāt",
         "meaning": "to hit"
+    },
+    "Pūnicus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "Punic"
     },
     "pūniō": {
         "type": "verb",
