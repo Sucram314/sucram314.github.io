@@ -11,8 +11,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "abīre",
-        "aorist-root": "abi",
-        "aorist-passive-participle": "abit",
+        "perfect-root": "abi",
+        "perfect-passive-participle": "abit",
         "meaning": "to leave, depart",
         "exceptions": {
             "limited-passive": true
@@ -23,8 +23,8 @@
         "declension": "irreg",
         "base": "sum",
         "infinitive": "abesse",
-        "aorist-root": "āfu",
-        "aorist-passive-participle": "",
+        "perfect-root": "āfu",
+        "perfect-passive-participle": "",
         "meaning": "to be absent",
         "exceptions": {
             "intransitive": true
@@ -34,16 +34,16 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "accipere",
-        "aorist-root": "accēp",
-        "aorist-passive-participle": "accept",
+        "perfect-root": "accēp",
+        "perfect-passive-participle": "accept",
         "meaning": "to receive"
     },
     "accūsō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "accūsāre",
-        "aorist-root": "accūsāv",
-        "aorist-passive-participle": "accūsāt",
+        "perfect-root": "accūsāv",
+        "perfect-passive-participle": "accūsāt",
         "meaning": "to accuse"
     },
     "ācer": {
@@ -66,8 +66,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "adīre",
-        "aorist-root": "adi",
-        "aorist-passive-participle": "adit",
+        "perfect-root": "adi",
+        "perfect-passive-participle": "adit",
         "meaning": "to approach",
         "exceptions": {
             "limited-passive": true
@@ -81,16 +81,16 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "adōrāre",
-        "aorist-root": "adōrāv",
-        "aorist-passive-participle": "adōrāt",
+        "perfect-root": "adōrāv",
+        "perfect-passive-participle": "adōrāt",
         "meaning": "to worship"
     },
     "adpropinquō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "adpropinquāre",
-        "aorist-root": "adpropinquāv",
-        "aorist-passive-participle": "adpropinquāt",
+        "perfect-root": "adpropinquāv",
+        "perfect-passive-participle": "adpropinquāt",
         "meaning": "to approach"
     },
     "adsum": {
@@ -98,8 +98,8 @@
         "declension": "irreg",
         "base": "sum",
         "infinitive": "adesse",
-        "aorist-root": "adfu",
-        "aorist-passive-participle": "",
+        "perfect-root": "adfu",
+        "perfect-passive-participle": "",
         "meaning": "to be present",
         "exceptions": {
             "intransitive": true
@@ -132,8 +132,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "aedificāre",
-        "aorist-root": "aedificāv",
-        "aorist-passive-participle": "aedificāt",
+        "perfect-root": "aedificāv",
+        "perfect-passive-participle": "aedificāt",
         "meaning": "to build"
     },
     "aedīlis": {
@@ -171,8 +171,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "agere",
-        "aorist-root": "ēg",
-        "aorist-passive-participle": "āct",
+        "perfect-root": "ēg",
+        "perfect-passive-participle": "āct",
         "meaning": "to do"
     },
     "agricola": {
@@ -228,8 +228,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "ambulāre",
-        "aorist-root": "ambulāv",
-        "aorist-passive-participle": "ambulāt",
+        "perfect-root": "ambulāv",
+        "perfect-passive-participle": "ambulāt",
         "meaning": "to walk"
     },
     "amīca": {
@@ -258,16 +258,16 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "āmittere",
-        "aorist-root": "āmīs",
-        "aorist-passive-participle": "āmiss",
+        "perfect-root": "āmīs",
+        "perfect-passive-participle": "āmiss",
         "meaning": "to lose"
     },
     "amō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "amāre",
-        "aorist-root": "amāv",
-        "aorist-passive-participle": "amāt",
+        "perfect-root": "amāv",
+        "perfect-passive-participle": "amāt",
         "meaning": "to like, love"
     },
     "amor": {
@@ -329,8 +329,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "aperīre",
-        "aorist-root": "aperu",
-        "aorist-passive-participle": "apert",
+        "perfect-root": "aperu",
+        "perfect-passive-participle": "apert",
         "meaning": "to reveal, open"
     },
     "apodytērium": {
@@ -343,8 +343,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "appellāre",
-        "aorist-root": "appellāv",
-        "aorist-passive-participle": "appellāt",
+        "perfect-root": "appellāv",
+        "perfect-passive-participle": "appellāt",
         "meaning": "to name, call"
     },
     "apud": {
@@ -401,8 +401,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "armāre",
-        "aorist-root": "armāv",
-        "aorist-passive-participle": "armāt",
+        "perfect-root": "armāv",
+        "perfect-passive-participle": "armāt",
         "meaning": "to arm"
     },
     "arx": {
@@ -442,8 +442,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "audīre",
-        "aorist-root": "audīv",
-        "aorist-passive-participle": "audīt",
+        "perfect-root": "audīv",
+        "perfect-passive-participle": "audīt",
         "meaning": "to listen (to)"
     },
     "auferō": {
@@ -451,8 +451,8 @@
         "declension": "irreg",
         "base": "ferō",
         "infinitive": "auferre",
-        "aorist-root": "abstul",
-        "aorist-passive-participle": "ablāt",
+        "perfect-root": "abstul",
+        "perfect-passive-participle": "ablāt",
         "meaning": "to steal, take away",
         "exceptions": {
             "irreg-imperative": true
@@ -563,8 +563,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "bibere",
-        "aorist-root": "bib",
-        "aorist-passive-participle": "pōt",
+        "perfect-root": "bib",
+        "perfect-passive-participle": "pōt",
         "meaning": "to drink"
     },
     "bis": {
@@ -599,8 +599,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "cadere",
-        "aorist-root": "cecid",
-        "aorist-passive-participle": "cās",
+        "perfect-root": "cecid",
+        "perfect-passive-participle": "cās",
         "meaning": "to fall"
     },
     "caedēs": {
@@ -655,16 +655,16 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "cantāre",
-        "aorist-root": "cantāv",
-        "aorist-passive-participle": "cantāt",
+        "perfect-root": "cantāv",
+        "perfect-passive-participle": "cantāt",
         "meaning": "to sing"
     },
     "capiō": {
         "type": "verb",
         "declension": "III spec",
         "infinitive": "capere",
-        "aorist-root": "cēp",
-        "aorist-passive-participle": "capt",
+        "perfect-root": "cēp",
+        "perfect-passive-participle": "capt",
         "meaning": "to capture"
     },
     "captīvus": {
@@ -749,8 +749,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "cēdere",
-        "aorist-root": "cess",
-        "aorist-passive-participle": "cess",
+        "perfect-root": "cess",
+        "perfect-passive-participle": "cess",
         "meaning": "to back off, yield"
     },
     "celeriter": {
@@ -817,8 +817,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "clāmāre",
-        "aorist-root": "clāmāv",
-        "aorist-passive-participle": "clāmāt",
+        "perfect-root": "clāmāv",
+        "perfect-passive-participle": "clāmāt",
         "meaning": "to shout"
     },
     "clāmor": {
@@ -851,8 +851,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "cōgere",
-        "aorist-root": "coēg",
-        "aorist-passive-participle": "coāct",
+        "perfect-root": "coēg",
+        "perfect-passive-participle": "coāct",
         "meaning": "to force, collect, gather"
     },
     "concilium": {
@@ -865,16 +865,16 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "concurrere",
-        "aorist-root": "concurr",
-        "aorist-passive-participle": "concurs",
+        "perfect-root": "concurr",
+        "perfect-passive-participle": "concurs",
         "meaning": "to collide"
     },
     "condō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "condere",
-        "aorist-root": "condid",
-        "aorist-passive-participle": "condit",
+        "perfect-root": "condid",
+        "perfect-passive-participle": "condit",
         "meaning": "to found"
     },
     "consilium": {
@@ -891,8 +891,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "consistere",
-        "aorist-root": "cōnstit",
-        "aorist-passive-participle": "",
+        "perfect-root": "cōnstit",
+        "perfect-passive-participle": "",
         "meaning": "to stop",
         "exceptions": {
             "intransitive": true
@@ -902,8 +902,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "cōnstituere",
-        "aorist-root": "cōnstitu",
-        "aorist-passive-participle": "cōnstitūt",
+        "perfect-root": "cōnstitu",
+        "perfect-passive-participle": "cōnstitūt",
         "meaning": "to decide"
     },
     "consul": {
@@ -934,8 +934,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "convenīre",
-        "aorist-root": "convēn",
-        "aorist-passive-participle": "convent",
+        "perfect-root": "convēn",
+        "perfect-passive-participle": "convent",
         "meaning": "to gather"
     },
     "cōpia": {
@@ -966,8 +966,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "corrumpere",
-        "aorist-root": "corrūp",
-        "aorist-passive-participle": "corrupt",
+        "perfect-root": "corrūp",
+        "perfect-passive-participle": "corrupt",
         "meaning": "to corrupt"
     },
     "crūdēlis": {
@@ -1005,8 +1005,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "cupere",
-        "aorist-root": "cup",
-        "aorist-passive-participle": "cupīt",
+        "perfect-root": "cupīv",
+        "perfect-passive-participle": "cupīt",
         "meaning": "to want (modal)"
     },
     "cūr": {
@@ -1023,8 +1023,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "cūrāre",
-        "aorist-root": "cūrāv",
-        "aorist-passive-participle": "cūrāt",
+        "perfect-root": "cūrāv",
+        "perfect-passive-participle": "cūrāt",
         "meaning": "to take care of"
     },
     "curriculum": {
@@ -1037,8 +1037,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "currere",
-        "aorist-root": "cucurr",
-        "aorist-passive-participle": "curs",
+        "perfect-root": "cucurr",
+        "perfect-passive-participle": "curs",
         "meaning": "to run"
     },
     "currum agere": {
@@ -1068,8 +1068,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "dēbēre",
-        "aorist-root": "dēbu",
-        "aorist-passive-participle": "dēbit",
+        "perfect-root": "dēbu",
+        "perfect-passive-participle": "dēbit",
         "meaning": "to have (neccesity of action) (modal)"
     },
     "decem": {
@@ -1089,16 +1089,16 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "dēdere",
-        "aorist-root": "dēdid",
-        "aorist-passive-participle": "dēdit",
+        "perfect-root": "dēdid",
+        "perfect-passive-participle": "dēdit",
         "meaning": "to hand over"
     },
     "dēfendō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "dēfendere",
-        "aorist-root": "dēfend",
-        "aorist-passive-participle": "dēfēns",
+        "perfect-root": "dēfend",
+        "perfect-passive-participle": "dēfēns",
         "meaning": "to defend"
     },
     "deinde": {
@@ -1109,24 +1109,24 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "dēlēēre",
-        "aorist-root": "dēlēv",
-        "aorist-passive-participle": "dēlēt",
+        "perfect-root": "dēlēv",
+        "perfect-passive-participle": "dēlēt",
         "meaning": "to destroy"
     },
     "dēligō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "dēligere",
-        "aorist-root": "dēlēg",
-        "aorist-passive-participle": "dēlēct",
+        "perfect-root": "dēlēg",
+        "perfect-passive-participle": "dēlēct",
         "meaning": "to choose"
     },
     "dēmōnstrō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "dēmōnstrāre",
-        "aorist-root": "dēmōnstrāv",
-        "aorist-passive-participle": "dēmōnstrāt",
+        "perfect-root": "dēmōnstrāv",
+        "perfect-passive-participle": "dēmōnstrāt",
         "meaning": "to show"
     },
     "dēns": {
@@ -1146,24 +1146,24 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "dēpōnere",
-        "aorist-root": "dēposu",
-        "aorist-passive-participle": "dēposit",
+        "perfect-root": "dēposu",
+        "perfect-passive-participle": "dēposit",
         "meaning": "to lay aside"
     },
     "dēspērō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "dēspērāre",
-        "aorist-root": "dēspērāv",
-        "aorist-passive-participle": "dēspērāt",
+        "perfect-root": "dēspērāv",
+        "perfect-passive-participle": "dēspērāt",
         "meaning": "to lose hope, despair"
     },
     "dēspiciō": {
         "type": "verb",
         "declension": "III spec",
         "infinitive": "dēspicere",
-        "aorist-root": "dēspēx",
-        "aorist-passive-participle": "dēspect",
+        "perfect-root": "dēspēx",
+        "perfect-passive-participle": "dēspect",
         "meaning": "to despise"
     },
     "deus": {
@@ -1191,8 +1191,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "dīcere",
-        "aorist-root": "dīx",
-        "aorist-passive-participle": "dict",
+        "perfect-root": "dīx",
+        "perfect-passive-participle": "dict",
         "meaning": "to talk, speak",
         "exceptions": {
             "irreg-imperative": true
@@ -1213,8 +1213,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "discēdere",
-        "aorist-root": "discess",
-        "aorist-passive-participle": "discess",
+        "perfect-root": "discess",
+        "perfect-passive-participle": "discess",
         "meaning": "to leave, depart"
     },
     "discipula": {
@@ -1246,16 +1246,16 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "dāre",
-        "aorist-root": "ded",
-        "aorist-passive-participle": "dat",
+        "perfect-root": "ded",
+        "perfect-passive-participle": "dat",
         "meaning": "to give, offer"
     },
     "doceō": {
         "type": "verb",
         "declension": "II",
         "infinitive": "docēre",
-        "aorist-root": "docu",
-        "aorist-passive-participle": "doct",
+        "perfect-root": "docu",
+        "perfect-passive-participle": "doct",
         "meaning": "to teach"
     },
     "domina": {
@@ -1284,16 +1284,16 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "dormīre",
-        "aorist-root": "dormīv",
-        "aorist-passive-participle": "dormīt",
+        "perfect-root": "dormīv",
+        "perfect-passive-participle": "dormīt",
         "meaning": "to sleep"
     },
     "dubitō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "dubitāre",
-        "aorist-root": "dubitāv",
-        "aorist-passive-participle": "dubitāt",
+        "perfect-root": "dubitāv",
+        "perfect-passive-participle": "dubitāt",
         "meaning": "to hesitate (modal)"
     },
     "dūcentī": {
@@ -1309,8 +1309,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "dūcere",
-        "aorist-root": "dūx",
-        "aorist-passive-participle": "duct",
+        "perfect-root": "dūx",
+        "perfect-passive-participle": "duct",
         "meaning": "to lead",
         "exceptions": {
             "irreg-imperative": true
@@ -1359,8 +1359,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "effugere",
-        "aorist-root": "effūg",
-        "aorist-passive-participle": "",
+        "perfect-root": "effūg",
+        "perfect-passive-participle": "",
         "meaning": "to escape",
         "exceptions": {
             "limited-passive": true
@@ -1380,8 +1380,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "emere",
-        "aorist-root": "ēm",
-        "aorist-passive-participle": "ēmpt",
+        "perfect-root": "ēm",
+        "perfect-passive-participle": "ēmpt",
         "meaning": "to buy"
     },
     "eō": {
@@ -1389,8 +1389,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "īre",
-        "aorist-root": "i",
-        "aorist-passive-participle": "it",
+        "perfect-root": "i",
+        "perfect-passive-participle": "it",
         "meaning": "to go",
         "exceptions": {
             "limited-passive": true
@@ -1419,8 +1419,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "errāre",
-        "aorist-root": "errāv",
-        "aorist-passive-participle": "errāt",
+        "perfect-root": "errāv",
+        "perfect-passive-participle": "errāt",
         "meaning": "to wander"
     },
     "et": {
@@ -1446,16 +1446,16 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "excēdere",
-        "aorist-root": "excess",
-        "aorist-passive-participle": "excess",
+        "perfect-root": "excess",
+        "perfect-passive-participle": "excess",
         "meaning": "to leave, depart"
     },
     "excitō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "excitāre",
-        "aorist-root": "excitāv",
-        "aorist-passive-participle": "excitāt",
+        "perfect-root": "excitāv",
+        "perfect-passive-participle": "excitāt",
         "meaning": "to wake up, upset, disturb"
     },
     "exeō": {
@@ -1463,8 +1463,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "exīre",
-        "aorist-root": "exi",
-        "aorist-passive-participle": "exit",
+        "perfect-root": "exi",
+        "perfect-passive-participle": "exit",
         "meaning": "to leave",
         "exceptions": {
             "limited-passive": true
@@ -1501,8 +1501,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "facere",
-        "aorist-root": "fēc",
-        "aorist-passive-participle": "fact",
+        "perfect-root": "fēc",
+        "perfect-passive-participle": "fact",
         "meaning": "to do, make",
         "exceptions": {
             "irreg-imperative": true
@@ -1518,8 +1518,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "fallere",
-        "aorist-root": "fefell",
-        "aorist-passive-participle": "fals",
+        "perfect-root": "fefell",
+        "perfect-passive-participle": "fals",
         "meaning": "to deceive, evade"
     },
     "fames": {
@@ -1558,8 +1558,8 @@
         "declension": "irreg",
         "base": "ferō",
         "infinitive": "ferre",
-        "aorist-root": "tul",
-        "aorist-passive-participle": "lāt",
+        "perfect-root": "tul",
+        "perfect-passive-participle": "lāt",
         "meaning": "to bring, carry",
         "exceptions": {
             "irreg-imperative": true
@@ -1628,8 +1628,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "flēre",
-        "aorist-root": "flēv",
-        "aorist-passive-participle": "flēt",
+        "perfect-root": "flēv",
+        "perfect-passive-participle": "flēt",
         "meaning": "to cry"
     },
     "flōs": {
@@ -1676,8 +1676,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "frangere",
-        "aorist-root": "frēg",
-        "aorist-passive-participle": "frāct",
+        "perfect-root": "frēg",
+        "perfect-passive-participle": "frāct",
         "meaning": "to break"
     },
     "frāter": {
@@ -1712,8 +1712,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "fugere",
-        "aorist-root": "fūg",
-        "aorist-passive-participle": "",
+        "perfect-root": "fūg",
+        "perfect-passive-participle": "",
         "meaning": "to flee",
         "exceptions": {
             "limited-passive": true
@@ -1763,8 +1763,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "gerere",
-        "aorist-root": "gess",
-        "aorist-passive-participle": "gest",
+        "perfect-root": "gess",
+        "perfect-passive-participle": "gest",
         "meaning": "to do"
     },
     "gladiātor": {
@@ -1817,8 +1817,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "habēre",
-        "aorist-root": "habu",
-        "aorist-passive-participle": "habit",
+        "perfect-root": "habu",
+        "perfect-passive-participle": "habit",
         "meaning": "to have (possession)"
     },
     "habet!": {
@@ -1829,8 +1829,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "habitāre",
-        "aorist-root": "habitāv",
-        "aorist-passive-participle": "habitāt",
+        "perfect-root": "habitāv",
+        "perfect-passive-participle": "habitāt",
         "meaning": "to live"
     },
     "hīc": {
@@ -1932,8 +1932,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "iacere",
-        "aorist-root": "iēc",
-        "aorist-passive-participle": "iact",
+        "perfect-root": "iēc",
+        "perfect-passive-participle": "iact",
         "meaning": "to throw"
     },
     "iam": {
@@ -2013,8 +2013,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "impedīre",
-        "aorist-root": "impedīv",
-        "aorist-passive-participle": "impedīt",
+        "perfect-root": "impedīv",
+        "perfect-passive-participle": "impedīt",
         "meaning": "to obstruct, block"
     },
     "imperātor": {
@@ -2047,8 +2047,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "incipere",
-        "aorist-root": "incēp",
-        "aorist-passive-participle": "incept",
+        "perfect-root": "incēp",
+        "perfect-passive-participle": "incept",
         "meaning": "to begin (modal)"
     },
     "incola": {
@@ -2067,8 +2067,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "inīre",
-        "aorist-root": "ini",
-        "aorist-passive-participle": "init",
+        "perfect-root": "ini",
+        "perfect-passive-participle": "init",
         "meaning": "to enter",
         "exceptions": {
             "limited-passive": true
@@ -2135,8 +2135,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "inquere",
-        "aorist-root": "inqui",
-        "aorist-passive-participle": "",
+        "perfect-root": "inqui",
+        "perfect-passive-participle": "",
         "meaning": "to say",
         "exceptions": {
             "intransitive": true
@@ -2168,8 +2168,8 @@
         "type": "verb",
         "declension": "III spec",
         "infinitive": "interficere",
-        "aorist-root": "interfēc",
-        "aorist-passive-participle": "interfect",
+        "perfect-root": "interfēc",
+        "perfect-passive-participle": "interfect",
         "meaning": "to kill"
     },
     "interrogātum": {
@@ -2186,8 +2186,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "invenīre",
-        "aorist-root": "invēn",
-        "aorist-passive-participle": "invent",
+        "perfect-root": "invēn",
+        "perfect-passive-participle": "invent",
         "meaning": "to find, discover"
     },
     "ipse": {
@@ -2251,8 +2251,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "iubēre",
-        "aorist-root": "iuss",
-        "aorist-passive-participle": "iuss",
+        "perfect-root": "iuss",
+        "perfect-passive-participle": "iuss",
         "meaning": "to order"
     },
     "iucundus": {
@@ -2285,8 +2285,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "iuvāre",
-        "aorist-root": "iūv",
-        "aorist-passive-participle": "iūt",
+        "perfect-root": "iūv",
+        "perfect-passive-participle": "iūt",
         "meaning": "to help"
     },
     "labor": {
@@ -2300,8 +2300,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "labōrāre",
-        "aorist-root": "labōrāv",
-        "aorist-passive-participle": "labōrāt",
+        "perfect-root": "labōrāv",
+        "perfect-passive-participle": "labōrāt",
         "meaning": "to work"
     },
     "laetus": {
@@ -2313,8 +2313,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "lātrāre",
-        "aorist-root": "lātrāv",
-        "aorist-passive-participle": "lātrāt",
+        "perfect-root": "lātrāv",
+        "perfect-passive-participle": "lātrāt",
         "meaning": "to bark"
     },
     "lātus": {
@@ -2326,8 +2326,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "laudāre",
-        "aorist-root": "laudāv",
-        "aorist-passive-participle": "laudāt",
+        "perfect-root": "laudāv",
+        "perfect-passive-participle": "laudāt",
         "meaning": "to praise"
     },
     "lectīca": {
@@ -2346,8 +2346,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "legere",
-        "aorist-root": "lēg",
-        "aorist-passive-participle": "lēct",
+        "perfect-root": "lēg",
+        "perfect-passive-participle": "lēct",
         "meaning": "to read"
     },
     "leō": {
@@ -2385,8 +2385,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "līberāre",
-        "aorist-root": "līberāv",
-        "aorist-passive-participle": "līberāt",
+        "perfect-root": "līberāv",
+        "perfect-passive-participle": "līberāt",
         "meaning": "to free"
     },
     "lībertus": {
@@ -2436,8 +2436,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "lūdere",
-        "aorist-root": "lūs",
-        "aorist-passive-participle": "lūs",
+        "perfect-root": "lūs",
+        "perfect-passive-participle": "lūs",
         "meaning": "to play"
     },
     "lūdus": {
@@ -2499,8 +2499,8 @@
         "declension": "irreg",
         "base": "mālō",
         "infinitive": "mālle",
-        "aorist-root": "mālu",
-        "aorist-passive-participle": "",
+        "perfect-root": "mālu",
+        "perfect-passive-participle": "",
         "meaning": "to prefer",
         "exceptions": {
             "intransitive": true
@@ -2519,8 +2519,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "manēre",
-        "aorist-root": "māns",
-        "aorist-passive-participle": "māns",
+        "perfect-root": "māns",
+        "perfect-passive-participle": "māns",
         "meaning": "to remain"
     },
     "manus": {
@@ -2669,8 +2669,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "mittere",
-        "aorist-root": "mīs",
-        "aorist-passive-participle": "miss",
+        "perfect-root": "mīs",
+        "perfect-passive-participle": "miss",
         "meaning": "to send"
     },
     "mōns": {
@@ -2729,8 +2729,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "mūnīre",
-        "aorist-root": "mūnīv",
-        "aorist-passive-participle": "mūnīt",
+        "perfect-root": "mūnīv",
+        "perfect-passive-participle": "mūnīt",
         "meaning": "to fortify"
     },
     "mūrus": {
@@ -2747,16 +2747,16 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "nārrāre",
-        "aorist-root": "narrāv",
-        "aorist-passive-participle": "nārrāt",
+        "perfect-root": "narrāv",
+        "perfect-passive-participle": "nārrāt",
         "meaning": "to tell"
     },
     "natō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "natāre",
-        "aorist-root": "natāv",
-        "aorist-passive-participle": "natāt",
+        "perfect-root": "natāv",
+        "perfect-passive-participle": "natāt",
         "meaning": "to swim"
     },
     "nātus": {
@@ -2818,8 +2818,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "nescīre",
-        "aorist-root": "nescīv",
-        "aorist-passive-participle": "nescīt",
+        "perfect-root": "nescīv",
+        "perfect-passive-participle": "nescīt",
         "meaning": "to not know"
     },
     "nihil": {
@@ -2845,8 +2845,8 @@
         "declension": "irreg",
         "base": "nōlō",
         "infinitive": "nōlle",
-        "aorist-root": "nōlu",
-        "aorist-passive-participle": "",
+        "perfect-root": "nōlu",
+        "perfect-passive-participle": "",
         "meaning": "to not want, not be willing to",
         "exceptions": {
             "intransitive": true
@@ -2916,8 +2916,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "numerāre",
-        "aorist-root": "numerāv",
-        "aorist-passive-participle": "numerāt",
+        "perfect-root": "numerāv",
+        "perfect-passive-participle": "numerāt",
         "meaning": "to count"
     },
     "numerus": {
@@ -2944,8 +2944,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "nūntiāre",
-        "aorist-root": "nūntiāv",
-        "aorist-passive-participle": "nūntiāt",
+        "perfect-root": "nūntiāv",
+        "perfect-passive-participle": "nūntiāt",
         "meaning": "to announce"
     },
     "nuntius": {
@@ -2967,16 +2967,16 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "obsidēre",
-        "aorist-root": "obsēd",
-        "aorist-passive-participle": "obsess",
+        "perfect-root": "obsēd",
+        "perfect-passive-participle": "obsess",
         "meaning": "to besiege"
     },
     "occīdō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "occīdere",
-        "aorist-root": "occid",
-        "aorist-passive-participle": "occās",
+        "perfect-root": "occid",
+        "perfect-passive-participle": "occās",
         "meaning": "to kill"
     },
     "octāvus": {
@@ -3002,8 +3002,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "offendere",
-        "aorist-root": "offend",
-        "aorist-passive-participle": "offēns",
+        "perfect-root": "offend",
+        "perfect-passive-participle": "offēns",
         "meaning": "to crash"
     },
     "ōlim": {
@@ -3050,16 +3050,16 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "opprimere",
-        "aorist-root": "oppress",
-        "aorist-passive-participle": "oppress",
+        "perfect-root": "oppress",
+        "perfect-passive-participle": "oppress",
         "meaning": "to overpower"
     },
     "oppūgnō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "oppūgnāre",
-        "aorist-root": "oppūgnāv",
-        "aorist-passive-participle": "oppūgnāt",
+        "perfect-root": "oppūgnāv",
+        "perfect-passive-participle": "oppūgnāt",
         "meaning": "to attack"
     },
     "ōrāculum": {
@@ -3146,8 +3146,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "parāre",
-        "aorist-root": "parāv",
-        "aorist-passive-participle": "parāt",
+        "perfect-root": "parāv",
+        "perfect-passive-participle": "parāt",
         "meaning": "to prepare"
     },
     "pars": {
@@ -3240,8 +3240,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "pellere",
-        "aorist-root": "pepul",
-        "aorist-passive-participle": "puls",
+        "perfect-root": "pepul",
+        "perfect-passive-participle": "puls",
         "meaning": "to drive out"
     },
     "pensum": {
@@ -3259,8 +3259,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "perīre",
-        "aorist-root": "peri",
-        "aorist-passive-participle": "perit",
+        "perfect-root": "peri",
+        "perfect-passive-participle": "perit",
         "meaning": "to die",
         "exceptions": {
             "limited-passive": true
@@ -3293,8 +3293,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "pervenīre",
-        "aorist-root": "pervēn",
-        "aorist-passive-participle": "pervent",
+        "perfect-root": "pervēn",
+        "perfect-passive-participle": "pervent",
         "meaning": "to arrive"
     },
     "pēs": {
@@ -3366,8 +3366,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "pōnere",
-        "aorist-root": "posu",
-        "aorist-passive-participle": "posit",
+        "perfect-root": "posu",
+        "perfect-passive-participle": "posit",
         "meaning": "to put, place"
     },
     "pons": {
@@ -3399,8 +3399,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "portāre",
-        "aorist-root": "portāv",
-        "aorist-passive-participle": "portāt",
+        "perfect-root": "portāv",
+        "perfect-passive-participle": "portāt",
         "meaning": "to carry"
     },
     "possum": {
@@ -3408,8 +3408,8 @@
         "declension": "irreg",
         "base": "possum",
         "infinitive": "posse",
-        "aorist-root": "potu",
-        "aorist-passive-participle": "",
+        "perfect-root": "potu",
+        "perfect-passive-participle": "",
         "meaning": "to be able to",
         "exceptions": {
             "intransitive": true
@@ -3529,16 +3529,16 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "prohibēre",
-        "aorist-root": "prohibu",
-        "aorist-passive-participle": "prohibit",
+        "perfect-root": "prohibu",
+        "perfect-passive-participle": "prohibit",
         "meaning": "to prevent"
     },
     "prōmittō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "prōmittere",
-        "aorist-root": "prōmīs",
-        "aorist-passive-participle": "prōmiss",
+        "perfect-root": "prōmīs",
+        "perfect-passive-participle": "prōmiss",
         "meaning": "to promise"
     },
     "prope": {
@@ -3559,8 +3559,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "pūblicāre",
-        "aorist-root": "pūblicāv",
-        "aorist-passive-participle": "pūblicāt",
+        "perfect-root": "pūblicāv",
+        "perfect-passive-participle": "pūblicāt",
         "meaning": "to expropriate"
     },
     "puella": {
@@ -3579,24 +3579,24 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "pūgnāre",
-        "aorist-root": "pūgnāv",
-        "aorist-passive-participle": "pūgnāt",
+        "perfect-root": "pūgnāv",
+        "perfect-passive-participle": "pūgnāt",
         "meaning": "to fight"
     },
     "pulsō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "pulsāre",
-        "aorist-root": "pulsāv",
-        "aorist-passive-participle": "pulsāt",
+        "perfect-root": "pulsāv",
+        "perfect-passive-participle": "pulsāt",
         "meaning": "to hit"
     },
     "pūniō": {
         "type": "verb",
         "declension": "IV",
         "infinitive": "pūnīre",
-        "aorist-root": "pūnīv",
-        "aorist-passive-participle": "pūnīt",
+        "perfect-root": "pūnīv",
+        "perfect-passive-participle": "pūnīt",
         "meaning": "to punish"
     },
     "quadrāgintā": {
@@ -3698,8 +3698,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "quiescere",
-        "aorist-root": "quiēv",
-        "aorist-passive-participle": "quiēt",
+        "perfect-root": "quiēv",
+        "perfect-passive-participle": "quiēt",
         "meaning": "to rest"
     },
     "quindecim": {
@@ -3779,8 +3779,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "redīre",
-        "aorist-root": "redi",
-        "aorist-passive-participle": "redit",
+        "perfect-root": "redi",
+        "perfect-passive-participle": "redit",
         "meaning": "to return",
         "exceptions": {
             "limited-passive": true
@@ -3790,16 +3790,16 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "redūcere",
-        "aorist-root": "redūx",
-        "aorist-passive-participle": "reduct",
+        "perfect-root": "redūx",
+        "perfect-passive-participle": "reduct",
         "meaning": "to lead back, restore"
     },
     "reficiō": {
         "type": "verb",
         "declension": "III spec",
         "infinitive": "reficere",
-        "aorist-root": "refēc",
-        "aorist-passive-participle": "refect",
+        "perfect-root": "refēc",
+        "perfect-passive-participle": "refect",
         "meaning": "to rebuild"
     },
     "rēgīna": {
@@ -3819,8 +3819,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "relinquere",
-        "aorist-root": "relīqu",
-        "aorist-passive-participle": "relict",
+        "perfect-root": "relīqu",
+        "perfect-passive-participle": "relict",
         "meaning": "to abandon, leave (something)"
     },
     "rēs": {
@@ -3833,8 +3833,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "resistere",
-        "aorist-root": "restit",
-        "aorist-passive-participle": "",
+        "perfect-root": "restit",
+        "perfect-passive-participle": "",
         "meaning": "to resist",
         "exceptions": {
             "intransitive": true
@@ -3844,8 +3844,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "respondēre",
-        "aorist-root": "respond",
-        "aorist-passive-participle": "respōns",
+        "perfect-root": "respond",
+        "perfect-passive-participle": "respōns",
         "meaning": "to answer"
     },
     "rēspūblica": {
@@ -3878,16 +3878,16 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "rīdēre",
-        "aorist-root": "rīs",
-        "aorist-passive-participle": "rīs",
+        "perfect-root": "rīs",
+        "perfect-passive-participle": "rīs",
         "meaning": "to laugh (at)"
     },
     "rogō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "rogāre",
-        "aorist-root": "rogāv",
-        "aorist-passive-participle": "rogāt",
+        "perfect-root": "rogāv",
+        "perfect-passive-participle": "rogāt",
         "meaning": "to ask"
     },
     "Rōmam": {
@@ -3945,8 +3945,8 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "salīre",
-        "aorist-root": "salu",
-        "aorist-passive-participle": "salt",
+        "perfect-root": "salu",
+        "perfect-passive-participle": "salt",
         "meaning": "to jump"
     },
     "salūs": {
@@ -3960,8 +3960,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "salūtāre",
-        "aorist-root": "salūtāv",
-        "aorist-passive-participle": "salūtāt",
+        "perfect-root": "salūtāv",
+        "perfect-passive-participle": "salūtāt",
         "meaning": "to greet"
     },
     "sapienta": {
@@ -3999,16 +3999,16 @@
         "type": "verb",
         "declension": "IV",
         "infinitive": "scīre",
-        "aorist-root": "scīv",
-        "aorist-passive-participle": "scīt",
+        "perfect-root": "scīv",
+        "perfect-passive-participle": "scīt",
         "meaning": "to know"
     },
     "scrībō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "scrībere",
-        "aorist-root": "scrīps",
-        "aorist-passive-participle": "scrīpt",
+        "perfect-root": "scrīps",
+        "perfect-passive-participle": "scrīpt",
         "meaning": "to write"
     },
     "scriptor": {
@@ -4053,8 +4053,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "sedēre",
-        "aorist-root": "sēd",
-        "aorist-passive-participle": "sess",
+        "perfect-root": "sēd",
+        "perfect-passive-participle": "sess",
         "meaning": "to sit"
     },
     "sella": {
@@ -4108,8 +4108,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "servāre",
-        "aorist-root": "servāv",
-        "aorist-passive-participle": "servāt",
+        "perfect-root": "servāv",
+        "perfect-passive-participle": "servāt",
         "meaning": "to save"
     },
     "servus": {
@@ -4147,8 +4147,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "significāre",
-        "aorist-root": "significāv",
-        "aorist-passive-participle": "significāt",
+        "perfect-root": "significāv",
+        "perfect-passive-participle": "significāt",
         "meaning": "to indicate, mean"
     },
     "signum": {
@@ -4166,8 +4166,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "simulāre",
-        "aorist-root": "simulāv",
-        "aorist-passive-participle": "simulāt",
+        "perfect-root": "simulāv",
+        "perfect-passive-participle": "simulāt",
         "meaning": "to pretend"
     },
     "sine": {
@@ -4233,8 +4233,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "spectāre",
-        "aorist-root": "spectāv",
-        "aorist-passive-participle": "spectāt",
+        "perfect-root": "spectāv",
+        "perfect-passive-participle": "spectāt",
         "meaning": "to watch"
     },
     "spēs": {
@@ -4281,16 +4281,16 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "stāre",
-        "aorist-root": "stet",
-        "aorist-passive-participle": "stat",
+        "perfect-root": "stet",
+        "perfect-passive-participle": "stat",
         "meaning": "to stand"
     },
     "studeō": {
         "type": "verb",
         "declension": "II",
         "infinitive": "studēre",
-        "aorist-root": "studu",
-        "aorist-passive-participle": "",
+        "perfect-root": "studu",
+        "perfect-passive-participle": "",
         "meaning": "to be eager (modal)",
         "exceptions": {
             "intransitive": true
@@ -4321,8 +4321,8 @@
         "declension": "irreg",
         "base": "sum",
         "infinitive": "esse",
-        "aorist-root": "fu",
-        "aorist-passive-participle": "",
+        "perfect-root": "fu",
+        "perfect-passive-participle": "",
         "meaning": "to be",
         "exceptions": {
             "intransitive": true
@@ -4350,16 +4350,16 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "superāre",
-        "aorist-root": "superāv",
-        "aorist-passive-participle": "superāt",
+        "perfect-root": "superāv",
+        "perfect-passive-participle": "superāt",
         "meaning": "to conquer"
     },
     "surgō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "surgere",
-        "aorist-root": "surrēx",
-        "aorist-passive-participle": "surrēct",
+        "perfect-root": "surrēx",
+        "perfect-passive-participle": "surrēct",
         "meaning": "to rise"
     },
     "suus": {
@@ -4393,8 +4393,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "tacēre",
-        "aorist-root": "tacu",
-        "aorist-passive-participle": "tacit",
+        "perfect-root": "tacu",
+        "perfect-passive-participle": "tacit",
         "meaning": "to be silent"
     },
     "tamen": {
@@ -4424,8 +4424,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "temptāre",
-        "aorist-root": "temptāv",
-        "aorist-passive-participle": "temptāt",
+        "perfect-root": "temptāv",
+        "perfect-passive-participle": "temptāt",
         "meaning": "to try"
     },
     "tempus": {
@@ -4451,8 +4451,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "terrēre",
-        "aorist-root": "terru",
-        "aorist-passive-participle": "territ",
+        "perfect-root": "terru",
+        "perfect-passive-participle": "territ",
         "meaning": "to frighten"
     },
     "tertius": {
@@ -4501,8 +4501,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "timēre",
-        "aorist-root": "timu",
-        "aorist-passive-participle": "",
+        "perfect-root": "timu",
+        "perfect-passive-participle": "",
         "meaning": "to fear"
     },
     "tōtus": {
@@ -4524,8 +4524,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "trahere",
-        "aorist-root": "trāx",
-        "aorist-passive-participle": "tract",
+        "perfect-root": "trāx",
+        "perfect-passive-participle": "tract",
         "meaning": "to drag, pull"
     },
     "trāns": {
@@ -4537,8 +4537,8 @@
         "declension": "irreg",
         "base": "eō",
         "infinitive": "trānsīre",
-        "aorist-root": "trānsi",
-        "aorist-passive-participle": "trānsit",
+        "perfect-root": "trānsi",
+        "perfect-passive-participle": "trānsit",
         "meaning": "to cross",
         "exceptions": {
             "limited-passive": true
@@ -4717,24 +4717,24 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "vāstāre",
-        "aorist-root": "vāstāv",
-        "aorist-passive-participle": "vāstāt",
+        "perfect-root": "vāstāv",
+        "perfect-passive-participle": "vāstāt",
         "meaning": "to ransack, devastate"
     },
     "vendō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "vendere",
-        "aorist-root": "vēndid",
-        "aorist-passive-participle": "vēndit",
+        "perfect-root": "vēndid",
+        "perfect-passive-participle": "vēndit",
         "meaning": "to sell"
     },
     "veniō": {
         "type": "verb",
         "declension": "IV",
         "infinitive": "venīre",
-        "aorist-root": "vēn",
-        "aorist-passive-participle": "vent",
+        "perfect-root": "vēn",
+        "perfect-passive-participle": "vent",
         "meaning": "to come"
     },
     "venter": {
@@ -4755,8 +4755,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "vertere",
-        "aorist-root": "vert",
-        "aorist-passive-participle": "vers",
+        "perfect-root": "vert",
+        "perfect-passive-participle": "vers",
         "meaning": "to turn"
     },
     "vērus": {
@@ -4806,8 +4806,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "vetāre",
-        "aorist-root": "vetu",
-        "aorist-passive-participle": "vetit",
+        "perfect-root": "vetu",
+        "perfect-passive-participle": "vetit",
         "meaning": "to veto"
     },
     "via": {
@@ -4833,8 +4833,8 @@
         "type": "verb",
         "declension": "II",
         "infinitive": "vidēre",
-        "aorist-root": "vīd",
-        "aorist-passive-participle": "vīs",
+        "perfect-root": "vīd",
+        "perfect-passive-participle": "vīs",
         "meaning": "to see"
     },
     "vīgintī": {
@@ -4861,8 +4861,8 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "vincere",
-        "aorist-root": "vīc",
-        "aorist-passive-participle": "vict",
+        "perfect-root": "vīc",
+        "perfect-passive-participle": "vict",
         "meaning": "to conquer, defeat"
     },
     "vīnum": {
@@ -4907,24 +4907,24 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "vītāre",
-        "aorist-root": "vītāv",
-        "aorist-passive-participle": "vītāt",
+        "perfect-root": "vītāv",
+        "perfect-passive-participle": "vītāt",
         "meaning": "to avoid"
     },
     "vīvō": {
         "type": "verb",
         "declension": "III reg",
         "infinitive": "vīvere",
-        "aorist-root": "vīx",
-        "aorist-passive-participle": "vīct",
+        "perfect-root": "vīx",
+        "perfect-passive-participle": "vīct",
         "meaning": "to live"
     },
     "vocō": {
         "type": "verb",
         "declension": "I",
         "infinitive": "vocāre",
-        "aorist-root": "vocāv",
-        "aorist-passive-participle": "vocāt",
+        "perfect-root": "vocāv",
+        "perfect-passive-participle": "vocāt",
         "meaning": "to invite, call"
     },
     "volō": {
@@ -4932,8 +4932,8 @@
         "declension": "irreg",
         "base": "volō",
         "infinitive": "velle",
-        "aorist-root": "volu",
-        "aorist-passive-participle": "",
+        "perfect-root": "volu",
+        "perfect-passive-participle": "",
         "meaning": "to want, be willing to",
         "exceptions": {
             "intransitive": true
@@ -4943,8 +4943,8 @@
         "type": "verb",
         "declension": "I",
         "infinitive": "vulnerāre",
-        "aorist-root": "vulnerāv",
-        "aorist-passive-participle": "vulnerāt",
+        "perfect-root": "vulnerāv",
+        "perfect-passive-participle": "vulnerāt",
         "meaning": "to wound"
     },
     "vulnus": {
