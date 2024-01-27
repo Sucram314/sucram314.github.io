@@ -4023,12 +4023,6 @@
         "gender": "n",
         "meaning": "rock"
     },
-    "sceīnium": {
-        "type": "noun",
-        "declension": "II",
-        "gender": "n",
-        "meaning": "writing case"
-    },
     "scelestus": {
         "type": "noun",
         "declension": "II",
@@ -4057,6 +4051,12 @@
         "perfect-root": "scrīps",
         "perfect-passive-participle": "scrīpt",
         "meaning": "to write"
+    },
+    "scrīnium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "writing case"
     },
     "scriptor": {
         "type": "noun",

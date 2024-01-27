@@ -392,7 +392,7 @@ html.dark .interactive-dropdown-container{
     float: right;
     transform-origin: center;
     transform: translateY(-50%) rotate(0deg);
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 html.dark .interactive-dropdown-container aside > i{
     color: rgb(230,230,230);
@@ -843,6 +843,12 @@ html.dark .dictionary-container > div{
 
 #sus.active{
     display: block;
+}
+
+#canvas{
+    width: 960px;
+    height: 540px;
+    margin-top: 20px;
 }
 
 @keyframes rotate {
