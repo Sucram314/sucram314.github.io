@@ -514,19 +514,70 @@ function generateRedirects(){
             for(const part in parts_){
                 redirect = parts_[part];
                 if(redirect !== word){
-                    if(key && redirects_[redirect]){
-                        if(redirects_[redirect]["word"]){
-                            redirects_[redirect]["keys"][key] = true;
+                    // if(key && redirects_[redirect]){
+                    //     if(redirects_[redirect]["word"]){
+                    //         redirects_[redirect]["keys"][key] = true;
+                    //     } else {
+                    //         redirects_[redirect] = {"word":word}
+                    //         redirects_[redirect]["keys"] = {[key]:true};
+                    //     }
+                    // } else {
+                    //     if(key){
+                    //         redirects_[redirect] = {"word":word};
+                    //         redirects_[redirect]["keys"] = {[key]:true};
+                    //     } else {
+                    //         redirects_[redirect] = word;
+                    //     }
+                    // }
+                    if(redirects_[redirect]){
+                        if(key){
+                            redirects_[redirect][word+">"+key] = {"word":word,"key":key};
                         } else {
-                            redirects_[redirect] = {"word":word}
-                            redirects_[redirect]["keys"] = {[key]:true};
+                            redirects_[redirect][word] = word;
                         }
                     } else {
                         if(key){
-                            redirects_[redirect] = {"word":word};
-                            redirects_[redirect]["keys"] = {[key]:true};
+                            redirects_[redirect] = {[word+">"+key]:{"word":word,"key":key}};
                         } else {
-                            redirects_[redirect] = word;
+                            redirects_[redirect] = {[word]:word};
+                        }
+                    }
+                }
+            }
+
+            var defs;
+            if(result["type"] === "verb" || result["type"] === "spec") defs = result["meaning"].replace("to ","").split(", ");
+            else defs = result["meaning"].split(", ");
+
+            for(const def in defs){
+                redirect = defs[def];
+                if(redirect !== word){
+                    // if(key && redirects_[redirect]){
+                    //     if(redirects_[redirect]["word"]){
+                    //         redirects_[redirect]["keys"][key] = true;
+                    //     } else {
+                    //         redirects_[redirect] = {"word":word}
+                    //         redirects_[redirect]["keys"] = {[key]:true};
+                    //     }
+                    // } else {
+                    //     if(key){
+                    //         redirects_[redirect] = {"word":word};
+                    //         redirects_[redirect]["keys"] = {[key]:true};
+                    //     } else {
+                    //         redirects_[redirect] = word;
+                    //     }
+                    // }
+                    if(redirects_[redirect]){
+                        if(key){
+                            redirects_[redirect][word+">"+key] = {"word":word,"key":key};
+                        } else {
+                            redirects_[redirect][word] = word;
+                        }
+                    } else {
+                        if(key){
+                            redirects_[redirect] = {[word+">"+key]:{"word":word,"key":key}};
+                        } else {
+                            redirects_[redirect] = {[word]:word};
                         }
                     }
                 }
@@ -540,19 +591,32 @@ function generateRedirects(){
                 redirect = cells[cell].innerText;
                 if(!redirect || redirect === "-") continue;
                 if(redirect !== word){
-                    if(key && redirects_[redirect]){
-                        if(redirects_[redirect]["word"]){
-                            redirects_[redirect]["keys"][key] = true;
+                    // if(key && redirects_[redirect]){
+                    //     if(redirects_[redirect]["word"]){
+                    //         redirects_[redirect]["keys"][key] = true;
+                    //     } else {
+                    //         redirects_[redirect] = {"word":word}
+                    //         redirects_[redirect]["keys"] = {[key]:true};
+                    //     }
+                    // } else {
+                    //     if(key){
+                    //         redirects_[redirect] = {"word":word};
+                    //         redirects_[redirect]["keys"] = {[key]:true};
+                    //     } else {
+                    //         redirects_[redirect] = word;
+                    //     }
+                    // }
+                    if(redirects_[redirect]){
+                        if(key){
+                            redirects_[redirect][word+">"+key] = {"word":word,"key":key};
                         } else {
-                            redirects_[redirect] = {"word":word}
-                            redirects_[redirect]["keys"] = {[key]:true};
+                            redirects_[redirect][word] = word;
                         }
                     } else {
                         if(key){
-                            redirects_[redirect] = {"word":word};
-                            redirects_[redirect]["keys"] = {[key]:true};
+                            redirects_[redirect] = {[word+">"+key]:{"word":word,"key":key}};
                         } else {
-                            redirects_[redirect] = word;
+                            redirects_[redirect] = {[word]:word};
                         }
                     }
                 }
@@ -832,14 +896,15 @@ searchBar.addEventListener("input",function(e){
     }
 
     for(const word in redirects) {
-        var toword, keys={"":true};
-        if(redirects[word]["keys"]){
-            toword = redirects[word]["word"];
-            keys = redirects[word]["keys"];
-        }
-        else toword = redirects[word];
+        // for(const redirect in redirects[word]){
+        //     var toword, key;
+        //     if(typeof redirects[word][redirect] == "string"){
+        //         toword = redirects[word][0];
+        //         key = redirects[word][1];
+        //     }
+        //     else toword = redirects[word][redirect];
 
-        if(suggested[toword]) continue;
+        //     if(suggested[toword]) continue;
 
         var flag = false, whitespace = true, i=0, j=0;
 
@@ -886,7 +951,19 @@ searchBar.addEventListener("input",function(e){
 
         if(flag || whitespace) continue;
 
-        for(const key in keys){
+        for(const redirect in redirects[word]){
+            var toword, key;
+            if(typeof redirects[word][redirect] === "string"){
+                toword = redirects[word][redirect];
+            } else {
+                toword = redirects[word][redirect]["word"];
+                key = redirects[word][redirect]["key"];
+            }
+
+            if(suggested[toword]) continue;
+
+            if(typeof toword === "undefined") console.log(redirects[word][redirect]);
+
             b = document.createElement("div");
 
             b.innerHTML = `<b>${word.substring(0, j)}</b>${word.substring(j) + " → " + toword + (key ? " (" + key + ")" : "")}`;
