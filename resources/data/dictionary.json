@@ -181,6 +181,10 @@
         "gender": "m",
         "meaning": "farmer"
     },
+    "aliī ... aliī": {
+        "type": "special",
+        "meaning": "some ... others"
+    },
     "alius": {
         "type": "adjective",
         "declension": "I~II",
@@ -197,6 +201,10 @@
             "special funny dative",
             "irregular root: ali-"
         ]
+    },
+    "alius ... alius": {
+        "type": "special",
+        "meaning": "one ... other"
     },
     "alter": {
         "type": "adjective",
@@ -1011,7 +1019,7 @@
     "cupidus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "disirous (of), fond (of), eager (for)"
+        "meaning": "desirous (of), fond (of), eager (for)"
     },
     "cupiō": {
         "type": "verb",
@@ -2054,6 +2062,15 @@
         "gender": "n",
         "meaning": "empire"
     },
+    "īmus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "at the bottom of, lowest",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
     "in": {
         "type": "preposition",
         "meaning": "in, into, on",
@@ -2998,6 +3015,13 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "forgetful (of)"
+    },
+    "obses": {
+        "type": "noun",
+        "declension": "III",
+        "root": "obsid",
+        "gender": "f, m",
+        "meaning": "hostage"
     },
     "obsideō": {
         "type": "verb",
@@ -4621,6 +4645,12 @@
         "declension": "III",
         "meaning": "sad"
     },
+    "triumphus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "victory parade"
+    },
     "Trōiāna": {
         "type": "noun",
         "declension": "I",
@@ -4666,6 +4696,11 @@
         "declension": "III",
         "meaning": "disgraceful, shameful"
     },
+    "tūtus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "safe, secure"
+    },
     "ubi": {
         "multiple-definitions": true,
         "content": {
@@ -4678,6 +4713,12 @@
                 "meaning": "after"
             }
         }
+    },
+    "unda": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "wave"
     },
     "unde": {
         "type": "interrogative",
@@ -4884,6 +4925,12 @@
         "perfect-passive-participle": "vīs",
         "meaning": "to see"
     },
+    "vigilia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "watch (period of time)"
+    },
     "vīgintī": {
         "type": "number",
         "meaning": "twenty"
@@ -4943,6 +4990,14 @@
         "root": "virtūt",
         "gender": "f",
         "meaning": "bravery, virtue, courage"
+    },
+    "vīs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vīr",
+        "gender": "f",
+        "meaning": "force, violence",
+        "flag": "highly irregular"
     },
     "vīta": {
         "type": "noun",
