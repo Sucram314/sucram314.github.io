@@ -2028,7 +2028,7 @@
     },
     "illinc": {
         "type": "adverb",
-        "meaning": "from there,thence"
+        "meaning": "from there, thence"
     },
     "illūc": {
         "type": "adverb",
@@ -2267,7 +2267,7 @@
     },
     "is, ea, id": {
         "type": "pronoun",
-        "meaning": "he,she,it",
+        "meaning": "he, she, it",
         "exceptions": {
             "sfg": "ēius",
             "sfd": "eī"
@@ -4087,7 +4087,7 @@
         "declension": "III",
         "root": "scriptōr",
         "gender": "m",
-        "meaning": "author,writer"
+        "meaning": "author, writer"
     },
     "scūtum": {
         "type": "noun",

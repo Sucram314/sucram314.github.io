@@ -757,7 +757,7 @@ searchBar.addEventListener("input",function(e){
     var suggestions = 0, suggested={};
 
     for(const word in dict) {
-        var flag = false, skipping = false, whitespace = true, i=0, j=0;
+        var flag = false, whitespace = true, i=0, j=0;
 
         for(i=0; i<val.length; ++i){
             if(j == word.length){
@@ -766,7 +766,7 @@ searchBar.addEventListener("input",function(e){
             }
 
             if(val.charAt(i) === ","){
-                if(skipping || word.charAt(j) === ","){
+                if(word.charAt(j) === ","){
                     ++j;
                     continue;
                 }
@@ -775,7 +775,6 @@ searchBar.addEventListener("input",function(e){
             }
 
             if(val.charAt(i) === " "){
-                skipping = true;
                 if(word.charAt(j) === " ") ++j;
                 continue;
             }
@@ -786,7 +785,6 @@ searchBar.addEventListener("input",function(e){
                 continue;
             }
 
-            skipping = false;
             whitespace = false;
 
             if("āēīōū".includes(val.charAt(i).toLowerCase())){
@@ -843,7 +841,7 @@ searchBar.addEventListener("input",function(e){
 
         if(suggested[toword]) continue;
 
-        var flag = false, skipping = false, whitespace = true, i=0, j=0;
+        var flag = false, whitespace = true, i=0, j=0;
 
         for(i=0; i<val.length; ++i){
             if(j == word.length){
@@ -852,7 +850,7 @@ searchBar.addEventListener("input",function(e){
             }
 
             if(val.charAt(i) === ","){
-                if(skipping || word.charAt(j) === ","){
+                if(word.charAt(j) === ","){
                     ++j;
                     continue;
                 }
@@ -861,7 +859,6 @@ searchBar.addEventListener("input",function(e){
             }
 
             if(val.charAt(i) === " "){
-                skipping = true;
                 if(word.charAt(j) === " ") ++j;
                 continue;
             }
@@ -872,7 +869,6 @@ searchBar.addEventListener("input",function(e){
                 continue;
             }
 
-            skipping = false;
             whitespace = false;
 
             if("āēīōū".includes(val.charAt(i).toLowerCase())){
