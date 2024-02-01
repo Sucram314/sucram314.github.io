@@ -18,6 +18,14 @@
             "limited-passive": true
         }
     },
+    "abiiciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "abiicere",
+        "perfect-root": "abiēcī",
+        "perfect-passive-participle": "abiect",
+        "meaning": "to throw away"
+    },
     "absum": {
         "type": "verb",
         "declension": "irreg",
@@ -325,6 +333,13 @@
         "gender": "m",
         "meaning": "year"
     },
+    "anser": {
+        "type": "noun",
+        "declension": "III",
+        "root": "anser",
+        "gender": "f, m",
+        "meaning": "goose"
+    },
     "ante": {
         "type": "preposition",
         "meaning": "before, in front of"
@@ -528,6 +543,12 @@
         "gender": "n",
         "meaning": "bath"
     },
+    "barba": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "beard"
+    },
     "barbara": {
         "type": "noun",
         "declension": "I",
@@ -670,6 +691,12 @@
         "perfect-root": "cantāv",
         "perfect-passive-participle": "cantāt",
         "meaning": "to sing"
+    },
+    "capillus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "hair"
     },
     "capiō": {
         "type": "verb",
@@ -889,6 +916,13 @@
         "perfect-passive-participle": "concurs",
         "meaning": "to collide"
     },
+    "conditor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "conditōr",
+        "gender": "m",
+        "meaning": "founder"
+    },
     "condō": {
         "type": "verb",
         "declension": "III reg",
@@ -1070,6 +1104,14 @@
         "declension": "IV",
         "gender": "m",
         "meaning": "chariot"
+    },
+    "custōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "custōd",
+        "gender": "f, m",
+        "meaning": "???",
+        "flag": "bro i literally do not know the definition pls tell me"
     },
     "dē": {
         "type": "preposition",
@@ -3422,6 +3464,13 @@
         "gender": "n",
         "meaning": "apple"
     },
+    "pondus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ponder",
+        "gender": "n",
+        "meaning": "weight"
+    },
     "pōnō": {
         "type": "verb",
         "declension": "III reg",
@@ -3864,6 +3913,18 @@
         "perfect-root": "redūx",
         "perfect-passive-participle": "reduct",
         "meaning": "to lead back, restore"
+    },
+    "referō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "referre",
+        "perfect-root": "retul",
+        "perfect-passive-participle": "relāt",
+        "meaning": "to bring back, return (something)",
+        "exceptions": {
+            "irreg-imperative": true
+        }
     },
     "reficiō": {
         "type": "verb",
@@ -4645,6 +4706,19 @@
         "declension": "III",
         "meaning": "sad"
     },
+    "triumphālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "triumphal"
+    },
+    "triumphō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "triumphāre",
+        "perfect-root": "triumphāv",
+        "perfect-passive-participle": "triumphāt",
+        "meaning": "to hold a victory parade"
+    },
     "triumphus": {
         "type": "noun",
         "declension": "II",
@@ -4690,6 +4764,14 @@
     "tum": {
         "type": "adverb",
         "meaning": "then"
+    },
+    "turbō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "turbāre",
+        "perfect-root": "turbāv",
+        "perfect-passive-participle": "turbāt",
+        "meaning": "to upset, disturb"
     },
     "turpis": {
         "type": "adjective",
@@ -4796,6 +4878,10 @@
         "type": "special",
         "meaning": "to marry (a woman)"
     },
+    "vae": {
+        "type": "special",
+        "meaning": "woe!"
+    },
     "validus": {
         "type": "adjective",
         "declension": "I~II",
@@ -4808,6 +4894,10 @@
         "perfect-root": "vāstāv",
         "perfect-passive-participle": "vāstāt",
         "meaning": "to ransack, devastate"
+    },
+    "velut": {
+        "type": "adverb",
+        "meaning": "like, as"
     },
     "vendō": {
         "type": "verb",
