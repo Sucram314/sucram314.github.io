@@ -916,6 +916,13 @@
         "perfect-passive-participle": "concurs",
         "meaning": "to collide"
     },
+    "condiciō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "condiciōn",
+        "gender": "f",
+        "meaning": "condition"
+    },
     "conditor": {
         "type": "noun",
         "declension": "III",
@@ -1110,8 +1117,7 @@
         "declension": "III",
         "root": "custōd",
         "gender": "f, m",
-        "meaning": "???",
-        "flag": "bro i literally do not know the definition pls tell me"
+        "meaning": "guard"
     },
     "dē": {
         "type": "preposition",
@@ -1365,7 +1371,8 @@
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
-        }
+        },
+        "flag": "amogus"
     },
     "dūcō": {
         "type": "verb",
@@ -3090,6 +3097,16 @@
             "no-superlative": true
         }
     },
+    "octingentī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eight hundred",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "flag": "amogus"
+    },
     "octō": {
         "type": "number",
         "meaning": "eight"
@@ -3183,6 +3200,23 @@
         "root": "ōrātōr",
         "gender": "m",
         "meaning": "speaker"
+    },
+    "orbis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "orb",
+        "gender": "m",
+        "meaning": "circle, disk",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "orbis terrārum": {
+        "type": "special",
+        "meaning": "world"
     },
     "ornāmentum": {
         "type": "noun",
@@ -3670,6 +3704,14 @@
         "gender": "f",
         "meaning": "province"
     },
+    "proximus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "next, nearest",
+        "exceptions": {
+            "no-superlative": true
+        }
+    },
     "pūblicō": {
         "type": "verb",
         "declension": "I",
@@ -3893,6 +3935,14 @@
         "declension": "I",
         "gender": "f",
         "meaning": "carriage"
+    },
+    "recipiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "recipere",
+        "perfect-root": "recēp",
+        "perfect-passive-participle": "recept",
+        "meaning": "to withdraw, take back"
     },
     "redeō": {
         "type": "verb",
@@ -4163,6 +4213,10 @@
     "sē dēdere": {
         "type": "special",
         "meaning": "to surrender"
+    },
+    "sē recipere": {
+        "type": "special",
+        "meaning": "to retreat"
     },
     "secundus": {
         "type": "adjective",
@@ -4529,6 +4583,15 @@
         "perfect-passive-participle": "tacit",
         "meaning": "to be silent"
     },
+    "tālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "such",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
     "tamen": {
         "type": "conjunction",
         "meaning": "however"
@@ -4618,6 +4681,10 @@
         "type": "special",
         "meaning": "I approach you"
     },
+    "tibi auxiliō eō": {
+        "type": "special",
+        "meaning": "I go to help you (double dative)"
+    },
     "tibi resistō": {
         "type": "special",
         "meaning": "I resist you"
@@ -4675,6 +4742,11 @@
         "exceptions": {
             "limited-passive": true
         }
+    },
+    "trānsmarīnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "across the sea"
     },
     "trēdecim": {
         "type": "number",
@@ -4796,6 +4868,12 @@
             }
         }
     },
+    "ultimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "on the edge of, furthest",
+        "flag": "superlative form of ulter"
+    },
     "unda": {
         "type": "noun",
         "declension": "I",
@@ -4906,6 +4984,12 @@
         "perfect-root": "vēndid",
         "perfect-passive-participle": "vēndit",
         "meaning": "to sell"
+    },
+    "venēnum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "poison"
     },
     "veniō": {
         "type": "verb",

@@ -10910,6 +10910,30 @@
     "concurrāmus": {
         "concurrō": "concurrō"
     },
+    "condiciōnis": {
+        "condiciō": "condiciō"
+    },
+    "condition": {
+        "condiciō": "condiciō"
+    },
+    "condiciōnēs": {
+        "condiciō": "condiciō"
+    },
+    "condiciōnem": {
+        "condiciō": "condiciō"
+    },
+    "condiciōnum": {
+        "condiciō": "condiciō"
+    },
+    "condiciōne": {
+        "condiciō": "condiciō"
+    },
+    "condiciōnibus": {
+        "condiciō": "condiciō"
+    },
+    "condiciōnī": {
+        "condiciō": "condiciō"
+    },
     "conditōris": {
         "conditor": "conditor"
     },
@@ -13644,6 +13668,30 @@
     "curruī": {
         "currus": "currus"
     },
+    "custōdis": {
+        "custōs": "custōs"
+    },
+    "guard": {
+        "custōs": "custōs"
+    },
+    "custōdēs": {
+        "custōs": "custōs"
+    },
+    "custōdem": {
+        "custōs": "custōs"
+    },
+    "custōdum": {
+        "custōs": "custōs"
+    },
+    "custōde": {
+        "custōs": "custōs"
+    },
+    "custōdibus": {
+        "custōs": "custōs"
+    },
+    "custōdī": {
+        "custōs": "custōs"
+    },
     "concerning": {
         "dē": "dē"
     },
@@ -14579,7 +14627,8 @@
         "dēfendō": "dēfendō"
     },
     "next": {
-        "deinde": "deinde"
+        "deinde": "deinde",
+        "proximus": "proximus"
     },
     "then": {
         "deinde": "deinde",
@@ -18505,45 +18554,6 @@
     },
     "dubitēmus": {
         "dubitō": "dubitō"
-    },
-    "two hundred": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcena": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenum": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenam": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenae": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenī": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenā": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenō": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenās": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenōs": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenārum": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenōrum": {
-        "dūcentī": "dūcentī"
-    },
-    "dūcenīs": {
-        "dūcentī": "dūcentī"
     },
     "dūcere": {
         "dūcō": "dūcō"
@@ -38212,6 +38222,33 @@
     "ōrātōrī": {
         "ōrātor": "ōrātor"
     },
+    "circle": {
+        "orbis": "orbis"
+    },
+    "disk": {
+        "orbis": "orbis"
+    },
+    "orbēs": {
+        "orbis": "orbis"
+    },
+    "orbem": {
+        "orbis": "orbis"
+    },
+    "orbium": {
+        "orbis": "orbis"
+    },
+    "orbe": {
+        "orbis": "orbis"
+    },
+    "orbibus": {
+        "orbis": "orbis"
+    },
+    "orbī": {
+        "orbis": "orbis"
+    },
+    "world": {
+        "orbis terrārum": "orbis terrārum"
+    },
     "ornāmentī": {
         "ornāmentum": "ornāmentum"
     },
@@ -42380,6 +42417,75 @@
     "prōvinciīs": {
         "prōvincia": "prōvincia"
     },
+    "nearest": {
+        "proximus": "proximus"
+    },
+    "proxima": {
+        "proximus": "proximus"
+    },
+    "proximum": {
+        "proximus": "proximus"
+    },
+    "proximam": {
+        "proximus": "proximus"
+    },
+    "proximae": {
+        "proximus": "proximus"
+    },
+    "proximī": {
+        "proximus": "proximus"
+    },
+    "proximā": {
+        "proximus": "proximus"
+    },
+    "proximō": {
+        "proximus": "proximus"
+    },
+    "proximās": {
+        "proximus": "proximus"
+    },
+    "proximōs": {
+        "proximus": "proximus"
+    },
+    "proximārum": {
+        "proximus": "proximus"
+    },
+    "proximōrum": {
+        "proximus": "proximus"
+    },
+    "proximīs": {
+        "proximus": "proximus"
+    },
+    "proximior": {
+        "proximus": "proximus"
+    },
+    "proximius": {
+        "proximus": "proximus"
+    },
+    "proximiōrem": {
+        "proximus": "proximus"
+    },
+    "proximiōris": {
+        "proximus": "proximus"
+    },
+    "proximiōre": {
+        "proximus": "proximus"
+    },
+    "proximiōrī": {
+        "proximus": "proximus"
+    },
+    "proximiōrēs": {
+        "proximus": "proximus"
+    },
+    "proximiōra": {
+        "proximus": "proximus"
+    },
+    "proximiōrum": {
+        "proximus": "proximus"
+    },
+    "proximiōribus": {
+        "proximus": "proximus"
+    },
     "pūblicāre": {
         "pūblicō": "pūblicō"
     },
@@ -44320,6 +44426,300 @@
     },
     "raedīs": {
         "raeda": "raeda"
+    },
+    "recipere": {
+        "recipiō": "recipiō"
+    },
+    "recēpī": {
+        "recipiō": "recipiō"
+    },
+    "receptum": {
+        "recipiō": "recipiō"
+    },
+    "withdraw": {
+        "recipiō": "recipiō"
+    },
+    "take back": {
+        "recipiō": "recipiō"
+    },
+    "recipimus": {
+        "recipiō": "recipiō"
+    },
+    "recipis": {
+        "recipiō": "recipiō"
+    },
+    "recipitis": {
+        "recipiō": "recipiō"
+    },
+    "recipit": {
+        "recipiō": "recipiō"
+    },
+    "recipiunt": {
+        "recipiō": "recipiō"
+    },
+    "recēpimus": {
+        "recipiō": "recipiō"
+    },
+    "recēpistī": {
+        "recipiō": "recipiō"
+    },
+    "recēpistis": {
+        "recipiō": "recipiō"
+    },
+    "recēpit": {
+        "recipiō": "recipiō"
+    },
+    "recēpērunt": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbam": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbāmus": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbās": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbātis": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbat": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbant": {
+        "recipiō": "recipiō"
+    },
+    "recēperam": {
+        "recipiō": "recipiō"
+    },
+    "recēperāmus": {
+        "recipiō": "recipiō"
+    },
+    "recēperās": {
+        "recipiō": "recipiō"
+    },
+    "recēperātis": {
+        "recipiō": "recipiō"
+    },
+    "recēperat": {
+        "recipiō": "recipiō"
+    },
+    "recēperant": {
+        "recipiō": "recipiō"
+    },
+    "recipiam": {
+        "recipiō": "recipiō"
+    },
+    "recipiēmus": {
+        "recipiō": "recipiō"
+    },
+    "recipiēs": {
+        "recipiō": "recipiō"
+    },
+    "recipiētis": {
+        "recipiō": "recipiō"
+    },
+    "recipiet": {
+        "recipiō": "recipiō"
+    },
+    "recipient": {
+        "recipiō": "recipiō"
+    },
+    "recēperō": {
+        "recipiō": "recipiō"
+    },
+    "recēperimus": {
+        "recipiō": "recipiō"
+    },
+    "recēperis": {
+        "recipiō": "recipiō"
+    },
+    "recēperitis": {
+        "recipiō": "recipiō"
+    },
+    "recēperit": {
+        "recipiō": "recipiō"
+    },
+    "recēperint": {
+        "recipiō": "recipiō"
+    },
+    "recipior": {
+        "recipiō": "recipiō"
+    },
+    "recipimur": {
+        "recipiō": "recipiō"
+    },
+    "reciperis": {
+        "recipiō": "recipiō"
+    },
+    "recipiminī": {
+        "recipiō": "recipiō"
+    },
+    "recipitur": {
+        "recipiō": "recipiō"
+    },
+    "recipiuntur": {
+        "recipiō": "recipiō"
+    },
+    "receptum sum": {
+        "recipiō": "recipiō"
+    },
+    "recepta sumus": {
+        "recipiō": "recipiō"
+    },
+    "receptum es": {
+        "recipiō": "recipiō"
+    },
+    "recepta estis": {
+        "recipiō": "recipiō"
+    },
+    "receptum est": {
+        "recipiō": "recipiō"
+    },
+    "recepta sunt": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbar": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbāmur": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbāris": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbāminī": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbātur": {
+        "recipiō": "recipiō"
+    },
+    "recipiēbantur": {
+        "recipiō": "recipiō"
+    },
+    "receptum eram": {
+        "recipiō": "recipiō"
+    },
+    "recepta erāmus": {
+        "recipiō": "recipiō"
+    },
+    "receptum erās": {
+        "recipiō": "recipiō"
+    },
+    "recepta erātis": {
+        "recipiō": "recipiō"
+    },
+    "receptum erat": {
+        "recipiō": "recipiō"
+    },
+    "recepta erant": {
+        "recipiō": "recipiō"
+    },
+    "recipiar": {
+        "recipiō": "recipiō"
+    },
+    "recipiēmur": {
+        "recipiō": "recipiō"
+    },
+    "recipiēris": {
+        "recipiō": "recipiō"
+    },
+    "recipiēminī": {
+        "recipiō": "recipiō"
+    },
+    "recipiētur": {
+        "recipiō": "recipiō"
+    },
+    "recipientur": {
+        "recipiō": "recipiō"
+    },
+    "receptum erō": {
+        "recipiō": "recipiō"
+    },
+    "recepta erimus": {
+        "recipiō": "recipiō"
+    },
+    "receptum eris": {
+        "recipiō": "recipiō"
+    },
+    "recepta eritis": {
+        "recipiō": "recipiō"
+    },
+    "receptum erit": {
+        "recipiō": "recipiō"
+    },
+    "recepta erunt": {
+        "recipiō": "recipiō"
+    },
+    "recipiēns": {
+        "recipiō": "recipiō"
+    },
+    "recipientem": {
+        "recipiō": "recipiō"
+    },
+    "recipientis": {
+        "recipiō": "recipiō"
+    },
+    "recipientī": {
+        "recipiō": "recipiō"
+    },
+    "recipientēs": {
+        "recipiō": "recipiō"
+    },
+    "recipientia": {
+        "recipiō": "recipiō"
+    },
+    "recipientium": {
+        "recipiō": "recipiō"
+    },
+    "recipientibus": {
+        "recipiō": "recipiō"
+    },
+    "recepta": {
+        "recipiō": "recipiō"
+    },
+    "receptus": {
+        "recipiō": "recipiō"
+    },
+    "receptam": {
+        "recipiō": "recipiō"
+    },
+    "receptae": {
+        "recipiō": "recipiō"
+    },
+    "receptī": {
+        "recipiō": "recipiō"
+    },
+    "receptā": {
+        "recipiō": "recipiō"
+    },
+    "receptō": {
+        "recipiō": "recipiō"
+    },
+    "receptās": {
+        "recipiō": "recipiō"
+    },
+    "receptōs": {
+        "recipiō": "recipiō"
+    },
+    "receptārum": {
+        "recipiō": "recipiō"
+    },
+    "receptōrum": {
+        "recipiō": "recipiō"
+    },
+    "receptīs": {
+        "recipiō": "recipiō"
+    },
+    "recipe": {
+        "recipiō": "recipiō"
+    },
+    "recipite": {
+        "recipiō": "recipiō"
+    },
+    "recipiāmus": {
+        "recipiō": "recipiō"
     },
     "redīre": {
         "redeō": "redeō"
@@ -48615,6 +49015,9 @@
     "to surrender": {
         "sē dēdere": "sē dēdere"
     },
+    "to retreat": {
+        "sē recipere": "sē recipere"
+    },
     "second": {
         "secundus": "secundus"
     },
@@ -52617,6 +53020,30 @@
     "taceāmus": {
         "taceō": "taceō"
     },
+    "such": {
+        "tālis": "tālis"
+    },
+    "tāle": {
+        "tālis": "tālis"
+    },
+    "tālem": {
+        "tālis": "tālis"
+    },
+    "tālī": {
+        "tālis": "tālis"
+    },
+    "tālēs": {
+        "tālis": "tālis"
+    },
+    "tālia": {
+        "tālis": "tālis"
+    },
+    "tālium": {
+        "tālis": "tālis"
+    },
+    "tālibus": {
+        "tālis": "tālis"
+    },
     "however": {
         "tamen": "tamen"
     },
@@ -53403,6 +53830,9 @@
     "I approach you": {
         "tibi adpropinquō": "tibi adpropinquō"
     },
+    "I go to help you (double dative)": {
+        "tibi auxiliō eō": "tibi auxiliō eō"
+    },
     "I resist you": {
         "tibi resistō": "tibi resistō"
     },
@@ -54164,6 +54594,114 @@
     },
     "trānseāmus": {
         "trānseō": "trānseō"
+    },
+    "across the sea": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīna": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnam": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnae": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnī": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnā": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnō": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnās": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnōs": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnārum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnōrum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnīs": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnior": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnius": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōrem": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōris": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōre": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōrī": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōrēs": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōra": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōrum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīniōribus": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissima": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimus": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimam": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimae": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimī": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimā": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimō": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimās": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimōs": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimārum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimōrum": {
+        "trānsmarīnus": "trānsmarīnus"
+    },
+    "trānsmarīnissimīs": {
+        "trānsmarīnus": "trānsmarīnus"
     },
     "thirteen": {
         "trēdecim": "trēdecim"
@@ -56279,6 +56817,24 @@
     },
     "vendāmus": {
         "vendō": "vendō"
+    },
+    "venēnī": {
+        "venēnum": "venēnum"
+    },
+    "poison": {
+        "venēnum": "venēnum"
+    },
+    "venēna": {
+        "venēnum": "venēnum"
+    },
+    "venēnōrum": {
+        "venēnum": "venēnum"
+    },
+    "venēnō": {
+        "venēnum": "venēnum"
+    },
+    "venēnīs": {
+        "venēnum": "venēnum"
     },
     "venīre": {
         "veniō": "veniō"
