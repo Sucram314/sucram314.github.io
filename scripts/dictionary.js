@@ -6,15 +6,15 @@ current_word = "",
 current_key = "",
 redirected = false;
 
-fetch('./resources/data/dictionary.json')
+fetch('../resources/data/dictionary.json')
     .then(res => res.json())
     .then(data => {dict = data;});
 
-fetch('./resources/data/forms.json')
+fetch('../resources/data/forms.json')
     .then(res => res.json())
     .then(data => {formdata = data;});
 
-fetch('./resources/data/redirects.json')
+fetch('../resources/data/redirects.json')
     .then(res => res.json())
     .then(data => {redirects = data;});
 
