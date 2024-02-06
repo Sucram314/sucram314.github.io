@@ -57,17 +57,26 @@
     "ācer": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "harsh"
+        "meaning": "harsh",
+        "flag": "goofy superlative"
     },
     "aciēs": {
         "type": "noun",
         "declension": "V",
         "gender": "f",
-        "meaning": "battle-line"
+        "meaning": "battle-line, pitched battle"
     },
     "ad": {
         "type": "preposition",
         "meaning": "to"
+    },
+    "addō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "addere",
+        "perfect-root": "addid",
+        "perfect-passive-participle": "addit",
+        "meaning": "to add"
     },
     "adeō": {
         "type": "verb",
@@ -169,6 +178,11 @@
         "gender": "f",
         "meaning": "summer"
     },
+    "aeternus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eternal"
+    },
     "ager": {
         "type": "noun",
         "declension": "II",
@@ -239,6 +253,12 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "high, tall"
+    },
+    "ambō": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "both",
+        "flag": "irregulaaaaaaaaar"
     },
     "ambulō": {
         "type": "verb",
@@ -902,6 +922,12 @@
         "perfect-passive-participle": "coāct",
         "meaning": "to force, collect, gather"
     },
+    "collēga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "colleague"
+    },
     "concilium": {
         "type": "noun",
         "declension": "II",
@@ -1030,6 +1056,12 @@
         "perfect-root": "corrūp",
         "perfect-passive-participle": "corrupt",
         "meaning": "to corrupt"
+    },
+    "corvus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "boarding-plank, beak"
     },
     "crūdēlis": {
         "type": "adjective",
@@ -1218,6 +1250,17 @@
         "perfect-passive-participle": "dēposit",
         "meaning": "to lay aside"
     },
+    "dēsistō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēsistere",
+        "perfect-root": "dēstit",
+        "perfect-passive-participle": "",
+        "meaning": "to cease",
+        "exceptions": {
+            "intrasitive": true
+        }
+    },
     "dēspērō": {
         "type": "verb",
         "declension": "I",
@@ -1233,6 +1276,18 @@
         "perfect-root": "dēspēx",
         "perfect-passive-participle": "dēspect",
         "meaning": "to despise"
+    },
+    "dēsum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "dēesse",
+        "perfect-root": "dēfu",
+        "perfect-passive-participle": "",
+        "meaning": "to lack, be deficient in",
+        "exceptions": {
+            "intransitive": true
+        }
     },
     "deus": {
         "type": "noun",
@@ -1584,7 +1639,7 @@
         "infinitive": "facere",
         "perfect-root": "fēc",
         "perfect-passive-participle": "fact",
-        "meaning": "to do, make",
+        "meaning": "to do, make, happen, take place",
         "exceptions": {
             "irreg-imperative": true
         }
@@ -1727,6 +1782,13 @@
         "gender": "n",
         "meaning": "river"
     },
+    "foedus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "foeder",
+        "gender": "n",
+        "meaning": "treaty"
+    },
     "fōns": {
         "type": "noun",
         "declension": "III",
@@ -1830,6 +1892,19 @@
             "no-comparative": true,
             "no-superlative": true
         }
+    },
+    "gens": {
+        "type": "noun",
+        "declension": "III",
+        "root": "gent",
+        "gender": "f",
+        "meaning": "tribes, peoples",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "Germānus": {
         "type": "adjective",
@@ -2105,6 +2180,11 @@
         "gender": "m",
         "meaning": "general, commander"
     },
+    "imperītus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "inexperienced of, unskilled in"
+    },
     "imperium": {
         "type": "noun",
         "declension": "II",
@@ -2159,7 +2239,7 @@
         "infinitive": "inīre",
         "perfect-root": "ini",
         "perfect-passive-participle": "init",
-        "meaning": "to enter",
+        "meaning": "to enter, invade",
         "exceptions": {
             "limited-passive": true
         }
@@ -2261,6 +2341,10 @@
         "perfect-root": "interfēc",
         "perfect-passive-participle": "interfect",
         "meaning": "to kill"
+    },
+    "interim": {
+        "type": "adverb",
+        "meaning": "meanwhile"
     },
     "interrogātum": {
         "type": "noun",
@@ -2364,6 +2448,14 @@
         "root": "iūdic",
         "gender": "m",
         "meaning": "judge"
+    },
+    "iūrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "iūrāre",
+        "perfect-root": "iūrāv",
+        "perfect-passive-participle": "iūrāt",
+        "meaning": "to swear"
     },
     "iūs": {
         "type": "noun",
@@ -2775,6 +2867,12 @@
         "perfect-passive-participle": "miss",
         "meaning": "to send"
     },
+    "modus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "method, way, manner"
+    },
     "mōns": {
         "type": "noun",
         "declension": "III",
@@ -3085,7 +3183,7 @@
         "declension": "III reg",
         "infinitive": "occīdere",
         "perfect-root": "occid",
-        "perfect-passive-participle": "occās",
+        "perfect-passive-participle": "occīs",
         "meaning": "to kill"
     },
     "octāvus": {
@@ -3425,6 +3523,11 @@
         "declension": "I~II",
         "meaning": "acquainted (with), experienced (in), skilled (in)"
     },
+    "peritus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "experienced of, skilled in"
+    },
     "perveniō": {
         "type": "verb",
         "declension": "IV",
@@ -3592,6 +3695,18 @@
         "gender": "f",
         "meaning": "plunder, booty"
     },
+    "praesum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "praeesse",
+        "perfect-root": "praefu",
+        "perfect-passive-participle": "",
+        "meaning": "to be in command of",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
     "praeter": {
         "type": "preposition",
         "meaning": "past"
@@ -3731,6 +3846,12 @@
         "declension": "II",
         "gender": "m",
         "meaning": "boy"
+    },
+    "pugnandī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "of fighting",
+        "flag": "idk bro"
     },
     "pūgnō": {
         "type": "verb",
@@ -4123,6 +4244,10 @@
         "type": "adverb",
         "meaning": "often"
     },
+    "saepissimē": {
+        "type": "adverb",
+        "meaning": "very often, most often"
+    },
     "saliō": {
         "type": "verb",
         "declension": "IV",
@@ -4307,6 +4432,10 @@
     "sex": {
         "type": "number",
         "meaning": "six"
+    },
+    "sexāgintā": {
+        "type": "number",
+        "meaning": "sixty"
     },
     "sextus": {
         "type": "adjective",
@@ -4582,6 +4711,12 @@
         "perfect-root": "tacu",
         "perfect-passive-participle": "tacit",
         "meaning": "to be silent"
+    },
+    "talentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "talent (weight measure)"
     },
     "tālis": {
         "type": "adjective",
@@ -4945,6 +5080,10 @@
         "gender": "m",
         "meaning": "bear"
     },
+    "usque": {
+        "type": "adverb",
+        "meaning": "as far as, up to"
+    },
     "uxor": {
         "type": "noun",
         "declension": "III",
@@ -5077,6 +5216,11 @@
         "declension": "I",
         "gender": "f",
         "meaning": "street, road"
+    },
+    "vicēsimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "twentieth"
     },
     "victor": {
         "type": "noun",
