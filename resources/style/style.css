@@ -840,6 +840,13 @@ html.dark .dictionary-container > div{
 .goofy {
     animation: rotate 1.5s linear infinite;
 }
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 #sus{
     z-index: 100000000;
     width: 100%;
@@ -856,8 +863,3 @@ html.dark .dictionary-container > div{
     margin-top: 20px;
 }
 
-@keyframes rotate {
-    to {
-        transform: rotate(360deg);
-    }
-}

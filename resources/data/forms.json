@@ -217,20 +217,20 @@
             },
             "passive":{
                 "past":{
-                    "1s":"um eram",
-                    "2s":"um erās",
-                    "3s":"um erat",
-                    "1p":"a erāmus",
-                    "2p":"a erātis",
-                    "3p":"a erant"
+                    "1s":"us eram",
+                    "2s":"us erās",
+                    "3s":"us erat",
+                    "1p":"ī erāmus",
+                    "2p":"ī erātis",
+                    "3p":"ī erant"
                 },
                 "future":{
-                    "1s":"um erō",
-                    "2s":"um eris",
-                    "3s":"um erit",
-                    "1p":"a erimus",
-                    "2p":"a eritis",
-                    "3p":"a erunt"
+                    "1s":"us erō",
+                    "2s":"us eris",
+                    "3s":"us erit",
+                    "1p":"ī erimus",
+                    "2p":"ī eritis",
+                    "3p":"ī erunt"
                 }
             }
         },
@@ -245,12 +245,12 @@
                 "3p":"ērunt"
             },
             "passive":{
-                "1s":"um sum",
-                "2s":"um es",
-                "3s":"um est",
-                "1p":"a sumus",
-                "2p":"a estis",
-                "3p":"a sunt"
+                "1s":"us sum",
+                "2s":"us es",
+                "3s":"us est",
+                "1p":"ī sumus",
+                "2p":"ī estis",
+                "3p":"ī sunt"
             }
         },
 
