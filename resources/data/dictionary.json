@@ -392,6 +392,11 @@
         "perfect-passive-participle": "appellāt",
         "meaning": "to name, call"
     },
+    "aptus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "apt, fit, suitable, suited (for)"
+    },
     "apud": {
         "type": "preposition",
         "meaning": "in the vicinity of, in the time of, in the writings of"
@@ -874,6 +879,19 @@
         "gender": "f",
         "meaning": "citizensip, citystate"
     },
+    "clādēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "clād",
+        "gender": "f",
+        "meaning": "disaster, defeat",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
     "clāmō": {
         "type": "verb",
         "declension": "I",
@@ -899,7 +917,13 @@
         "declension": "III",
         "root": "client",
         "gender": "m",
-        "meaning": "client, supporter"
+        "meaning": "client, supporter",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
     },
     "cognōmen": {
         "type": "noun",
@@ -965,6 +989,14 @@
         "perfect-root": "condid",
         "perfect-passive-participle": "condit",
         "meaning": "to found"
+    },
+    "cōnfirmō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "cōnfirmāre",
+        "perfect-root": "cōnfirmāv",
+        "perfect-passive-participle": "cōnfirmāt",
+        "meaning": "to strengthen"
     },
     "consilium": {
         "type": "noun",
@@ -1202,6 +1234,14 @@
         "perfect-root": "dēfend",
         "perfect-passive-participle": "dēfēns",
         "meaning": "to defend"
+    },
+    "dēficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "dēficere",
+        "perfect-root": "dēfēc",
+        "perfect-passive-participle": "dēfect",
+        "meaning": "to desert, rebell, revolt from"
     },
     "deinde": {
         "type": "conjunction",
@@ -2452,6 +2492,14 @@
         "gender": "m",
         "meaning": "judge"
     },
+    "iungō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "iungere",
+        "perfect-root": "iūnx",
+        "perfect-passive-participle": "iūnct",
+        "meaning": "to join"
+    },
     "iūrō": {
         "type": "verb",
         "declension": "I",
@@ -2496,6 +2544,12 @@
         "perfect-root": "labōrāv",
         "perfect-passive-participle": "labōrāt",
         "meaning": "to work"
+    },
+    "lacus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "lake"
     },
     "laetus": {
         "type": "adjective",
@@ -2889,6 +2943,12 @@
             "i-stem"
         ]
     },
+    "mora": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "delay"
+    },
     "mors": {
         "type": "noun",
         "declension": "III",
@@ -3006,6 +3066,14 @@
         "gender": "m",
         "meaning": "relative"
     },
+    "negō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "negāre",
+        "perfect-root": "negāv",
+        "perfect-passive-participle": "negāt",
+        "meaning": "to say that ... not, deny"
+    },
     "nepōs": {
         "type": "noun",
         "declension": "III",
@@ -3114,6 +3182,19 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "naked"
+    },
+    "nūllus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "no",
+        "exceptions": {
+            "sfg": "nūllīus",
+            "sfd": "nūllī"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
     },
     "numerō": {
         "type": "verb",
@@ -3378,6 +3459,14 @@
         "root": "parent",
         "gender": "f, m",
         "meaning": "parent"
+    },
+    "pāreō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "pārēre",
+        "perfect-root": "pāru",
+        "perfect-passive-participle": "pārit",
+        "meaning": "to obey"
     },
     "parō": {
         "type": "verb",
@@ -3736,6 +3825,12 @@
         "gender": "m",
         "meaning": "praetor"
     },
+    "praetōrius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "praetorian"
+    },
     "prandium": {
         "type": "noun",
         "declension": "II",
@@ -3780,6 +3875,10 @@
         "notes": [
             "Following nouns take the ablative case rather than the accusative."
         ]
+    },
+    "prō cōnsule": {
+        "type": "special",
+        "meaning": "proconsul"
     },
     "prōditor": {
         "type": "noun",
@@ -3896,6 +3995,14 @@
         "declension": "I",
         "gender": "f",
         "meaning": "four horse chariot"
+    },
+    "quaerō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "quaerere",
+        "perfect-root": "quaesīv",
+        "perfect-passive-participle": "quaesit",
+        "meaning": "to seek, ask for"
     },
     "quaestor": {
         "type": "noun",
@@ -4344,6 +4451,10 @@
         "type": "special",
         "meaning": "to surrender"
     },
+    "sē iungere": {
+        "type": "special",
+        "meaning": "to ally onself with"
+    },
     "sē recipere": {
         "type": "special",
         "meaning": "to retreat"
@@ -4733,6 +4844,10 @@
             "no-superlative": true
         }
     },
+    "tam": {
+        "type": "special",
+        "meaning": "so"
+    },
     "tamen": {
         "type": "conjunction",
         "meaning": "however"
@@ -4963,6 +5078,14 @@
                 }
             }
         }
+    },
+    "trucidō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "trucidāre",
+        "perfect-root": "trucidāv",
+        "perfect-passive-participle": "trucidāt",
+        "meaning": "to slaughter"
     },
     "tū": {
         "type": "pronoun",
