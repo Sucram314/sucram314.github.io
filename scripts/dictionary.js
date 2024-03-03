@@ -124,7 +124,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         container = createInteractiveDropdown(table,"Active");
         content = document.createElement("table");
         content.classList.add("gridtable");
-        content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr>`);
+        content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td colspan="2"></td></tr>`);
         
         subtable = createSubTable(content.rows[0].cells[0],"Present (Imperfect)");
         subdat = dat["active"]["present"];
@@ -182,8 +182,10 @@ function form(table, word, result, exceptions={}, recursed=false){
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
 
-        container.appendChild(content);
+        subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"isse"}</td><td>${exceptions["future-infinitive"]?exceptions["future-infinitive"]:result["perfect-passive-participle"]?result["perfect-passive-participle"]+"ūrum":"-"}</td></tr>`);
 
+        container.appendChild(content);
 
         container = createInteractiveDropdown(table,"Passive");
         content = document.createElement("table");

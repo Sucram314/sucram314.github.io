@@ -133,6 +133,12 @@
     "abierint": {
         "abeō": "abeō"
     },
+    "abiisse": {
+        "abeō": "abeō"
+    },
+    "abitūrum": {
+        "abeō": "abeō"
+    },
     "abī": {
         "abeō": "abeō"
     },
@@ -329,6 +335,12 @@
         "abiiciō": "abiiciō"
     },
     "abiēcīerint": {
+        "abiiciō": "abiiciō"
+    },
+    "abiēcīisse": {
+        "abiiciō": "abiiciō"
+    },
+    "abiectūrum": {
         "abiiciō": "abiiciō"
     },
     "abiicior": {
@@ -619,6 +631,12 @@
     "āfuerint": {
         "absum": "absum"
     },
+    "āfuisse": {
+        "absum": "absum"
+    },
+    "āfore": {
+        "absum": "absum"
+    },
     "abeste": {
         "absum": "absum"
     },
@@ -737,6 +755,12 @@
         "accipiō": "accipiō"
     },
     "accēperint": {
+        "accipiō": "accipiō"
+    },
+    "accēpisse": {
+        "accipiō": "accipiō"
+    },
+    "acceptūrum": {
         "accipiō": "accipiō"
     },
     "accipior": {
@@ -1028,6 +1052,12 @@
         "accūsō": "accūsō"
     },
     "accūsāverint": {
+        "accūsō": "accūsō"
+    },
+    "accūsāvisse": {
+        "accūsō": "accūsō"
+    },
+    "accūsātūrum": {
         "accūsō": "accūsō"
     },
     "accūsor": {
@@ -1345,6 +1375,12 @@
     "addiderint": {
         "addō": "addō"
     },
+    "addidisse": {
+        "addō": "addō"
+    },
+    "additūrum": {
+        "addō": "addō"
+    },
     "addor": {
         "addō": "addō"
     },
@@ -1637,6 +1673,12 @@
     "adierint": {
         "adeō": "adeō"
     },
+    "adiisse": {
+        "adeō": "adeō"
+    },
+    "aditūrum": {
+        "adeō": "adeō"
+    },
     "adī": {
         "adeō": "adeō"
     },
@@ -1836,6 +1878,12 @@
         "adōrō": "adōrō"
     },
     "adōrāverint": {
+        "adōrō": "adōrō"
+    },
+    "adōrāvisse": {
+        "adōrō": "adōrō"
+    },
+    "adōrātūrum": {
         "adōrō": "adōrō"
     },
     "adōror": {
@@ -2126,6 +2174,12 @@
     "adpropinquāverint": {
         "adpropinquō": "adpropinquō"
     },
+    "adpropinquāvisse": {
+        "adpropinquō": "adpropinquō"
+    },
+    "adpropinquātūrum": {
+        "adpropinquō": "adpropinquō"
+    },
     "adpropinquor": {
         "adpropinquō": "adpropinquō"
     },
@@ -2414,6 +2468,12 @@
     "adfuerint": {
         "adsum": "adsum"
     },
+    "adfuisse": {
+        "adsum": "adsum"
+    },
+    "adfore": {
+        "adsum": "adsum"
+    },
     "adeste": {
         "adsum": "adsum"
     },
@@ -2578,6 +2638,12 @@
         "aedificō": "aedificō"
     },
     "aedificāverint": {
+        "aedificō": "aedificō"
+    },
+    "aedificāvisse": {
+        "aedificō": "aedificō"
+    },
+    "aedificātūrum": {
         "aedificō": "aedificō"
     },
     "aedificor": {
@@ -3162,6 +3228,12 @@
     "ēgerint": {
         "agō": "agō"
     },
+    "ēgisse": {
+        "agō": "agō"
+    },
+    "āctūrum": {
+        "agō": "agō"
+    },
     "agor": {
         "agō": "agō"
     },
@@ -3675,6 +3747,12 @@
         "ambulō": "ambulō"
     },
     "ambulāverint": {
+        "ambulō": "ambulō"
+    },
+    "ambulāvisse": {
+        "ambulō": "ambulō"
+    },
+    "ambulātūrum": {
         "ambulō": "ambulō"
     },
     "ambulor": {
@@ -4223,6 +4301,12 @@
     "āmīserint": {
         "āmittō": "āmittō"
     },
+    "āmīsisse": {
+        "āmittō": "āmittō"
+    },
+    "āmissūrum": {
+        "āmittō": "āmittō"
+    },
     "āmittor": {
         "āmittō": "āmittō"
     },
@@ -4518,6 +4602,12 @@
         "amō": "amō"
     },
     "amāverint": {
+        "amō": "amō"
+    },
+    "amāvisse": {
+        "amō": "amō"
+    },
+    "amātūrum": {
         "amō": "amō"
     },
     "amor": {
@@ -5064,6 +5154,12 @@
     "aperuerint": {
         "aperiō": "aperiō"
     },
+    "aperuisse": {
+        "aperiō": "aperiō"
+    },
+    "apertūrum": {
+        "aperiō": "aperiō"
+    },
     "aperior": {
         "aperiō": "aperiō"
     },
@@ -5376,6 +5472,12 @@
         "appellō": "appellō"
     },
     "appellāverint": {
+        "appellō": "appellō"
+    },
+    "appellāvisse": {
+        "appellō": "appellō"
+    },
+    "appellātūrum": {
         "appellō": "appellō"
     },
     "appellor": {
@@ -5795,6 +5897,12 @@
         "armō": "armō"
     },
     "armāverint": {
+        "armō": "armō"
+    },
+    "armāvisse": {
+        "armō": "armō"
+    },
+    "armātūrum": {
         "armō": "armō"
     },
     "armor": {
@@ -6261,6 +6369,12 @@
     "audīverint": {
         "audiō": "audiō"
     },
+    "audīvisse": {
+        "audiō": "audiō"
+    },
+    "audītūrum": {
+        "audiō": "audiō"
+    },
     "audior": {
         "audiō": "audiō"
     },
@@ -6553,6 +6667,12 @@
         "auferō": "auferō"
     },
     "abstulerint": {
+        "auferō": "auferō"
+    },
+    "abstulisse": {
+        "auferō": "auferō"
+    },
+    "ablātūrum": {
         "auferō": "auferō"
     },
     "auferor": {
@@ -7385,6 +7505,12 @@
     "biberint": {
         "bibō": "bibō"
     },
+    "bibisse": {
+        "bibō": "bibō"
+    },
+    "pōtūrum": {
+        "bibō": "bibō"
+    },
     "bibor": {
         "bibō": "bibō"
     },
@@ -7893,6 +8019,12 @@
         "cadō": "cadō"
     },
     "ceciderint": {
+        "cadō": "cadō"
+    },
+    "cecidisse": {
+        "cadō": "cadō"
+    },
+    "cāsūrum": {
         "cadō": "cadō"
     },
     "cador": {
@@ -8504,6 +8636,12 @@
     "cantāverint": {
         "cantō": "cantō"
     },
+    "cantāvisse": {
+        "cantō": "cantō"
+    },
+    "cantātūrum": {
+        "cantō": "cantō"
+    },
     "cantor": {
         "cantō": "cantō"
     },
@@ -8815,6 +8953,12 @@
         "capiō": "capiō"
     },
     "cēperint": {
+        "capiō": "capiō"
+    },
+    "cēpisse": {
+        "capiō": "capiō"
+    },
+    "captūrum": {
         "capiō": "capiō"
     },
     "capior": {
@@ -9430,6 +9574,12 @@
     "cesserint": {
         "cēdō": "cēdō"
     },
+    "cessisse": {
+        "cēdō": "cēdō"
+    },
+    "cessūrum": {
+        "cēdō": "cēdō"
+    },
     "cēdor": {
         "cēdō": "cēdō"
     },
@@ -9967,6 +10117,12 @@
     "clāmāverint": {
         "clāmō": "clāmō"
     },
+    "clāmāvisse": {
+        "clāmō": "clāmō"
+    },
+    "clāmātūrum": {
+        "clāmō": "clāmō"
+    },
     "clāmor": {
         "clāmō": "clāmō"
     },
@@ -10441,6 +10597,12 @@
     "cognōverint": {
         "cognoscō": "cognoscō"
     },
+    "cognōvisse": {
+        "cognoscō": "cognoscō"
+    },
+    "cognitūrum": {
+        "cognoscō": "cognoscō"
+    },
     "cognoscor": {
         "cognoscō": "cognoscō"
     },
@@ -10737,6 +10899,12 @@
         "cōgō": "cōgō"
     },
     "coēgerint": {
+        "cōgō": "cōgō"
+    },
+    "coēgisse": {
+        "cōgō": "cōgō"
+    },
+    "coāctūrum": {
         "cōgō": "cōgō"
     },
     "cōgor": {
@@ -11061,6 +11229,12 @@
         "concurrō": "concurrō"
     },
     "concurrerint": {
+        "concurrō": "concurrō"
+    },
+    "concurrisse": {
+        "concurrō": "concurrō"
+    },
+    "concursūrum": {
         "concurrō": "concurrō"
     },
     "concurror": {
@@ -11400,6 +11574,12 @@
     "condiderint": {
         "condō": "condō"
     },
+    "condidisse": {
+        "condō": "condō"
+    },
+    "conditūrum": {
+        "condō": "condō"
+    },
     "condor": {
         "condō": "condō"
     },
@@ -11709,6 +11889,9 @@
     "cōnstiterint": {
         "consistō": "consistō"
     },
+    "cōnstitisse": {
+        "consistō": "consistō"
+    },
     "consistēns": {
         "consistō": "consistō"
     },
@@ -11848,6 +12031,12 @@
         "cōnstituō": "cōnstituō"
     },
     "cōnstituerint": {
+        "cōnstituō": "cōnstituō"
+    },
+    "cōnstituisse": {
+        "cōnstituō": "cōnstituō"
+    },
+    "cōnstitūtūrum": {
         "cōnstituō": "cōnstituō"
     },
     "cōnstituor": {
@@ -12175,6 +12364,12 @@
         "conveniō": "conveniō"
     },
     "convēnerint": {
+        "conveniō": "conveniō"
+    },
+    "convēnisse": {
+        "conveniō": "conveniō"
+    },
+    "conventūrum": {
         "conveniō": "conveniō"
     },
     "convenior": {
@@ -12643,6 +12838,12 @@
         "corrumpō": "corrumpō"
     },
     "corrūperint": {
+        "corrumpō": "corrumpō"
+    },
+    "corrūpisse": {
+        "corrumpō": "corrumpō"
+    },
+    "corruptūrum": {
         "corrumpō": "corrumpō"
     },
     "corrumpor": {
@@ -13194,6 +13395,12 @@
     "cupīverint": {
         "cupiō": "cupiō"
     },
+    "cupīvisse": {
+        "cupiō": "cupiō"
+    },
+    "cupītūrum": {
+        "cupiō": "cupiō"
+    },
     "cupior": {
         "cupiō": "cupiō"
     },
@@ -13509,6 +13716,12 @@
     "cūrāverint": {
         "cūrō": "cūrō"
     },
+    "cūrāvisse": {
+        "cūrō": "cūrō"
+    },
+    "cūrātūrum": {
+        "cūrō": "cūrō"
+    },
     "cūror": {
         "cūrō": "cūrō"
     },
@@ -13816,6 +14029,12 @@
         "currō": "currō"
     },
     "cucurrerint": {
+        "currō": "currō"
+    },
+    "cucurrisse": {
+        "currō": "currō"
+    },
+    "cursūrum": {
         "currō": "currō"
     },
     "curror": {
@@ -14185,6 +14404,12 @@
     "dēbuerint": {
         "dēbeō": "dēbeō"
     },
+    "dēbuisse": {
+        "dēbeō": "dēbeō"
+    },
+    "dēbitūrum": {
+        "dēbeō": "dēbeō"
+    },
     "dēbeor": {
         "dēbeō": "dēbeō"
     },
@@ -14518,6 +14743,12 @@
     "dēdiderint": {
         "dēdō": "dēdō"
     },
+    "dēdidisse": {
+        "dēdō": "dēdō"
+    },
+    "dēditūrum": {
+        "dēdō": "dēdō"
+    },
     "dēdor": {
         "dēdō": "dēdō"
     },
@@ -14801,6 +15032,12 @@
         "dēfendō": "dēfendō"
     },
     "dēfenderint": {
+        "dēfendō": "dēfendō"
+    },
+    "dēfendisse": {
+        "dēfendō": "dēfendō"
+    },
+    "dēfēnsūrum": {
         "dēfendō": "dēfendō"
     },
     "dēfendor": {
@@ -15102,6 +15339,12 @@
     "dēlēverint": {
         "dēlēo": "dēlēo"
     },
+    "dēlēvisse": {
+        "dēlēo": "dēlēo"
+    },
+    "dēlētūrum": {
+        "dēlēo": "dēlēo"
+    },
     "dēleor": {
         "dēlēo": "dēlēo"
     },
@@ -15393,6 +15636,12 @@
     "dēlēgerint": {
         "dēligō": "dēligō"
     },
+    "dēlēgisse": {
+        "dēligō": "dēligō"
+    },
+    "dēlēctūrum": {
+        "dēligō": "dēligō"
+    },
     "dēligor": {
         "dēligō": "dēligō"
     },
@@ -15682,6 +15931,12 @@
         "dēmōnstrō": "dēmōnstrō"
     },
     "dēmōnstrāverint": {
+        "dēmōnstrō": "dēmōnstrō"
+    },
+    "dēmōnstrāvisse": {
+        "dēmōnstrō": "dēmōnstrō"
+    },
+    "dēmōnstrātūrum": {
         "dēmōnstrō": "dēmōnstrō"
     },
     "dēmōnstror": {
@@ -15999,6 +16254,12 @@
     "dēposuerint": {
         "dēpōnō": "dēpōnō"
     },
+    "dēposuisse": {
+        "dēpōnō": "dēpōnō"
+    },
+    "dēpositūrum": {
+        "dēpōnō": "dēpōnō"
+    },
     "dēpōnor": {
         "dēpōnō": "dēpōnō"
     },
@@ -16287,6 +16548,9 @@
     "dēstiterint": {
         "dēsistō": "dēsistō"
     },
+    "dēstitisse": {
+        "dēsistō": "dēsistō"
+    },
     "dēsistor": {
         "dēsistō": "dēsistō"
     },
@@ -16489,6 +16753,12 @@
         "dēspērō": "dēspērō"
     },
     "dēspērāverint": {
+        "dēspērō": "dēspērō"
+    },
+    "dēspērāvisse": {
+        "dēspērō": "dēspērō"
+    },
+    "dēspērātūrum": {
         "dēspērō": "dēspērō"
     },
     "dēspēror": {
@@ -16782,6 +17052,12 @@
     "dēspēxerint": {
         "dēspiciō": "dēspiciō"
     },
+    "dēspēxisse": {
+        "dēspiciō": "dēspiciō"
+    },
+    "dēspectūrum": {
+        "dēspiciō": "dēspiciō"
+    },
     "dēspicior": {
         "dēspiciō": "dēspiciō"
     },
@@ -17073,6 +17349,12 @@
     "dēfuerint": {
         "dēsum": "dēsum"
     },
+    "dēfuisse": {
+        "dēsum": "dēsum"
+    },
+    "dēfore": {
+        "dēsum": "dēsum"
+    },
     "dēeste": {
         "dēsum": "dēsum"
     },
@@ -17261,6 +17543,12 @@
         "dīcō": "dīcō"
     },
     "dīxerint": {
+        "dīcō": "dīcō"
+    },
+    "dīxisse": {
+        "dīcō": "dīcō"
+    },
+    "dictūrum": {
         "dīcō": "dīcō"
     },
     "dīcor": {
@@ -17660,6 +17948,12 @@
         "discēdō": "discēdō"
     },
     "discesserint": {
+        "discēdō": "discēdō"
+    },
+    "discessisse": {
+        "discēdō": "discēdō"
+    },
+    "discessūrum": {
         "discēdō": "discēdō"
     },
     "discēdor": {
@@ -18107,6 +18401,12 @@
     "dederint": {
         "dō": "dō"
     },
+    "dedisse": {
+        "dō": "dō"
+    },
+    "datūrum": {
+        "dō": "dō"
+    },
     "dor": {
         "dō": "dō"
     },
@@ -18396,6 +18696,12 @@
         "doceō": "doceō"
     },
     "docuerint": {
+        "doceō": "doceō"
+    },
+    "docuisse": {
+        "doceō": "doceō"
+    },
+    "doctūrum": {
         "doceō": "doceō"
     },
     "doceor": {
@@ -18756,6 +19062,12 @@
     "dormīverint": {
         "dormiō": "dormiō"
     },
+    "dormīvisse": {
+        "dormiō": "dormiō"
+    },
+    "dormītūrum": {
+        "dormiō": "dormiō"
+    },
     "dormior": {
         "dormiō": "dormiō"
     },
@@ -19045,6 +19357,12 @@
         "dubitō": "dubitō"
     },
     "dubitāverint": {
+        "dubitō": "dubitō"
+    },
+    "dubitāvisse": {
+        "dubitō": "dubitō"
+    },
+    "dubitātūrum": {
         "dubitō": "dubitō"
     },
     "dubitor": {
@@ -19338,6 +19656,12 @@
     "dūxerint": {
         "dūcō": "dūcō"
     },
+    "dūxisse": {
+        "dūcō": "dūcō"
+    },
+    "ductūrum": {
+        "dūcō": "dūcō"
+    },
     "dūcor": {
         "dūcō": "dūcō"
     },
@@ -19555,6 +19879,9 @@
     "effūgī": {
         "effugiō": "effugiō"
     },
+    "effūgitum": {
+        "effugiō": "effugiō"
+    },
     "escape": {
         "effugiō": "effugiō"
     },
@@ -19660,13 +19987,28 @@
     "effūgerint": {
         "effugiō": "effugiō"
     },
+    "effūgisse": {
+        "effugiō": "effugiō"
+    },
+    "effūgitūrum": {
+        "effugiō": "effugiō"
+    },
     "effugitur": {
+        "effugiō": "effugiō"
+    },
+    "effūgitus est": {
         "effugiō": "effugiō"
     },
     "effugiēbātur": {
         "effugiō": "effugiō"
     },
+    "effūgitus erat": {
+        "effugiō": "effugiō"
+    },
     "effugiētur": {
+        "effugiō": "effugiō"
+    },
+    "effūgitus erit": {
         "effugiō": "effugiō"
     },
     "effugiēns": {
@@ -19691,6 +20033,42 @@
         "effugiō": "effugiō"
     },
     "effugientibus": {
+        "effugiō": "effugiō"
+    },
+    "effūgita": {
+        "effugiō": "effugiō"
+    },
+    "effūgitus": {
+        "effugiō": "effugiō"
+    },
+    "effūgitam": {
+        "effugiō": "effugiō"
+    },
+    "effūgitae": {
+        "effugiō": "effugiō"
+    },
+    "effūgitī": {
+        "effugiō": "effugiō"
+    },
+    "effūgitā": {
+        "effugiō": "effugiō"
+    },
+    "effūgitō": {
+        "effugiō": "effugiō"
+    },
+    "effūgitās": {
+        "effugiō": "effugiō"
+    },
+    "effūgitōs": {
+        "effugiō": "effugiō"
+    },
+    "effūgitārum": {
+        "effugiō": "effugiō"
+    },
+    "effūgitōrum": {
+        "effugiō": "effugiō"
+    },
+    "effūgitīs": {
         "effugiō": "effugiō"
     },
     "effuge": {
@@ -19857,6 +20235,12 @@
         "emō": "emō"
     },
     "ēmerint": {
+        "emō": "emō"
+    },
+    "ēmisse": {
+        "emō": "emō"
+    },
+    "ēmptūrum": {
         "emō": "emō"
     },
     "emor": {
@@ -20151,6 +20535,12 @@
     "ierint": {
         "eō": "eō"
     },
+    "iisse": {
+        "eō": "eō"
+    },
+    "itūrum": {
+        "eō": "eō"
+    },
     "ī": {
         "eō": "eō"
     },
@@ -20419,6 +20809,12 @@
         "errō": "errō"
     },
     "errāverint": {
+        "errō": "errō"
+    },
+    "errāvisse": {
+        "errō": "errō"
+    },
+    "errātūrum": {
         "errō": "errō"
     },
     "error": {
@@ -20722,6 +21118,12 @@
     "excesserint": {
         "excēdō": "excēdō"
     },
+    "excessisse": {
+        "excēdō": "excēdō"
+    },
+    "excessūrum": {
+        "excēdō": "excēdō"
+    },
     "excēdor": {
         "excēdō": "excēdō"
     },
@@ -21018,6 +21420,12 @@
     "excitāverint": {
         "excitō": "excitō"
     },
+    "excitāvisse": {
+        "excitō": "excitō"
+    },
+    "excitātūrum": {
+        "excitō": "excitō"
+    },
     "excitor": {
         "excitō": "excitō"
     },
@@ -21306,6 +21714,12 @@
     "exierint": {
         "exeō": "exeō"
     },
+    "exiisse": {
+        "exeō": "exeō"
+    },
+    "exitūrum": {
+        "exeō": "exeō"
+    },
     "exī": {
         "exeō": "exeō"
     },
@@ -21523,6 +21937,12 @@
         "exīstimō": "exīstimō"
     },
     "exīstimāverint": {
+        "exīstimō": "exīstimō"
+    },
+    "exīstimāvisse": {
+        "exīstimō": "exīstimō"
+    },
+    "exīstimātūrum": {
         "exīstimō": "exīstimō"
     },
     "exīstimor": {
@@ -21957,6 +22377,12 @@
     "fēcerint": {
         "faciō": "faciō"
     },
+    "fēcisse": {
+        "faciō": "faciō"
+    },
+    "factūrum": {
+        "faciō": "faciō"
+    },
     "facior": {
         "faciō": "faciō"
     },
@@ -22257,6 +22683,12 @@
         "fallō": "fallō"
     },
     "fefellerint": {
+        "fallō": "fallō"
+    },
+    "fefellisse": {
+        "fallō": "fallō"
+    },
+    "falsūrum": {
         "fallō": "fallō"
     },
     "fallor": {
@@ -22658,6 +23090,12 @@
         "ferō": "ferō"
     },
     "tulerint": {
+        "ferō": "ferō"
+    },
+    "tulisse": {
+        "ferō": "ferō"
+    },
+    "lātūrum": {
         "ferō": "ferō"
     },
     "feror": {
@@ -23454,6 +23892,12 @@
     "flēverint": {
         "fleō": "fleō"
     },
+    "flēvisse": {
+        "fleō": "fleō"
+    },
+    "flētūrum": {
+        "fleō": "fleō"
+    },
     "fleor": {
         "fleō": "fleō"
     },
@@ -23953,6 +24397,12 @@
     "frēgerint": {
         "frangō": "frangō"
     },
+    "frēgisse": {
+        "frangō": "frangō"
+    },
+    "frāctūrum": {
+        "frangō": "frangō"
+    },
     "frangor": {
         "frangō": "frangō"
     },
@@ -24308,6 +24758,9 @@
     "fūgī": {
         "fugiō": "fugiō"
     },
+    "fūgitum": {
+        "fugiō": "fugiō"
+    },
     "flee": {
         "fugiō": "fugiō"
     },
@@ -24413,13 +24866,28 @@
     "fūgerint": {
         "fugiō": "fugiō"
     },
+    "fūgisse": {
+        "fugiō": "fugiō"
+    },
+    "fūgitūrum": {
+        "fugiō": "fugiō"
+    },
     "fugitur": {
+        "fugiō": "fugiō"
+    },
+    "fūgitus est": {
         "fugiō": "fugiō"
     },
     "fugiēbātur": {
         "fugiō": "fugiō"
     },
+    "fūgitus erat": {
+        "fugiō": "fugiō"
+    },
     "fugiētur": {
+        "fugiō": "fugiō"
+    },
+    "fūgitus erit": {
         "fugiō": "fugiō"
     },
     "fugiēns": {
@@ -24444,6 +24912,42 @@
         "fugiō": "fugiō"
     },
     "fugientibus": {
+        "fugiō": "fugiō"
+    },
+    "fūgita": {
+        "fugiō": "fugiō"
+    },
+    "fūgitus": {
+        "fugiō": "fugiō"
+    },
+    "fūgitam": {
+        "fugiō": "fugiō"
+    },
+    "fūgitae": {
+        "fugiō": "fugiō"
+    },
+    "fūgitī": {
+        "fugiō": "fugiō"
+    },
+    "fūgitā": {
+        "fugiō": "fugiō"
+    },
+    "fūgitō": {
+        "fugiō": "fugiō"
+    },
+    "fūgitās": {
+        "fugiō": "fugiō"
+    },
+    "fūgitōs": {
+        "fugiō": "fugiō"
+    },
+    "fūgitārum": {
+        "fugiō": "fugiō"
+    },
+    "fūgitōrum": {
+        "fugiō": "fugiō"
+    },
+    "fūgitīs": {
         "fugiō": "fugiō"
     },
     "fuge": {
@@ -24753,6 +25257,12 @@
         "gerō": "gerō"
     },
     "gesserint": {
+        "gerō": "gerō"
+    },
+    "gessisse": {
+        "gerō": "gerō"
+    },
+    "gestūrum": {
         "gerō": "gerō"
     },
     "geror": {
@@ -25269,6 +25779,12 @@
     "habuerint": {
         "habeō": "habeō"
     },
+    "habuisse": {
+        "habeō": "habeō"
+    },
+    "habitūrum": {
+        "habeō": "habeō"
+    },
     "habeor": {
         "habeō": "habeō"
     },
@@ -25561,6 +26077,12 @@
         "habitō": "habitō"
     },
     "habitāverint": {
+        "habitō": "habitō"
+    },
+    "habitāvisse": {
+        "habitō": "habitō"
+    },
+    "habitātūrum": {
         "habitō": "habitō"
     },
     "habitor": {
@@ -26208,6 +26730,12 @@
     "iēcerint": {
         "iaciō": "iaciō"
     },
+    "iēcisse": {
+        "iaciō": "iaciō"
+    },
+    "iactūrum": {
+        "iaciō": "iaciō"
+    },
     "iacior": {
         "iaciō": "iaciō"
     },
@@ -26681,6 +27209,12 @@
         "impediō": "impediō"
     },
     "impedīverint": {
+        "impediō": "impediō"
+    },
+    "impedīvisse": {
+        "impediō": "impediō"
+    },
+    "impedītūrum": {
         "impediō": "impediō"
     },
     "impedior": {
@@ -27193,6 +27727,12 @@
     "incēperint": {
         "incipiō": "incipiō"
     },
+    "incēpisse": {
+        "incipiō": "incipiō"
+    },
+    "inceptūrum": {
+        "incipiō": "incipiō"
+    },
     "incipior": {
         "incipiō": "incipiō"
     },
@@ -27614,6 +28154,12 @@
         "ineō": "ineō"
     },
     "inierint": {
+        "ineō": "ineō"
+    },
+    "iniisse": {
+        "ineō": "ineō"
+    },
+    "initūrum": {
         "ineō": "ineō"
     },
     "inī": {
@@ -28348,6 +28894,9 @@
     "inquierint": {
         "inquiō": "inquiō"
     },
+    "inquiisse": {
+        "inquiō": "inquiō"
+    },
     "inquiēns": {
         "inquiō": "inquiō"
     },
@@ -28539,6 +29088,12 @@
         "interficiō": "interficiō"
     },
     "interfēcerint": {
+        "interficiō": "interficiō"
+    },
+    "interfēcisse": {
+        "interficiō": "interficiō"
+    },
+    "interfectūrum": {
         "interficiō": "interficiō"
     },
     "interficior": {
@@ -28859,6 +29414,12 @@
     "invēnerint": {
         "inveniō": "inveniō"
     },
+    "invēnisse": {
+        "inveniō": "inveniō"
+    },
+    "inventūrum": {
+        "inveniō": "inveniō"
+    },
     "invenior": {
         "inveniō": "inveniō"
     },
@@ -29148,6 +29709,12 @@
         "invideō": "invideō"
     },
     "invīderint": {
+        "invideō": "invideō"
+    },
+    "invīdisse": {
+        "invideō": "invideō"
+    },
+    "invīsūrum": {
         "invideō": "invideō"
     },
     "invideor": {
@@ -29691,6 +30258,12 @@
     "iusserint": {
         "iubeō": "iubeō"
     },
+    "iussisse": {
+        "iubeō": "iubeō"
+    },
+    "iussūrum": {
+        "iubeō": "iubeō"
+    },
     "iubeor": {
         "iubeō": "iubeō"
     },
@@ -30111,6 +30684,12 @@
     "iūrāverint": {
         "iūrō": "iūrō"
     },
+    "iūrāvisse": {
+        "iūrō": "iūrō"
+    },
+    "iūrātūrum": {
+        "iūrō": "iūrō"
+    },
     "iūror": {
         "iūrō": "iūrō"
     },
@@ -30415,6 +30994,12 @@
         "iuvō": "iuvō"
     },
     "iūverint": {
+        "iuvō": "iuvō"
+    },
+    "iūvisse": {
+        "iuvō": "iuvō"
+    },
+    "iūtūrum": {
         "iuvō": "iuvō"
     },
     "iuvor": {
@@ -30728,6 +31313,12 @@
         "labōrō": "labōrō"
     },
     "labōrāverint": {
+        "labōrō": "labōrō"
+    },
+    "labōrāvisse": {
+        "labōrō": "labōrō"
+    },
+    "labōrātūrum": {
         "labōrō": "labōrō"
     },
     "labōror": {
@@ -31129,6 +31720,12 @@
     "lātrāverint": {
         "lātrō": "lātrō"
     },
+    "lātrāvisse": {
+        "lātrō": "lātrō"
+    },
+    "lātrātūrum": {
+        "lātrō": "lātrō"
+    },
     "lātror": {
         "lātrō": "lātrō"
     },
@@ -31492,6 +32089,12 @@
     "laudāverint": {
         "laudō": "laudō"
     },
+    "laudāvisse": {
+        "laudō": "laudō"
+    },
+    "laudātūrum": {
+        "laudō": "laudō"
+    },
     "laudor": {
         "laudō": "laudō"
     },
@@ -31826,6 +32429,12 @@
         "legō": "legō"
     },
     "lēgerint": {
+        "legō": "legō"
+    },
+    "lēgisse": {
+        "legō": "legō"
+    },
+    "lēctūrum": {
         "legō": "legō"
     },
     "legor": {
@@ -32195,6 +32804,12 @@
         "līberō": "līberō"
     },
     "līberāverint": {
+        "līberō": "līberō"
+    },
+    "līberāvisse": {
+        "līberō": "līberō"
+    },
+    "līberātūrum": {
         "līberō": "līberō"
     },
     "līberor": {
@@ -32721,6 +33336,12 @@
         "lūdō": "lūdō"
     },
     "lūserint": {
+        "lūdō": "lūdō"
+    },
+    "lūsisse": {
+        "lūdō": "lūdō"
+    },
+    "lūsūrum": {
         "lūdō": "lūdō"
     },
     "lūdor": {
@@ -33358,6 +33979,9 @@
     "māluerint": {
         "mālō": "mālō"
     },
+    "māluisse": {
+        "mālō": "mālō"
+    },
     "mālēns": {
         "mālō": "mālō"
     },
@@ -33671,6 +34295,12 @@
         "maneō": "maneō"
     },
     "mānserint": {
+        "maneō": "maneō"
+    },
+    "mānsisse": {
+        "maneō": "maneō"
+    },
+    "mānsūrum": {
         "maneō": "maneō"
     },
     "maneor": {
@@ -34534,6 +35164,12 @@
     "mīserint": {
         "mittō": "mittō"
     },
+    "mīsisse": {
+        "mittō": "mittō"
+    },
+    "missūrum": {
+        "mittō": "mittō"
+    },
     "mittor": {
         "mittō": "mittō"
     },
@@ -35062,6 +35698,12 @@
     "mūnīverint": {
         "mūniō": "mūniō"
     },
+    "mūnīvisse": {
+        "mūniō": "mūniō"
+    },
+    "mūnītūrum": {
+        "mūniō": "mūniō"
+    },
     "mūnior": {
         "mūniō": "mūniō"
     },
@@ -35378,6 +36020,12 @@
     "narrāverint": {
         "nārrō": "nārrō"
     },
+    "narrāvisse": {
+        "nārrō": "nārrō"
+    },
+    "nārrātūrum": {
+        "nārrō": "nārrō"
+    },
     "nārror": {
         "nārrō": "nārrō"
     },
@@ -35667,6 +36315,12 @@
         "natō": "natō"
     },
     "natāverint": {
+        "natō": "natō"
+    },
+    "natāvisse": {
+        "natō": "natō"
+    },
+    "natātūrum": {
         "natō": "natō"
     },
     "nator": {
@@ -36092,6 +36746,12 @@
     "nescīverint": {
         "nesciō": "nesciō"
     },
+    "nescīvisse": {
+        "nesciō": "nesciō"
+    },
+    "nescītūrum": {
+        "nesciō": "nesciō"
+    },
     "nescior": {
         "nesciō": "nesciō"
     },
@@ -36501,6 +37161,9 @@
         "nōlō": "nōlō"
     },
     "nōluerint": {
+        "nōlō": "nōlō"
+    },
+    "nōluisse": {
         "nōlō": "nōlō"
     },
     "nōlēns": {
@@ -37067,6 +37730,12 @@
     "numerāverint": {
         "numerō": "numerō"
     },
+    "numerāvisse": {
+        "numerō": "numerō"
+    },
+    "numerātūrum": {
+        "numerō": "numerō"
+    },
     "numeror": {
         "numerō": "numerō"
     },
@@ -37404,6 +38073,12 @@
         "nūntiō": "nūntiō"
     },
     "nūntiāverint": {
+        "nūntiō": "nūntiō"
+    },
+    "nūntiāvisse": {
+        "nūntiō": "nūntiō"
+    },
+    "nūntiātūrum": {
         "nūntiō": "nūntiō"
     },
     "nūntior": {
@@ -37852,6 +38527,12 @@
     "obsēderint": {
         "obsideō": "obsideō"
     },
+    "obsēdisse": {
+        "obsideō": "obsideō"
+    },
+    "obsessūrum": {
+        "obsideō": "obsideō"
+    },
     "obsideor": {
         "obsideō": "obsideō"
     },
@@ -38138,6 +38819,12 @@
         "occīdō": "occīdō"
     },
     "occiderint": {
+        "occīdō": "occīdō"
+    },
+    "occidisse": {
+        "occīdō": "occīdō"
+    },
+    "occīsūrum": {
         "occīdō": "occīdō"
     },
     "occīdor": {
@@ -38483,6 +39170,12 @@
         "offendō": "offendō"
     },
     "offenderint": {
+        "offendō": "offendō"
+    },
+    "offendisse": {
+        "offendō": "offendō"
+    },
+    "offēnsūrum": {
         "offendō": "offendō"
     },
     "offendor": {
@@ -38847,6 +39540,12 @@
     "oppresserint": {
         "opprimō": "opprimō"
     },
+    "oppressisse": {
+        "opprimō": "opprimō"
+    },
+    "oppressūrum": {
+        "opprimō": "opprimō"
+    },
     "opprimor": {
         "opprimō": "opprimō"
     },
@@ -39133,6 +39832,12 @@
         "oppūgnō": "oppūgnō"
     },
     "oppūgnāverint": {
+        "oppūgnō": "oppūgnō"
+    },
+    "oppūgnāvisse": {
+        "oppūgnō": "oppūgnō"
+    },
+    "oppūgnātūrum": {
         "oppūgnō": "oppūgnō"
     },
     "oppūgnor": {
@@ -39802,6 +40507,12 @@
         "parō": "parō"
     },
     "parāverint": {
+        "parō": "parō"
+    },
+    "parāvisse": {
+        "parō": "parō"
+    },
+    "parātūrum": {
         "parō": "parō"
     },
     "paror": {
@@ -40512,6 +41223,12 @@
     "pepulerint": {
         "pellō": "pellō"
     },
+    "pepulisse": {
+        "pellō": "pellō"
+    },
+    "pulsūrum": {
+        "pellō": "pellō"
+    },
     "pellor": {
         "pellō": "pellō"
     },
@@ -40828,6 +41545,12 @@
         "pereō": "pereō"
     },
     "perierint": {
+        "pereō": "pereō"
+    },
+    "periisse": {
+        "pereō": "pereō"
+    },
+    "peritūrum": {
         "pereō": "pereō"
     },
     "perī": {
@@ -41283,6 +42006,12 @@
         "perveniō": "perveniō"
     },
     "pervēnerint": {
+        "perveniō": "perveniō"
+    },
+    "pervēnisse": {
+        "perveniō": "perveniō"
+    },
+    "perventūrum": {
         "perveniō": "perveniō"
     },
     "pervenior": {
@@ -41990,6 +42719,12 @@
     "posuerint": {
         "pōnō": "pōnō"
     },
+    "posuisse": {
+        "pōnō": "pōnō"
+    },
+    "positūrum": {
+        "pōnō": "pōnō"
+    },
     "pōnor": {
         "pōnō": "pōnō"
     },
@@ -42343,6 +43078,12 @@
     "portāverint": {
         "portō": "portō"
     },
+    "portāvisse": {
+        "portō": "portō"
+    },
+    "portātūrum": {
+        "portō": "portō"
+    },
     "portor": {
         "portō": "portō"
     },
@@ -42626,6 +43367,9 @@
         "possum": "possum"
     },
     "potuerint": {
+        "possum": "possum"
+    },
+    "potuisse": {
         "possum": "possum"
     },
     "potēns": {
@@ -42928,6 +43672,12 @@
         "praesum": "praesum"
     },
     "praefuerint": {
+        "praesum": "praesum"
+    },
+    "praefuisse": {
+        "praesum": "praesum"
+    },
+    "praefore": {
         "praesum": "praesum"
     },
     "praeeste": {
@@ -43285,6 +44035,12 @@
     "prohibuerint": {
         "prohibeō": "prohibeō"
     },
+    "prohibuisse": {
+        "prohibeō": "prohibeō"
+    },
+    "prohibitūrum": {
+        "prohibeō": "prohibeō"
+    },
     "prohibeor": {
         "prohibeō": "prohibeō"
     },
@@ -43574,6 +44330,12 @@
         "prōmittō": "prōmittō"
     },
     "prōmīserint": {
+        "prōmittō": "prōmittō"
+    },
+    "prōmīsisse": {
+        "prōmittō": "prōmittō"
+    },
+    "prōmissūrum": {
         "prōmittō": "prōmittō"
     },
     "prōmittor": {
@@ -43960,6 +44722,12 @@
     "pūblicāverint": {
         "pūblicō": "pūblicō"
     },
+    "pūblicāvisse": {
+        "pūblicō": "pūblicō"
+    },
+    "pūblicātūrum": {
+        "pūblicō": "pūblicō"
+    },
     "pūblicor": {
         "pūblicō": "pūblicō"
     },
@@ -44293,6 +45061,12 @@
     "pūgnāverint": {
         "pūgnō": "pūgnō"
     },
+    "pūgnāvisse": {
+        "pūgnō": "pūgnō"
+    },
+    "pūgnātūrum": {
+        "pūgnō": "pūgnō"
+    },
     "pūgnor": {
         "pūgnō": "pūgnō"
     },
@@ -44579,6 +45353,12 @@
         "pulsō": "pulsō"
     },
     "pulsāverint": {
+        "pulsō": "pulsō"
+    },
+    "pulsāvisse": {
+        "pulsō": "pulsō"
+    },
+    "pulsātūrum": {
         "pulsō": "pulsō"
     },
     "pulsor": {
@@ -44975,6 +45755,12 @@
         "pūniō": "pūniō"
     },
     "pūnīverint": {
+        "pūniō": "pūniō"
+    },
+    "pūnīvisse": {
+        "pūniō": "pūniō"
+    },
+    "pūnītūrum": {
         "pūniō": "pūniō"
     },
     "pūnior": {
@@ -45504,6 +46290,12 @@
     "quiēverint": {
         "quiescō": "quiescō"
     },
+    "quiēvisse": {
+        "quiescō": "quiescō"
+    },
+    "quiētūrum": {
+        "quiescō": "quiescō"
+    },
     "quiescor": {
         "quiescō": "quiescō"
     },
@@ -45904,6 +46696,12 @@
     "recēperint": {
         "recipiō": "recipiō"
     },
+    "recēpisse": {
+        "recipiō": "recipiō"
+    },
+    "receptūrum": {
+        "recipiō": "recipiō"
+    },
     "recipior": {
         "recipiō": "recipiō"
     },
@@ -46195,6 +46993,12 @@
     "redierint": {
         "redeō": "redeō"
     },
+    "rediisse": {
+        "redeō": "redeō"
+    },
+    "reditūrum": {
+        "redeō": "redeō"
+    },
     "redī": {
         "redeō": "redeō"
     },
@@ -46394,6 +47198,12 @@
         "redūcō": "redūcō"
     },
     "redūxerint": {
+        "redūcō": "redūcō"
+    },
+    "redūxisse": {
+        "redūcō": "redūcō"
+    },
+    "reductūrum": {
         "redūcō": "redūcō"
     },
     "redūcor": {
@@ -46688,6 +47498,12 @@
         "referō": "referō"
     },
     "retulerint": {
+        "referō": "referō"
+    },
+    "retulisse": {
+        "referō": "referō"
+    },
+    "relātūrum": {
         "referō": "referō"
     },
     "referor": {
@@ -47050,6 +47866,12 @@
     "refēcerint": {
         "reficiō": "reficiō"
     },
+    "refēcisse": {
+        "reficiō": "reficiō"
+    },
+    "refectūrum": {
+        "reficiō": "reficiō"
+    },
     "reficior": {
         "reficiō": "reficiō"
     },
@@ -47389,6 +48211,12 @@
     "relīquerint": {
         "relinquō": "relinquō"
     },
+    "relīquisse": {
+        "relinquō": "relinquō"
+    },
+    "relictūrum": {
+        "relinquō": "relinquō"
+    },
     "relinquor": {
         "relinquō": "relinquō"
     },
@@ -47695,6 +48523,9 @@
     "restiterint": {
         "resistō": "resistō"
     },
+    "restitisse": {
+        "resistō": "resistō"
+    },
     "resistēns": {
         "resistō": "resistō"
     },
@@ -47840,6 +48671,12 @@
         "respondeō": "respondeō"
     },
     "responderint": {
+        "respondeō": "respondeō"
+    },
+    "respondisse": {
+        "respondeō": "respondeō"
+    },
+    "respōnsūrum": {
         "respondeō": "respondeō"
     },
     "respondeor": {
@@ -48199,6 +49036,12 @@
     "rīserint": {
         "rīdeō": "rīdeō"
     },
+    "rīsisse": {
+        "rīdeō": "rīdeō"
+    },
+    "rīsūrum": {
+        "rīdeō": "rīdeō"
+    },
     "rīdeor": {
         "rīdeō": "rīdeō"
     },
@@ -48485,6 +49328,12 @@
         "rogō": "rogō"
     },
     "rogāverint": {
+        "rogō": "rogō"
+    },
+    "rogāvisse": {
+        "rogō": "rogō"
+    },
+    "rogātūrum": {
         "rogō": "rogō"
     },
     "rogor": {
@@ -49147,6 +49996,12 @@
     "saluerint": {
         "saliō": "saliō"
     },
+    "saluisse": {
+        "saliō": "saliō"
+    },
+    "saltūrum": {
+        "saliō": "saliō"
+    },
     "salior": {
         "saliō": "saliō"
     },
@@ -49463,6 +50318,12 @@
         "salūtō": "salūtō"
     },
     "salūtāverint": {
+        "salūtō": "salūtō"
+    },
+    "salūtāvisse": {
+        "salūtō": "salūtō"
+    },
+    "salūtātūrum": {
         "salūtō": "salūtō"
     },
     "salūtor": {
@@ -49837,6 +50698,12 @@
     "scīverint": {
         "sciō": "sciō"
     },
+    "scīvisse": {
+        "sciō": "sciō"
+    },
+    "scītūrum": {
+        "sciō": "sciō"
+    },
     "scior": {
         "sciō": "sciō"
     },
@@ -50126,6 +50993,12 @@
         "scrībō": "scrībō"
     },
     "scrīpserint": {
+        "scrībō": "scrībō"
+    },
+    "scrīpsisse": {
+        "scrībō": "scrībō"
+    },
+    "scrīptūrum": {
         "scrībō": "scrībō"
     },
     "scrībor": {
@@ -50541,6 +51414,12 @@
         "sedeō": "sedeō"
     },
     "sēderint": {
+        "sedeō": "sedeō"
+    },
+    "sēdisse": {
+        "sedeō": "sedeō"
+    },
+    "sessūrum": {
         "sedeō": "sedeō"
     },
     "sedeor": {
@@ -50972,6 +51851,12 @@
     "servāverint": {
         "servō": "servō"
     },
+    "servāvisse": {
+        "servō": "servō"
+    },
+    "servātūrum": {
+        "servō": "servō"
+    },
     "servor": {
         "servō": "servō"
     },
@@ -51348,6 +52233,12 @@
         "significō": "significō"
     },
     "significāverint": {
+        "significō": "significō"
+    },
+    "significāvisse": {
+        "significō": "significō"
+    },
+    "significātūrum": {
         "significō": "significō"
     },
     "significor": {
@@ -51747,6 +52638,12 @@
         "simulō": "simulō"
     },
     "simulāverint": {
+        "simulō": "simulō"
+    },
+    "simulāvisse": {
+        "simulō": "simulō"
+    },
+    "simulātūrum": {
         "simulō": "simulō"
     },
     "simulor": {
@@ -52290,6 +53187,12 @@
     "spectāverint": {
         "spectō": "spectō"
     },
+    "spectāvisse": {
+        "spectō": "spectō"
+    },
+    "spectātūrum": {
+        "spectō": "spectō"
+    },
     "spector": {
         "spectō": "spectō"
     },
@@ -52705,6 +53608,12 @@
     "steterint": {
         "stō": "stō"
     },
+    "stetisse": {
+        "stō": "stō"
+    },
+    "statūrum": {
+        "stō": "stō"
+    },
     "stor": {
         "stō": "stō"
     },
@@ -52993,6 +53902,9 @@
     "studuerint": {
         "studeō": "studeō"
     },
+    "studuisse": {
+        "studeō": "studeō"
+    },
     "studēns": {
         "studeō": "studeō"
     },
@@ -53249,6 +54161,12 @@
         "sum": "sum"
     },
     "fuerint": {
+        "sum": "sum"
+    },
+    "fuisse": {
+        "sum": "sum"
+    },
+    "fore": {
         "sum": "sum"
     },
     "este": {
@@ -53526,6 +54444,12 @@
         "superō": "superō"
     },
     "superāverint": {
+        "superō": "superō"
+    },
+    "superāvisse": {
+        "superō": "superō"
+    },
+    "superātūrum": {
         "superō": "superō"
     },
     "superor": {
@@ -53817,6 +54741,12 @@
         "surgō": "surgō"
     },
     "surrēxerint": {
+        "surgō": "surgō"
+    },
+    "surrēxisse": {
+        "surgō": "surgō"
+    },
+    "surrēctūrum": {
         "surgō": "surgō"
     },
     "surgor": {
@@ -54210,6 +55140,12 @@
         "taceō": "taceō"
     },
     "tacuerint": {
+        "taceō": "taceō"
+    },
+    "tacuisse": {
+        "taceō": "taceō"
+    },
+    "tacitūrum": {
         "taceō": "taceō"
     },
     "taceor": {
@@ -54611,6 +55547,12 @@
     "temptāverint": {
         "temptō": "temptō"
     },
+    "temptāvisse": {
+        "temptō": "temptō"
+    },
+    "temptātūrum": {
+        "temptō": "temptō"
+    },
     "temptor": {
         "temptō": "temptō"
     },
@@ -54963,6 +55905,12 @@
         "terreō": "terreō"
     },
     "terruerint": {
+        "terreō": "terreō"
+    },
+    "terruisse": {
+        "terreō": "terreō"
+    },
+    "territūrum": {
         "terreō": "terreō"
     },
     "terreor": {
@@ -55355,6 +56303,9 @@
     "timuerint": {
         "timeō": "timeō"
     },
+    "timuisse": {
+        "timeō": "timeō"
+    },
     "timeor": {
         "timeō": "timeō"
     },
@@ -55602,6 +56553,12 @@
         "trahō": "trahō"
     },
     "trāxerint": {
+        "trahō": "trahō"
+    },
+    "trāxisse": {
+        "trahō": "trahō"
+    },
+    "tractūrum": {
         "trahō": "trahō"
     },
     "trahor": {
@@ -55896,6 +56853,12 @@
         "trānseō": "trānseō"
     },
     "trānsierint": {
+        "trānseō": "trānseō"
+    },
+    "trānsiisse": {
+        "trānseō": "trānseō"
+    },
+    "trānsitūrum": {
         "trānseō": "trānseō"
     },
     "trānsī": {
@@ -56441,6 +57404,12 @@
     "triumphāverint": {
         "triumphō": "triumphō"
     },
+    "triumphāvisse": {
+        "triumphō": "triumphō"
+    },
+    "triumphātūrum": {
+        "triumphō": "triumphō"
+    },
     "triumphor": {
         "triumphō": "triumphō"
     },
@@ -56903,6 +57872,12 @@
         "turbō": "turbō"
     },
     "turbāverint": {
+        "turbō": "turbō"
+    },
+    "turbāvisse": {
+        "turbō": "turbō"
+    },
+    "turbātūrum": {
         "turbō": "turbō"
     },
     "turbor": {
@@ -57740,6 +58715,12 @@
     "vāstāverint": {
         "vāstō": "vāstō"
     },
+    "vāstāvisse": {
+        "vāstō": "vāstō"
+    },
+    "vāstātūrum": {
+        "vāstō": "vāstō"
+    },
     "vāstor": {
         "vāstō": "vāstō"
     },
@@ -58032,6 +59013,12 @@
         "vendō": "vendō"
     },
     "vēndiderint": {
+        "vendō": "vendō"
+    },
+    "vēndidisse": {
+        "vendō": "vendō"
+    },
+    "vēnditūrum": {
         "vendō": "vendō"
     },
     "vendor": {
@@ -58341,6 +59328,12 @@
         "veniō": "veniō"
     },
     "vēnerint": {
+        "veniō": "veniō"
+    },
+    "vēnisse": {
+        "veniō": "veniō"
+    },
+    "ventūrum": {
         "veniō": "veniō"
     },
     "venior": {
@@ -58671,6 +59664,12 @@
         "vertō": "vertō"
     },
     "verterint": {
+        "vertō": "vertō"
+    },
+    "vertisse": {
+        "vertō": "vertō"
+    },
+    "versūrum": {
         "vertō": "vertō"
     },
     "vertor": {
@@ -59150,6 +60149,12 @@
     "vetuerint": {
         "vetō": "vetō"
     },
+    "vetuisse": {
+        "vetō": "vetō"
+    },
+    "vetitūrum": {
+        "vetō": "vetō"
+    },
     "vetor": {
         "vetō": "vetō"
     },
@@ -59619,6 +60624,12 @@
     "vīderint": {
         "videō": "videō"
     },
+    "vīdisse": {
+        "videō": "videō"
+    },
+    "vīsūrum": {
+        "videō": "videō"
+    },
     "videor": {
         "videō": "videō"
     },
@@ -59977,6 +60988,12 @@
         "vincō": "vincō"
     },
     "vīcerint": {
+        "vincō": "vincō"
+    },
+    "vīcisse": {
+        "vincō": "vincō"
+    },
+    "victūrum": {
         "vincō": "vincō"
     },
     "vincor": {
@@ -60401,6 +61418,12 @@
     "vītāverint": {
         "vītō": "vītō"
     },
+    "vītāvisse": {
+        "vītō": "vītō"
+    },
+    "vītātūrum": {
+        "vītō": "vītō"
+    },
     "vītor": {
         "vītō": "vītō"
     },
@@ -60684,6 +61707,12 @@
         "vīvō": "vīvō"
     },
     "vīxerint": {
+        "vīvō": "vīvō"
+    },
+    "vīxisse": {
+        "vīvō": "vīvō"
+    },
+    "vīctūrum": {
         "vīvō": "vīvō"
     },
     "vīvor": {
@@ -60977,6 +62006,12 @@
     "vocāverint": {
         "vocō": "vocō"
     },
+    "vocāvisse": {
+        "vocō": "vocō"
+    },
+    "vocātūrum": {
+        "vocō": "vocō"
+    },
     "vocor": {
         "vocō": "vocō"
     },
@@ -61268,6 +62303,9 @@
     "voluerint": {
         "volō": "volō"
     },
+    "voluisse": {
+        "volō": "volō"
+    },
     "volens": {
         "volō": "volō"
     },
@@ -61474,6 +62512,12 @@
         "vulnerō": "vulnerō"
     },
     "vulnerāverint": {
+        "vulnerō": "vulnerō"
+    },
+    "vulnerāvisse": {
+        "vulnerō": "vulnerō"
+    },
+    "vulnerātūrum": {
         "vulnerō": "vulnerō"
     },
     "vulneror": {
