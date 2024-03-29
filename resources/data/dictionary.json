@@ -990,6 +990,18 @@
         "perfect-passive-participle": "condit",
         "meaning": "to found"
     },
+    "conferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "conferre",
+        "perfect-root": "contul",
+        "perfect-passive-participle": "conlāt",
+        "meaning": "to collect, bring together",
+        "exceptions": {
+            "irreg-imperative": true
+        }
+    },
     "cōnfirmō": {
         "type": "verb",
         "declension": "I",
