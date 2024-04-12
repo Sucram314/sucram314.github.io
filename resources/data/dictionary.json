@@ -384,6 +384,12 @@
         "gender": "n",
         "meaning": "dressing room"
     },
+    "apparatus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "equipment"
+    },
     "appellō": {
         "type": "verb",
         "declension": "I",
@@ -792,6 +798,12 @@
             "Must be in the plural form"
         ]
     },
+    "catēna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "chain"
+    },
     "caupō": {
         "type": "noun",
         "declension": "III",
@@ -1151,6 +1163,12 @@
     "cūr": {
         "type": "interrogative",
         "meaning": "why"
+    },
+    "cūra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "anxiety"
     },
     "cūria": {
         "type": "noun",
@@ -1667,6 +1685,13 @@
         "perfect-passive-participle": "exīstimāt",
         "meaning": "to think"
     },
+    "explōrātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "explōrātōr",
+        "gender": "m",
+        "meaning": "scout"
+    },
     "exsilium": {
         "type": "noun",
         "declension": "II",
@@ -1863,6 +1888,12 @@
     "fortiter": {
         "type": "adverb",
         "meaning": "bravely"
+    },
+    "fortuna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "luck"
     },
     "forum": {
         "type": "noun",
@@ -2694,6 +2725,12 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "long, tall"
+    },
+    "lūctus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "grief"
     },
     "lūdō": {
         "type": "verb",
@@ -3855,6 +3892,10 @@
         "gender": "n",
         "meaning": "ransom, price, value"
     },
+    "prīmō": {
+        "type": "adverb",
+        "meaning": "firstly"
+    },
     "prīmum": {
         "type": "adverb",
         "meaning": "firstly"
@@ -3880,6 +3921,11 @@
         "declension": "II",
         "gender": "n",
         "meaning": "beginning"
+    },
+    "prīvatus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "personal"
     },
     "prō": {
         "type": "preposition",
@@ -3925,6 +3971,13 @@
         "type": "preposition",
         "meaning": "near"
     },
+    "prōpraetor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "prōpraetōr",
+        "gender": "m",
+        "meaning": "propraetor"
+    },
     "propter": {
         "type": "preposition",
         "meaning": "because of"
@@ -3950,6 +4003,11 @@
         "perfect-root": "pūblicāv",
         "perfect-passive-participle": "pūblicāt",
         "meaning": "to expropriate"
+    },
+    "pūblicus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "public"
     },
     "puella": {
         "type": "noun",
@@ -4188,6 +4246,14 @@
         "perfect-root": "recēp",
         "perfect-passive-participle": "recept",
         "meaning": "to withdraw, take back"
+    },
+    "reddō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "reddere",
+        "perfect-root": "reddid",
+        "perfect-passive-participle": "reddit",
+        "meaning": "to give back, restore"
     },
     "redeō": {
         "type": "verb",
@@ -4605,6 +4671,10 @@
         "declension": "III",
         "meaning": "like"
     },
+    "simul": {
+        "type": "adverb",
+        "meaning": "at the same time"
+    },
     "simulō": {
         "type": "verb",
         "declension": "I",
@@ -4903,6 +4973,10 @@
         "declension": "II",
         "gender": "n",
         "meaning": "warm pool"
+    },
+    "ter": {
+        "type": "adverb",
+        "meaning": "three times"
     },
     "terra": {
         "type": "noun",

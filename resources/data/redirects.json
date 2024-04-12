@@ -5355,6 +5355,27 @@
     "apodytēriīs": {
         "apodytērium": "apodytērium"
     },
+    "apparatūs": {
+        "apparatus": "apparatus"
+    },
+    "equipment": {
+        "apparatus": "apparatus"
+    },
+    "apparatum": {
+        "apparatus": "apparatus"
+    },
+    "apparatuum": {
+        "apparatus": "apparatus"
+    },
+    "apparatū": {
+        "apparatus": "apparatus"
+    },
+    "apparatibus": {
+        "apparatus": "apparatus"
+    },
+    "apparatuī": {
+        "apparatus": "apparatus"
+    },
     "appellāre": {
         "appellō": "appellō"
     },
@@ -9504,6 +9525,27 @@
     },
     "castrīs": {
         "castra": "castra"
+    },
+    "catēnae": {
+        "catēna": "catēna"
+    },
+    "chain": {
+        "catēna": "catēna"
+    },
+    "catēnam": {
+        "catēna": "catēna"
+    },
+    "catēnās": {
+        "catēna": "catēna"
+    },
+    "catēnārum": {
+        "catēna": "catēna"
+    },
+    "catēnā": {
+        "catēna": "catēna"
+    },
+    "catēnīs": {
+        "catēna": "catēna"
     },
     "caupōnis": {
         "caupō": "caupō"
@@ -14387,6 +14429,29 @@
     "why": {
         "cūr": "cūr"
     },
+    "cūrae": {
+        "cūra": "cūra"
+    },
+    "anxiety": {
+        "cūra": "cūra"
+    },
+    "cūram": {
+        "cūra": "cūra"
+    },
+    "cūrās": {
+        "cūra": "cūra",
+        "cūrō": "cūrō"
+    },
+    "cūrārum": {
+        "cūra": "cūra"
+    },
+    "cūrā": {
+        "cūra": "cūra",
+        "cūrō": "cūrō"
+    },
+    "cūrīs": {
+        "cūra": "cūra"
+    },
     "cūriae": {
         "cūria": "cūria"
     },
@@ -14421,9 +14486,6 @@
         "cūrō": "cūrō"
     },
     "cūrāmus": {
-        "cūrō": "cūrō"
-    },
-    "cūrās": {
         "cūrō": "cūrō"
     },
     "cūrātis": {
@@ -14694,9 +14756,6 @@
         "cūrō": "cūrō"
     },
     "cūrātīs": {
-        "cūrō": "cūrō"
-    },
-    "cūrā": {
         "cūrō": "cūrō"
     },
     "cūrāte": {
@@ -23231,6 +23290,30 @@
     "exīstimēmus": {
         "exīstimō": "exīstimō"
     },
+    "explōrātōris": {
+        "explōrātor": "explōrātor"
+    },
+    "scout": {
+        "explōrātor": "explōrātor"
+    },
+    "explōrātōrēs": {
+        "explōrātor": "explōrātor"
+    },
+    "explōrātōrem": {
+        "explōrātor": "explōrātor"
+    },
+    "explōrātōrum": {
+        "explōrātor": "explōrātor"
+    },
+    "explōrātōre": {
+        "explōrātor": "explōrātor"
+    },
+    "explōrātōribus": {
+        "explōrātor": "explōrātor"
+    },
+    "explōrātōrī": {
+        "explōrātor": "explōrātor"
+    },
     "exsiliī": {
         "exsilium": "exsilium"
     },
@@ -25376,6 +25459,27 @@
     },
     "bravely": {
         "fortiter": "fortiter"
+    },
+    "fortunae": {
+        "fortuna": "fortuna"
+    },
+    "luck": {
+        "fortuna": "fortuna"
+    },
+    "fortunam": {
+        "fortuna": "fortuna"
+    },
+    "fortunās": {
+        "fortuna": "fortuna"
+    },
+    "fortunārum": {
+        "fortuna": "fortuna"
+    },
+    "fortunā": {
+        "fortuna": "fortuna"
+    },
+    "fortunīs": {
+        "fortuna": "fortuna"
     },
     "forī": {
         "forum": "forum"
@@ -34650,6 +34754,27 @@
     },
     "longissimīs": {
         "longus": "longus"
+    },
+    "lūctūs": {
+        "lūctus": "lūctus"
+    },
+    "grief": {
+        "lūctus": "lūctus"
+    },
+    "lūctum": {
+        "lūctus": "lūctus"
+    },
+    "lūctuum": {
+        "lūctus": "lūctus"
+    },
+    "lūctū": {
+        "lūctus": "lūctus"
+    },
+    "lūctibus": {
+        "lūctus": "lūctus"
+    },
+    "lūctuī": {
+        "lūctus": "lūctus"
     },
     "lūdere": {
         "lūdō": "lūdō"
@@ -45968,6 +46093,7 @@
         "pretium": "pretium"
     },
     "firstly": {
+        "prīmō": "prīmō",
         "prīmum": "prīmum"
     },
     "first": {
@@ -46050,6 +46176,114 @@
     },
     "principiīs": {
         "principium": "principium"
+    },
+    "personal": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvata": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatam": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatae": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatī": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatā": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatō": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatās": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatōs": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatārum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatōrum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatīs": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatior": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatius": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōrem": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōris": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōre": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōrī": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōrēs": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōra": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōrum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatiōribus": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissima": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimus": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimam": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimae": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimī": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimā": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimō": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimās": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimōs": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimārum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimōrum": {
+        "prīvatus": "prīvatus"
+    },
+    "prīvatissimīs": {
+        "prīvatus": "prīvatus"
     },
     "on behalf of": {
         "prō": "prō"
@@ -46696,6 +46930,30 @@
     "near": {
         "prope": "prope"
     },
+    "prōpraetōris": {
+        "prōpraetor": "prōpraetor"
+    },
+    "propraetor": {
+        "prōpraetor": "prōpraetor"
+    },
+    "prōpraetōrēs": {
+        "prōpraetor": "prōpraetor"
+    },
+    "prōpraetōrem": {
+        "prōpraetor": "prōpraetor"
+    },
+    "prōpraetōrum": {
+        "prōpraetor": "prōpraetor"
+    },
+    "prōpraetōre": {
+        "prōpraetor": "prōpraetor"
+    },
+    "prōpraetōribus": {
+        "prōpraetor": "prōpraetor"
+    },
+    "prōpraetōrī": {
+        "prōpraetor": "prōpraetor"
+    },
     "prōvinciae": {
         "prōvincia": "prōvincia"
     },
@@ -46802,7 +47060,8 @@
         "pūblicō": "pūblicō"
     },
     "pūblicās": {
-        "pūblicō": "pūblicō"
+        "pūblicō": "pūblicō",
+        "pūblicus": "pūblicus"
     },
     "pūblicātis": {
         "pūblicō": "pūblicō"
@@ -47075,13 +47334,116 @@
         "pūblicō": "pūblicō"
     },
     "pūblicā": {
-        "pūblicō": "pūblicō"
+        "pūblicō": "pūblicō",
+        "pūblicus": "pūblicus"
     },
     "pūblicāte": {
         "pūblicō": "pūblicō"
     },
     "pūblicēmus": {
         "pūblicō": "pūblicō"
+    },
+    "public": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblica": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicam": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicae": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicī": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicō": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicōs": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicārum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicōrum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicīs": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicior": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicius": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōrem": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōris": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōre": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōrī": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōrēs": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōra": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōrum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūbliciōribus": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissima": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimus": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimam": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimae": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimī": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimā": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimō": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimās": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimōs": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimārum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimōrum": {
+        "pūblicus": "pūblicus"
+    },
+    "pūblicissimīs": {
+        "pūblicus": "pūblicus"
     },
     "puellae": {
         "puella": "puella"
@@ -49357,6 +49719,307 @@
     "recipiāmus": {
         "recipiō": "recipiō"
     },
+    "reddere": {
+        "reddō": "reddō"
+    },
+    "reddidī": {
+        "reddō": "reddō"
+    },
+    "redditum": {
+        "reddō": "reddō"
+    },
+    "give back": {
+        "reddō": "reddō"
+    },
+    "restore": {
+        "reddō": "reddō",
+        "redūcō": "redūcō"
+    },
+    "reddimus": {
+        "reddō": "reddō"
+    },
+    "reddis": {
+        "reddō": "reddō"
+    },
+    "redditis": {
+        "reddō": "reddō"
+    },
+    "reddit": {
+        "reddō": "reddō"
+    },
+    "reddunt": {
+        "reddō": "reddō"
+    },
+    "reddidimus": {
+        "reddō": "reddō"
+    },
+    "reddidistī": {
+        "reddō": "reddō"
+    },
+    "reddidistis": {
+        "reddō": "reddō"
+    },
+    "reddidit": {
+        "reddō": "reddō"
+    },
+    "reddidērunt": {
+        "reddō": "reddō"
+    },
+    "reddēbam": {
+        "reddō": "reddō"
+    },
+    "reddēbāmus": {
+        "reddō": "reddō"
+    },
+    "reddēbās": {
+        "reddō": "reddō"
+    },
+    "reddēbātis": {
+        "reddō": "reddō"
+    },
+    "reddēbat": {
+        "reddō": "reddō"
+    },
+    "reddēbant": {
+        "reddō": "reddō"
+    },
+    "reddideram": {
+        "reddō": "reddō"
+    },
+    "reddiderāmus": {
+        "reddō": "reddō"
+    },
+    "reddiderās": {
+        "reddō": "reddō"
+    },
+    "reddiderātis": {
+        "reddō": "reddō"
+    },
+    "reddiderat": {
+        "reddō": "reddō"
+    },
+    "reddiderant": {
+        "reddō": "reddō"
+    },
+    "reddam": {
+        "reddō": "reddō"
+    },
+    "reddēmus": {
+        "reddō": "reddō"
+    },
+    "reddēs": {
+        "reddō": "reddō"
+    },
+    "reddētis": {
+        "reddō": "reddō"
+    },
+    "reddet": {
+        "reddō": "reddō"
+    },
+    "reddent": {
+        "reddō": "reddō"
+    },
+    "reddiderō": {
+        "reddō": "reddō"
+    },
+    "reddiderimus": {
+        "reddō": "reddō"
+    },
+    "reddideris": {
+        "reddō": "reddō"
+    },
+    "reddideritis": {
+        "reddō": "reddō"
+    },
+    "reddiderit": {
+        "reddō": "reddō"
+    },
+    "reddiderint": {
+        "reddō": "reddō"
+    },
+    "reddidisse": {
+        "reddō": "reddō"
+    },
+    "redditūrum": {
+        "reddō": "reddō"
+    },
+    "reddor": {
+        "reddō": "reddō"
+    },
+    "reddimur": {
+        "reddō": "reddō"
+    },
+    "redderis": {
+        "reddō": "reddō"
+    },
+    "reddiminī": {
+        "reddō": "reddō"
+    },
+    "redditur": {
+        "reddō": "reddō"
+    },
+    "redduntur": {
+        "reddō": "reddō"
+    },
+    "redditus sum": {
+        "reddō": "reddō"
+    },
+    "redditī sumus": {
+        "reddō": "reddō"
+    },
+    "redditus es": {
+        "reddō": "reddō"
+    },
+    "redditī estis": {
+        "reddō": "reddō"
+    },
+    "redditus est": {
+        "reddō": "reddō"
+    },
+    "redditī sunt": {
+        "reddō": "reddō"
+    },
+    "reddēbar": {
+        "reddō": "reddō"
+    },
+    "reddēbāmur": {
+        "reddō": "reddō"
+    },
+    "reddēbāris": {
+        "reddō": "reddō"
+    },
+    "reddēbāminī": {
+        "reddō": "reddō"
+    },
+    "reddēbātur": {
+        "reddō": "reddō"
+    },
+    "reddēbantur": {
+        "reddō": "reddō"
+    },
+    "redditus eram": {
+        "reddō": "reddō"
+    },
+    "redditī erāmus": {
+        "reddō": "reddō"
+    },
+    "redditus erās": {
+        "reddō": "reddō"
+    },
+    "redditī erātis": {
+        "reddō": "reddō"
+    },
+    "redditus erat": {
+        "reddō": "reddō"
+    },
+    "redditī erant": {
+        "reddō": "reddō"
+    },
+    "reddar": {
+        "reddō": "reddō"
+    },
+    "reddēmur": {
+        "reddō": "reddō"
+    },
+    "reddēris": {
+        "reddō": "reddō"
+    },
+    "reddēminī": {
+        "reddō": "reddō"
+    },
+    "reddētur": {
+        "reddō": "reddō"
+    },
+    "reddentur": {
+        "reddō": "reddō"
+    },
+    "redditus erō": {
+        "reddō": "reddō"
+    },
+    "redditī erimus": {
+        "reddō": "reddō"
+    },
+    "redditus eris": {
+        "reddō": "reddō"
+    },
+    "redditī eritis": {
+        "reddō": "reddō"
+    },
+    "redditus erit": {
+        "reddō": "reddō"
+    },
+    "redditī erunt": {
+        "reddō": "reddō"
+    },
+    "reddēns": {
+        "reddō": "reddō"
+    },
+    "reddentem": {
+        "reddō": "reddō"
+    },
+    "reddentis": {
+        "reddō": "reddō"
+    },
+    "reddentī": {
+        "reddō": "reddō"
+    },
+    "reddentēs": {
+        "reddō": "reddō"
+    },
+    "reddentia": {
+        "reddō": "reddō"
+    },
+    "reddentium": {
+        "reddō": "reddō"
+    },
+    "reddentibus": {
+        "reddō": "reddō"
+    },
+    "reddita": {
+        "reddō": "reddō"
+    },
+    "redditus": {
+        "reddō": "reddō"
+    },
+    "redditam": {
+        "reddō": "reddō"
+    },
+    "redditae": {
+        "reddō": "reddō"
+    },
+    "redditī": {
+        "reddō": "reddō"
+    },
+    "redditā": {
+        "reddō": "reddō"
+    },
+    "redditō": {
+        "reddō": "reddō"
+    },
+    "redditās": {
+        "reddō": "reddō"
+    },
+    "redditōs": {
+        "reddō": "reddō"
+    },
+    "redditārum": {
+        "reddō": "reddō"
+    },
+    "redditōrum": {
+        "reddō": "reddō"
+    },
+    "redditīs": {
+        "reddō": "reddō"
+    },
+    "redde": {
+        "reddō": "reddō"
+    },
+    "reddite": {
+        "reddō": "reddō"
+    },
+    "reddāmus": {
+        "reddō": "reddō"
+    },
     "redīre": {
         "redeō": "redeō"
     },
@@ -49571,9 +50234,6 @@
         "redūcō": "redūcō"
     },
     "lead back": {
-        "redūcō": "redūcō"
-    },
-    "restore": {
         "redūcō": "redūcō"
     },
     "redūcimus": {
@@ -55007,6 +55667,9 @@
     "similissimīs": {
         "similis": "similis"
     },
+    "at the same time": {
+        "simul": "simul"
+    },
     "simulāre": {
         "simulō": "simulō"
     },
@@ -58252,6 +58915,9 @@
     },
     "tepidāriīs": {
         "tepidārium": "tepidārium"
+    },
+    "three times": {
+        "ter": "ter"
     },
     "terrae": {
         "terra": "terra"
