@@ -24,9 +24,22 @@
         "abeō": "abeō",
         "discēdō": "discēdō",
         "excēdō": "excēdō",
-        "exeō": "exeō"
+        "exeō": "exeō",
+        "relinquō": "relinquō"
     },
     "depart": {
+        "abeō": "abeō",
+        "discēdō": "discēdō",
+        "excēdō": "excēdō"
+    },
+    "to leave": {
+        "abeō": "abeō",
+        "discēdō": "discēdō",
+        "excēdō": "excēdō",
+        "exeō": "exeō",
+        "relinquō": "relinquō"
+    },
+    "to depart": {
         "abeō": "abeō",
         "discēdō": "discēdō",
         "excēdō": "excēdō"
@@ -233,6 +246,9 @@
         "abiiciō": "abiiciō"
     },
     "throw away": {
+        "abiiciō": "abiiciō"
+    },
+    "to throw away": {
         "abiiciō": "abiiciō"
     },
     "abiicimus": {
@@ -529,6 +545,9 @@
     "be absent": {
         "absum": "absum"
     },
+    "to be absent": {
+        "absum": "absum"
+    },
     "absumus": {
         "absum": "absum"
     },
@@ -653,6 +672,9 @@
         "accipiō": "accipiō"
     },
     "receive": {
+        "accipiō": "accipiō"
+    },
+    "to receive": {
         "accipiō": "accipiō"
     },
     "accipimus": {
@@ -950,6 +972,9 @@
         "accūsō": "accūsō"
     },
     "accuse": {
+        "accūsō": "accūsō"
+    },
+    "to accuse": {
         "accūsō": "accūsō"
     },
     "accūsāmus": {
@@ -1273,6 +1298,9 @@
     "add": {
         "addō": "addō"
     },
+    "to add": {
+        "addō": "addō"
+    },
     "addimus": {
         "addō": "addō"
     },
@@ -1571,6 +1599,10 @@
         "adeō": "adeō",
         "adpropinquō": "adpropinquō"
     },
+    "to approach": {
+        "adeō": "adeō",
+        "adpropinquō": "adpropinquō"
+    },
     "adīmus": {
         "adeō": "adeō"
     },
@@ -1776,6 +1808,9 @@
         "adōrō": "adōrō"
     },
     "worship": {
+        "adōrō": "adōrō"
+    },
+    "to worship": {
         "adōrō": "adōrō"
     },
     "adōrāmus": {
@@ -2366,6 +2401,9 @@
     "be present": {
         "adsum": "adsum"
     },
+    "to be present": {
+        "adsum": "adsum"
+    },
     "adsumus": {
         "adsum": "adsum"
     },
@@ -2536,6 +2574,9 @@
         "aedificō": "aedificō"
     },
     "build": {
+        "aedificō": "aedificō"
+    },
+    "to build": {
         "aedificō": "aedificō"
     },
     "aedificāmus": {
@@ -3126,6 +3167,11 @@
         "faciō": "faciō",
         "gerō": "gerō"
     },
+    "to do": {
+        "agō": "agō",
+        "faciō": "faciō",
+        "gerō": "gerō"
+    },
     "agimus": {
         "agō": "agō"
     },
@@ -3645,6 +3691,9 @@
         "ambulō": "ambulō"
     },
     "walk": {
+        "ambulō": "ambulō"
+    },
+    "to walk": {
         "ambulō": "ambulō"
     },
     "ambulāmus": {
@@ -4199,6 +4248,9 @@
     "lose": {
         "āmittō": "āmittō"
     },
+    "to lose": {
+        "āmittō": "āmittō"
+    },
     "āmittimus": {
         "āmittō": "āmittō"
     },
@@ -4501,6 +4553,12 @@
     "love": {
         "amō": "amō",
         "amor": "amor"
+    },
+    "to like": {
+        "amō": "amō"
+    },
+    "to love": {
+        "amō": "amō"
     },
     "amāmus": {
         "amō": "amō"
@@ -5052,6 +5110,12 @@
     "open": {
         "aperiō": "aperiō"
     },
+    "to reveal": {
+        "aperiō": "aperiō"
+    },
+    "to open": {
+        "aperiō": "aperiō"
+    },
     "aperīmus": {
         "aperiō": "aperiō"
     },
@@ -5393,6 +5457,13 @@
         "appellō": "appellō",
         "vocō": "vocō"
     },
+    "to name": {
+        "appellō": "appellō"
+    },
+    "to call": {
+        "appellō": "appellō",
+        "vocō": "vocō"
+    },
     "appellāmus": {
         "appellō": "appellō"
     },
@@ -5687,7 +5758,10 @@
     "suitable": {
         "aptus": "aptus"
     },
-    "suited (for)": {
+    "suited": {
+        "aptus": "aptus"
+    },
+    "suited for": {
         "aptus": "aptus"
     },
     "apta": {
@@ -5916,10 +5990,16 @@
     "armīs": {
         "arma": "arma"
     },
-    "to take up weapons": {
+    "take up weapons": {
         "arma capere": "arma capere"
     },
     "arms": {
+        "arma capere": "arma capere"
+    },
+    "to take up weapons": {
+        "arma capere": "arma capere"
+    },
+    "to arms": {
         "arma capere": "arma capere"
     },
     "armāre": {
@@ -5934,6 +6014,9 @@
     "arm": {
         "armō": "armō",
         "bracchium": "bracchium"
+    },
+    "to arm": {
+        "armō": "armō"
     },
     "armāmus": {
         "armō": "armō"
@@ -6402,7 +6485,16 @@
     "audītum": {
         "audiō": "audiō"
     },
-    "listen (to)": {
+    "listen": {
+        "audiō": "audiō"
+    },
+    "listen to": {
+        "audiō": "audiō"
+    },
+    "to listen": {
+        "audiō": "audiō"
+    },
+    "to listen to": {
         "audiō": "audiō"
     },
     "audīmus": {
@@ -6703,6 +6795,12 @@
         "auferō": "auferō"
     },
     "take away": {
+        "auferō": "auferō"
+    },
+    "to steal": {
+        "auferō": "auferō"
+    },
+    "to take away": {
         "auferō": "auferō"
     },
     "auferimus": {
@@ -7412,6 +7510,9 @@
         "bellum": "bellum",
         "bellus": "bellus"
     },
+    "wage war": {
+        "bellum gerere": "bellum gerere"
+    },
     "to wage war": {
         "bellum gerere": "bellum gerere"
     },
@@ -7545,6 +7646,9 @@
         "bibō": "bibō"
     },
     "drink": {
+        "bibō": "bibō"
+    },
+    "to drink": {
         "bibō": "bibō"
     },
     "bibimus": {
@@ -8055,6 +8159,9 @@
         "cadō": "cadō"
     },
     "fall": {
+        "cadō": "cadō"
+    },
+    "to fall": {
         "cadō": "cadō"
     },
     "cadimus": {
@@ -8672,6 +8779,9 @@
     "sing": {
         "cantō": "cantō"
     },
+    "to sing": {
+        "cantō": "cantō"
+    },
     "cantāmus": {
         "cantō": "cantō"
     },
@@ -8988,6 +9098,9 @@
         "capiō": "capiō"
     },
     "capture": {
+        "capiō": "capiō"
+    },
+    "to capture": {
         "capiō": "capiō"
     },
     "capimus": {
@@ -9631,6 +9744,12 @@
     "yield": {
         "cēdō": "cēdō"
     },
+    "to back off": {
+        "cēdō": "cēdō"
+    },
+    "to yield": {
+        "cēdō": "cēdō"
+    },
     "cēdimus": {
         "cēdō": "cēdō"
     },
@@ -9926,18 +10045,317 @@
         "cēna": "cēna"
     },
     "cēnās": {
-        "cēna": "cēna"
+        "cēna": "cēna",
+        "cēnō": "cēnō"
     },
     "cēnārum": {
         "cēna": "cēna"
     },
     "cēnā": {
-        "cēna": "cēna"
+        "cēna": "cēna",
+        "cēnō": "cēnō"
     },
     "cēnīs": {
         "cēna": "cēna"
     },
-    "the rest (of)": {
+    "cēnāre": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvī": {
+        "cēnō": "cēnō"
+    },
+    "cēnātum": {
+        "cēnō": "cēnō"
+    },
+    "dine": {
+        "cēnō": "cēnō"
+    },
+    "to dine": {
+        "cēnō": "cēnō"
+    },
+    "cēnāmus": {
+        "cēnō": "cēnō"
+    },
+    "cēnātis": {
+        "cēnō": "cēnō"
+    },
+    "cēnat": {
+        "cēnō": "cēnō"
+    },
+    "cēnant": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvimus": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvistī": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvistis": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvit": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvērunt": {
+        "cēnō": "cēnō"
+    },
+    "cēnābam": {
+        "cēnō": "cēnō"
+    },
+    "cēnābāmus": {
+        "cēnō": "cēnō"
+    },
+    "cēnābās": {
+        "cēnō": "cēnō"
+    },
+    "cēnābātis": {
+        "cēnō": "cēnō"
+    },
+    "cēnābat": {
+        "cēnō": "cēnō"
+    },
+    "cēnābant": {
+        "cēnō": "cēnō"
+    },
+    "cēnāveram": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverāmus": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverās": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverātis": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverat": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverant": {
+        "cēnō": "cēnō"
+    },
+    "cēnābō": {
+        "cēnō": "cēnō"
+    },
+    "cēnābimus": {
+        "cēnō": "cēnō"
+    },
+    "cēnābis": {
+        "cēnō": "cēnō"
+    },
+    "cēnābitis": {
+        "cēnō": "cēnō"
+    },
+    "cēnābit": {
+        "cēnō": "cēnō"
+    },
+    "cēnābunt": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverō": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverimus": {
+        "cēnō": "cēnō"
+    },
+    "cēnāveris": {
+        "cēnō": "cēnō"
+    },
+    "cēnāveritis": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverit": {
+        "cēnō": "cēnō"
+    },
+    "cēnāverint": {
+        "cēnō": "cēnō"
+    },
+    "cēnāvisse": {
+        "cēnō": "cēnō"
+    },
+    "cēnātūrum": {
+        "cēnō": "cēnō"
+    },
+    "cēnor": {
+        "cēnō": "cēnō"
+    },
+    "cēnāmur": {
+        "cēnō": "cēnō"
+    },
+    "cēnāris": {
+        "cēnō": "cēnō"
+    },
+    "cēnāminī": {
+        "cēnō": "cēnō"
+    },
+    "cēnātur": {
+        "cēnō": "cēnō"
+    },
+    "cēnantur": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus sum": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī sumus": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus es": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī estis": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus est": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī sunt": {
+        "cēnō": "cēnō"
+    },
+    "cēnābar": {
+        "cēnō": "cēnō"
+    },
+    "cēnābāmur": {
+        "cēnō": "cēnō"
+    },
+    "cēnābāris": {
+        "cēnō": "cēnō"
+    },
+    "cēnābāminī": {
+        "cēnō": "cēnō"
+    },
+    "cēnābātur": {
+        "cēnō": "cēnō"
+    },
+    "cēnābantur": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus eram": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī erāmus": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus erās": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī erātis": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus erat": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī erant": {
+        "cēnō": "cēnō"
+    },
+    "cēnābor": {
+        "cēnō": "cēnō"
+    },
+    "cēnābimur": {
+        "cēnō": "cēnō"
+    },
+    "cēnāberis": {
+        "cēnō": "cēnō"
+    },
+    "cēnābiminī": {
+        "cēnō": "cēnō"
+    },
+    "cēnābitur": {
+        "cēnō": "cēnō"
+    },
+    "cēnābuntur": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus erō": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī erimus": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus eris": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī eritis": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus erit": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī erunt": {
+        "cēnō": "cēnō"
+    },
+    "cēnāns": {
+        "cēnō": "cēnō"
+    },
+    "cēnantem": {
+        "cēnō": "cēnō"
+    },
+    "cēnantis": {
+        "cēnō": "cēnō"
+    },
+    "cēnantī": {
+        "cēnō": "cēnō"
+    },
+    "cēnantēs": {
+        "cēnō": "cēnō"
+    },
+    "cēnantia": {
+        "cēnō": "cēnō"
+    },
+    "cēnantium": {
+        "cēnō": "cēnō"
+    },
+    "cēnantibus": {
+        "cēnō": "cēnō"
+    },
+    "cēnāta": {
+        "cēnō": "cēnō"
+    },
+    "cēnātus": {
+        "cēnō": "cēnō"
+    },
+    "cēnātam": {
+        "cēnō": "cēnō"
+    },
+    "cēnātae": {
+        "cēnō": "cēnō"
+    },
+    "cēnātī": {
+        "cēnō": "cēnō"
+    },
+    "cēnātā": {
+        "cēnō": "cēnō"
+    },
+    "cēnātō": {
+        "cēnō": "cēnō"
+    },
+    "cēnātās": {
+        "cēnō": "cēnō"
+    },
+    "cēnātōs": {
+        "cēnō": "cēnō"
+    },
+    "cēnātārum": {
+        "cēnō": "cēnō"
+    },
+    "cēnātōrum": {
+        "cēnō": "cēnō"
+    },
+    "cēnātīs": {
+        "cēnō": "cēnō"
+    },
+    "cēnāte": {
+        "cēnō": "cēnō"
+    },
+    "cēnēmus": {
+        "cēnō": "cēnō"
+    },
+    "the rest": {
+        "cēterus": "cēterus"
+    },
+    "the rest of": {
         "cēterus": "cēterus"
     },
     "cētera": {
@@ -10197,6 +10615,9 @@
         "clāmō": "clāmō"
     },
     "shout": {
+        "clāmō": "clāmō"
+    },
+    "to shout": {
         "clāmō": "clāmō"
     },
     "clāmāmus": {
@@ -10679,6 +11100,9 @@
     "learn": {
         "cognoscō": "cognoscō"
     },
+    "to learn": {
+        "cognoscō": "cognoscō"
+    },
     "cognoscimus": {
         "cognoscō": "cognoscō"
     },
@@ -10981,6 +11405,17 @@
         "conferō": "conferō"
     },
     "gather": {
+        "cōgō": "cōgō",
+        "conveniō": "conveniō"
+    },
+    "to force": {
+        "cōgō": "cōgō"
+    },
+    "to collect": {
+        "cōgō": "cōgō",
+        "conferō": "conferō"
+    },
+    "to gather": {
         "cōgō": "cōgō",
         "conveniō": "conveniō"
     },
@@ -11320,6 +11755,9 @@
     "collide": {
         "concurrō": "concurrō"
     },
+    "to collide": {
+        "concurrō": "concurrō"
+    },
     "concurrimus": {
         "concurrō": "concurrō"
     },
@@ -11657,6 +12095,9 @@
     "found": {
         "condō": "condō"
     },
+    "to found": {
+        "condō": "condō"
+    },
     "condimus": {
         "condō": "condō"
     },
@@ -11949,6 +12390,9 @@
         "conferō": "conferō"
     },
     "bring together": {
+        "conferō": "conferō"
+    },
+    "to bring together": {
         "conferō": "conferō"
     },
     "conferimus": {
@@ -12317,6 +12761,9 @@
     "strengthen": {
         "cōnfirmō": "cōnfirmō"
     },
+    "to strengthen": {
+        "cōnfirmō": "cōnfirmō"
+    },
     "cōnfirmāmus": {
         "cōnfirmō": "cōnfirmō"
     },
@@ -12623,6 +13070,9 @@
     "consiliīs": {
         "consilium": "consilium"
     },
+    "adopt a plan": {
+        "consilium capere": "consilium capere"
+    },
     "to adopt a plan": {
         "consilium capere": "consilium capere"
     },
@@ -12633,6 +13083,9 @@
         "consistō": "consistō"
     },
     "stop": {
+        "consistō": "consistō"
+    },
+    "to stop": {
         "consistō": "consistō"
     },
     "consistimus": {
@@ -12783,6 +13236,9 @@
         "cōnstituō": "cōnstituō"
     },
     "decide": {
+        "cōnstituō": "cōnstituō"
+    },
+    "to decide": {
         "cōnstituō": "cōnstituō"
     },
     "cōnstituimus": {
@@ -13403,7 +13859,10 @@
     "abundance": {
         "cōpia": "cōpia"
     },
-    "supply (pl. forces)": {
+    "forces": {
+        "cōpia": "cōpia"
+    },
+    "supply": {
         "cōpia": "cōpia"
     },
     "cōpiam": {
@@ -13584,6 +14043,9 @@
         "corrumpō": "corrumpō"
     },
     "corrupt": {
+        "corrumpō": "corrumpō"
+    },
+    "to corrupt": {
         "corrumpō": "corrumpō"
     },
     "corrumpimus": {
@@ -14015,13 +14477,22 @@
     "speak with ...": {
         "cum ... agere": "cum ... agere"
     },
-    "desirous (of)": {
+    "desirous": {
         "cupidus": "cupidus"
     },
-    "fond (of)": {
+    "desirous of": {
         "cupidus": "cupidus"
     },
-    "eager (for)": {
+    "fond": {
+        "cupidus": "cupidus"
+    },
+    "fond of": {
+        "cupidus": "cupidus"
+    },
+    "eager": {
+        "cupidus": "cupidus"
+    },
+    "eager for": {
         "cupidus": "cupidus"
     },
     "cupida": {
@@ -14139,6 +14610,9 @@
         "cupiō": "cupiō"
     },
     "want (modal)": {
+        "cupiō": "cupiō"
+    },
+    "to want (modal)": {
         "cupiō": "cupiō"
     },
     "cupimus": {
@@ -14485,6 +14959,9 @@
     "take care of": {
         "cūrō": "cūrō"
     },
+    "to take care of": {
+        "cūrō": "cūrō"
+    },
     "cūrāmus": {
         "cūrō": "cūrō"
     },
@@ -14767,7 +15244,7 @@
     "curriculī": {
         "curriculum": "curriculum"
     },
-    "race (event)": {
+    "race (i.e. event)": {
         "curriculum": "curriculum"
     },
     "curricula": {
@@ -14792,6 +15269,9 @@
         "currō": "currō"
     },
     "run": {
+        "currō": "currō"
+    },
+    "to run": {
         "currō": "currō"
     },
     "currimus": {
@@ -15079,6 +15559,9 @@
     "currāmus": {
         "currō": "currō"
     },
+    "drive a chariot": {
+        "currum agere": "currum agere"
+    },
     "to drive a chariot": {
         "currum agere": "currum agere"
     },
@@ -15164,7 +15647,10 @@
     "dēbitum": {
         "dēbeō": "dēbeō"
     },
-    "have (neccesity of action) (modal)": {
+    "have (i.e. neccesity of action) (modal)": {
+        "dēbeō": "dēbeō"
+    },
+    "to have (i.e. neccesity of action) (modal)": {
         "dēbeō": "dēbeō"
     },
     "dēbēmus": {
@@ -15506,6 +15992,9 @@
     "hand over": {
         "dēdō": "dēdō"
     },
+    "to hand over": {
+        "dēdō": "dēdō"
+    },
     "dēdimus": {
         "dēdō": "dēdō"
     },
@@ -15803,6 +16292,9 @@
     "defend": {
         "dēfendō": "dēfendō"
     },
+    "to defend": {
+        "dēfendō": "dēfendō"
+    },
     "dēfendimus": {
         "dēfendō": "dēfendō"
     },
@@ -16095,6 +16587,15 @@
         "dēficiō": "dēficiō"
     },
     "revolt from": {
+        "dēficiō": "dēficiō"
+    },
+    "to desert": {
+        "dēficiō": "dēficiō"
+    },
+    "to rebell": {
+        "dēficiō": "dēficiō"
+    },
+    "to revolt from": {
         "dēficiō": "dēficiō"
     },
     "dēficimus": {
@@ -16402,6 +16903,9 @@
     "destroy": {
         "dēlēo": "dēlēo"
     },
+    "to destroy": {
+        "dēlēo": "dēlēo"
+    },
     "dēleō": {
         "dēlēo": "dēlēo"
     },
@@ -16702,6 +17206,9 @@
     "choose": {
         "dēligō": "dēligō"
     },
+    "to choose": {
+        "dēligō": "dēligō"
+    },
     "dēligimus": {
         "dēligō": "dēligō"
     },
@@ -16997,6 +17504,9 @@
         "dēmōnstrō": "dēmōnstrō"
     },
     "show": {
+        "dēmōnstrō": "dēmōnstrō"
+    },
+    "to show": {
         "dēmōnstrō": "dēmōnstrō"
     },
     "dēmōnstrāmus": {
@@ -17320,6 +17830,9 @@
     "lay aside": {
         "dēpōnō": "dēpōnō"
     },
+    "to lay aside": {
+        "dēpōnō": "dēpōnō"
+    },
     "dēpōnimus": {
         "dēpōnō": "dēpōnō"
     },
@@ -17614,6 +18127,9 @@
     "cease": {
         "dēsistō": "dēsistō"
     },
+    "to cease": {
+        "dēsistō": "dēsistō"
+    },
     "dēsistimus": {
         "dēsistō": "dēsistō"
     },
@@ -17819,6 +18335,12 @@
         "dēspērō": "dēspērō"
     },
     "despair": {
+        "dēspērō": "dēspērō"
+    },
+    "to lose hope": {
+        "dēspērō": "dēspērō"
+    },
+    "to despair": {
         "dēspērō": "dēspērō"
     },
     "dēspērāmus": {
@@ -18118,6 +18640,9 @@
     "despise": {
         "dēspiciō": "dēspiciō"
     },
+    "to despise": {
+        "dēspiciō": "dēspiciō"
+    },
     "dēspicimus": {
         "dēspiciō": "dēspiciō"
     },
@@ -18415,6 +18940,12 @@
     "be deficient in": {
         "dēsum": "dēsum"
     },
+    "to lack": {
+        "dēsum": "dēsum"
+    },
+    "to be deficient in": {
+        "dēsum": "dēsum"
+    },
     "dēsumus": {
         "dēsum": "dēsum"
     },
@@ -18549,6 +19080,7 @@
     },
     "right": {
         "dexter": "dexter",
+        "dextra": "dextra",
         "iūs": "iūs"
     },
     "dextra": {
@@ -18593,7 +19125,7 @@
         "dexter": "dexter",
         "dextra": "dextra"
     },
-    "(the) right": {
+    "the right": {
         "dextra": "dextra"
     },
     "dīcere": {
@@ -18609,6 +19141,12 @@
         "dīcō": "dīcō"
     },
     "speak": {
+        "dīcō": "dīcō"
+    },
+    "to talk": {
+        "dīcō": "dīcō"
+    },
+    "to speak": {
         "dīcō": "dīcō"
     },
     "dīcimus": {
@@ -19467,6 +20005,12 @@
     "offer": {
         "dō": "dō"
     },
+    "to give": {
+        "dō": "dō"
+    },
+    "to offer": {
+        "dō": "dō"
+    },
     "dāmus": {
         "dō": "dō"
     },
@@ -19762,6 +20306,9 @@
         "doceō": "doceō"
     },
     "teach": {
+        "doceō": "doceō"
+    },
+    "to teach": {
         "doceō": "doceō"
     },
     "docēmus": {
@@ -20128,6 +20675,9 @@
     "sleep": {
         "dormiō": "dormiō"
     },
+    "to sleep": {
+        "dormiō": "dormiō"
+    },
     "dormīmus": {
         "dormiō": "dormiō"
     },
@@ -20425,6 +20975,9 @@
     "hesitate (modal)": {
         "dubitō": "dubitō"
     },
+    "to hesitate (modal)": {
+        "dubitō": "dubitō"
+    },
     "dubitāmus": {
         "dubitō": "dubitō"
     },
@@ -20720,6 +21273,9 @@
         "dūcō": "dūcō"
     },
     "lead": {
+        "dūcō": "dūcō"
+    },
+    "to lead": {
         "dūcō": "dūcō"
     },
     "dūcimus": {
@@ -21053,6 +21609,9 @@
     "escape": {
         "effugiō": "effugiō"
     },
+    "to escape": {
+        "effugiō": "effugiō"
+    },
     "effugimus": {
         "effugiō": "effugiō"
     },
@@ -21248,7 +21807,10 @@
     "effugiāmus": {
         "effugiō": "effugiō"
     },
-    "I (pl. we)": {
+    "we": {
+        "ego": "ego"
+    },
+    "I": {
         "ego": "ego"
     },
     "nōs": {
@@ -21301,6 +21863,9 @@
         "emō": "emō"
     },
     "buy": {
+        "emō": "emō"
+    },
+    "to buy": {
         "emō": "emō"
     },
     "emimus": {
@@ -21600,6 +22165,9 @@
     "go": {
         "eō": "eō"
     },
+    "to go": {
+        "eō": "eō"
+    },
     "īmus": {
         "eō": "eō"
     },
@@ -21817,13 +22385,10 @@
     "equitis": {
         "eques": "eques"
     },
-    "eques (political)": {
-        "eques": "eques"
-    },
     "cavalry": {
         "eques": "eques"
     },
-    "cavalry man (military)": {
+    "cavalryman": {
         "eques": "eques"
     },
     "equitēs": {
@@ -21875,6 +22440,9 @@
         "errō": "errō"
     },
     "wander": {
+        "errō": "errō"
+    },
+    "to wander": {
         "errō": "errō"
     },
     "errāmus": {
@@ -22486,6 +23054,17 @@
         "excitō": "excitō",
         "turbō": "turbō"
     },
+    "to wake up": {
+        "excitō": "excitō"
+    },
+    "to upset": {
+        "excitō": "excitō",
+        "turbō": "turbō"
+    },
+    "to disturb": {
+        "excitō": "excitō",
+        "turbō": "turbō"
+    },
     "excitāmus": {
         "excitō": "excitō"
     },
@@ -23005,6 +23584,9 @@
     "think": {
         "exīstimō": "exīstimō"
     },
+    "to think": {
+        "exīstimō": "exīstimō"
+    },
     "exīstimāmus": {
         "exīstimō": "exīstimō"
     },
@@ -23467,6 +24049,15 @@
     "take place": {
         "faciō": "faciō"
     },
+    "to make": {
+        "faciō": "faciō"
+    },
+    "to happen": {
+        "faciō": "faciō"
+    },
+    "to take place": {
+        "faciō": "faciō"
+    },
     "facimus": {
         "faciō": "faciō"
     },
@@ -23773,6 +24364,12 @@
         "fallō": "fallō"
     },
     "evade": {
+        "fallō": "fallō"
+    },
+    "to deceive": {
+        "fallō": "fallō"
+    },
+    "to evade": {
         "fallō": "fallō"
     },
     "fallimus": {
@@ -24179,6 +24776,13 @@
         "ferō": "ferō"
     },
     "carry": {
+        "ferō": "ferō",
+        "portō": "portō"
+    },
+    "to bring": {
+        "ferō": "ferō"
+    },
+    "to carry": {
         "ferō": "ferō",
         "portō": "portō"
     },
@@ -24889,7 +25493,10 @@
     "fīnis": {
         "finis": "finis"
     },
-    "end (territories pl.)": {
+    "territories": {
+        "finis": "finis"
+    },
+    "end": {
         "finis": "finis"
     },
     "fīnēs": {
@@ -24980,6 +25587,9 @@
         "fleō": "fleō"
     },
     "cry": {
+        "fleō": "fleō"
+    },
+    "to cry": {
         "fleō": "fleō"
     },
     "flēmus": {
@@ -25508,6 +26118,9 @@
     "break": {
         "frangō": "frangō"
     },
+    "to break": {
+        "frangō": "frangō"
+    },
     "frangimus": {
         "frangō": "frangō"
     },
@@ -25975,6 +26588,9 @@
         "fugiō": "fugiō"
     },
     "flee": {
+        "fugiō": "fugiō"
+    },
+    "to flee": {
         "fugiō": "fugiō"
     },
     "fugimus": {
@@ -26887,7 +27503,10 @@
     "habitum": {
         "habeō": "habeō"
     },
-    "have (possession)": {
+    "have (i.e. possession)": {
+        "habeō": "habeō"
+    },
+    "to have (i.e. possession)": {
         "habeō": "habeō"
     },
     "habēmus": {
@@ -27190,6 +27809,10 @@
         "habitō": "habitō"
     },
     "live": {
+        "habitō": "habitō",
+        "vīvō": "vīvō"
+    },
+    "to live": {
         "habitō": "habitō",
         "vīvō": "vīvō"
     },
@@ -27586,7 +28209,10 @@
     "hominis": {
         "homō": "homō"
     },
-    "person (people pl.)": {
+    "people": {
+        "homō": "homō"
+    },
+    "person": {
         "homō": "homō"
     },
     "hominēs": {
@@ -27839,6 +28465,9 @@
         "iaciō": "iaciō"
     },
     "throw": {
+        "iaciō": "iaciō"
+    },
+    "to throw": {
         "iaciō": "iaciō"
     },
     "iacimus": {
@@ -28166,7 +28795,7 @@
     "idem": {
         "īdem, eadem, idem": "īdem, eadem, idem"
     },
-    "(the) same": {
+    "same": {
         "īdem, eadem, idem": "īdem, eadem, idem"
     },
     "eadam": {
@@ -28320,6 +28949,12 @@
         "impediō": "impediō"
     },
     "block": {
+        "impediō": "impediō"
+    },
+    "to obstruct": {
+        "impediō": "impediō"
+    },
+    "to block": {
         "impediō": "impediō"
     },
     "impedīmus": {
@@ -28631,7 +29266,13 @@
     "imperātōrī": {
         "imperātor": "imperātor"
     },
-    "inexperienced of": {
+    "inexperienced": {
+        "imperītus": "imperītus"
+    },
+    "inexperienced in": {
+        "imperītus": "imperītus"
+    },
+    "unskilled": {
         "imperītus": "imperītus"
     },
     "unskilled in": {
@@ -28836,6 +29477,9 @@
         "incipiō": "incipiō"
     },
     "begin (modal)": {
+        "incipiō": "incipiō"
+    },
+    "to begin (modal)": {
         "incipiō": "incipiō"
     },
     "incipimus": {
@@ -29265,6 +29909,12 @@
         "ineō": "ineō"
     },
     "invade": {
+        "ineō": "ineō"
+    },
+    "to enter": {
+        "ineō": "ineō"
+    },
+    "to invade": {
         "ineō": "ineō"
     },
     "inīmus": {
@@ -30005,6 +30655,9 @@
     "say": {
         "inquiō": "inquiō"
     },
+    "to say": {
+        "inquiō": "inquiō"
+    },
     "inquimus": {
         "inquiō": "inquiō"
     },
@@ -30198,6 +30851,10 @@
         "interficiō": "interficiō"
     },
     "kill": {
+        "interficiō": "interficiō",
+        "occīdō": "occīdō"
+    },
+    "to kill": {
         "interficiō": "interficiō",
         "occīdō": "occīdō"
     },
@@ -30525,6 +31182,12 @@
     "discover": {
         "inveniō": "inveniō"
     },
+    "to find": {
+        "inveniō": "inveniō"
+    },
+    "to discover": {
+        "inveniō": "inveniō"
+    },
     "invenīmus": {
         "inveniō": "inveniō"
     },
@@ -30820,6 +31483,9 @@
         "invideō": "invideō"
     },
     "envy": {
+        "invideō": "invideō"
+    },
+    "to envy": {
         "invideō": "invideō"
     },
     "invidēmus": {
@@ -31369,6 +32035,9 @@
     "order": {
         "iubeō": "iubeō"
     },
+    "to order": {
+        "iubeō": "iubeō"
+    },
     "iubēmus": {
         "iubeō": "iubeō"
     },
@@ -31795,6 +32464,9 @@
     "join": {
         "iungō": "iungō"
     },
+    "to join": {
+        "iungō": "iungō"
+    },
     "iungimus": {
         "iungō": "iungō"
     },
@@ -32090,6 +32762,9 @@
         "iūrō": "iūrō"
     },
     "swear": {
+        "iūrō": "iūrō"
+    },
+    "to swear": {
         "iūrō": "iūrō"
     },
     "iūrāmus": {
@@ -32402,6 +33077,9 @@
         "iuvō": "iuvō"
     },
     "iūtum": {
+        "iuvō": "iuvō"
+    },
+    "to help": {
         "iuvō": "iuvō"
     },
     "iuvāmus": {
@@ -32721,6 +33399,9 @@
         "labōrō": "labōrō"
     },
     "labōrātum": {
+        "labōrō": "labōrō"
+    },
+    "to work": {
         "labōrō": "labōrō"
     },
     "labōrāmus": {
@@ -33149,6 +33830,9 @@
     "bark": {
         "lātrō": "lātrō"
     },
+    "to bark": {
+        "lātrō": "lātrō"
+    },
     "lātrāmus": {
         "lātrō": "lātrō"
     },
@@ -33518,6 +34202,9 @@
     "praise": {
         "laudō": "laudō"
     },
+    "to praise": {
+        "laudō": "laudō"
+    },
     "laudāmus": {
         "laudō": "laudō"
     },
@@ -33858,6 +34545,9 @@
         "legō": "legō"
     },
     "read": {
+        "legō": "legō"
+    },
+    "to read": {
         "legō": "legō"
     },
     "legimus": {
@@ -34233,6 +34923,9 @@
         "līberō": "līberō"
     },
     "free": {
+        "līberō": "līberō"
+    },
+    "to free": {
         "līberō": "līberō"
     },
     "līberāmus": {
@@ -34786,6 +35479,9 @@
         "lūdō": "lūdō"
     },
     "play": {
+        "lūdō": "lūdō"
+    },
+    "to play": {
         "lūdō": "lūdō"
     },
     "lūdimus": {
@@ -35429,6 +36125,9 @@
     "prefer": {
         "mālō": "mālō"
     },
+    "to prefer": {
+        "mālō": "mālō"
+    },
     "mālumus": {
         "mālō": "mālō"
     },
@@ -35745,6 +36444,9 @@
         "maneō": "maneō"
     },
     "remain": {
+        "maneō": "maneō"
+    },
+    "to remain": {
         "maneō": "maneō"
     },
     "manēmus": {
@@ -36614,6 +37316,9 @@
     "send": {
         "mittō": "mittō"
     },
+    "to send": {
+        "mittō": "mittō"
+    },
     "mittimus": {
         "mittō": "mittō"
     },
@@ -37061,7 +37766,10 @@
     "mōrī": {
         "mōs": "mōs"
     },
-    "much (many pl.)": {
+    "many": {
+        "multus": "multus"
+    },
+    "much": {
         "multus": "multus"
     },
     "multa": {
@@ -37167,6 +37875,9 @@
         "mūniō": "mūniō"
     },
     "fortify": {
+        "mūniō": "mūniō"
+    },
+    "to fortify": {
         "mūniō": "mūniō"
     },
     "mūnīmus": {
@@ -37491,6 +38202,9 @@
     "tell": {
         "nārrō": "nārrō"
     },
+    "to tell": {
+        "nārrō": "nārrō"
+    },
     "nārrāmus": {
         "nārrō": "nārrō"
     },
@@ -37786,6 +38500,9 @@
         "natō": "natō"
     },
     "swim": {
+        "natō": "natō"
+    },
+    "to swim": {
         "natō": "natō"
     },
     "natāmus": {
@@ -38193,6 +38910,12 @@
     "deny": {
         "negō": "negō"
     },
+    "to say that ... not": {
+        "negō": "negō"
+    },
+    "to deny": {
+        "negō": "negō"
+    },
     "negāmus": {
         "negō": "negō"
     },
@@ -38515,6 +39238,9 @@
         "nesciō": "nesciō"
     },
     "not know": {
+        "nesciō": "nesciō"
+    },
+    "to not know": {
         "nesciō": "nesciō"
     },
     "nescīmus": {
@@ -38932,6 +39658,12 @@
         "nōlō": "nōlō"
     },
     "not be willing to": {
+        "nōlō": "nōlō"
+    },
+    "to not want": {
+        "nōlō": "nōlō"
+    },
+    "to not be willing to": {
         "nōlō": "nōlō"
     },
     "nōlumus": {
@@ -39610,6 +40342,9 @@
     "count": {
         "numerō": "numerō"
     },
+    "to count": {
+        "numerō": "numerō"
+    },
     "numerāmus": {
         "numerō": "numerō"
     },
@@ -39955,6 +40690,9 @@
     "announce": {
         "nūntiō": "nūntiō"
     },
+    "to announce": {
+        "nūntiō": "nūntiō"
+    },
     "nūntiāmus": {
         "nūntiō": "nūntiō"
     },
@@ -40265,7 +41003,10 @@
         "ob": "ob",
         "propter": "propter"
     },
-    "forgetful (of)": {
+    "forgetful": {
+        "oblītus": "oblītus"
+    },
+    "forgetful of": {
         "oblītus": "oblītus"
     },
     "oblīta": {
@@ -40408,6 +41149,9 @@
         "obsideō": "obsideō"
     },
     "besiege": {
+        "obsideō": "obsideō"
+    },
+    "to besiege": {
         "obsideō": "obsideō"
     },
     "obsidēmus": {
@@ -41058,6 +41802,9 @@
     "crash": {
         "offendō": "offendō"
     },
+    "to crash": {
+        "offendō": "offendō"
+    },
     "offendimus": {
         "offendō": "offendō"
     },
@@ -41372,7 +42119,10 @@
     "each": {
         "omnis": "omnis"
     },
-    "every (all pl.)": {
+    "all": {
+        "omnis": "omnis"
+    },
+    "every": {
         "omnis": "omnis"
     },
     "omne": {
@@ -41418,6 +42168,9 @@
         "opprimō": "opprimō"
     },
     "overpower": {
+        "opprimō": "opprimō"
+    },
+    "to overpower": {
         "opprimō": "opprimō"
     },
     "opprimimus": {
@@ -41712,6 +42465,9 @@
         "oppūgnō": "oppūgnō"
     },
     "attack": {
+        "oppūgnō": "oppūgnō"
+    },
+    "to attack": {
         "oppūgnō": "oppūgnō"
     },
     "oppūgnāmus": {
@@ -42392,6 +43148,9 @@
     "obey": {
         "pāreō": "pāreō"
     },
+    "to obey": {
+        "pāreō": "pāreō"
+    },
     "pārēmus": {
         "pāreō": "pāreō"
     },
@@ -42684,6 +43443,9 @@
         "parō": "parō"
     },
     "prepare": {
+        "parō": "parō"
+    },
+    "to prepare": {
         "parō": "parō"
     },
     "parāmus": {
@@ -43181,7 +43943,10 @@
     "patrōnīs": {
         "patrōnus": "patrōnus"
     },
-    "(a) little": {
+    "little": {
+        "paucus": "paucus"
+    },
+    "a little": {
         "paucus": "paucus"
     },
     "few": {
@@ -43367,7 +44132,10 @@
     "foot soldier": {
         "pedes": "pedes"
     },
-    "(pl. infantry)": {
+    "infantry": {
+        "pedes": "pedes"
+    },
+    "": {
         "pedes": "pedes"
     },
     "peditēs": {
@@ -43398,6 +44166,9 @@
         "pellō": "pellō"
     },
     "drive out": {
+        "pellō": "pellō"
+    },
+    "to drive out": {
         "pellō": "pellō"
     },
     "pellimus": {
@@ -43718,10 +44489,12 @@
         "pereō": "pereō"
     },
     "peritum": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "die": {
+        "pereō": "pereō"
+    },
+    "to die": {
         "pereō": "pereō"
     },
     "perīmus": {
@@ -43875,51 +44648,40 @@
         "pereō": "pereō"
     },
     "perita": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritus": {
         "pereō": "pereō"
     },
     "peritam": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritae": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritī": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritā": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritō": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritās": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritōs": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritārum": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritōrum": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "peritīs": {
-        "pereō": "pereō",
-        "peritus": "peritus"
+        "pereō": "pereō"
     },
     "perīte": {
         "pereō": "pereō"
@@ -43984,13 +44746,16 @@
     "peristyliīs": {
         "peristylium": "peristylium"
     },
-    "acquainted (with)": {
+    "experienced": {
         "perītus": "perītus"
     },
-    "experienced (in)": {
+    "experienced in": {
         "perītus": "perītus"
     },
-    "skilled (in)": {
+    "skilled": {
+        "perītus": "perītus"
+    },
+    "skilled in": {
         "perītus": "perītus"
     },
     "perīta": {
@@ -44098,81 +44863,6 @@
     "perītissimīs": {
         "perītus": "perītus"
     },
-    "experienced of": {
-        "peritus": "peritus"
-    },
-    "skilled in": {
-        "peritus": "peritus"
-    },
-    "peritior": {
-        "peritus": "peritus"
-    },
-    "peritius": {
-        "peritus": "peritus"
-    },
-    "peritiōrem": {
-        "peritus": "peritus"
-    },
-    "peritiōris": {
-        "peritus": "peritus"
-    },
-    "peritiōre": {
-        "peritus": "peritus"
-    },
-    "peritiōrī": {
-        "peritus": "peritus"
-    },
-    "peritiōrēs": {
-        "peritus": "peritus"
-    },
-    "peritiōra": {
-        "peritus": "peritus"
-    },
-    "peritiōrum": {
-        "peritus": "peritus"
-    },
-    "peritiōribus": {
-        "peritus": "peritus"
-    },
-    "peritissima": {
-        "peritus": "peritus"
-    },
-    "peritissimus": {
-        "peritus": "peritus"
-    },
-    "peritissimum": {
-        "peritus": "peritus"
-    },
-    "peritissimam": {
-        "peritus": "peritus"
-    },
-    "peritissimae": {
-        "peritus": "peritus"
-    },
-    "peritissimī": {
-        "peritus": "peritus"
-    },
-    "peritissimā": {
-        "peritus": "peritus"
-    },
-    "peritissimō": {
-        "peritus": "peritus"
-    },
-    "peritissimās": {
-        "peritus": "peritus"
-    },
-    "peritissimōs": {
-        "peritus": "peritus"
-    },
-    "peritissimārum": {
-        "peritus": "peritus"
-    },
-    "peritissimōrum": {
-        "peritus": "peritus"
-    },
-    "peritissimīs": {
-        "peritus": "peritus"
-    },
     "pervenīre": {
         "perveniō": "perveniō"
     },
@@ -44183,6 +44873,9 @@
         "perveniō": "perveniō"
     },
     "arrive": {
+        "perveniō": "perveniō"
+    },
+    "to arrive": {
         "perveniō": "perveniō"
     },
     "pervenīmus": {
@@ -44647,7 +45340,7 @@
     "plēbis": {
         "plēbs": "plēbs"
     },
-    "the plebs (collective unit)": {
+    "the plebs (sing. unit)": {
         "plēbs": "plēbs"
     },
     "plēbēs": {
@@ -44668,7 +45361,10 @@
     "plēbī": {
         "plēbs": "plēbs"
     },
-    "full (of)": {
+    "full": {
+        "plēnus": "plēnus"
+    },
+    "full of": {
         "plēnus": "plēnus"
     },
     "plēna": {
@@ -44894,6 +45590,12 @@
         "pōnō": "pōnō"
     },
     "put": {
+        "pōnō": "pōnō"
+    },
+    "to put": {
+        "pōnō": "pōnō"
+    },
+    "to place": {
         "pōnō": "pōnō"
     },
     "pōnimus": {
@@ -45208,7 +45910,7 @@
     "populī": {
         "populus": "populus"
     },
-    "people (collective unit)": {
+    "people (sing. unit)": {
         "populus": "populus"
     },
     "populum": {
@@ -45546,6 +46248,9 @@
     "be able to": {
         "possum": "possum"
     },
+    "to be able to": {
+        "possum": "possum"
+    },
     "possumus": {
         "possum": "possum"
     },
@@ -45849,6 +46554,9 @@
         "praesum": "praesum"
     },
     "be in command of": {
+        "praesum": "praesum"
+    },
+    "to be in command of": {
         "praesum": "praesum"
     },
     "praesumus": {
@@ -46345,6 +47053,9 @@
     "prevent": {
         "prohibeō": "prohibeō"
     },
+    "to prevent": {
+        "prohibeō": "prohibeō"
+    },
     "prohibēmus": {
         "prohibeō": "prohibeō"
     },
@@ -46640,6 +47351,9 @@
         "prōmittō": "prōmittō"
     },
     "promise": {
+        "prōmittō": "prōmittō"
+    },
+    "to promise": {
         "prōmittō": "prōmittō"
     },
     "prōmittimus": {
@@ -47054,6 +47768,9 @@
         "pūblicō": "pūblicō"
     },
     "expropriate": {
+        "pūblicō": "pūblicō"
+    },
+    "to expropriate": {
         "pūblicō": "pūblicō"
     },
     "pūblicāmus": {
@@ -47499,6 +48216,9 @@
     "fight": {
         "pūgnō": "pūgnō"
     },
+    "to fight": {
+        "pūgnō": "pūgnō"
+    },
     "pūgnāmus": {
         "pūgnō": "pūgnō"
     },
@@ -47794,6 +48514,9 @@
         "pulsō": "pulsō"
     },
     "hit": {
+        "pulsō": "pulsō"
+    },
+    "to hit": {
         "pulsō": "pulsō"
     },
     "pulsāmus": {
@@ -48195,6 +48918,9 @@
     "punish": {
         "pūniō": "pūniō"
     },
+    "to punish": {
+        "pūniō": "pūniō"
+    },
     "pūnīmus": {
         "pūniō": "pūniō"
     },
@@ -48519,6 +49245,12 @@
     "ask for": {
         "quaerō": "quaerō"
     },
+    "to seek": {
+        "quaerō": "quaerō"
+    },
+    "to ask for": {
+        "quaerō": "quaerō"
+    },
     "quaerimus": {
         "quaerō": "quaerō"
     },
@@ -48825,7 +49557,10 @@
     "quaestōrī": {
         "quaestor": "quaestor"
     },
-    "what kind (of)": {
+    "what kind": {
+        "quālis": "quālis"
+    },
+    "what kind of": {
         "quālis": "quālis"
     },
     "quāle": {
@@ -48917,7 +49652,7 @@
     "quod": {
         "quī, quae, quod": "quī, quae, quod"
     },
-    "who (relative pronoun)": {
+    "who (i.e. relative pronoun)": {
         "quī, quae, quod": "quī, quae, quod"
     },
     "quam": {
@@ -48977,7 +49712,10 @@
     "quiddam": {
         "quīdam, quaedam, quiddam": "quīdam, quaedam, quiddam"
     },
-    "a certain (some pl.)": {
+    "some": {
+        "quīdam, quaedam, quiddam": "quīdam, quaedam, quiddam"
+    },
+    "a certain": {
         "quīdam, quaedam, quiddam": "quīdam, quaedam, quiddam"
     },
     "quandam": {
@@ -49026,6 +49764,9 @@
         "quiescō": "quiescō"
     },
     "rest": {
+        "quiescō": "quiescō"
+    },
+    "to rest": {
         "quiescō": "quiescō"
     },
     "quiescimus": {
@@ -49434,6 +50175,12 @@
     "take back": {
         "recipiō": "recipiō"
     },
+    "to withdraw": {
+        "recipiō": "recipiō"
+    },
+    "to take back": {
+        "recipiō": "recipiō"
+    },
     "recipimus": {
         "recipiō": "recipiō"
     },
@@ -49733,7 +50480,16 @@
     },
     "restore": {
         "reddō": "reddō",
-        "redūcō": "redūcō"
+        "redūcō": "redūcō",
+        "restituō": "restituō"
+    },
+    "to give back": {
+        "reddō": "reddō"
+    },
+    "to restore": {
+        "reddō": "reddō",
+        "redūcō": "redūcō",
+        "restituō": "restituō"
     },
     "reddimus": {
         "reddō": "reddō"
@@ -50030,7 +50786,12 @@
         "redeō": "redeō"
     },
     "return": {
-        "redeō": "redeō"
+        "redeō": "redeō",
+        "referō": "referō"
+    },
+    "to return": {
+        "redeō": "redeō",
+        "referō": "referō"
     },
     "redīmus": {
         "redeō": "redeō"
@@ -50234,6 +50995,9 @@
         "redūcō": "redūcō"
     },
     "lead back": {
+        "redūcō": "redūcō"
+    },
+    "to lead back": {
         "redūcō": "redūcō"
     },
     "redūcimus": {
@@ -50533,7 +51297,13 @@
     "bring back": {
         "referō": "referō"
     },
-    "return (something)": {
+    "return something": {
+        "referō": "referō"
+    },
+    "to bring back": {
+        "referō": "referō"
+    },
+    "to return something": {
         "referō": "referō"
     },
     "referimus": {
@@ -50902,6 +51672,9 @@
     "rebuild": {
         "reficiō": "reficiō"
     },
+    "to rebuild": {
+        "reficiō": "reficiō"
+    },
     "reficimus": {
         "reficiō": "reficiō"
     },
@@ -51244,7 +52017,13 @@
     "abandon": {
         "relinquō": "relinquō"
     },
-    "leave (something)": {
+    "leave something": {
+        "relinquō": "relinquō"
+    },
+    "to abandon": {
+        "relinquō": "relinquō"
+    },
+    "to leave something": {
         "relinquō": "relinquō"
     },
     "relinquimus": {
@@ -51559,6 +52338,9 @@
     "resist": {
         "resistō": "resistō"
     },
+    "to resist": {
+        "resistō": "resistō"
+    },
     "resistimus": {
         "resistō": "resistō"
     },
@@ -51707,6 +52489,9 @@
         "respondeō": "respondeō"
     },
     "answer": {
+        "respondeō": "respondeō"
+    },
+    "to answer": {
         "respondeō": "respondeō"
     },
     "respondēmus": {
@@ -51994,6 +52779,297 @@
     "respondeāmus": {
         "respondeō": "respondeō"
     },
+    "restituere": {
+        "restituō": "restituō"
+    },
+    "restituī": {
+        "restituō": "restituō"
+    },
+    "restitūtum": {
+        "restituō": "restituō"
+    },
+    "revive": {
+        "restituō": "restituō"
+    },
+    "to revive": {
+        "restituō": "restituō"
+    },
+    "restituimus": {
+        "restituō": "restituō"
+    },
+    "restituis": {
+        "restituō": "restituō"
+    },
+    "restituitis": {
+        "restituō": "restituō"
+    },
+    "restituit": {
+        "restituō": "restituō"
+    },
+    "restituunt": {
+        "restituō": "restituō"
+    },
+    "restituistī": {
+        "restituō": "restituō"
+    },
+    "restituistis": {
+        "restituō": "restituō"
+    },
+    "restituērunt": {
+        "restituō": "restituō"
+    },
+    "restituēbam": {
+        "restituō": "restituō"
+    },
+    "restituēbāmus": {
+        "restituō": "restituō"
+    },
+    "restituēbās": {
+        "restituō": "restituō"
+    },
+    "restituēbātis": {
+        "restituō": "restituō"
+    },
+    "restituēbat": {
+        "restituō": "restituō"
+    },
+    "restituēbant": {
+        "restituō": "restituō"
+    },
+    "restitueram": {
+        "restituō": "restituō"
+    },
+    "restituerāmus": {
+        "restituō": "restituō"
+    },
+    "restituerās": {
+        "restituō": "restituō"
+    },
+    "restituerātis": {
+        "restituō": "restituō"
+    },
+    "restituerat": {
+        "restituō": "restituō"
+    },
+    "restituerant": {
+        "restituō": "restituō"
+    },
+    "restituam": {
+        "restituō": "restituō"
+    },
+    "restituēmus": {
+        "restituō": "restituō"
+    },
+    "restituēs": {
+        "restituō": "restituō"
+    },
+    "restituētis": {
+        "restituō": "restituō"
+    },
+    "restituet": {
+        "restituō": "restituō"
+    },
+    "restituent": {
+        "restituō": "restituō"
+    },
+    "restituerō": {
+        "restituō": "restituō"
+    },
+    "restituerimus": {
+        "restituō": "restituō"
+    },
+    "restitueris": {
+        "restituō": "restituō"
+    },
+    "restitueritis": {
+        "restituō": "restituō"
+    },
+    "restituerit": {
+        "restituō": "restituō"
+    },
+    "restituerint": {
+        "restituō": "restituō"
+    },
+    "restituisse": {
+        "restituō": "restituō"
+    },
+    "restitūtūrum": {
+        "restituō": "restituō"
+    },
+    "restituor": {
+        "restituō": "restituō"
+    },
+    "restituimur": {
+        "restituō": "restituō"
+    },
+    "restituiminī": {
+        "restituō": "restituō"
+    },
+    "restituitur": {
+        "restituō": "restituō"
+    },
+    "restituuntur": {
+        "restituō": "restituō"
+    },
+    "restitūtus sum": {
+        "restituō": "restituō"
+    },
+    "restitūtī sumus": {
+        "restituō": "restituō"
+    },
+    "restitūtus es": {
+        "restituō": "restituō"
+    },
+    "restitūtī estis": {
+        "restituō": "restituō"
+    },
+    "restitūtus est": {
+        "restituō": "restituō"
+    },
+    "restitūtī sunt": {
+        "restituō": "restituō"
+    },
+    "restituēbar": {
+        "restituō": "restituō"
+    },
+    "restituēbāmur": {
+        "restituō": "restituō"
+    },
+    "restituēbāris": {
+        "restituō": "restituō"
+    },
+    "restituēbāminī": {
+        "restituō": "restituō"
+    },
+    "restituēbātur": {
+        "restituō": "restituō"
+    },
+    "restituēbantur": {
+        "restituō": "restituō"
+    },
+    "restitūtus eram": {
+        "restituō": "restituō"
+    },
+    "restitūtī erāmus": {
+        "restituō": "restituō"
+    },
+    "restitūtus erās": {
+        "restituō": "restituō"
+    },
+    "restitūtī erātis": {
+        "restituō": "restituō"
+    },
+    "restitūtus erat": {
+        "restituō": "restituō"
+    },
+    "restitūtī erant": {
+        "restituō": "restituō"
+    },
+    "restituar": {
+        "restituō": "restituō"
+    },
+    "restituēmur": {
+        "restituō": "restituō"
+    },
+    "restituēris": {
+        "restituō": "restituō"
+    },
+    "restituēminī": {
+        "restituō": "restituō"
+    },
+    "restituētur": {
+        "restituō": "restituō"
+    },
+    "restituentur": {
+        "restituō": "restituō"
+    },
+    "restitūtus erō": {
+        "restituō": "restituō"
+    },
+    "restitūtī erimus": {
+        "restituō": "restituō"
+    },
+    "restitūtus eris": {
+        "restituō": "restituō"
+    },
+    "restitūtī eritis": {
+        "restituō": "restituō"
+    },
+    "restitūtus erit": {
+        "restituō": "restituō"
+    },
+    "restitūtī erunt": {
+        "restituō": "restituō"
+    },
+    "restituēns": {
+        "restituō": "restituō"
+    },
+    "restituentem": {
+        "restituō": "restituō"
+    },
+    "restituentis": {
+        "restituō": "restituō"
+    },
+    "restituentī": {
+        "restituō": "restituō"
+    },
+    "restituentēs": {
+        "restituō": "restituō"
+    },
+    "restituentia": {
+        "restituō": "restituō"
+    },
+    "restituentium": {
+        "restituō": "restituō"
+    },
+    "restituentibus": {
+        "restituō": "restituō"
+    },
+    "restitūta": {
+        "restituō": "restituō"
+    },
+    "restitūtus": {
+        "restituō": "restituō"
+    },
+    "restitūtam": {
+        "restituō": "restituō"
+    },
+    "restitūtae": {
+        "restituō": "restituō"
+    },
+    "restitūtī": {
+        "restituō": "restituō"
+    },
+    "restitūtā": {
+        "restituō": "restituō"
+    },
+    "restitūtō": {
+        "restituō": "restituō"
+    },
+    "restitūtās": {
+        "restituō": "restituō"
+    },
+    "restitūtōs": {
+        "restituō": "restituō"
+    },
+    "restitūtārum": {
+        "restituō": "restituō"
+    },
+    "restitūtōrum": {
+        "restituō": "restituō"
+    },
+    "restitūtīs": {
+        "restituō": "restituō"
+    },
+    "restitue": {
+        "restituō": "restituō"
+    },
+    "restituite": {
+        "restituō": "restituō"
+    },
+    "restituāmus": {
+        "restituō": "restituō"
+    },
     "rētiae": {
         "rētia": "rētia"
     },
@@ -52069,7 +53145,16 @@
     "rīsum": {
         "rīdeō": "rīdeō"
     },
-    "laugh (at)": {
+    "laugh": {
+        "rīdeō": "rīdeō"
+    },
+    "laugh at": {
+        "rīdeō": "rīdeō"
+    },
+    "to laugh": {
+        "rīdeō": "rīdeō"
+    },
+    "to laugh at": {
         "rīdeō": "rīdeō"
     },
     "rīdēmus": {
@@ -52364,6 +53449,9 @@
         "rogō": "rogō"
     },
     "ask": {
+        "rogō": "rogō"
+    },
+    "to ask": {
         "rogō": "rogō"
     },
     "rogāmus": {
@@ -52990,7 +54078,10 @@
     "sacerdōtis": {
         "sacerdōs": "sacerdōs"
     },
-    "priest(ess)": {
+    "priest": {
+        "sacerdōs": "sacerdōs"
+    },
+    "priestess": {
         "sacerdōs": "sacerdōs"
     },
     "sacerdōtēs": {
@@ -53030,6 +54121,9 @@
         "saliō": "saliō"
     },
     "jump": {
+        "saliō": "saliō"
+    },
+    "to jump": {
         "saliō": "saliō"
     },
     "salīmus": {
@@ -53354,6 +54448,9 @@
         "salūtō": "salūtō"
     },
     "greet": {
+        "salūtō": "salūtō"
+    },
+    "to greet": {
         "salūtō": "salūtō"
     },
     "salūtāmus": {
@@ -53734,6 +54831,9 @@
     "know": {
         "sciō": "sciō"
     },
+    "to know": {
+        "sciō": "sciō"
+    },
     "scīmus": {
         "sciō": "sciō"
     },
@@ -54029,6 +55129,9 @@
         "scrībō": "scrībō"
     },
     "write": {
+        "scrībō": "scrībō"
+    },
+    "to write": {
         "scrībō": "scrībō"
     },
     "scrībimus": {
@@ -54379,7 +55482,7 @@
     "scūtīs": {
         "scūtum": "scūtum"
     },
-    "oneself (reflexive pronoun)": {
+    "oneself (i.e. reflexive pronoun)": {
         "sē": "sē"
     },
     "suī": {
@@ -54389,11 +55492,20 @@
     "sibi": {
         "sē": "sē"
     },
+    "surrender": {
+        "sē dēdere": "sē dēdere"
+    },
     "to surrender": {
         "sē dēdere": "sē dēdere"
     },
+    "ally onself with": {
+        "sē iungere": "sē iungere"
+    },
     "to ally onself with": {
         "sē iungere": "sē iungere"
+    },
+    "retreat": {
+        "sē recipere": "sē recipere"
     },
     "to retreat": {
         "sē recipere": "sē recipere"
@@ -54453,6 +55565,9 @@
         "sedeō": "sedeō"
     },
     "sit": {
+        "sedeō": "sedeō"
+    },
+    "to sit": {
         "sedeō": "sedeō"
     },
     "sedēmus": {
@@ -54791,7 +55906,7 @@
     "senātūs": {
         "senātus": "senātus"
     },
-    "the senate (collective unit)": {
+    "the senate (sing. unit)": {
         "senātus": "senātus"
     },
     "senātum": {
@@ -54888,6 +56003,9 @@
         "servō": "servō"
     },
     "save": {
+        "servō": "servō"
+    },
+    "to save": {
         "servō": "servō"
     },
     "servāmus": {
@@ -55272,6 +56390,12 @@
         "significō": "significō"
     },
     "mean": {
+        "significō": "significō"
+    },
+    "to indicate": {
+        "significō": "significō"
+    },
+    "to mean": {
         "significō": "significō"
     },
     "significāmus": {
@@ -55682,6 +56806,9 @@
     "pretend": {
         "simulō": "simulō"
     },
+    "to pretend": {
+        "simulō": "simulō"
+    },
     "simulāmus": {
         "simulō": "simulō"
     },
@@ -55971,7 +57098,8 @@
         "sine": "sine"
     },
     "left": {
-        "sinister": "sinister"
+        "sinister": "sinister",
+        "sinistra": "sinistra"
     },
     "sinistra": {
         "sinister": "sinister"
@@ -56015,7 +57143,7 @@
         "sinister": "sinister",
         "sinistra": "sinistra"
     },
-    "(the) left": {
+    "the left": {
         "sinistra": "sinistra"
     },
     "sociī": {
@@ -56227,6 +57355,10 @@
         "spectō": "spectō"
     },
     "watch": {
+        "spectō": "spectō",
+        "vigilia": "vigilia"
+    },
+    "to watch": {
         "spectō": "spectō"
     },
     "spectāmus": {
@@ -56650,6 +57782,9 @@
     "stand": {
         "stō": "stō"
     },
+    "to stand": {
+        "stō": "stō"
+    },
     "stāmus": {
         "stō": "stō"
     },
@@ -56944,6 +58079,9 @@
     "be eager (modal)": {
         "studeō": "studeō"
     },
+    "to be eager (modal)": {
+        "studeō": "studeō"
+    },
     "studēmus": {
         "studeō": "studeō"
     },
@@ -57206,6 +58344,9 @@
         "sum": "sum"
     },
     "be": {
+        "sum": "sum"
+    },
+    "to be": {
         "sum": "sum"
     },
     "sumus": {
@@ -57485,6 +58626,10 @@
         "superō": "superō"
     },
     "conquer": {
+        "superō": "superō",
+        "vincō": "vincō"
+    },
+    "to conquer": {
         "superō": "superō",
         "vincō": "vincō"
     },
@@ -57785,6 +58930,9 @@
     "rise": {
         "surgō": "surgō"
     },
+    "to rise": {
+        "surgō": "surgō"
+    },
     "surgimus": {
         "surgō": "surgō"
     },
@@ -58070,7 +59218,7 @@
     "surgāmus": {
         "surgō": "surgō"
     },
-    "one's own (reflexive possesive adjective)": {
+    "one's own (i.e. reflexive possesive adjective)": {
         "suus": "suus"
     },
     "sua": {
@@ -58182,6 +59330,9 @@
         "taceō": "taceō"
     },
     "be silent": {
+        "taceō": "taceō"
+    },
+    "to be silent": {
         "taceō": "taceō"
     },
     "tacēmus": {
@@ -58472,7 +59623,10 @@
     "talentī": {
         "talentum": "talentum"
     },
-    "talent (weight measure)": {
+    "talent": {
+        "talentum": "talentum"
+    },
+    "talent weight measure": {
         "talentum": "talentum"
     },
     "talenta": {
@@ -58590,6 +59744,9 @@
         "temptō": "temptō"
     },
     "try": {
+        "temptō": "temptō"
+    },
+    "to try": {
         "temptō": "temptō"
     },
     "temptāmus": {
@@ -58955,6 +60112,9 @@
     "frighten": {
         "terreō": "terreō"
     },
+    "to frighten": {
+        "terreō": "terreō"
+    },
     "terrēmus": {
         "terreō": "terreō"
     },
@@ -59315,7 +60475,10 @@
     "I approach you": {
         "tibi adpropinquō": "tibi adpropinquō"
     },
-    "I go to help you (double dative)": {
+    "I go help you": {
+        "tibi auxiliō eō": "tibi auxiliō eō"
+    },
+    "I go help you double dative": {
         "tibi auxiliō eō": "tibi auxiliō eō"
     },
     "I resist you": {
@@ -59349,6 +60512,9 @@
         "timeō": "timeō"
     },
     "fear": {
+        "timeō": "timeō"
+    },
+    "to fear": {
         "timeō": "timeō"
     },
     "timēmus": {
@@ -59601,6 +60767,12 @@
         "trahō": "trahō"
     },
     "pull": {
+        "trahō": "trahō"
+    },
+    "to drag": {
+        "trahō": "trahō"
+    },
+    "to pull": {
         "trahō": "trahō"
     },
     "trahimus": {
@@ -59901,6 +61073,9 @@
         "trānseō": "trānseō"
     },
     "cross": {
+        "trānseō": "trānseō"
+    },
+    "to cross": {
         "trānseō": "trānseō"
     },
     "trānsīmus": {
@@ -60452,6 +61627,9 @@
     "hold a victory parade": {
         "triumphō": "triumphō"
     },
+    "to hold a victory parade": {
+        "triumphō": "triumphō"
+    },
     "triumphāmus": {
         "triumphō": "triumphō"
     },
@@ -60881,6 +62059,9 @@
         "trucidō": "trucidō"
     },
     "slaughter": {
+        "trucidō": "trucidō"
+    },
+    "to slaughter": {
         "trucidō": "trucidō"
     },
     "trucidāmus": {
@@ -61931,7 +63112,16 @@
     "uxōrī": {
         "uxor": "uxor"
     },
-    "to marry (a woman)": {
+    "marry": {
+        "uxōrem dūcere": "uxōrem dūcere"
+    },
+    "marry a woman": {
+        "uxōrem dūcere": "uxōrem dūcere"
+    },
+    "to marry": {
+        "uxōrem dūcere": "uxōrem dūcere"
+    },
+    "to marry a woman": {
         "uxōrem dūcere": "uxōrem dūcere"
     },
     "woe!": {
@@ -62058,6 +63248,12 @@
         "vāstō": "vāstō"
     },
     "devastate": {
+        "vāstō": "vāstō"
+    },
+    "to ransack": {
+        "vāstō": "vāstō"
+    },
+    "to devastate": {
         "vāstō": "vāstō"
     },
     "vāstāmus": {
@@ -62358,6 +63554,9 @@
         "vendō": "vendō"
     },
     "sell": {
+        "vendō": "vendō"
+    },
+    "to sell": {
         "vendō": "vendō"
     },
     "vendimus": {
@@ -62673,6 +63872,9 @@
         "veniō": "veniō"
     },
     "come": {
+        "veniō": "veniō"
+    },
+    "to come": {
         "veniō": "veniō"
     },
     "venīmus": {
@@ -63015,6 +64217,9 @@
         "vertō": "vertō"
     },
     "turn": {
+        "vertō": "vertō"
+    },
+    "to turn": {
         "vertō": "vertō"
     },
     "vertimus": {
@@ -63419,6 +64624,9 @@
     "Vestālibus": {
         "Vestālis": "Vestālis"
     },
+    "wear clothing": {
+        "vestem gerere": "vestem gerere"
+    },
     "to wear clothing": {
         "vestem gerere": "vestem gerere"
     },
@@ -63492,6 +64700,9 @@
         "vetō": "vetō"
     },
     "veto": {
+        "vetō": "vetō"
+    },
+    "to veto": {
         "vetō": "vetō"
     },
     "vetāmus": {
@@ -63969,6 +65180,9 @@
     "see": {
         "videō": "videō"
     },
+    "to see": {
+        "videō": "videō"
+    },
     "vidēmus": {
         "videō": "videō"
     },
@@ -64257,7 +65471,7 @@
     "vigiliae": {
         "vigilia": "vigilia"
     },
-    "watch (period of time)": {
+    "watch period of time": {
         "vigilia": "vigilia"
     },
     "vigiliam": {
@@ -64330,6 +65544,9 @@
         "vincō": "vincō"
     },
     "victum": {
+        "vincō": "vincō"
+    },
+    "to defeat": {
         "vincō": "vincō"
     },
     "vincimus": {
@@ -64761,6 +65978,9 @@
         "vītō": "vītō"
     },
     "avoid": {
+        "vītō": "vītō"
+    },
+    "to avoid": {
         "vītō": "vītō"
     },
     "vītāmus": {
@@ -65348,6 +66568,9 @@
     "invite": {
         "vocō": "vocō"
     },
+    "to invite": {
+        "vocō": "vocō"
+    },
     "vocāmus": {
         "vocō": "vocō"
     },
@@ -65645,6 +66868,12 @@
     "be willing to": {
         "volō": "volō"
     },
+    "to want": {
+        "volō": "volō"
+    },
+    "to be willing to": {
+        "volō": "volō"
+    },
     "volumus": {
         "volō": "volō"
     },
@@ -65855,6 +67084,9 @@
     "wound": {
         "vulnerō": "vulnerō",
         "vulnus": "vulnus"
+    },
+    "to wound": {
+        "vulnerō": "vulnerō"
     },
     "vulnerāmus": {
         "vulnerō": "vulnerō"

@@ -497,6 +497,20 @@ function form(table, word, result, exceptions={}, recursed=false){
     return true;
 }
 
+function processWord(word){
+    var aliases = [];
+
+    var plural = word.match(/(?<=\(pl\. ).+?(?=\))/);
+    if(plural !== null)
+        aliases.push(plural[0]);
+    
+    word = word.replace(/ ?\(pl\..+?\) ?/,"");
+    var alias = word.replace(/ ?\((?!i\.e\.|f\.|m\.|n\.|modal|sing\. unit).*?\) ?/,"");
+    if(alias !== word) aliases.push(alias);
+    aliases.push(word.replace(/(?<=\((?!i\.e\.|f\.|m\.|n\.|modal|sing\. unit).+?)\)/,"").replace(/\((?!i\.e\.|f\.|m\.|n\.|modal|sing\. unit)/,""));
+    return aliases;
+}
+
 function generateRedirects(){
     var temp, result, exceptions, cells, redirect, redirects_={};
     for(const word in dict){
@@ -548,8 +562,11 @@ function generateRedirects(){
             }
 
             var defs;
-            if(result["type"] === "verb" || result["type"] === "spec") defs = result["meaning"].replace("to ","").split(", ");
-            else defs = result["meaning"].split(", ");
+            if(result["type"] === "verb" || result["type"] === "special") defs = result["meaning"].replace("to ","");
+            else defs = result["meaning"];
+            defs = defs.split(", ").map(processWord).flat(Infinity);
+
+            if(result["type"] === "verb" || (result["type"] === "special" && result["meaning"].substring(0,3) === "to ")) defs = defs.concat(defs.map((e) => "to "+e));
 
             for(const def in defs){
                 redirect = defs[def];
@@ -889,11 +906,16 @@ searchBar.addEventListener("input",function(e){
                 }
                 closeAllLists();
             });
-            if(j == word.length) a.prepend(b);
-            else a.appendChild(b);
+            if(j == word.length){
+                a.prepend(b);
+                if(++suggestions > MAXSUGGESTIONS)
+                    a.removeChild(a.lastChild);
+            } else if(suggestions < MAXSUGGESTIONS){
+                a.appendChild(b);
+                ++suggestions;
+            }
 
             suggested[word] = true;
-            if(++suggestions === MAXSUGGESTIONS) return;
         }
     }
 
@@ -987,10 +1009,15 @@ searchBar.addEventListener("input",function(e){
                 }
                 closeAllLists();
             });
-            if(j == word.length) a.prepend(b);
-            else a.appendChild(b);
+            if(j == word.length){
+                a.prepend(b);
+                if(++suggestions > MAXSUGGESTIONS)
+                    a.removeChild(a.lastChild);
+            } else if(suggestions < MAXSUGGESTIONS){
+                a.appendChild(b);
+                ++suggestions;
+            }
             suggested[toword] = true;
-            if(++suggestions === MAXSUGGESTIONS) return;
         }
     }
 })

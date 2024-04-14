@@ -841,6 +841,14 @@
         "gender": "f",
         "meaning": "dinner"
     },
+    "cēnō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "cēnāre",
+        "perfect-root": "cēnāv",
+        "perfect-passive-participle": "cēnāt",
+        "meaning": "to dine"
+    },
     "cēterus": {
         "type": "adjective",
         "declension": "I~II",
@@ -1188,7 +1196,7 @@
         "type": "noun",
         "declension": "II",
         "gender": "n",
-        "meaning": "race (event)"
+        "meaning": "race (i.e. event)"
     },
     "currō": {
         "type": "verb",
@@ -1234,7 +1242,7 @@
         "infinitive": "dēbēre",
         "perfect-root": "dēbu",
         "perfect-passive-participle": "dēbit",
-        "meaning": "to have (neccesity of action) (modal)"
+        "meaning": "to have (i.e. neccesity of action) (modal)"
     },
     "decem": {
         "type": "number",
@@ -1604,7 +1612,7 @@
         "declension": "III",
         "root": "equit",
         "gender": "m",
-        "meaning": "eques (political), cavalry, cavalry man (military)"
+        "meaning": "eques, cavalry, cavalryman"
     },
     "equus": {
         "type": "noun",
@@ -1817,7 +1825,7 @@
         "declension": "III",
         "root": "fīn",
         "gender": "m",
-        "meaning": "end (territories pl.)",
+        "meaning": "end (pl. territories)",
         "exceptions": {
             "i-stem": true
         },
@@ -2061,7 +2069,7 @@
         "infinitive": "habēre",
         "perfect-root": "habu",
         "perfect-passive-participle": "habit",
-        "meaning": "to have (possession)"
+        "meaning": "to have (i.e. possession)"
     },
     "habet!": {
         "type": "special",
@@ -2121,7 +2129,7 @@
         "declension": "III",
         "root": "homin",
         "gender": "m",
-        "meaning": "person (people pl.)"
+        "meaning": "person (pl. people)"
     },
     "hōra": {
         "type": "noun",
@@ -2198,7 +2206,7 @@
     },
     "īdem, eadem, idem": {
         "type": "pronoun",
-        "meaning": "(the) same",
+        "meaning": "same",
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
@@ -2269,7 +2277,7 @@
     "imperītus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "inexperienced of, unskilled in"
+        "meaning": "inexperienced (in), unskilled (in)"
     },
     "imperium": {
         "type": "noun",
@@ -3030,7 +3038,7 @@
     "multus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "much (many pl.)",
+        "meaning": "much (pl. many)",
         "exceptions": {
             "comparative": "plūs",
             "superlative": "plūrimus",
@@ -3384,7 +3392,7 @@
     "omnis": {
         "type": "adjective",
         "declension": "III",
-        "meaning": "each, every (all pl.)",
+        "meaning": "each, every (pl. all)",
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
@@ -3662,12 +3670,7 @@
     "perītus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "acquainted (with), experienced (in), skilled (in)"
-    },
-    "peritus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "experienced of, skilled in"
+        "meaning": "experienced (in), skilled (in)"
     },
     "perveniō": {
         "type": "verb",
@@ -3706,7 +3709,7 @@
         "declension": "III",
         "root": "plēb",
         "gender": "f",
-        "meaning": "the plebs (collective unit)"
+        "meaning": "the plebs (sing. unit)"
     },
     "plēnus": {
         "type": "adjective",
@@ -3774,7 +3777,7 @@
         "type": "noun",
         "declension": "II",
         "gender": "m",
-        "meaning": "people (collective unit)"
+        "meaning": "people (sing. unit)"
     },
     "porta": {
         "type": "noun",
@@ -4133,7 +4136,7 @@
     },
     "quī, quae, quod": {
         "type": "pronoun",
-        "meaning": "who (relative pronoun)",
+        "meaning": "who (i.e. relative pronoun)",
         "exceptions": {
             "sfg": "cūius",
             "sfd": "cui"
@@ -4149,7 +4152,7 @@
     },
     "quīdam, quaedam, quiddam": {
         "type": "pronoun",
-        "meaning": "a certain (some pl.)",
+        "meaning": "a certain (pl. some)",
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
@@ -4348,6 +4351,14 @@
         "meaning": "republic",
         "flag": "each part declines"
     },
+    "restituō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "restituere",
+        "perfect-root": "restitu",
+        "perfect-passive-participle": "restitūt",
+        "meaning": "to restore, revive"
+    },
     "rētia": {
         "type": "noun",
         "declension": "I",
@@ -4523,7 +4534,7 @@
     },
     "sē": {
         "type": "pronoun",
-        "meaning": "oneself (reflexive pronoun)"
+        "meaning": "oneself (i.e. reflexive pronoun)"
     },
     "sē dēdere": {
         "type": "special",
@@ -4583,7 +4594,7 @@
         "type": "noun",
         "declension": "IV",
         "gender": "m",
-        "meaning": "the senate (collective unit)"
+        "meaning": "the senate (sing. unit)"
     },
     "senex": {
         "type": "noun",
@@ -4879,7 +4890,7 @@
     "suus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "one's own (reflexive possesive adjective)",
+        "meaning": "one's own (i.e. reflexive possesive adjective)",
         "exceptions": {
             "no-comparative": true,
             "no-superlative": true
