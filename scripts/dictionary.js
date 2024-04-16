@@ -336,7 +336,7 @@ function form(table, word, result, exceptions={}, recursed=false){
 
     } else if(result["type"] === "deponent verb"){
         var dat = formdata["verb"][result["declension"].substring(0,result["declension"].length-4)], subdat, linked, newRoot, subtable, root;
-        root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2-(result["declension"] === "III spec" || result["declension"] === "IV"));
+        root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2-(result["declension"] === "II dep" || result["declension"] === "III spec dep" || result["declension"] === "IV dep"));
 
         var container, content;
         
@@ -366,7 +366,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
 
         subtable = createSubTable(content.rows[2].cells[0],"Future Imperfect");
-        subdat = formdata["verb"]["imperfect"]["passive"]["future"][result["declension"] === "I" || result["declension"] === "II" ? "I~II" : "!I~II"];
+        subdat = formdata["verb"]["imperfect"]["passive"]["future"][result["declension"] === "I dep" || result["declension"] === "II dep" ? "I~II" : "!I~II"];
         linked = root + dat["future-imperfect-link"];
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);

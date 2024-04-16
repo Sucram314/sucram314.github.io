@@ -5455,6 +5455,13 @@
         "gender": "n",
         "meaning": "spring"
     },
+    "vereor": {
+        "type": "deponent verb",
+        "declension": "II dep",
+        "infinitive": "verērī",
+        "perfect-root": "verit",
+        "meaning": "to fear"
+    },
     "vertō": {
         "type": "verb",
         "declension": "III reg",
