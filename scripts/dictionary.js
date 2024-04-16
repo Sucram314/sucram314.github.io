@@ -183,7 +183,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
 
         subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
-        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"isse"}</td><td>${exceptions["future-infinitive"]?exceptions["future-infinitive"]:result["perfect-passive-participle"]?result["perfect-passive-participle"]+"ūrum":"-"}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"isse"}</td><td>${exceptions["future-infinitive"]?exceptions["future-infinitive"]:result["perfect-passive-participle"]?result["perfect-passive-participle"]+"ūrum esse":"-"}</td></tr>`);
 
         container.appendChild(content);
 
@@ -192,7 +192,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         content.classList.add("gridtable");
         if(exceptions["intransitive"]) createSubTable(content,"no passive");
         else {
-            content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr>`);
+            content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td colspan="2"></td></tr>`);
             if(exceptions["limited-passive"]){
                 subtable = createSubTable(content.rows[0].cells[0],"Present (Imperfect)");
                 subdat = dat["passive"]["present"];
@@ -241,6 +241,8 @@ function form(table, word, result, exceptions={}, recursed=false){
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>-</td></tr>`);
                 } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no future perfect</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
 
+                subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
+                subtable.insertAdjacentHTML("beforeend",`<tr><td>${root + dat["passive-infinitive-ending"]}</td><td>-</td><td>-</td></tr>`);
             } else {
                 subtable = createSubTable(content.rows[0].cells[0],"Present (Imperfect)");
                 subdat = dat["passive"]["present"];
@@ -288,6 +290,9 @@ function form(table, word, result, exceptions={}, recursed=false){
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
                     subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
                 } else subtable.insertAdjacentHTML("beforeend",`<tfoot><tr><td colspan="2">no future perfect</td></tr><tr><td>&nbsp</td></tr><tr><td>&nbsp</td></tr></tfoot>`);
+            
+                subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
+                subtable.insertAdjacentHTML("beforeend",`<tr><td>${root + dat["passive-infinitive-ending"]}</td><td>${result["perfect-passive-participle"] ? result["perfect-passive-participle"] + "um esse" : "-"}</td><td>${result["perfect-passive-participle"] ? result["perfect-passive-participle"] + `<b>um</b> īrī` : "-"}</td></tr>`);
             }
         }
 
@@ -326,6 +331,92 @@ function form(table, word, result, exceptions={}, recursed=false){
             subdat = dat["imperative"]["present"];
             subtable.insertAdjacentHTML("beforeend",`<tr><td>${exceptions["irreg-imperative"] ? "<b>" + root + (result["declension"] === "irreg" ? subdat["2s"] : "") + "</b>" : root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td><td>${root + subdat["1p"]}</td></tr>`);
         } else createSubTable(content,"no imperative");
+
+        container.appendChild(content);
+
+    } else if(result["type"] === "deponent verb"){
+        var dat = formdata["verb"][result["declension"].substring(0,result["declension"].length-4)], subdat, linked, newRoot, subtable, root;
+        root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2-(result["declension"] === "III spec" || result["declension"] === "IV"));
+
+        var container, content;
+        
+        container = createInteractiveDropdown(table,"Active");
+        content = document.createElement("table");
+        content.classList.add("gridtable");
+        content.insertAdjacentHTML("beforeend",`<tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td colspan="2"></td></tr>`);
+        
+        subtable = createSubTable(content.rows[0].cells[0],"Present (Imperfect)");
+        subdat = dat["passive"]["present"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${root + subdat["1s"]}</td><td>${root + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${root + subdat["2s"]}</td><td>${root + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${root + subdat["3s"]}</td><td>${root + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content.rows[0].cells[1],"Present Perfect (Aorist)");
+        subdat = formdata["verb"]["aorist"]["passive"];
+        newRoot = result["perfect-root"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content.rows[1].cells[0],"Past Imperfect");
+        subdat = formdata["verb"]["imperfect"]["passive"]["past"];
+        linked = root + dat["past-imperfect-link"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content.rows[2].cells[0],"Future Imperfect");
+        subdat = formdata["verb"]["imperfect"]["passive"]["future"][result["declension"] === "I" || result["declension"] === "II" ? "I~II" : "!I~II"];
+        linked = root + dat["future-imperfect-link"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["3s"]}</td><td>${linked + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content.rows[1].cells[1],"Past Perfect");
+        subdat = formdata["verb"]["perfect"]["passive"]["past"];
+        newRoot =  result["perfect-root"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+        
+        subtable = createSubTable(content.rows[2].cells[1],"Future Perfect");
+        subdat = formdata["verb"]["perfect"]["passive"]["future"];
+        newRoot =  result["perfect-root"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${newRoot + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["2s"]}</td><td>${newRoot + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
+        subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"um esse"}</td><td>${result["perfect-root"]+"ūrum esse"}</td></tr>`);
+
+        container.appendChild(content);
+
+
+        container = createInteractiveDropdown(table,"Passive");
+        content = document.createElement("table");
+        content.classList.add("gridtable");
+        createSubTable(content,"no passive");
+        container.appendChild(content);
+
+
+        container = createInteractiveDropdown(table,"Participle");
+        content = document.createElement("table");
+
+        subtable = createSubTable(content,"Present");
+        form(subtable, root + dat["present-participle-link"] + "ns", {"type":"adjective","declension":"III"}, {}, true);
+
+        subtable = createSubTable(content,"Perfect Passive");
+        form(subtable, result["perfect-root"] + "us", {"type":"adjective","declension":"I~II"}, {}, true);
+
+        container.appendChild(content);
+
+
+        container = createInteractiveDropdown(table,"Imperative");
+        content = document.createElement("table");
+        subtable = createSubTable(content,"Present");
+        
+        subdat = dat["passive"]["present"];
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${root + subdat["2s"].substring(0,subdat["2s"].length-2) + "e"}</td><td>${root + subdat["2p"]}</td></tr>`);
 
         container.appendChild(content);
 
@@ -530,21 +621,6 @@ function generateRedirects(){
             for(const part in parts_){
                 redirect = parts_[part];
                 if(redirect !== word){
-                    // if(key && redirects_[redirect]){
-                    //     if(redirects_[redirect]["word"]){
-                    //         redirects_[redirect]["keys"][key] = true;
-                    //     } else {
-                    //         redirects_[redirect] = {"word":word}
-                    //         redirects_[redirect]["keys"] = {[key]:true};
-                    //     }
-                    // } else {
-                    //     if(key){
-                    //         redirects_[redirect] = {"word":word};
-                    //         redirects_[redirect]["keys"] = {[key]:true};
-                    //     } else {
-                    //         redirects_[redirect] = word;
-                    //     }
-                    // }
                     if(redirects_[redirect]){
                         if(key){
                             redirects_[redirect][word+">"+key] = {"word":word,"key":key};
@@ -562,30 +638,15 @@ function generateRedirects(){
             }
 
             var defs;
-            if(result["type"] === "verb" || result["type"] === "special") defs = result["meaning"].replace("to ","");
+            if(result["type"] === "verb" || result["type"] === "deponent verb" || result["type"] === "special") defs = result["meaning"].replace("to ","");
             else defs = result["meaning"];
             defs = defs.split(", ").map(processWord).flat(Infinity);
 
-            if(result["type"] === "verb" || (result["type"] === "special" && result["meaning"].substring(0,3) === "to ")) defs = defs.concat(defs.map((e) => "to "+e));
+            if(result["type"] === "verb" || result["type"] === "deponent verb" || (result["type"] === "special" && result["meaning"].substring(0,3) === "to ")) defs = defs.concat(defs.map((e) => "to "+e));
 
             for(const def in defs){
                 redirect = defs[def];
                 if(redirect !== word){
-                    // if(key && redirects_[redirect]){
-                    //     if(redirects_[redirect]["word"]){
-                    //         redirects_[redirect]["keys"][key] = true;
-                    //     } else {
-                    //         redirects_[redirect] = {"word":word}
-                    //         redirects_[redirect]["keys"] = {[key]:true};
-                    //     }
-                    // } else {
-                    //     if(key){
-                    //         redirects_[redirect] = {"word":word};
-                    //         redirects_[redirect]["keys"] = {[key]:true};
-                    //     } else {
-                    //         redirects_[redirect] = word;
-                    //     }
-                    // }
                     if(redirects_[redirect]){
                         if(key){
                             redirects_[redirect][word+">"+key] = {"word":word,"key":key};
@@ -610,21 +671,6 @@ function generateRedirects(){
                 redirect = cells[cell].innerText;
                 if(!redirect || redirect === "-") continue;
                 if(redirect !== word){
-                    // if(key && redirects_[redirect]){
-                    //     if(redirects_[redirect]["word"]){
-                    //         redirects_[redirect]["keys"][key] = true;
-                    //     } else {
-                    //         redirects_[redirect] = {"word":word}
-                    //         redirects_[redirect]["keys"] = {[key]:true};
-                    //     }
-                    // } else {
-                    //     if(key){
-                    //         redirects_[redirect] = {"word":word};
-                    //         redirects_[redirect]["keys"] = {[key]:true};
-                    //     } else {
-                    //         redirects_[redirect] = word;
-                    //     }
-                    // }
                     if(redirects_[redirect]){
                         if(key){
                             redirects_[redirect][word+">"+key] = {"word":word,"key":key};
@@ -688,6 +734,8 @@ function parts(word, result, exceptions){
         var res = [word, result["infinitive"], result["perfect-root"]+"ī"];
         if(result["perfect-passive-participle"]) res.push(result["perfect-passive-participle"] + "um");
         return res;
+    } else if(result["type"] === "deponent verb"){
+        return [word, result["infinitive"], result["perfect-root"]+"us sum"];
     }
     
     return word.split(", ");
@@ -768,7 +816,7 @@ function search(word, key=""){
         var exceptions = result["exceptions"] ? result["exceptions"] : {};
     
         Word.querySelector("p").innerText = parts(word, result, exceptions).join(", ");
-        Word.querySelector("span").innerText = result["type"] + (result["declension"] ? " / " + result["declension"] : "") + (result["gender"] ? " / " + result["gender"] + "." : "")
+        Word.querySelector("span").innerText = result["type"].replace(/deponent /,"") + (result["declension"] ? " / " + result["declension"] : "") + (result["gender"] ? " / " + result["gender"] + "." : "")
         Meaning.querySelector(".details span").innerText = result["meaning"];
 
         if(result["flag"]){

@@ -258,6 +258,7 @@
             "past-imperfect-link":"ā",
             "future-imperfect-link":"ā",
             "present-participle-link":"ā",
+            "passive-infinitive-ending":"ārī",
             
             "active":{
                 "present":{
@@ -294,6 +295,7 @@
             "past-imperfect-link":"ē",
             "future-imperfect-link":"ē",
             "present-participle-link":"ē",
+            "passive-infinitive-ending":"ērī",
 
             "active":{
                 "present":{
@@ -330,6 +332,7 @@
             "past-imperfect-link":"ē",
             "future-imperfect-link":"",
             "present-participle-link":"ē",
+            "passive-infinitive-ending":"ī",
 
             "active":{
                 "present":{
@@ -366,6 +369,7 @@
             "past-imperfect-link":"iē",
             "future-imperfect-link":"i",
             "present-participle-link":"iē",
+            "passive-infinitive-ending":"ī",
 
             "active":{
                 "present":{
@@ -402,6 +406,7 @@
             "past-imperfect-link":"iē",
             "future-imperfect-link":"i",
             "present-participle-link":"iē",
+            "passive-infinitive-ending":"ī",
 
             "active":{
                 "present":{

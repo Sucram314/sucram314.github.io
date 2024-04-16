@@ -95,6 +95,13 @@
         "type": "adverb",
         "meaning": "still"
     },
+    "adorior": {
+        "type": "deponent verb",
+        "declension": "IV dep",
+        "infinitive": "adorīrī",
+        "perfect-root": "adort",
+        "meaning": "to attack"
+    },
     "adōrō": {
         "type": "verb",
         "declension": "I",
@@ -1030,6 +1037,13 @@
         "perfect-passive-participle": "cōnfirmāt",
         "meaning": "to strengthen"
     },
+    "cōnor": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "cōnārī",
+        "perfect-root": "cōnāt",
+        "meaning": "to try"
+    },
     "consilium": {
         "type": "noun",
         "declension": "II",
@@ -1574,6 +1588,13 @@
     "ego": {
         "type": "pronoun",
         "meaning": "I (pl. we)"
+    },
+    "ēgredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "ēgredī",
+        "perfect-root": "ēgress",
+        "meaning": "to leave"
     },
     "elephantus": {
         "type": "noun",
@@ -2356,6 +2377,13 @@
         "declension": "III",
         "meaning": "huge"
     },
+    "ingredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "ingredī",
+        "perfect-root": "ingress",
+        "meaning": "to enter"
+    },
     "inimīca": {
         "type": "noun",
         "declension": "I",
@@ -3006,6 +3034,13 @@
         "gender": "f",
         "meaning": "delay"
     },
+    "moror": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "morārī",
+        "perfect-root": "morāt",
+        "meaning": "to delay, linger"
+    },
     "mors": {
         "type": "noun",
         "declension": "III",
@@ -3456,6 +3491,13 @@
     "orbis terrārum": {
         "type": "special",
         "meaning": "world"
+    },
+    "orior": {
+        "type": "deponent verb",
+        "declension": "IV dep",
+        "infinitive": "orīrī",
+        "perfect-root": "ort",
+        "meaning": "to arise"
     },
     "ornāmentum": {
         "type": "noun",
@@ -3954,6 +3996,13 @@
         "gender": "n",
         "meaning": "battle"
     },
+    "progredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "progredī",
+        "perfect-root": "progress",
+        "meaning": "to advance, go forward"
+    },
     "prohibeō": {
         "type": "verb",
         "declension": "II",
@@ -4371,6 +4420,13 @@
         "gender": "m",
         "meaning": "net fighter"
     },
+    "revertor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "revertī",
+        "perfect-root": "revers",
+        "meaning": "to return"
+    },
     "rēx": {
         "type": "noun",
         "declension": "III",
@@ -4619,6 +4675,13 @@
             "no-comparative": true,
             "no-superlative": true
         }
+    },
+    "sequor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "sequī",
+        "perfect-root": "secūt",
+        "meaning": "to follow, pursue"
     },
     "servō": {
         "type": "verb",
@@ -5096,6 +5159,13 @@
             "limited-passive": true
         }
     },
+    "trānsgredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "trānsgredī",
+        "perfect-root": "trānsgress",
+        "meaning": "to cross"
+    },
     "trānsmarīnus": {
         "type": "adjective",
         "declension": "I~II",
@@ -5193,6 +5263,13 @@
         "declension": "I",
         "gender": "f",
         "meaning": "horn"
+    },
+    "tueor": {
+        "type": "deponent verb",
+        "declension": "II dep",
+        "infinitive": "tuērī",
+        "perfect-root": "tuit",
+        "meaning": "to defend"
     },
     "tum": {
         "type": "adverb",
