@@ -37,7 +37,10 @@
         "exceptions": {
             "intransitive": true,
             "future-infinitive": "āfore"
-        }
+        },
+        "notes": [
+            "future infinitive: āfore"
+        ]
     },
     "accipiō": {
         "type": "verb",
@@ -129,7 +132,10 @@
         "exceptions": {
             "intransitive": true,
             "future-infinitive": "adfore"
-        }
+        },
+        "notes": [
+            "future infinitive: adfore"
+        ]
     },
     "adulēscēns": {
         "type": "noun",
@@ -453,7 +459,7 @@
             "plural": true
         },
         "notes": [
-            "Must be in the plural form"
+            "must be in the plural form"
         ]
     },
     "arma capere": {
@@ -522,8 +528,11 @@
         "perfect-passive-participle": "ablāt",
         "meaning": "to steal, take away",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "aureus": {
         "type": "adjective",
@@ -802,7 +811,7 @@
             "plural": true
         },
         "notes": [
-            "Must be in the plural form"
+            "must be in the plural form"
         ]
     },
     "catēna": {
@@ -1026,8 +1035,11 @@
         "perfect-passive-participle": "conlāt",
         "meaning": "to collect, bring together",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "cōnfirmō": {
         "type": "verb",
@@ -1382,7 +1394,10 @@
         "exceptions": {
             "intransitive": true,
             "future-infinitive": "dēfore"
-        }
+        },
+        "notes": [
+            "future infinitive: dēfore"
+        ]
     },
     "deus": {
         "type": "noun",
@@ -1413,8 +1428,11 @@
         "perfect-passive-participle": "dict",
         "meaning": "to talk, speak",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "diēs": {
         "type": "noun",
@@ -1532,8 +1550,11 @@
         "perfect-passive-participle": "duct",
         "meaning": "to lead",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "dum": {
         "type": "adverb",
@@ -1750,8 +1771,11 @@
         "perfect-passive-participle": "fact",
         "meaning": "to do, make, happen, take place",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "factum": {
         "type": "noun",
@@ -1807,8 +1831,11 @@
         "perfect-passive-participle": "lāt",
         "meaning": "to bring, carry",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "ferōx": {
         "type": "adjective",
@@ -2242,7 +2269,7 @@
             "plural": true
         },
         "notes": [
-            "Must be in the plural form"
+            "must be in the plural form"
         ]
     },
     "ille ... hīc": {
@@ -2382,7 +2409,7 @@
         "declension": "III spec dep",
         "infinitive": "ingredī",
         "perfect-root": "ingress",
-        "meaning": "to enter"
+        "meaning": "to enter, invade"
     },
     "inimīca": {
         "type": "noun",
@@ -2443,7 +2470,7 @@
             "plural": true
         },
         "notes": [
-            "Must be in the plural form"
+            "must be in the plural form"
         ]
     },
     "insula": {
@@ -2704,7 +2731,7 @@
             "plural": true
         },
         "notes": [
-            "Must be in the plural form"
+            "must be in the plural form"
         ]
     },
     "līberō": {
@@ -3421,7 +3448,8 @@
         },
         "notes": [
             "Must be in the neuter plural form to have this meaning",
-            "i-stem"
+            "i-stem",
+            "must be in the plural form"
         ]
     },
     "omnis": {
@@ -3497,7 +3525,13 @@
         "declension": "IV dep",
         "infinitive": "orīrī",
         "perfect-root": "ort",
-        "meaning": "to arise"
+        "meaning": "to arise",
+        "exceptions": {
+            "future-infinitive": "orit"
+        },
+        "notes": [
+            "future infinitive: orit-"
+        ]
     },
     "ornāmentum": {
         "type": "noun",
@@ -3846,7 +3880,10 @@
         "exceptions": {
             "intransitive": true,
             "future-infinitive": "posse"
-        }
+        },
+        "notes": [
+            "future infinitive: posse"
+        ]
     },
     "post": {
         "type": "preposition",
@@ -3893,7 +3930,10 @@
         "exceptions": {
             "intransitive": true,
             "future-infinitive": "praefore"
-        }
+        },
+        "notes": [
+            "future infinitive: praefore"
+        ]
     },
     "praeter": {
         "type": "preposition",
@@ -4336,8 +4376,11 @@
         "perfect-passive-participle": "relāt",
         "meaning": "to bring back, return (something)",
         "exceptions": {
-            "irreg-imperative": true
-        }
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
     },
     "reficiō": {
         "type": "verb",
@@ -4883,10 +4926,27 @@
             "intransitive": true
         }
     },
+    "stulta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "fool (f.)"
+    },
     "stultus": {
-        "type": "adjective",
-        "declension": "I~II",
-        "meaning": "foolish"
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "fool (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "foolish"
+            }
+        }
     },
     "sub": {
         "type": "preposition",
@@ -4914,7 +4974,10 @@
         "exceptions": {
             "intransitive": true,
             "future-infinitive": "fore"
-        }
+        },
+        "notes": [
+            "future infinitive: fore"
+        ]
     },
     "summus": {
         "type": "adjective",
@@ -5090,7 +5153,7 @@
             "plural": true
         },
         "notes": [
-            "Must be in the plural form"
+            "must be in the plural form"
         ]
     },
     "tibi adpropinquō": {

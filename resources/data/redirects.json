@@ -667,8 +667,13 @@
     "āfuisse": {
         "absum": "absum"
     },
-    "āfore": {
-        "absum": "absum"
+    "exceptions[\"future-infinitive\"]": {
+        "absum": "absum",
+        "adsum": "adsum",
+        "dēsum": "dēsum",
+        "possum": "possum",
+        "praesum": "praesum",
+        "sum": "sum"
     },
     "abeste": {
         "absum": "absum"
@@ -2757,9 +2762,6 @@
         "adsum": "adsum"
     },
     "adfuisse": {
-        "adsum": "adsum"
-    },
-    "adfore": {
         "adsum": "adsum"
     },
     "adeste": {
@@ -19824,9 +19826,6 @@
     "dēfuisse": {
         "dēsum": "dēsum"
     },
-    "dēfore": {
-        "dēsum": "dēsum"
-    },
     "dēeste": {
         "dēsum": "dēsum"
     },
@@ -20207,7 +20206,7 @@
     "dictīs": {
         "dīcō": "dīcō"
     },
-    "dīc": {
+    "dīce": {
         "dīcō": "dīcō"
     },
     "dīcite": {
@@ -22387,7 +22386,7 @@
     "ductīs": {
         "dūcō": "dūcō"
     },
-    "dūc": {
+    "dūce": {
         "dūcō": "dūcō"
     },
     "dūcite": {
@@ -25416,7 +25415,7 @@
         "faciō": "faciō",
         "factum": "factum"
     },
-    "fac": {
+    "face": {
         "faciō": "faciō"
     },
     "facite": {
@@ -31074,14 +31073,16 @@
         "ingredior": "ingredior"
     },
     "invade": {
-        "ineō": "ineō"
+        "ineō": "ineō",
+        "ingredior": "ingredior"
     },
     "to enter": {
         "ineō": "ineō",
         "ingredior": "ingredior"
     },
     "to invade": {
-        "ineō": "ineō"
+        "ineō": "ineō",
+        "ingredior": "ingredior"
     },
     "inīmus": {
         "ineō": "ineō"
@@ -44727,7 +44728,7 @@
     "ortum esse": {
         "orior": "orior"
     },
-    "ortūrum esse": {
+    "oritūrum esse": {
         "orior": "orior"
     },
     "oriēns": {
@@ -48664,9 +48665,6 @@
         "praesum": "praesum"
     },
     "praefuisse": {
-        "praesum": "praesum"
-    },
-    "praefore": {
         "praesum": "praesum"
     },
     "praeeste": {
@@ -61031,113 +61029,260 @@
     "studeāmus": {
         "studeō": "studeō"
     },
-    "foolish": {
-        "stultus": "stultus"
+    "stultae": {
+        "stulta": "stulta",
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
-    "stulta": {
-        "stultus": "stultus"
-    },
-    "stultum": {
-        "stultus": "stultus"
+    "fool (f.)": {
+        "stulta": "stulta"
     },
     "stultam": {
-        "stultus": "stultus"
-    },
-    "stultae": {
-        "stultus": "stultus"
-    },
-    "stultī": {
-        "stultus": "stultus"
-    },
-    "stultā": {
-        "stultus": "stultus"
-    },
-    "stultō": {
-        "stultus": "stultus"
+        "stulta": "stulta",
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultās": {
-        "stultus": "stultus"
-    },
-    "stultōs": {
-        "stultus": "stultus"
+        "stulta": "stulta",
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultārum": {
-        "stultus": "stultus"
+        "stulta": "stulta",
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
-    "stultōrum": {
-        "stultus": "stultus"
+    "stultā": {
+        "stulta": "stulta",
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultīs": {
-        "stultus": "stultus"
+        "stulta": "stulta",
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        },
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "stultī": {
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        },
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "fool (m.)": {
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        }
+    },
+    "stultum": {
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        },
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "stultōs": {
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        },
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "stultōrum": {
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        },
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "stultō": {
+        "stultus>noun": {
+            "word": "stultus",
+            "key": "noun"
+        },
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "foolish": {
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
+    },
+    "stulta": {
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultior": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultius": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōrem": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōris": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōre": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōrī": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōrēs": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōra": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōrum": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultiōribus": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissima": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimus": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimum": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimam": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimae": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimī": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimā": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimō": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimās": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimōs": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimārum": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimōrum": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "stultissimīs": {
-        "stultus": "stultus"
+        "stultus>adjective": {
+            "word": "stultus",
+            "key": "adjective"
+        }
     },
     "under": {
         "sub": "sub"
@@ -61260,9 +61405,6 @@
         "sum": "sum"
     },
     "fuisse": {
-        "sum": "sum"
-    },
-    "fore": {
         "sum": "sum"
     },
     "este": {
