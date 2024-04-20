@@ -487,6 +487,7 @@
                 "past-imperfect-link":"ī",
                 "future-imperfect-link":"ī",
                 "similar-declension":"I~II",
+                "passive-infinitive-ending" : "īrī",
                 "imperfect-root" : "",
 
                 "present-participle":{
@@ -529,7 +530,7 @@
                 "future-imperfect-link":"",
                 "similar-declension":"!I~II",
                 "imperfect-root" : "fer",
-
+                "passive-infinitive-ending" : "ferrī",
                 "present-participle":"ferēns",
 
                 "active":{

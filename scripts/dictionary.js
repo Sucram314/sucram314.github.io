@@ -183,7 +183,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
 
         subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
-        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"isse"}</td><td>${exceptions["future-infinitive"] ? `<b>exceptions["future-infinitive"]</b>` : result["perfect-passive-participle"]?result["perfect-passive-participle"]+"ūrum esse":"-"}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"isse"}</td><td>${exceptions["future-infinitive"] ? `<b>${exceptions["future-infinitive"]}</b>` : result["perfect-passive-participle"]?result["perfect-passive-participle"]+"ūrum esse":"-"}</td></tr>`);
 
         container.appendChild(content);
 
@@ -387,7 +387,7 @@ function form(table, word, result, exceptions={}, recursed=false){
         subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
 
         subtable = createSubTable(content.rows[3].cells[0],"Infinitive");
-        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"um esse"}</td><td>${(exceptions["future-infinitive"] ? exceptions["future-infinitive"] : result["perfect-root"])+"ūrum esse"}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${result["infinitive"]}</td><td>${result["perfect-root"]+"um esse"}</td><td>${(exceptions["future-infinitive"] ? `<b>${exceptions["future-infinitive"]}</b>` : result["perfect-root"])+"ūrum esse"}</td></tr>`);
 
         container.appendChild(content);
 
