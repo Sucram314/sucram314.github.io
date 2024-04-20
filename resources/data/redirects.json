@@ -172,7 +172,7 @@
     "abitus erit": {
         "abeō": "abeō"
     },
-    "abundefined": {
+    "abīrī": {
         "abeō": "abeō"
     },
     "abiēns": {
@@ -667,13 +667,8 @@
     "āfuisse": {
         "absum": "absum"
     },
-    "exceptions[\"future-infinitive\"]": {
-        "absum": "absum",
-        "adsum": "adsum",
-        "dēsum": "dēsum",
-        "possum": "possum",
-        "praesum": "praesum",
-        "sum": "sum"
+    "āfore": {
+        "absum": "absum"
     },
     "abeste": {
         "absum": "absum"
@@ -1775,7 +1770,7 @@
     "aditus erit": {
         "adeō": "adeō"
     },
-    "adundefined": {
+    "adīrī": {
         "adeō": "adeō"
     },
     "adiēns": {
@@ -2762,6 +2757,9 @@
         "adsum": "adsum"
     },
     "adfuisse": {
+        "adsum": "adsum"
+    },
+    "adfore": {
         "adsum": "adsum"
     },
     "adeste": {
@@ -7346,7 +7344,7 @@
     "ablātī erunt": {
         "auferō": "auferō"
     },
-    "auundefined": {
+    "auferrī": {
         "auferō": "auferō"
     },
     "ablātum esse": {
@@ -13040,7 +13038,7 @@
     "conlātī erunt": {
         "conferō": "conferō"
     },
-    "conundefined": {
+    "conferrī": {
         "conferō": "conferō"
     },
     "conlātum esse": {
@@ -19826,6 +19824,9 @@
     "dēfuisse": {
         "dēsum": "dēsum"
     },
+    "dēfore": {
+        "dēsum": "dēsum"
+    },
     "dēeste": {
         "dēsum": "dēsum"
     },
@@ -23319,9 +23320,8 @@
     "itus erit": {
         "eō": "eō"
     },
-    "undefined": {
-        "eō": "eō",
-        "ferō": "ferō"
+    "īrī": {
+        "eō": "eō"
     },
     "iēns": {
         "eō": "eō"
@@ -24540,7 +24540,7 @@
     "exitus erit": {
         "exeō": "exeō"
     },
-    "exundefined": {
+    "exīrī": {
         "exeō": "exeō"
     },
     "exiēns": {
@@ -26085,6 +26085,9 @@
         "ferō": "ferō"
     },
     "lātī erunt": {
+        "ferō": "ferō"
+    },
+    "ferrī": {
         "ferō": "ferō"
     },
     "lātum esse": {
@@ -31210,7 +31213,7 @@
     "initus erit": {
         "ineō": "ineō"
     },
-    "inundefined": {
+    "inīrī": {
         "ineō": "ineō"
     },
     "iniēns": {
@@ -46599,7 +46602,7 @@
     "peritus erit": {
         "pereō": "pereō"
     },
-    "perundefined": {
+    "perīrī": {
         "pereō": "pereō"
     },
     "periēns": {
@@ -48665,6 +48668,9 @@
         "praesum": "praesum"
     },
     "praefuisse": {
+        "praesum": "praesum"
+    },
+    "praefore": {
         "praesum": "praesum"
     },
     "praeeste": {
@@ -53200,7 +53206,7 @@
     "reditus erit": {
         "redeō": "redeō"
     },
-    "redundefined": {
+    "redīrī": {
         "redeō": "redeō"
     },
     "rediēns": {
@@ -53815,7 +53821,7 @@
     "relātī erunt": {
         "referō": "referō"
     },
-    "reundefined": {
+    "referrī": {
         "referō": "referō"
     },
     "relātum esse": {
@@ -61407,6 +61413,9 @@
     "fuisse": {
         "sum": "sum"
     },
+    "fore": {
+        "sum": "sum"
+    },
     "este": {
         "sum": "sum"
     },
@@ -64212,7 +64221,7 @@
     "trānsitus erit": {
         "trānseō": "trānseō"
     },
-    "trānsundefined": {
+    "trānsīrī": {
         "trānseō": "trānseō"
     },
     "trānsiēns": {
