@@ -62,7 +62,9 @@
         "type": "adjective",
         "declension": "III",
         "meaning": "harsh",
-        "flag": "goofy superlative"
+        "notes": [
+            "goofy superlative (ignore)"
+        ]
     },
     "aciēs": {
         "type": "noun",
@@ -192,6 +194,13 @@
         "root": "aestāt",
         "gender": "f",
         "meaning": "summer"
+    },
+    "aetās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "aetāt",
+        "gender": "f",
+        "meaning": "age, era, period"
     },
     "aeternus": {
         "type": "adjective",
@@ -1009,7 +1018,7 @@
         "declension": "III",
         "root": "condiciōn",
         "gender": "f",
-        "meaning": "condition"
+        "meaning": "terms"
     },
     "conditor": {
         "type": "noun",
@@ -1040,6 +1049,14 @@
         "notes": [
             "irregular imperative"
         ]
+    },
+    "conficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "conficere",
+        "perfect-root": "confēc",
+        "perfect-passive-participle": "confect",
+        "meaning": "to conclude, finish"
     },
     "cōnfirmō": {
         "type": "verb",
@@ -1181,6 +1198,10 @@
         "type": "special",
         "meaning": "speak with ..."
     },
+    "cunctandō": {
+        "type": "special",
+        "meaning": "by delaying"
+    },
     "cupidus": {
         "type": "adjective",
         "declension": "I~II",
@@ -1273,6 +1294,14 @@
     "decem": {
         "type": "number",
         "meaning": "ten"
+    },
+    "dēcernō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēcernere",
+        "perfect-root": "dēcrēv",
+        "perfect-passive-participle": "dēcrēt",
+        "meaning": "to determine, decide"
     },
     "decimus": {
         "type": "adjective",
@@ -1822,6 +1851,10 @@
         "gender": "f",
         "meaning": "window"
     },
+    "ferē": {
+        "type": "adverb",
+        "meaning": "nearly, almost, generally"
+    },
     "ferō": {
         "type": "verb",
         "declension": "irreg",
@@ -1851,6 +1884,12 @@
         "type": "adjective",
         "declension": "III",
         "meaning": "loyal"
+    },
+    "fidēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "loyalty"
     },
     "filia": {
         "type": "noun",
@@ -2009,6 +2048,13 @@
         "declension": "II",
         "gender": "m",
         "meaning": "runaway"
+    },
+    "fūnus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fūner",
+        "gender": "n",
+        "meaning": "death, funeral"
     },
     "fūr": {
         "type": "noun",
@@ -2479,6 +2525,11 @@
         "gender": "f",
         "meaning": "island, apartment building"
     },
+    "integer": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "undamaged, intact"
+    },
     "inter": {
         "type": "preposition",
         "meaning": "between, among"
@@ -2661,6 +2712,10 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "happy"
+    },
+    "latē": {
+        "type": "adverb",
+        "meaning": "far and wide"
     },
     "lātrō": {
         "type": "verb",
@@ -3193,6 +3248,13 @@
         "perfect-passive-participle": "negāt",
         "meaning": "to say that ... not, deny"
     },
+    "nēmō": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "f, m",
+        "meaning": "no one",
+        "flag": "vruh"
+    },
     "nepōs": {
         "type": "noun",
         "declension": "III",
@@ -3217,6 +3279,10 @@
         "declension": "indeclinable",
         "gender": "n",
         "meaning": "nothing"
+    },
+    "nisī": {
+        "type": "conjunction",
+        "meaning": "if not"
     },
     "nix": {
         "type": "noun",
@@ -3645,6 +3711,17 @@
         "gender": "m",
         "meaning": "father"
     },
+    "patior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "patī",
+        "perfect-root": "pass",
+        "meaning": "to allow, permit"
+    },
+    "patrēs cōnscrīptī": {
+        "type": "special",
+        "meaning": "gentleman of the senate"
+    },
     "patria": {
         "type": "noun",
         "declension": "I",
@@ -3667,6 +3744,10 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "(a) little, few"
+    },
+    "paulātim": {
+        "type": "adverb",
+        "meaning": "gradually"
     },
     "pauper": {
         "type": "noun",
@@ -3762,6 +3843,12 @@
         "root": "ped",
         "gender": "m",
         "meaning": "foot"
+    },
+    "philosophus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "thinker"
     },
     "piger": {
         "type": "adjective",
@@ -3919,6 +4006,12 @@
         "gender": "f",
         "meaning": "plunder, booty"
     },
+    "praesidium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "protection"
+    },
     "praesum": {
         "type": "verb",
         "declension": "irreg",
@@ -3970,6 +4063,14 @@
         "declension": "II",
         "gender": "n",
         "meaning": "lunch"
+    },
+    "premō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "premere",
+        "perfect-root": "press",
+        "perfect-passive-participle": "press",
+        "meaning": "to press"
     },
     "pretium": {
         "type": "noun",
@@ -4182,6 +4283,10 @@
             "no-superlative": true
         }
     },
+    "quam": {
+        "type": "conjunction",
+        "meaning": "than"
+    },
     "quam celerrimē": {
         "type": "special",
         "meaning": "as quickly as possible"
@@ -4251,6 +4356,13 @@
         "type": "adverb",
         "meaning": "indeed"
     },
+    "quiēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "quiēt",
+        "gender": "f",
+        "meaning": "rest"
+    },
     "quiescō": {
         "type": "verb",
         "declension": "III reg",
@@ -4270,6 +4382,10 @@
     "quīnque": {
         "type": "number",
         "meaning": "five"
+    },
+    "quīnquiēns": {
+        "type": "adverb",
+        "meaning": "for the fifth time"
     },
     "quīntus": {
         "type": "adjective",
@@ -4410,6 +4526,14 @@
         "perfect-root": "relīqu",
         "perfect-passive-participle": "relict",
         "meaning": "to abandon, leave (something)"
+    },
+    "repudiō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "repudiāre",
+        "perfect-root": "repudiāv",
+        "perfect-passive-participle": "repudiāt",
+        "meaning": "to reject"
     },
     "rēs": {
         "type": "noun",
@@ -4725,6 +4849,13 @@
         "infinitive": "sequī",
         "perfect-root": "secūt",
         "meaning": "to follow, pursue"
+    },
+    "servitūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "servitūt",
+        "gender": "f",
+        "meaning": "slavery"
     },
     "servō": {
         "type": "verb",
@@ -5067,9 +5198,18 @@
         "type": "special",
         "meaning": "so"
     },
+    "tam ... quam": {
+        "type": "special",
+        "meaning": "as ... as"
+    },
     "tamen": {
         "type": "conjunction",
         "meaning": "however"
+    },
+    "tantus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "so much"
     },
     "tēlum": {
         "type": "noun",
@@ -5160,10 +5300,6 @@
         "type": "special",
         "meaning": "I approach you"
     },
-    "tibi auxiliō eō": {
-        "type": "special",
-        "meaning": "I go to help you (double dative)"
-    },
     "tibi resistō": {
         "type": "special",
         "meaning": "I resist you"
@@ -5182,6 +5318,13 @@
         "perfect-root": "timu",
         "perfect-passive-participle": "",
         "meaning": "to fear"
+    },
+    "tot": {
+        "type": "noun",
+        "declension": "indeclinable",
+        "gender": "f, m, n",
+        "meaning": "so much, so many",
+        "flag": "idk bro"
     },
     "tōtus": {
         "type": "adjective",
@@ -5440,6 +5583,14 @@
             "i-stem"
         ]
     },
+    "urgeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "urgēre",
+        "perfect-root": "urs",
+        "perfect-passive-participle": "",
+        "meaning": "to exploit"
+    },
     "ursus": {
         "type": "noun",
         "declension": "II",
@@ -5449,6 +5600,10 @@
     "usque": {
         "type": "adverb",
         "meaning": "as far as, up to"
+    },
+    "ut": {
+        "type": "conjunction",
+        "meaning": "in order to, in order that"
     },
     "uxor": {
         "type": "noun",
@@ -5687,7 +5842,7 @@
         "declension": "III",
         "root": "vīr",
         "gender": "f",
-        "meaning": "force, violence",
+        "meaning": "force, violence, troop, resource",
         "flag": "highly irregular"
     },
     "vīta": {
@@ -5731,6 +5886,13 @@
         "exceptions": {
             "intransitive": true
         }
+    },
+    "voluntās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "voluntāt",
+        "gender": "f",
+        "meaning": "willingness"
     },
     "vulnerō": {
         "type": "verb",
