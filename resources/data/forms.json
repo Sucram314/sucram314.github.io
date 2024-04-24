@@ -254,11 +254,25 @@
             }
         },
 
+        "subjunctive":{
+            "active":{
+                "present":{
+                    "1s":"m",
+                    "2s":"s",
+                    "3s":"t",
+                    "1p":"mus",
+                    "2p":"tis",
+                    "3p":"nt"
+                }
+            }
+        },
+
         "I":{
             "past-imperfect-link":"ā",
             "future-imperfect-link":"ā",
             "present-participle-link":"ā",
             "passive-infinitive-ending":"ārī",
+            "subjunctive-link":"ē",
             
             "active":{
                 "present":{
@@ -296,6 +310,7 @@
             "future-imperfect-link":"ē",
             "present-participle-link":"ē",
             "passive-infinitive-ending":"ērī",
+            "subjunctive-link":"eā",
 
             "active":{
                 "present":{
@@ -333,6 +348,7 @@
             "future-imperfect-link":"",
             "present-participle-link":"ē",
             "passive-infinitive-ending":"ī",
+            "subjunctive-link":"ā",
 
             "active":{
                 "present":{
@@ -370,6 +386,7 @@
             "future-imperfect-link":"i",
             "present-participle-link":"iē",
             "passive-infinitive-ending":"ī",
+            "subjunctive-link":"iā",
 
             "active":{
                 "present":{
@@ -407,6 +424,7 @@
             "future-imperfect-link":"i",
             "present-participle-link":"iē",
             "passive-infinitive-ending":"ī",
+            "subjunctive-link":"iā",
 
             "active":{
                 "present":{
@@ -442,6 +460,8 @@
         "irreg":{
             "sum":{
                 "present-participle":false,
+                "subjunctive-root":"s",
+                "subjunctive-link":"ī",
                 
                 "active":{
                     "irregular-imperfect":true,
@@ -489,6 +509,8 @@
                 "similar-declension":"I~II",
                 "passive-infinitive-ending" : "īrī",
                 "imperfect-root" : "",
+                "subjunctive-root":"",
+                "subjunctive-link":"eā",
 
                 "present-participle":{
                     "content":"iēns",
@@ -532,6 +554,8 @@
                 "imperfect-root" : "fer",
                 "passive-infinitive-ending" : "ferrī",
                 "present-participle":"ferēns",
+                "subjunctive-root":"fer",
+                "subjunctive-link":"ā",
 
                 "active":{
                     "present":{
@@ -569,8 +593,9 @@
                 "future-imperfect-link":"",
                 "similar-declension":"!I~II",
                 "imperfect-root" : "vol",
-
                 "present-participle":"volens",
+                "subjunctive-root":"vel",
+                "subjunctive-link":"ī",
                 
                 "active":{
                     "present":{
@@ -590,8 +615,9 @@
                 "future-imperfect-link":"",
                 "similar-declension":"!I~II",
                 "imperfect-root" : "nōl",
-
                 "present-participle":"nōlēns",
+                "subjunctive-root":"nol",
+                "subjunctive-link":"ī",
                 
                 "active":{
                     "present":{
@@ -620,8 +646,9 @@
                 "future-imperfect-link":"",
                 "similar-declension":"!I~II",
                 "imperfect-root" : "māl",
-
                 "present-participle":"mālēns",
+                "subjunctive-root":"māl",
+                "subjunctive-link":"ī",
                 
                 "active":{
                     "present":{
@@ -638,6 +665,8 @@
             },
             "possum":{
                 "present-participle":"potēns",
+                "subjunctive-root":"poss",
+                "subjunctive-link":"ī",
                 
                 "active":{
                     "irregular-imperfect":true,

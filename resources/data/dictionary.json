@@ -4826,6 +4826,12 @@
         "gender": "f, m",
         "meaning": "old person"
     },
+    "sententia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "opinion"
+    },
     "septem": {
         "type": "number",
         "meaning": "seven"

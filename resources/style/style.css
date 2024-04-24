@@ -671,10 +671,12 @@ html.dark .link{
     height: auto;
 }
 .dictionary-container{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 120%;
+    left: -10%;
 }
 .dictionary-container > div{
     transition: padding 0.3s ease, margin 0.3s ease;
@@ -783,6 +785,10 @@ html.dark .dictionary-container > div{
     .resource-title{
         transition: all 0.3s ease;
         margin: 10px 0 10px 20px;
+    }
+    .dictionary-container{
+        left: 0;
+        width: 100%;
     }
     .dictionary-container > div{
         transition: padding 0.3s ease, margin 0.3s ease;

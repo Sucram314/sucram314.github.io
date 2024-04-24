@@ -334,6 +334,21 @@ function form(table, word, result, exceptions={}, recursed=false){
 
         container.appendChild(content);
 
+
+        container = createInteractiveDropdown(table,"Subjunctive");
+        content = document.createElement("table");
+        content.insertAdjacentHTML("beforeend",`<tr><td></td><tr>`);
+
+        subtable = createSubTable(content.rows[0].cells[0],"Present (Imperfect)")
+        linked = root + (dat["subjunctive-root"] ? dat["subjunctive-root"] : "") + dat["subjunctive-link"]
+        newRoot = root + (dat["subjunctive-root"] ? dat["subjunctive-root"] : "") + normalize(dat["subjunctive-link"])
+        subdat = formdata["verb"]["subjunctive"]["active"]["present"]
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["1s"]}</td><td>${linked + subdat["1p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${linked + subdat["2s"]}</td><td>${linked + subdat["2p"]}</td></tr>`);
+        subtable.insertAdjacentHTML("beforeend",`<tr><td>${newRoot + subdat["3s"]}</td><td>${newRoot + subdat["3p"]}</td></tr>`);
+
+        container.appendChild(content);
+
     } else if(result["type"] === "deponent verb"){
         var dat = formdata["verb"][result["declension"].substring(0,result["declension"].length-4)], subdat, linked, newRoot, subtable, root;
         root = exceptions["root"] ? exceptions["root"] : word.substring(0,word.length-2-(result["declension"] === "II dep" || result["declension"] === "III spec dep" || result["declension"] === "IV dep"));
