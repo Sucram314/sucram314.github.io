@@ -183,6 +183,11 @@
             "i-stem"
         ]
     },
+    "aeger": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "ill, sick, weak"
+    },
     "aequus": {
         "type": "adjective",
         "declension": "I~II",
@@ -227,9 +232,35 @@
         "gender": "m",
         "meaning": "farmer"
     },
+    "albus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "white"
+    },
     "aliī ... aliī": {
         "type": "special",
         "meaning": "some ... others"
+    },
+    "aliquī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "some, any",
+        "exceptions": {
+            "plural": true,
+            "sfg": "alicuius",
+            "sfd": "alicui",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "must be in the plural form"
+        ]
+    },
+    "aliquis, aliquid": {
+        "type": "special",
+        "meaning": "someone, something"
     },
     "alius": {
         "type": "adjective",
@@ -329,6 +360,12 @@
         "perfect-root": "amāv",
         "perfect-passive-participle": "amāt",
         "meaning": "to like, love"
+    },
+    "amogus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "amogus",
+        "flag": "hm I wonder if someone will notice"
     },
     "amor": {
         "type": "noun",
@@ -452,6 +489,11 @@
         "declension": "I",
         "gender": "f",
         "meaning": "arena"
+    },
+    "argenteus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "silver"
     },
     "argentum": {
         "type": "noun",
@@ -856,6 +898,12 @@
         "perfect-passive-participle": "cess",
         "meaning": "to back off, yield"
     },
+    "celer": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "swift",
+        "flag": "IDK if celer celeris celere is goofy but also it's a -errimē thing but I dunno"
+    },
     "celeriter": {
         "type": "adverb",
         "meaning": "quickly"
@@ -1018,7 +1066,7 @@
         "declension": "III",
         "root": "condiciōn",
         "gender": "f",
-        "meaning": "terms"
+        "meaning": "term, condition"
     },
     "conditor": {
         "type": "noun",
@@ -1202,6 +1250,11 @@
         "type": "special",
         "meaning": "by delaying"
     },
+    "cunctus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "all"
+    },
     "cupidus": {
         "type": "adjective",
         "declension": "I~II",
@@ -1301,7 +1354,7 @@
         "infinitive": "dēcernere",
         "perfect-root": "dēcrēv",
         "perfect-passive-participle": "dēcrēt",
-        "meaning": "to determine, decide"
+        "meaning": "to decree, determine, decide"
     },
     "decimus": {
         "type": "adjective",
@@ -1474,6 +1527,11 @@
         "declension": "III",
         "meaning": "difficult"
     },
+    "diligēns": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "industrious, diligent"
+    },
     "discēdō": {
         "type": "verb",
         "declension": "III reg",
@@ -1494,6 +1552,14 @@
         "gender": "m",
         "meaning": "student (m.)"
     },
+    "discō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "discere",
+        "perfect-root": "didic",
+        "perfect-passive-participle": "",
+        "meaning": "to learn"
+    },
     "disertus": {
         "type": "adjective",
         "declension": "I~II",
@@ -1506,6 +1572,11 @@
     "diūtius": {
         "type": "adverb",
         "meaning": "longer"
+    },
+    "divus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "divine"
     },
     "dō": {
         "type": "verb",
@@ -1560,6 +1631,11 @@
         "perfect-root": "dubitāv",
         "perfect-passive-participle": "dubitāt",
         "meaning": "to hesitate (modal)"
+    },
+    "dubius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "doubtful"
     },
     "dūcentī": {
         "type": "adjective",
@@ -1659,6 +1735,13 @@
         "perfect-root": "ēm",
         "perfect-passive-participle": "ēmpt",
         "meaning": "to buy"
+    },
+    "enim": {
+        "type": "special",
+        "meaning": "indeed",
+        "notes": [
+            "post pos."
+        ]
     },
     "eō": {
         "type": "verb",
@@ -2272,6 +2355,14 @@
         "declension": "I~II",
         "meaning": "human"
     },
+    "iaceō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "iacēre",
+        "perfect-root": "iacu",
+        "perfect-passive-participle": "iacit",
+        "meaning": "to lie (be situated)"
+    },
     "iaciō": {
         "type": "verb",
         "declension": "III spec",
@@ -2316,6 +2407,13 @@
         },
         "notes": [
             "must be in the plural form"
+        ]
+    },
+    "igitur": {
+        "type": "special",
+        "meaning": "therefore",
+        "notes": [
+            "post pos."
         ]
     },
     "ille ... hīc": {
@@ -2738,6 +2836,14 @@
         "perfect-passive-participle": "laudāt",
         "meaning": "to praise"
     },
+    "lāvō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "lāvāre",
+        "perfect-root": "lāv",
+        "perfect-passive-participle": "laut",
+        "meaning": "to wash"
+    },
     "lectīca": {
         "type": "noun",
         "declension": "I",
@@ -2843,6 +2949,13 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "long, tall"
+    },
+    "loquor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "loquī",
+        "perfect-root": "locūt",
+        "meaning": "to talk, speak, say"
     },
     "lūctus": {
         "type": "noun",
@@ -3152,6 +3265,14 @@
         "gender": "m",
         "meaning": "custom"
     },
+    "moveō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "movēre",
+        "perfect-root": "mōv",
+        "perfect-passive-participle": "mōt",
+        "meaning": "to move (transitive)"
+    },
     "multus": {
         "type": "adjective",
         "declension": "I~II",
@@ -3273,6 +3394,11 @@
         "perfect-root": "nescīv",
         "perfect-passive-participle": "nescīt",
         "meaning": "to not know"
+    },
+    "niger": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "black"
     },
     "nihil": {
         "type": "noun",
@@ -3431,6 +3557,16 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "forgetful (of)"
+    },
+    "oblīviscor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "obliviscī",
+        "perfect-root": "oblīt",
+        "meaning": "to forget",
+        "notes": [
+            "+ genitive"
+        ]
     },
     "obses": {
         "type": "noun",
@@ -3716,7 +3852,7 @@
         "declension": "III spec dep",
         "infinitive": "patī",
         "perfect-root": "pass",
-        "meaning": "to allow, permit"
+        "meaning": "to allow, permit, suffer"
     },
     "patrēs cōnscrīptī": {
         "type": "special",
@@ -4030,7 +4166,7 @@
     },
     "praeter": {
         "type": "preposition",
-        "meaning": "past"
+        "meaning": "past, except"
     },
     "praeterea": {
         "type": "conjunction",
@@ -4767,6 +4903,10 @@
         "type": "special",
         "meaning": "to ally onself with"
     },
+    "sē movēre": {
+        "type": "special",
+        "meaning": "to move (self, subject)"
+    },
     "sē recipere": {
         "type": "special",
         "meaning": "to retreat"
@@ -5215,7 +5355,7 @@
     "tantus": {
         "type": "adjective",
         "declension": "I~II",
-        "meaning": "so much"
+        "meaning": "so much (pl. so many)"
     },
     "tēlum": {
         "type": "noun",
