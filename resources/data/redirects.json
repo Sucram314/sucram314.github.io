@@ -77562,238 +77562,1068 @@
         "vocō": "vocō"
     },
     "velle": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluī": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "want": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        }
     },
     "be willing to": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        }
     },
     "to want": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        }
     },
     "to be willing to": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        }
     },
     "volumus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "vīs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "vultis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "vult": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volunt": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluimus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluistī": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluistis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluit": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluērunt": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēbam": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēbāmus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēbās": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēbātis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēbat": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēbant": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volueram": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerāmus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerās": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerātis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerat": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerant": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volam": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēmus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volēs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volētis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volet": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volent": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerō": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerimus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volueris": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volueritis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerit": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluerint": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluisse": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volens": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentem": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentī": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentēs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentia": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentium": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentibus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentior": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentius": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōrem": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōris": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōre": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōrī": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōrēs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōra": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōrum": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentiōribus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissima": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimum": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimam": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimae": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimī": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimā": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimō": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimās": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimōs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimārum": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimōrum": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "volentissimīs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "velim": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "velīmus": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "velīs": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "velītis": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "velit": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "velint": {
-        "volō": "volō"
+        "volō>verb": {
+            "word": "volō",
+            "key": "verb"
+        },
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāre": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvī": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "fly": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "to fly": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāmus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volās": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volātis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volat": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volant": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvimus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvistī": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvistis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvit": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvērunt": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābam": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābāmus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābās": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābātis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābat": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābant": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāveram": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverāmus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverās": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverātis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverat": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverant": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābō": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābimus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābitis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābit": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volābunt": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverō": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverimus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāveris": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāveritis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverit": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāverint": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāvisse": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāns": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantem": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantis": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantī": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantēs": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantia": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantium": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volantibus": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volā": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volāte": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
+    },
+    "volem": {
+        "volō>verb2": {
+            "word": "volō",
+            "key": "verb2"
+        }
     },
     "voluntātis": {
         "voluntās": "voluntās"

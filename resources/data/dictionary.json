@@ -6022,15 +6022,31 @@
         "meaning": "to invite, call"
     },
     "volō": {
-        "type": "verb",
-        "declension": "irreg",
-        "base": "volō",
-        "infinitive": "velle",
-        "perfect-root": "volu",
-        "perfect-passive-participle": "",
-        "meaning": "to want, be willing to",
-        "exceptions": {
-            "intransitive": true
+        "multiple-definitions": true,
+        "content": {
+            "verb": {
+                "type": "verb",
+                "declension": "irreg",
+                "base": "volō",
+                "infinitive": "velle",
+                "perfect-root": "volu",
+                "perfect-passive-participle": "",
+                "meaning": "to want, be willing to",
+                "exceptions": {
+                    "intransitive": true
+                }
+            },
+            "verb2": {
+                "type": "verb",
+                "declension": "I",
+                "infinitive": "volāre",
+                "perfect-root": "volāv",
+                "perfect-passive-participle": "",
+                "meaning": "to fly",
+                "exceptions": {
+                    "intransitive": true
+                }
+            }
         }
     },
     "voluntās": {
