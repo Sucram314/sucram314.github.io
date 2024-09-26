@@ -226,6 +226,11 @@
         "perfect-passive-participle": "āct",
         "meaning": "to do"
     },
+    "agrārius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "agrarian"
+    },
     "agricola": {
         "type": "noun",
         "declension": "I",
@@ -1005,6 +1010,10 @@
         "declension": "I~II",
         "meaning": "famous"
     },
+    "claudō": {
+        "type": "claudere",
+        "meaning": "claus"
+    },
     "cliēns": {
         "type": "noun",
         "declension": "III",
@@ -1046,6 +1055,20 @@
         "declension": "I",
         "gender": "m",
         "meaning": "colleague"
+    },
+    "colōnia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "settlement"
+    },
+    "complūrēs": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "several",
+        "notes": [
+            "(pl.)"
+        ]
     },
     "concilium": {
         "type": "noun",
@@ -1417,6 +1440,10 @@
         "perfect-passive-participle": "dēmōnstrāt",
         "meaning": "to show"
     },
+    "denīque": {
+        "type": "conjunction",
+        "meaning": "finally"
+    },
     "dēns": {
         "type": "noun",
         "declension": "III",
@@ -1594,6 +1621,10 @@
         "perfect-passive-participle": "doct",
         "meaning": "to teach"
     },
+    "doleō": {
+        "type": "dolēre",
+        "meaning": "dolu"
+    },
     "domina": {
         "type": "noun",
         "declension": "I",
@@ -1699,6 +1730,10 @@
         "root": "duc",
         "gender": "m",
         "meaning": "general"
+    },
+    "ecce": {
+        "type": "special",
+        "meaning": "lo"
     },
     "effugiō": {
         "type": "verb",
@@ -1812,6 +1847,14 @@
         "perfect-root": "excess",
         "perfect-passive-participle": "excess",
         "meaning": "to leave, depart"
+    },
+    "excīdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "excīdere",
+        "perfect-root": "excīd",
+        "perfect-passive-participle": "excīs",
+        "meaning": "to cut off"
     },
     "excitō": {
         "type": "verb",
@@ -2018,6 +2061,10 @@
         "gender": "f",
         "meaning": "flame"
     },
+    "flectō": {
+        "type": "flectere",
+        "meaning": "flex"
+    },
     "fleō": {
         "type": "verb",
         "declension": "II",
@@ -2213,6 +2260,11 @@
         "gender": "f",
         "meaning": "glory"
     },
+    "Gracchānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "follower of Gracchus"
+    },
     "Graeca": {
         "type": "noun",
         "declension": "I",
@@ -2296,6 +2348,10 @@
         "declension": "I",
         "gender": "f",
         "meaning": "history"
+    },
+    "hōc mihi placet": {
+        "type": "special",
+        "meaning": "I like this"
     },
     "hodiē": {
         "type": "adverb",
@@ -2477,6 +2533,17 @@
         "gender": "n",
         "meaning": "empire"
     },
+    "imperō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "imperāre",
+        "perfect-root": "imperāv",
+        "perfect-passive-participle": "imperāt",
+        "meaning": "to order",
+        "notes": [
+            "(+Dat.)"
+        ]
+    },
     "īmus": {
         "type": "adjective",
         "declension": "I~II",
@@ -2588,6 +2655,10 @@
         "gender": "f",
         "meaning": "injustice, insult, injury"
     },
+    "iniussū (populī Rōmānī)": {
+        "type": "special",
+        "meaning": "without the permission (of the Roman People)"
+    },
     "inopia": {
         "type": "noun",
         "declension": "I",
@@ -2687,6 +2758,13 @@
             "irregular root: ips-"
         ]
     },
+    "īrascor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "īrascī",
+        "perfect-root": "īrāt",
+        "meaning": "to be angry"
+    },
     "īrātus": {
         "type": "adjective",
         "declension": "I~II",
@@ -2746,6 +2824,12 @@
         "root": "iūdic",
         "gender": "m",
         "meaning": "judge"
+    },
+    "iūdicium": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "n",
+        "meaning": "judgement, court"
     },
     "iungō": {
         "type": "verb",
@@ -3120,6 +3204,13 @@
             "i-stem"
         ]
     },
+    "mentior": {
+        "type": "deponent verb",
+        "declension": "IV dep",
+        "infinitive": "mentīrī",
+        "perfect-root": "mentit",
+        "meaning": "to lie"
+    },
     "mercātor": {
         "type": "noun",
         "declension": "III",
@@ -3355,6 +3446,10 @@
         "type": "special",
         "meaning": "not ... even"
     },
+    "nec": {
+        "type": "conjunction",
+        "meaning": "and not"
+    },
     "necessārius": {
         "type": "noun",
         "declension": "II",
@@ -3382,6 +3477,10 @@
         "root": "nepōt",
         "gender": "f",
         "meaning": "descendant"
+    },
+    "neque": {
+        "type": "conjunction",
+        "meaning": "and not"
     },
     "neque ... neque": {
         "type": "special",
@@ -3965,6 +4064,17 @@
         "declension": "I~II",
         "meaning": "experienced (in), skilled (in)"
     },
+    "persuadeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "persuadēre",
+        "perfect-root": "persuās",
+        "perfect-passive-participle": "persuās",
+        "meaning": "to persuade",
+        "notes": [
+            "(+Dat.)"
+        ]
+    },
     "perveniō": {
         "type": "verb",
         "declension": "IV",
@@ -3996,6 +4106,14 @@
         "declension": "I",
         "gender": "m",
         "meaning": "pirate"
+    },
+    "placeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "placēre",
+        "perfect-root": "placu",
+        "perfect-passive-participle": "placit",
+        "meaning": "to please"
     },
     "plēbēius": {
         "type": "noun",
@@ -4037,6 +4155,17 @@
         "root": "pollic",
         "gender": "m",
         "meaning": "thumb"
+    },
+    "pollicendō": {
+        "type": "special",
+        "meaning": "by promising"
+    },
+    "polliceor": {
+        "type": "deponent verb",
+        "declension": "II dep",
+        "infinitive": "pollicērī",
+        "perfect-root": "pollicit",
+        "meaning": "to promise"
     },
     "pōmum": {
         "type": "noun",
@@ -4136,6 +4265,13 @@
         "gender": "f",
         "meaning": "power"
     },
+    "praecō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "praecō",
+        "gender": "m",
+        "meaning": "herald"
+    },
     "praeda": {
         "type": "noun",
         "declension": "I",
@@ -4199,6 +4335,13 @@
         "declension": "II",
         "gender": "n",
         "meaning": "lunch"
+    },
+    "precor": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "precārī",
+        "perfect-root": "precāt",
+        "meaning": "to pray, beg"
     },
     "premō": {
         "type": "verb",
@@ -4787,6 +4930,10 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "round"
+    },
+    "rūsus": {
+        "type": "adverb",
+        "meaning": "again"
     },
     "sacer": {
         "type": "adjective",
@@ -5511,6 +5658,15 @@
             "limited-passive": true
         }
     },
+    "trānsferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "trānsferre",
+        "perfect-root": "trānstul",
+        "perfect-passive-participle": "trānslāt",
+        "meaning": "to transfer"
+    },
     "trānsgredior": {
         "type": "deponent verb",
         "declension": "III spec dep",
@@ -5663,6 +5819,10 @@
         "declension": "I~II",
         "meaning": "on the edge of, furthest",
         "flag": "superlative form of ulter"
+    },
+    "umquam": {
+        "type": "conjunction",
+        "meaning": "ever"
     },
     "unda": {
         "type": "noun",
@@ -6012,6 +6172,10 @@
         "perfect-root": "vīx",
         "perfect-passive-participle": "vīct",
         "meaning": "to live"
+    },
+    "vix": {
+        "type": "adverb",
+        "meaning": "scarcely, with difficulty"
     },
     "vocō": {
         "type": "verb",
