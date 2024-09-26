@@ -1,0 +1,6245 @@
+{
+    "ab, ā": {
+        "type": "preposition",
+        "meaning": "from, by",
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
+    },
+    "abeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "abīre",
+        "perfect-root": "abi",
+        "perfect-passive-participle": "abit",
+        "meaning": "to leave, depart",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "abiiciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "abiicere",
+        "perfect-root": "abiēcī",
+        "perfect-passive-participle": "abiect",
+        "meaning": "to throw away"
+    },
+    "absum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "abesse",
+        "perfect-root": "āfu",
+        "perfect-passive-participle": "",
+        "meaning": "to be absent",
+        "exceptions": {
+            "intransitive": true,
+            "future-infinitive": "āfore"
+        },
+        "notes": [
+            "future infinitive: āfore"
+        ]
+    },
+    "accipiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "accipere",
+        "perfect-root": "accēp",
+        "perfect-passive-participle": "accept",
+        "meaning": "to receive"
+    },
+    "accūsō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "accūsāre",
+        "perfect-root": "accūsāv",
+        "perfect-passive-participle": "accūsāt",
+        "meaning": "to accuse"
+    },
+    "ācer": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "harsh",
+        "notes": [
+            "goofy superlative (ignore)"
+        ]
+    },
+    "aciēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "battle-line, pitched battle"
+    },
+    "ad": {
+        "type": "preposition",
+        "meaning": "to"
+    },
+    "addō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "addere",
+        "perfect-root": "addid",
+        "perfect-passive-participle": "addit",
+        "meaning": "to add"
+    },
+    "adeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "adīre",
+        "perfect-root": "adi",
+        "perfect-passive-participle": "adit",
+        "meaning": "to approach",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "adhūc": {
+        "type": "adverb",
+        "meaning": "still"
+    },
+    "adorior": {
+        "type": "deponent verb",
+        "declension": "IV dep",
+        "infinitive": "adorīrī",
+        "perfect-root": "adort",
+        "meaning": "to attack"
+    },
+    "adōrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "adōrāre",
+        "perfect-root": "adōrāv",
+        "perfect-passive-participle": "adōrāt",
+        "meaning": "to worship"
+    },
+    "adpropinquō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "adpropinquāre",
+        "perfect-root": "adpropinquāv",
+        "perfect-passive-participle": "adpropinquāt",
+        "meaning": "to approach"
+    },
+    "adsum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "adesse",
+        "perfect-root": "adfu",
+        "perfect-passive-participle": "",
+        "meaning": "to be present",
+        "exceptions": {
+            "intransitive": true,
+            "future-infinitive": "adfore"
+        },
+        "notes": [
+            "future infinitive: adfore"
+        ]
+    },
+    "adulēscēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "adulēscent",
+        "gender": "m",
+        "meaning": "young man",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "adversus": {
+        "type": "preposition",
+        "meaning": "against"
+    },
+    "aedificium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "building"
+    },
+    "aedificō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "aedificāre",
+        "perfect-root": "aedificāv",
+        "perfect-passive-participle": "aedificāt",
+        "meaning": "to build"
+    },
+    "aedīlis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "aedīl",
+        "gender": "m",
+        "meaning": "aedile",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "aeger": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "ill, sick, weak"
+    },
+    "aequus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "fair, equal, just"
+    },
+    "aestās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "aestāt",
+        "gender": "f",
+        "meaning": "summer"
+    },
+    "aetās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "aetāt",
+        "gender": "f",
+        "meaning": "age, era, period"
+    },
+    "aeternus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eternal"
+    },
+    "ager": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "farm"
+    },
+    "agō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "agere",
+        "perfect-root": "ēg",
+        "perfect-passive-participle": "āct",
+        "meaning": "to do"
+    },
+    "agrārius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "agrarian"
+    },
+    "agricola": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "farmer"
+    },
+    "albus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "white"
+    },
+    "aliī ... aliī": {
+        "type": "special",
+        "meaning": "some ... others"
+    },
+    "aliquī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "some, any",
+        "exceptions": {
+            "plural": true,
+            "sfg": "alicuius",
+            "sfd": "alicui",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "must be in the plural form"
+        ]
+    },
+    "aliquis, aliquid": {
+        "type": "special",
+        "meaning": "someone, something"
+    },
+    "alius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "another",
+        "exceptions": {
+            "sfg": "alterīus",
+            "sfd": "aliī",
+            "root": "ali",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "irregular root: ali-"
+        ]
+    },
+    "alius ... alius": {
+        "type": "special",
+        "meaning": "one ... other"
+    },
+    "alter": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "the other",
+        "exceptions": {
+            "sfg": "alterīus",
+            "sfd": "alterī",
+            "root": "alter",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "irregular root: alter-"
+        ]
+    },
+    "alter ... alter": {
+        "type": "special",
+        "meaning": "the one ... the other"
+    },
+    "altus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "high, tall"
+    },
+    "ambō": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "both",
+        "flag": "irregulaaaaaaaaar"
+    },
+    "ambulō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "ambulāre",
+        "perfect-root": "ambulāv",
+        "perfect-passive-participle": "ambulāt",
+        "meaning": "to walk"
+    },
+    "amīca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "friend (f.)"
+    },
+    "amīcus": {
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "friend (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "friendly"
+            }
+        }
+    },
+    "āmittō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "āmittere",
+        "perfect-root": "āmīs",
+        "perfect-passive-participle": "āmiss",
+        "meaning": "to lose"
+    },
+    "amō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "amāre",
+        "perfect-root": "amāv",
+        "perfect-passive-participle": "amāt",
+        "meaning": "to like, love"
+    },
+    "amogus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "amogus",
+        "flag": "hm I wonder if someone will notice"
+    },
+    "amor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "amōr",
+        "gender": "m",
+        "meaning": "love"
+    },
+    "amphitheātrum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "amphitheatre"
+    },
+    "an, aut": {
+        "type": "conjunction",
+        "meaning": "or"
+    },
+    "ancilla": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "slave (f.)"
+    },
+    "angustus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "narrow"
+    },
+    "animal": {
+        "type": "noun",
+        "declension": "III",
+        "root": "animāl",
+        "gender": "n",
+        "meaning": "animal",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "annus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "year"
+    },
+    "anser": {
+        "type": "noun",
+        "declension": "III",
+        "root": "anser",
+        "gender": "f, m",
+        "meaning": "goose"
+    },
+    "ante": {
+        "type": "preposition",
+        "meaning": "before, in front of"
+    },
+    "anteā": {
+        "type": "adverb",
+        "meaning": "previously"
+    },
+    "aperiō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "aperīre",
+        "perfect-root": "aperu",
+        "perfect-passive-participle": "apert",
+        "meaning": "to reveal, open"
+    },
+    "apodytērium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "dressing room"
+    },
+    "apparatus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "equipment"
+    },
+    "appellō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "appellāre",
+        "perfect-root": "appellāv",
+        "perfect-passive-participle": "appellāt",
+        "meaning": "to name, call"
+    },
+    "aptus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "apt, fit, suitable, suited (for)"
+    },
+    "apud": {
+        "type": "preposition",
+        "meaning": "in the vicinity of, in the time of, in the writings of"
+    },
+    "aqua": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "water"
+    },
+    "āra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "altar"
+    },
+    "arcus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "arch"
+    },
+    "arēna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "arena"
+    },
+    "argenteus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "silver"
+    },
+    "argentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "silver"
+    },
+    "arma": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "weapons",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
+    "arma capere": {
+        "type": "special",
+        "meaning": "to take up weapons, arms"
+    },
+    "armō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "armāre",
+        "perfect-root": "armāv",
+        "perfect-passive-participle": "armāt",
+        "meaning": "to arm"
+    },
+    "arx": {
+        "type": "noun",
+        "declension": "III",
+        "root": "arc",
+        "gender": "f",
+        "meaning": "citadel",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "Asiāticus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "Asian",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "atque": {
+        "type": "conjunction",
+        "meaning": "and"
+    },
+    "atrium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "atrium"
+    },
+    "audāx": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "bold"
+    },
+    "audiō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "audīre",
+        "perfect-root": "audīv",
+        "perfect-passive-participle": "audīt",
+        "meaning": "to listen (to)"
+    },
+    "auferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "auferre",
+        "perfect-root": "abstul",
+        "perfect-passive-participle": "ablāt",
+        "meaning": "to steal, take away",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "aureus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "golden"
+    },
+    "aurīga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "charioteer"
+    },
+    "aurum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "gold"
+    },
+    "aut ... aut": {
+        "type": "special",
+        "meaning": "either ... or"
+    },
+    "autumnus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "autumn"
+    },
+    "auxilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "help"
+    },
+    "avis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "av",
+        "gender": "f",
+        "meaning": "bird",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "avus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "grandfather"
+    },
+    "balneum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "bath"
+    },
+    "barba": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "beard"
+    },
+    "barbara": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "barbarian (f.)"
+    },
+    "barbarus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "barbarian (m.)"
+    },
+    "basilica": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "lawcourt"
+    },
+    "bellum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "war"
+    },
+    "bellum gerere": {
+        "type": "special",
+        "meaning": "to wage war"
+    },
+    "bellus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "beautiful"
+    },
+    "bene": {
+        "type": "adverb",
+        "meaning": "well, correct"
+    },
+    "bibliotheca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "library"
+    },
+    "bibō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "bibere",
+        "perfect-root": "bib",
+        "perfect-passive-participle": "pōt",
+        "meaning": "to drink"
+    },
+    "bis": {
+        "type": "adverb",
+        "meaning": "twice"
+    },
+    "bonus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "good",
+        "exceptions": {
+            "comparative": "melior",
+            "superlative": "optimus"
+        }
+    },
+    "bracchium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "arm"
+    },
+    "brevī": {
+        "type": "adverb",
+        "meaning": "soon"
+    },
+    "brevis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "short"
+    },
+    "cadō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "cadere",
+        "perfect-root": "cecid",
+        "perfect-passive-participle": "cās",
+        "meaning": "to fall"
+    },
+    "caedēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "caed",
+        "gender": "f",
+        "meaning": "masacre",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "caelum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "heaven, sky"
+    },
+    "calidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "hot"
+    },
+    "califārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "hot pool"
+    },
+    "callidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "clever"
+    },
+    "camera": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "room"
+    },
+    "canis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "can",
+        "gender": "f, m",
+        "meaning": "dog"
+    },
+    "cantō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "cantāre",
+        "perfect-root": "cantāv",
+        "perfect-passive-participle": "cantāt",
+        "meaning": "to sing"
+    },
+    "capillus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "hair"
+    },
+    "capiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "capere",
+        "perfect-root": "cēp",
+        "perfect-passive-participle": "capt",
+        "meaning": "to capture"
+    },
+    "captīvus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "prisoner"
+    },
+    "caput": {
+        "type": "noun",
+        "declension": "III",
+        "root": "capit",
+        "gender": "n",
+        "meaning": "head, chapter"
+    },
+    "carmen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "carmin",
+        "gender": "n",
+        "meaning": "poem, song"
+    },
+    "carō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "carn",
+        "gender": "f",
+        "meaning": "meat"
+    },
+    "Carthāginiēnsis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "Carthaginian",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "carus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "dear"
+    },
+    "caseus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "cheese"
+    },
+    "castra": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "camp",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
+    "catēna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "chain"
+    },
+    "caupō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "caupōn",
+        "gender": "m",
+        "meaning": "innkeeper"
+    },
+    "caupōna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "inn"
+    },
+    "causa": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "reason, cause"
+    },
+    "cēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "cēdere",
+        "perfect-root": "cess",
+        "perfect-passive-participle": "cess",
+        "meaning": "to back off, yield"
+    },
+    "celer": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "swift",
+        "flag": "IDK if celer celeris celere is goofy but also it's a -errimē thing but I dunno"
+    },
+    "celeriter": {
+        "type": "adverb",
+        "meaning": "quickly"
+    },
+    "cēna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "dinner"
+    },
+    "cēnō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "cēnāre",
+        "perfect-root": "cēnāv",
+        "perfect-passive-participle": "cēnāt",
+        "meaning": "to dine"
+    },
+    "cēterus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "the rest (of)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "cibus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "food"
+    },
+    "circum": {
+        "type": "preposition",
+        "meaning": "around"
+    },
+    "circus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "race course"
+    },
+    "cīvilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "civil"
+    },
+    "cīvis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "cīv",
+        "gender": "f, m",
+        "meaning": "citizen",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "cīvitās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "cīvitāt",
+        "gender": "f",
+        "meaning": "citizensip, citystate"
+    },
+    "clādēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "clād",
+        "gender": "f",
+        "meaning": "disaster, defeat",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "clāmō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "clāmāre",
+        "perfect-root": "clāmāv",
+        "perfect-passive-participle": "clāmāt",
+        "meaning": "to shout"
+    },
+    "clāmor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "clāmōr",
+        "gender": "m",
+        "meaning": "noise"
+    },
+    "clārus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "famous"
+    },
+    "claudō": {
+        "type": "claudere",
+        "meaning": "claus"
+    },
+    "cliēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "client",
+        "gender": "m",
+        "meaning": "client, supporter",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "cognōmen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "n",
+        "gender": "cognōmin",
+        "meaning": "cognomen"
+    },
+    "cognoscō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "cognoscere",
+        "perfect-root": "cognōv",
+        "perfect-passive-participle": "cognit",
+        "meaning": "to learn"
+    },
+    "cōgō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "cōgere",
+        "perfect-root": "coēg",
+        "perfect-passive-participle": "coāct",
+        "meaning": "to force, collect, gather"
+    },
+    "collēga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "colleague"
+    },
+    "colōnia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "settlement"
+    },
+    "complūrēs": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "several",
+        "notes": [
+            "(pl.)"
+        ]
+    },
+    "concilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "meeting"
+    },
+    "concurrō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "concurrere",
+        "perfect-root": "concurr",
+        "perfect-passive-participle": "concurs",
+        "meaning": "to collide"
+    },
+    "condiciō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "condiciōn",
+        "gender": "f",
+        "meaning": "term, condition"
+    },
+    "conditor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "conditōr",
+        "gender": "m",
+        "meaning": "founder"
+    },
+    "condō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "condere",
+        "perfect-root": "condid",
+        "perfect-passive-participle": "condit",
+        "meaning": "to found"
+    },
+    "conferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "conferre",
+        "perfect-root": "contul",
+        "perfect-passive-participle": "conlāt",
+        "meaning": "to collect, bring together",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "conficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "conficere",
+        "perfect-root": "confēc",
+        "perfect-passive-participle": "confect",
+        "meaning": "to conclude, finish"
+    },
+    "cōnfirmō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "cōnfirmāre",
+        "perfect-root": "cōnfirmāv",
+        "perfect-passive-participle": "cōnfirmāt",
+        "meaning": "to strengthen"
+    },
+    "cōnor": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "cōnārī",
+        "perfect-root": "cōnāt",
+        "meaning": "to try"
+    },
+    "consilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "plan, advice"
+    },
+    "consilium capere": {
+        "type": "special",
+        "meaning": "to adopt a plan"
+    },
+    "consistō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "consistere",
+        "perfect-root": "cōnstit",
+        "perfect-passive-participle": "",
+        "meaning": "to stop",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
+    "cōnstituō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "cōnstituere",
+        "perfect-root": "cōnstitu",
+        "perfect-passive-participle": "cōnstitūt",
+        "meaning": "to decide"
+    },
+    "consul": {
+        "type": "noun",
+        "declension": "III",
+        "root": "consul",
+        "gender": "m",
+        "meaning": "consul"
+    },
+    "consulāris": {
+        "type": "noun",
+        "declension": "III",
+        "root": "consulār",
+        "gender": "m",
+        "meaning": "consular",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "contrā": {
+        "type": "preposition",
+        "meaning": "against"
+    },
+    "conveniō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "convenīre",
+        "perfect-root": "convēn",
+        "perfect-passive-participle": "convent",
+        "meaning": "to gather"
+    },
+    "cōpia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "abundance, supply (pl. forces)"
+    },
+    "cōpiōsus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "rich"
+    },
+    "corōna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "crown, garland"
+    },
+    "corpus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "corpor",
+        "gender": "n",
+        "meaning": "body"
+    },
+    "corrumpō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "corrumpere",
+        "perfect-root": "corrūp",
+        "perfect-passive-participle": "corrupt",
+        "meaning": "to corrupt"
+    },
+    "corvus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "boarding-plank, beak"
+    },
+    "crūdēlis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "cruel"
+    },
+    "crūdēliter": {
+        "type": "adverb",
+        "meaning": "cruelly"
+    },
+    "cubiculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "bedroom"
+    },
+    "cum": {
+        "type": "preposition",
+        "meaning": "with",
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
+    },
+    "cum ... agere": {
+        "type": "special",
+        "meaning": "speak with ..."
+    },
+    "cunctandō": {
+        "type": "special",
+        "meaning": "by delaying"
+    },
+    "cunctus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "all"
+    },
+    "cupidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "desirous (of), fond (of), eager (for)"
+    },
+    "cupiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "cupere",
+        "perfect-root": "cupīv",
+        "perfect-passive-participle": "cupīt",
+        "meaning": "to want (modal)"
+    },
+    "cūr": {
+        "type": "interrogative",
+        "meaning": "why"
+    },
+    "cūra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "anxiety"
+    },
+    "cūria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "senate house"
+    },
+    "cūrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "cūrāre",
+        "perfect-root": "cūrāv",
+        "perfect-passive-participle": "cūrāt",
+        "meaning": "to take care of"
+    },
+    "curriculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "race (i.e. event)"
+    },
+    "currō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "currere",
+        "perfect-root": "cucurr",
+        "perfect-passive-participle": "curs",
+        "meaning": "to run"
+    },
+    "currum agere": {
+        "type": "special",
+        "meaning": "to drive a chariot"
+    },
+    "currus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "chariot"
+    },
+    "custōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "custōd",
+        "gender": "f, m",
+        "meaning": "guard"
+    },
+    "dē": {
+        "type": "preposition",
+        "meaning": "concerning, about",
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
+    },
+    "dea": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "goddess"
+    },
+    "dēbeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "dēbēre",
+        "perfect-root": "dēbu",
+        "perfect-passive-participle": "dēbit",
+        "meaning": "to have (i.e. neccesity of action) (modal)"
+    },
+    "decem": {
+        "type": "number",
+        "meaning": "ten"
+    },
+    "dēcernō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēcernere",
+        "perfect-root": "dēcrēv",
+        "perfect-passive-participle": "dēcrēt",
+        "meaning": "to decree, determine, decide"
+    },
+    "decimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "tenth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "dēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēdere",
+        "perfect-root": "dēdid",
+        "perfect-passive-participle": "dēdit",
+        "meaning": "to hand over"
+    },
+    "dēfendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēfendere",
+        "perfect-root": "dēfend",
+        "perfect-passive-participle": "dēfēns",
+        "meaning": "to defend"
+    },
+    "dēficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "dēficere",
+        "perfect-root": "dēfēc",
+        "perfect-passive-participle": "dēfect",
+        "meaning": "to desert, rebell, revolt from"
+    },
+    "deinde": {
+        "type": "conjunction",
+        "meaning": "next, then"
+    },
+    "dēlēo": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "dēlēēre",
+        "perfect-root": "dēlēv",
+        "perfect-passive-participle": "dēlēt",
+        "meaning": "to destroy"
+    },
+    "dēligō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēligere",
+        "perfect-root": "dēlēg",
+        "perfect-passive-participle": "dēlēct",
+        "meaning": "to choose"
+    },
+    "dēmōnstrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "dēmōnstrāre",
+        "perfect-root": "dēmōnstrāv",
+        "perfect-passive-participle": "dēmōnstrāt",
+        "meaning": "to show"
+    },
+    "denīque": {
+        "type": "conjunction",
+        "meaning": "finally"
+    },
+    "dēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "dent",
+        "gender": "m",
+        "meaning": "tooth",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "dēpōnō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēpōnere",
+        "perfect-root": "dēposu",
+        "perfect-passive-participle": "dēposit",
+        "meaning": "to lay aside"
+    },
+    "dēsistō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dēsistere",
+        "perfect-root": "dēstit",
+        "perfect-passive-participle": "",
+        "meaning": "to cease",
+        "exceptions": {
+            "intrasitive": true
+        }
+    },
+    "dēspērō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "dēspērāre",
+        "perfect-root": "dēspērāv",
+        "perfect-passive-participle": "dēspērāt",
+        "meaning": "to lose hope, despair"
+    },
+    "dēspiciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "dēspicere",
+        "perfect-root": "dēspēx",
+        "perfect-passive-participle": "dēspect",
+        "meaning": "to despise"
+    },
+    "dēsum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "dēesse",
+        "perfect-root": "dēfu",
+        "perfect-passive-participle": "",
+        "meaning": "to lack, be deficient in",
+        "exceptions": {
+            "intransitive": true,
+            "future-infinitive": "dēfore"
+        },
+        "notes": [
+            "future infinitive: dēfore"
+        ]
+    },
+    "deus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "god"
+    },
+    "dexter": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "right",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "dextra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "(the) right"
+    },
+    "dīcō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dīcere",
+        "perfect-root": "dīx",
+        "perfect-passive-participle": "dict",
+        "meaning": "to talk, speak",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "diēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "m",
+        "meaning": "day"
+    },
+    "difficilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "difficult"
+    },
+    "diligēns": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "industrious, diligent"
+    },
+    "discēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "discēdere",
+        "perfect-root": "discess",
+        "perfect-passive-participle": "discess",
+        "meaning": "to leave, depart"
+    },
+    "discipula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "student (f.)"
+    },
+    "discipulus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "student (m.)"
+    },
+    "discō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "discere",
+        "perfect-root": "didic",
+        "perfect-passive-participle": "",
+        "meaning": "to learn"
+    },
+    "disertus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eloquent"
+    },
+    "diū": {
+        "type": "adverb",
+        "meaning": "for long"
+    },
+    "diūtius": {
+        "type": "adverb",
+        "meaning": "longer"
+    },
+    "divus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "divine"
+    },
+    "dō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "dāre",
+        "perfect-root": "ded",
+        "perfect-passive-participle": "dat",
+        "meaning": "to give, offer"
+    },
+    "doceō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "docēre",
+        "perfect-root": "docu",
+        "perfect-passive-participle": "doct",
+        "meaning": "to teach"
+    },
+    "doleō": {
+        "type": "dolēre",
+        "meaning": "dolu"
+    },
+    "domina": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "lady"
+    },
+    "dominus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "master"
+    },
+    "domum": {
+        "type": "special",
+        "meaning": "ad domum"
+    },
+    "domus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "f",
+        "meaning": "house, home"
+    },
+    "dormiō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "dormīre",
+        "perfect-root": "dormīv",
+        "perfect-passive-participle": "dormīt",
+        "meaning": "to sleep"
+    },
+    "dubitō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "dubitāre",
+        "perfect-root": "dubitāv",
+        "perfect-passive-participle": "dubitāt",
+        "meaning": "to hesitate (modal)"
+    },
+    "dubius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "doubtful"
+    },
+    "dūcentī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "two hundred",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "flag": "amogus"
+    },
+    "dūcō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dūcere",
+        "perfect-root": "dūx",
+        "perfect-passive-participle": "duct",
+        "meaning": "to lead",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "dum": {
+        "type": "adverb",
+        "meaning": "while"
+    },
+    "duo": {
+        "multiple-definitions": true,
+        "content": {
+            "number": {
+                "type": "number",
+                "meaning": "two",
+                "flag": "conjugates weird"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "two",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true
+                },
+                "flag": "conjugates weird"
+            }
+        }
+    },
+    "duodecim": {
+        "type": "number",
+        "meaning": "twelve"
+    },
+    "duodēvīgintī": {
+        "type": "number",
+        "meaning": "eighteen"
+    },
+    "dux": {
+        "type": "noun",
+        "declension": "III",
+        "root": "duc",
+        "gender": "m",
+        "meaning": "general"
+    },
+    "ecce": {
+        "type": "special",
+        "meaning": "lo"
+    },
+    "effugiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "effugere",
+        "perfect-root": "effūg",
+        "perfect-passive-participle": "effūgit",
+        "meaning": "to escape",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "ego": {
+        "type": "pronoun",
+        "meaning": "I (pl. we)"
+    },
+    "ēgredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "ēgredī",
+        "perfect-root": "ēgress",
+        "meaning": "to leave"
+    },
+    "elephantus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "elephant"
+    },
+    "emō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "emere",
+        "perfect-root": "ēm",
+        "perfect-passive-participle": "ēmpt",
+        "meaning": "to buy"
+    },
+    "enim": {
+        "type": "special",
+        "meaning": "indeed",
+        "notes": [
+            "post pos."
+        ]
+    },
+    "eō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "īre",
+        "perfect-root": "i",
+        "perfect-passive-participle": "it",
+        "meaning": "to go",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "epistula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "letter"
+    },
+    "eques": {
+        "type": "noun",
+        "declension": "III",
+        "root": "equit",
+        "gender": "m",
+        "meaning": "eques, cavalry, cavalryman"
+    },
+    "equus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "horse"
+    },
+    "errō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "errāre",
+        "perfect-root": "errāv",
+        "perfect-passive-participle": "errāt",
+        "meaning": "to wander"
+    },
+    "et": {
+        "type": "conjunction",
+        "meaning": "and"
+    },
+    "et ... et": {
+        "type": "special",
+        "meaning": "both ... and"
+    },
+    "etiam": {
+        "type": "adverb",
+        "meaning": "even"
+    },
+    "etsī": {
+        "type": "conjunction",
+        "meaning": "although"
+    },
+    "ex": {
+        "type": "preposition",
+        "meaning": "out of",
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
+    },
+    "excēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "excēdere",
+        "perfect-root": "excess",
+        "perfect-passive-participle": "excess",
+        "meaning": "to leave, depart"
+    },
+    "excīdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "excīdere",
+        "perfect-root": "excīd",
+        "perfect-passive-participle": "excīs",
+        "meaning": "to cut off"
+    },
+    "excitō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "excitāre",
+        "perfect-root": "excitāv",
+        "perfect-passive-participle": "excitāt",
+        "meaning": "to wake up, upset, disturb"
+    },
+    "exeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "exīre",
+        "perfect-root": "exi",
+        "perfect-passive-participle": "exit",
+        "meaning": "to leave",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "exercitus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "army"
+    },
+    "exīstimō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "exīstimāre",
+        "perfect-root": "exīstimāv",
+        "perfect-passive-participle": "exīstimāt",
+        "meaning": "to think"
+    },
+    "explōrātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "explōrātōr",
+        "gender": "m",
+        "meaning": "scout"
+    },
+    "exsilium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "exile"
+    },
+    "extrā": {
+        "type": "preposition",
+        "meaning": "outside of"
+    },
+    "fabula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "story"
+    },
+    "facilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "easy"
+    },
+    "faciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "facere",
+        "perfect-root": "fēc",
+        "perfect-passive-participle": "fact",
+        "meaning": "to do, make, happen, take place",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "factum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "deed"
+    },
+    "fallō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "fallere",
+        "perfect-root": "fefell",
+        "perfect-passive-participle": "fals",
+        "meaning": "to deceive, evade"
+    },
+    "fames": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fam",
+        "gender": "f",
+        "meaning": "hunger"
+    },
+    "familia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "family"
+    },
+    "fatum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "fate"
+    },
+    "fēmina": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "woman"
+    },
+    "fenestra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "window"
+    },
+    "ferē": {
+        "type": "adverb",
+        "meaning": "nearly, almost, generally"
+    },
+    "ferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "ferre",
+        "perfect-root": "tul",
+        "perfect-passive-participle": "lāt",
+        "meaning": "to bring, carry",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "ferōx": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "fierce"
+    },
+    "fessus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "tired"
+    },
+    "fidēlis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "loyal"
+    },
+    "fidēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "loyalty"
+    },
+    "filia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "daughter"
+    },
+    "fīlius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "son"
+    },
+    "fīnem bellī faciō": {
+        "type": "special",
+        "meaning": "I end the war"
+    },
+    "finis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fīn",
+        "gender": "m",
+        "meaning": "end (pl. territories)",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "finitīmus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "neighbouring",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "flamma": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "flame"
+    },
+    "flectō": {
+        "type": "flectere",
+        "meaning": "flex"
+    },
+    "fleō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "flēre",
+        "perfect-root": "flēv",
+        "perfect-passive-participle": "flēt",
+        "meaning": "to cry"
+    },
+    "flōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "flōr",
+        "gender": "m",
+        "meaning": "flower"
+    },
+    "flumen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "flumin",
+        "gender": "n",
+        "meaning": "river"
+    },
+    "foedus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "foeder",
+        "gender": "n",
+        "meaning": "treaty"
+    },
+    "fōns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "font",
+        "gender": "m",
+        "meaning": "fountain, spring"
+    },
+    "fortasse": {
+        "type": "adverb",
+        "meaning": "perhaps"
+    },
+    "fortis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "brave"
+    },
+    "fortiter": {
+        "type": "adverb",
+        "meaning": "bravely"
+    },
+    "fortuna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "luck"
+    },
+    "forum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "forum"
+    },
+    "frangō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "frangere",
+        "perfect-root": "frēg",
+        "perfect-passive-participle": "frāct",
+        "meaning": "to break"
+    },
+    "frāter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "frātr",
+        "gender": "m",
+        "meaning": "brother"
+    },
+    "frīgidārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "cold pool"
+    },
+    "frīgidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "cold"
+    },
+    "frumentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "grain"
+    },
+    "fuēre": {
+        "type": "special",
+        "meaning": "fuērunt"
+    },
+    "fugiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "fugere",
+        "perfect-root": "fūg",
+        "perfect-passive-participle": "fūgit",
+        "meaning": "to flee",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "fugitīvus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "runaway"
+    },
+    "fūnus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fūner",
+        "gender": "n",
+        "meaning": "death, funeral"
+    },
+    "fūr": {
+        "type": "noun",
+        "declension": "III",
+        "root": "fūr",
+        "gender": "f, m",
+        "meaning": "thief"
+    },
+    "futūrus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "future",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "geminus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "twin",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "gens": {
+        "type": "noun",
+        "declension": "III",
+        "root": "gent",
+        "gender": "f",
+        "meaning": "tribes, peoples",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "Germānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "German",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "gerō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "gerere",
+        "perfect-root": "gess",
+        "perfect-passive-participle": "gest",
+        "meaning": "to do"
+    },
+    "gladiātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "galdiātōr",
+        "gender": "m",
+        "meaning": "gladiator"
+    },
+    "gladius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "sword"
+    },
+    "glōria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "glory"
+    },
+    "Gracchānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "follower of Gracchus"
+    },
+    "Graeca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "Greek (f.)"
+    },
+    "Graecus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "Greek (m.)"
+    },
+    "grātiās tibi agō": {
+        "type": "special",
+        "meaning": "I thank you"
+    },
+    "grāvis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "severe, serious"
+    },
+    "gymnāsium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "exercise ground"
+    },
+    "habeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "habēre",
+        "perfect-root": "habu",
+        "perfect-passive-participle": "habit",
+        "meaning": "to have (i.e. possession)"
+    },
+    "habet!": {
+        "type": "special",
+        "meaning": "he's a goner!"
+    },
+    "habitō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "habitāre",
+        "perfect-root": "habitāv",
+        "perfect-passive-participle": "habitāt",
+        "meaning": "to live"
+    },
+    "hīc": {
+        "type": "adverb",
+        "meaning": "here"
+    },
+    "hīc ... ille": {
+        "type": "special",
+        "meaning": "the latter ... the former"
+    },
+    "hīc, haec, hōc": {
+        "type": "pronoun",
+        "meaning": "this",
+        "exceptions": {
+            "sfg": "hūius",
+            "sfd": "huic"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "hiems": {
+        "type": "noun",
+        "declension": "III",
+        "root": "hiem",
+        "gender": "f",
+        "meaning": "winter"
+    },
+    "hinc": {
+        "type": "adverb",
+        "meaning": "from here, hence"
+    },
+    "histōria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "history"
+    },
+    "hōc mihi placet": {
+        "type": "special",
+        "meaning": "I like this"
+    },
+    "hodiē": {
+        "type": "adverb",
+        "meaning": "today"
+    },
+    "homō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "homin",
+        "gender": "m",
+        "meaning": "person (pl. people)"
+    },
+    "hōra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "hour"
+    },
+    "horreum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "granary"
+    },
+    "hortus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "garden"
+    },
+    "hospes": {
+        "type": "noun",
+        "declension": "III",
+        "root": "hospit",
+        "gender": "m",
+        "meaning": "guest, host"
+    },
+    "hostis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "host",
+        "gender": "f, m",
+        "meaning": "enemy",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "hūc": {
+        "type": "adverb",
+        "meaning": "to here, hither"
+    },
+    "hūmānus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "human"
+    },
+    "iaceō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "iacēre",
+        "perfect-root": "iacu",
+        "perfect-passive-participle": "iacit",
+        "meaning": "to lie (be situated)"
+    },
+    "iaciō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "iacere",
+        "perfect-root": "iēc",
+        "perfect-passive-participle": "iact",
+        "meaning": "to throw"
+    },
+    "iam": {
+        "type": "adverb",
+        "meaning": "already"
+    },
+    "iānua": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "door"
+    },
+    "ibi": {
+        "type": "adverb",
+        "meaning": "there"
+    },
+    "id quod": {
+        "type": "special",
+        "meaning": "that which"
+    },
+    "īdem, eadem, idem": {
+        "type": "pronoun",
+        "meaning": "same",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "Īdūs": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "f",
+        "meaning": "Ides",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
+    "igitur": {
+        "type": "special",
+        "meaning": "therefore",
+        "notes": [
+            "post pos."
+        ]
+    },
+    "ille ... hīc": {
+        "type": "special",
+        "meaning": "the former ... the latter"
+    },
+    "ille, illa, illud": {
+        "type": "pronoun",
+        "meaning": "that",
+        "exceptions": {
+            "sfg": "illīus",
+            "sfd": "illī"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "illīc": {
+        "type": "adverb",
+        "meaning": "there"
+    },
+    "illinc": {
+        "type": "adverb",
+        "meaning": "from there, thence"
+    },
+    "illūc": {
+        "type": "adverb",
+        "meaning": "to there, thither"
+    },
+    "imāgō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "imāgin",
+        "gender": "f",
+        "meaning": "ghost, spirit"
+    },
+    "impediō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "impedīre",
+        "perfect-root": "impedīv",
+        "perfect-passive-participle": "impedīt",
+        "meaning": "to obstruct, block"
+    },
+    "imperātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "imperātōr",
+        "gender": "m",
+        "meaning": "general, commander"
+    },
+    "imperītus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "inexperienced (in), unskilled (in)"
+    },
+    "imperium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "empire"
+    },
+    "imperō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "imperāre",
+        "perfect-root": "imperāv",
+        "perfect-passive-participle": "imperāt",
+        "meaning": "to order",
+        "notes": [
+            "(+Dat.)"
+        ]
+    },
+    "īmus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "at the bottom of, lowest",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "in": {
+        "type": "preposition",
+        "meaning": "in, into, on",
+        "notes": [
+            "Following nouns take the ablative case instead of the accusative, unless the verb is related to motion."
+        ]
+    },
+    "incendium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "fire"
+    },
+    "incipiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "incipere",
+        "perfect-root": "incēp",
+        "perfect-passive-participle": "incept",
+        "meaning": "to begin (modal)"
+    },
+    "incola": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "inhabitant"
+    },
+    "inebrius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "drunk"
+    },
+    "ineō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "inīre",
+        "perfect-root": "ini",
+        "perfect-passive-participle": "init",
+        "meaning": "to enter, invade",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "īnfans": {
+        "type": "noun",
+        "declension": "III",
+        "root": "infant",
+        "gender": "f, m",
+        "meaning": "baby",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "ingēns": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "huge"
+    },
+    "ingredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "ingredī",
+        "perfect-root": "ingress",
+        "meaning": "to enter, invade"
+    },
+    "inimīca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "enemy (f.)"
+    },
+    "inimīcus": {
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "enemy (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "hostile"
+            }
+        }
+    },
+    "inīquus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "unfair, unequal, unjust"
+    },
+    "iniuria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "injustice, insult, injury"
+    },
+    "iniussū (populī Rōmānī)": {
+        "type": "special",
+        "meaning": "without the permission (of the Roman People)"
+    },
+    "inopia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "dearth, scarcity"
+    },
+    "inquiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "inquere",
+        "perfect-root": "inqui",
+        "perfect-passive-participle": "",
+        "meaning": "to say",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
+    "insidiae": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "ambush, trick",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
+    "insula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "island, apartment building"
+    },
+    "integer": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "undamaged, intact"
+    },
+    "inter": {
+        "type": "preposition",
+        "meaning": "between, among"
+    },
+    "interficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "interficere",
+        "perfect-root": "interfēc",
+        "perfect-passive-participle": "interfect",
+        "meaning": "to kill"
+    },
+    "interim": {
+        "type": "adverb",
+        "meaning": "meanwhile"
+    },
+    "interrogātum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "question"
+    },
+    "intrā": {
+        "type": "preposition",
+        "meaning": "inside of"
+    },
+    "inveniō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "invenīre",
+        "perfect-root": "invēn",
+        "perfect-passive-participle": "invent",
+        "meaning": "to find, discover"
+    },
+    "invideō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "invidēre",
+        "perfect-root": "invīd",
+        "perfect-passive-participle": "invīs",
+        "meaning": "to envy"
+    },
+    "ipse": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "-self",
+        "exceptions": {
+            "sfg": "ipsīus",
+            "sfd": "ipsī",
+            "root": "ips",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative",
+            "irregular root: ips-"
+        ]
+    },
+    "īrascor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "īrascī",
+        "perfect-root": "īrāt",
+        "meaning": "to be angry"
+    },
+    "īrātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "angry"
+    },
+    "is quī, eī quī": {
+        "type": "special",
+        "meaning": "he who, those who"
+    },
+    "is, ea, id": {
+        "type": "pronoun",
+        "meaning": "he, she, it",
+        "exceptions": {
+            "sfg": "ēius",
+            "sfd": "eī"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "itaque": {
+        "type": "conjunction",
+        "meaning": "therefore"
+    },
+    "iter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "itiner",
+        "gender": "n",
+        "meaning": "way, route, trip"
+    },
+    "iter facere": {
+        "type": "special",
+        "meaning": "make one's way"
+    },
+    "iterum": {
+        "type": "adverb",
+        "meaning": "again"
+    },
+    "iubeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "iubēre",
+        "perfect-root": "iuss",
+        "perfect-passive-participle": "iuss",
+        "meaning": "to order"
+    },
+    "iucundus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "pleasant"
+    },
+    "iūdex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "iūdic",
+        "gender": "m",
+        "meaning": "judge"
+    },
+    "iūdicium": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "n",
+        "meaning": "judgement, court"
+    },
+    "iungō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "iungere",
+        "perfect-root": "iūnx",
+        "perfect-passive-participle": "iūnct",
+        "meaning": "to join"
+    },
+    "iūrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "iūrāre",
+        "perfect-root": "iūrāv",
+        "perfect-passive-participle": "iūrāt",
+        "meaning": "to swear"
+    },
+    "iūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "iūr",
+        "gender": "n",
+        "meaning": "right"
+    },
+    "iūsiūrandum": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "n",
+        "meaning": "oath",
+        "flag": "each part declines"
+    },
+    "iuvō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "iuvāre",
+        "perfect-root": "iūv",
+        "perfect-passive-participle": "iūt",
+        "meaning": "to help"
+    },
+    "labor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "labōr",
+        "gender": "m",
+        "meaning": "work"
+    },
+    "labōrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "labōrāre",
+        "perfect-root": "labōrāv",
+        "perfect-passive-participle": "labōrāt",
+        "meaning": "to work"
+    },
+    "lacus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "lake"
+    },
+    "laetus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "happy"
+    },
+    "latē": {
+        "type": "adverb",
+        "meaning": "far and wide"
+    },
+    "lātrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "lātrāre",
+        "perfect-root": "lātrāv",
+        "perfect-passive-participle": "lātrāt",
+        "meaning": "to bark"
+    },
+    "lātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "wide"
+    },
+    "laudō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "laudāre",
+        "perfect-root": "laudāv",
+        "perfect-passive-participle": "laudāt",
+        "meaning": "to praise"
+    },
+    "lāvō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "lāvāre",
+        "perfect-root": "lāv",
+        "perfect-passive-participle": "laut",
+        "meaning": "to wash"
+    },
+    "lectīca": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "sedan chair, litter"
+    },
+    "lēgātus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "envoy"
+    },
+    "legō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "legere",
+        "perfect-root": "lēg",
+        "perfect-passive-participle": "lēct",
+        "meaning": "to read"
+    },
+    "leō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "leōn",
+        "gender": "m",
+        "meaning": "lion"
+    },
+    "leopardus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "leopard"
+    },
+    "liber": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "book"
+    },
+    "līberī": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "children",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
+    "līberō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "līberāre",
+        "perfect-root": "līberāv",
+        "perfect-passive-participle": "līberāt",
+        "meaning": "to free"
+    },
+    "lībertus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "freedman"
+    },
+    "libra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "scale"
+    },
+    "licet": {
+        "type": "special",
+        "meaning": "2",
+        "flag": "one specific conjugation"
+    },
+    "ligneus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "wooden",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "lingua": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "language"
+    },
+    "locus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "place"
+    },
+    "longē": {
+        "type": "adverb",
+        "meaning": "by far"
+    },
+    "longus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "long, tall"
+    },
+    "loquor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "loquī",
+        "perfect-root": "locūt",
+        "meaning": "to talk, speak, say"
+    },
+    "lūctus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "grief"
+    },
+    "lūdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "lūdere",
+        "perfect-root": "lūs",
+        "perfect-passive-participle": "lūs",
+        "meaning": "to play"
+    },
+    "lūdus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "school"
+    },
+    "lupa": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "wolf (f.)"
+    },
+    "lupus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "wolf (m.)"
+    },
+    "maestus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "sad"
+    },
+    "magister": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "teacher (m.)"
+    },
+    "magistra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "teacher (f.)"
+    },
+    "magistrātus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "magistrate, magistracy"
+    },
+    "magnopere": {
+        "type": "adverb",
+        "meaning": "really"
+    },
+    "māgnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "big, great",
+        "exceptions": {
+            "comparative": "maior",
+            "superlative": "maximus"
+        }
+    },
+    "mālō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "mālō",
+        "infinitive": "mālle",
+        "perfect-root": "mālu",
+        "perfect-passive-participle": "",
+        "meaning": "to prefer",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
+    "malus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "bad",
+        "exceptions": {
+            "comparative": "pēior",
+            "superlative": "pessimus"
+        }
+    },
+    "maneō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "manēre",
+        "perfect-root": "māns",
+        "perfect-passive-participle": "māns",
+        "meaning": "to remain"
+    },
+    "manus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "f",
+        "meaning": "hand, band"
+    },
+    "mare": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mar",
+        "gender": "n",
+        "meaning": "sea",
+        "exceptions": {
+            "i-stem": true,
+            "abl-i-stem": true
+        },
+        "notes": [
+            "i-stem",
+            "ablative i-stem"
+        ]
+    },
+    "marītus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "husband"
+    },
+    "māter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mātr",
+        "gender": "f",
+        "meaning": "mother"
+    },
+    "maximē": {
+        "type": "adverb",
+        "meaning": "especially, most of all"
+    },
+    "medicus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "doctor"
+    },
+    "medius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "the middle of",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "mensis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mens",
+        "gender": "m",
+        "meaning": "month",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "mentior": {
+        "type": "deponent verb",
+        "declension": "IV dep",
+        "infinitive": "mentīrī",
+        "perfect-root": "mentit",
+        "meaning": "to lie"
+    },
+    "mercātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mercātōr",
+        "gender": "m",
+        "meaning": "merchant"
+    },
+    "meridiēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "m",
+        "meaning": "midday"
+    },
+    "mēta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "turning post"
+    },
+    "meus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "my",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "mihi est liber": {
+        "type": "special",
+        "meaning": "I have a book"
+    },
+    "mīles": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mīlit",
+        "gender": "m",
+        "meaning": "soldier"
+    },
+    "mīlle": {
+        "type": "noun",
+        "declension": "indeclinable",
+        "gender": "n",
+        "meaning": "thousand",
+        "flag": "singular indeclinable"
+    },
+    "mina": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "threat"
+    },
+    "mirmillō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mirmillōn",
+        "gender": "m",
+        "meaning": "sword fighter"
+    },
+    "miser": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "retched"
+    },
+    "missiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "missiōn",
+        "gender": "f",
+        "meaning": "pardon"
+    },
+    "mītis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "gentle, mild"
+    },
+    "mittō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "mittere",
+        "perfect-root": "mīs",
+        "perfect-passive-participle": "miss",
+        "meaning": "to send"
+    },
+    "modus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "method, way, manner"
+    },
+    "mōns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mont",
+        "gender": "m",
+        "meaning": "mount, mountain, hill",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "mora": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "delay"
+    },
+    "moror": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "morārī",
+        "perfect-root": "morāt",
+        "meaning": "to delay, linger"
+    },
+    "mors": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mort",
+        "gender": "f",
+        "meaning": "death",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "mortuus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "dead",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "mōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "mōr",
+        "gender": "m",
+        "meaning": "custom"
+    },
+    "moveō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "movēre",
+        "perfect-root": "mōv",
+        "perfect-passive-participle": "mōt",
+        "meaning": "to move (transitive)"
+    },
+    "multus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "much (pl. many)",
+        "exceptions": {
+            "comparative": "plūs",
+            "superlative": "plūrimus",
+            "wtf-extremely-irregular-anomaly": true
+        }
+    },
+    "mūniō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "mūnīre",
+        "perfect-root": "mūnīv",
+        "perfect-passive-participle": "mūnīt",
+        "meaning": "to fortify"
+    },
+    "mūrus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "wall"
+    },
+    "nam": {
+        "type": "conjunction",
+        "meaning": "for"
+    },
+    "nārrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "nārrāre",
+        "perfect-root": "narrāv",
+        "perfect-passive-participle": "nārrāt",
+        "meaning": "to tell"
+    },
+    "natō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "natāre",
+        "perfect-root": "natāv",
+        "perfect-passive-participle": "natāt",
+        "meaning": "to swim"
+    },
+    "nātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "of age",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "nauta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "sailor"
+    },
+    "nāvis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "nāv",
+        "gender": "f",
+        "meaning": "ship",
+        "exceptions": {
+            "i-stem": true,
+            "abl-i-stem": true
+        },
+        "notes": [
+            "i-stem",
+            "ablative i-stem"
+        ]
+    },
+    "ne": {
+        "type": "interrogative",
+        "meaning": "interrogative particle"
+    },
+    "nē ... quidem": {
+        "type": "special",
+        "meaning": "not ... even"
+    },
+    "nec": {
+        "type": "conjunction",
+        "meaning": "and not"
+    },
+    "necessārius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "relative"
+    },
+    "negō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "negāre",
+        "perfect-root": "negāv",
+        "perfect-passive-participle": "negāt",
+        "meaning": "to say that ... not, deny"
+    },
+    "nēmō": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "f, m",
+        "meaning": "no one",
+        "flag": "vruh"
+    },
+    "nepōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "nepōt",
+        "gender": "f",
+        "meaning": "descendant"
+    },
+    "neque": {
+        "type": "conjunction",
+        "meaning": "and not"
+    },
+    "neque ... neque": {
+        "type": "special",
+        "meaning": "neither ... nor"
+    },
+    "nesciō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "nescīre",
+        "perfect-root": "nescīv",
+        "perfect-passive-participle": "nescīt",
+        "meaning": "to not know"
+    },
+    "niger": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "black"
+    },
+    "nihil": {
+        "type": "noun",
+        "declension": "indeclinable",
+        "gender": "n",
+        "meaning": "nothing"
+    },
+    "nisī": {
+        "type": "conjunction",
+        "meaning": "if not"
+    },
+    "nix": {
+        "type": "noun",
+        "declension": "III",
+        "root": "niv",
+        "gender": "f",
+        "meaning": "snow"
+    },
+    "nōbilis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "noble"
+    },
+    "nōlō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "nōlō",
+        "infinitive": "nōlle",
+        "perfect-root": "nōlu",
+        "perfect-passive-participle": "",
+        "meaning": "to not want, not be willing to",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
+    "nōmen": {
+        "type": "noun",
+        "declension": "III",
+        "root": "nomin",
+        "gender": "n",
+        "meaning": "name"
+    },
+    "nōn": {
+        "type": "adverb",
+        "meaning": "no, not"
+    },
+    "nōndum": {
+        "type": "adverb",
+        "meaning": "not yet"
+    },
+    "nōnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "ninth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "noster": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "our",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "novem": {
+        "type": "number",
+        "meaning": "nine"
+    },
+    "novus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "new"
+    },
+    "nox": {
+        "type": "noun",
+        "declension": "III",
+        "root": "noct",
+        "gender": "f",
+        "meaning": "night",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "nūdus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "naked"
+    },
+    "nūllus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "no",
+        "exceptions": {
+            "sfg": "nūllīus",
+            "sfd": "nūllī"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "numerō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "numerāre",
+        "perfect-root": "numerāv",
+        "perfect-passive-participle": "numerāt",
+        "meaning": "to count"
+    },
+    "numerus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "number"
+    },
+    "nummus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "coin"
+    },
+    "numquam": {
+        "type": "adverb",
+        "meaning": "never"
+    },
+    "nunc": {
+        "type": "adverb",
+        "meaning": "now"
+    },
+    "nūntiō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "nūntiāre",
+        "perfect-root": "nūntiāv",
+        "perfect-passive-participle": "nūntiāt",
+        "meaning": "to announce"
+    },
+    "nuntius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "messenger"
+    },
+    "ob": {
+        "type": "preposition",
+        "meaning": "because of"
+    },
+    "oblītus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "forgetful (of)"
+    },
+    "oblīviscor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "obliviscī",
+        "perfect-root": "oblīt",
+        "meaning": "to forget",
+        "notes": [
+            "+ genitive"
+        ]
+    },
+    "obses": {
+        "type": "noun",
+        "declension": "III",
+        "root": "obsid",
+        "gender": "f, m",
+        "meaning": "hostage"
+    },
+    "obsideō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "obsidēre",
+        "perfect-root": "obsēd",
+        "perfect-passive-participle": "obsess",
+        "meaning": "to besiege"
+    },
+    "occīdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "occīdere",
+        "perfect-root": "occid",
+        "perfect-passive-participle": "occīs",
+        "meaning": "to kill"
+    },
+    "octāvus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eigth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "octingentī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "eight hundred",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "flag": "amogus"
+    },
+    "octō": {
+        "type": "number",
+        "meaning": "eight"
+    },
+    "odium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "hatred"
+    },
+    "offendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "offendere",
+        "perfect-root": "offend",
+        "perfect-passive-participle": "offēns",
+        "meaning": "to crash"
+    },
+    "ōlim": {
+        "type": "adverb",
+        "meaning": "once"
+    },
+    "olīva": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "olive"
+    },
+    "omnia": {
+        "type": "noun",
+        "declension": "III",
+        "root": "omn",
+        "gender": "n",
+        "meaning": "everything",
+        "exceptions": {
+            "plural": true,
+            "i-stem": true
+        },
+        "notes": [
+            "Must be in the neuter plural form to have this meaning",
+            "i-stem",
+            "must be in the plural form"
+        ]
+    },
+    "omnis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "each, every (pl. all)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "oppidum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "town"
+    },
+    "opprimō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "opprimere",
+        "perfect-root": "oppress",
+        "perfect-passive-participle": "oppress",
+        "meaning": "to overpower"
+    },
+    "oppūgnō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "oppūgnāre",
+        "perfect-root": "oppūgnāv",
+        "perfect-passive-participle": "oppūgnāt",
+        "meaning": "to attack"
+    },
+    "ōrāculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "oracle"
+    },
+    "ōrātiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ōrātiōn",
+        "gender": "f",
+        "meaning": "speech"
+    },
+    "ōrātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ōrātōr",
+        "gender": "m",
+        "meaning": "speaker"
+    },
+    "orbis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "orb",
+        "gender": "m",
+        "meaning": "circle, disk",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "orbis terrārum": {
+        "type": "special",
+        "meaning": "world"
+    },
+    "orior": {
+        "type": "deponent verb",
+        "declension": "IV dep",
+        "infinitive": "orīrī",
+        "perfect-root": "ort",
+        "meaning": "to arise",
+        "exceptions": {
+            "future-infinitive": "orit"
+        },
+        "notes": [
+            "future infinitive: orit-"
+        ]
+    },
+    "ornāmentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "jewellery"
+    },
+    "os": {
+        "type": "noun",
+        "declension": "III",
+        "root": "oss",
+        "gender": "n",
+        "meaning": "bone"
+    },
+    "ōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ōr",
+        "gender": "n",
+        "meaning": "mouth"
+    },
+    "osculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "kiss"
+    },
+    "pagīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "page"
+    },
+    "pānis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pān",
+        "gender": "m",
+        "meaning": "bread"
+    },
+    "pār": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "equal",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "parātus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "ready, prepared"
+    },
+    "parens": {
+        "type": "noun",
+        "declension": "III",
+        "root": "parent",
+        "gender": "f, m",
+        "meaning": "parent"
+    },
+    "pāreō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "pārēre",
+        "perfect-root": "pāru",
+        "perfect-passive-participle": "pārit",
+        "meaning": "to obey"
+    },
+    "parō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "parāre",
+        "perfect-root": "parāv",
+        "perfect-passive-participle": "parāt",
+        "meaning": "to prepare"
+    },
+    "pars": {
+        "type": "noun",
+        "declension": "III",
+        "root": "part",
+        "gender": "f",
+        "meaning": "part",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "parvus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "small",
+        "exceptions": {
+            "comparative": "minor",
+            "superlative": "minimus"
+        }
+    },
+    "pastor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pastōr",
+        "gender": "m",
+        "meaning": "shepherd"
+    },
+    "pater": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pātr",
+        "gender": "m",
+        "meaning": "father"
+    },
+    "patior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "patī",
+        "perfect-root": "pass",
+        "meaning": "to allow, permit, suffer"
+    },
+    "patrēs cōnscrīptī": {
+        "type": "special",
+        "meaning": "gentleman of the senate"
+    },
+    "patria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "country"
+    },
+    "patricius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "patrician"
+    },
+    "patrōnus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "patron"
+    },
+    "paucus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "(a) little, few"
+    },
+    "paulātim": {
+        "type": "adverb",
+        "meaning": "gradually"
+    },
+    "pauper": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pauper",
+        "gender": "f, m",
+        "meaning": "poor person"
+    },
+    "pāx": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pāc",
+        "gender": "f",
+        "meaning": "peace"
+    },
+    "pecūnia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "money"
+    },
+    "pedes": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pedit",
+        "gender": "m",
+        "meaning": "foot soldier, (pl. infantry)"
+    },
+    "pellō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "pellere",
+        "perfect-root": "pepul",
+        "perfect-passive-participle": "puls",
+        "meaning": "to drive out"
+    },
+    "pensum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "exercise"
+    },
+    "per": {
+        "type": "preposition",
+        "meaning": "through, along"
+    },
+    "pereō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "perīre",
+        "perfect-root": "peri",
+        "perfect-passive-participle": "perit",
+        "meaning": "to die",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "perfuga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "deserter"
+    },
+    "perīculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "danger"
+    },
+    "peristylium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "peristyle"
+    },
+    "perītus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "experienced (in), skilled (in)"
+    },
+    "persuadeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "persuadēre",
+        "perfect-root": "persuās",
+        "perfect-passive-participle": "persuās",
+        "meaning": "to persuade",
+        "notes": [
+            "(+Dat.)"
+        ]
+    },
+    "perveniō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "pervenīre",
+        "perfect-root": "pervēn",
+        "perfect-passive-participle": "pervent",
+        "meaning": "to arrive"
+    },
+    "pēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ped",
+        "gender": "m",
+        "meaning": "foot"
+    },
+    "philosophus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "thinker"
+    },
+    "piger": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "lazy"
+    },
+    "pīrāta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "pirate"
+    },
+    "placeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "placēre",
+        "perfect-root": "placu",
+        "perfect-passive-participle": "placit",
+        "meaning": "to please"
+    },
+    "plēbēius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "plebeian"
+    },
+    "plēbs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "plēb",
+        "gender": "f",
+        "meaning": "the plebs (sing. unit)"
+    },
+    "plēnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "full (of)"
+    },
+    "plērumque": {
+        "type": "conjunction",
+        "meaning": "generally"
+    },
+    "pluvia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "rain"
+    },
+    "poēta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "m",
+        "meaning": "poet"
+    },
+    "pollex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pollic",
+        "gender": "m",
+        "meaning": "thumb"
+    },
+    "pollicendō": {
+        "type": "special",
+        "meaning": "by promising"
+    },
+    "polliceor": {
+        "type": "deponent verb",
+        "declension": "II dep",
+        "infinitive": "pollicērī",
+        "perfect-root": "pollicit",
+        "meaning": "to promise"
+    },
+    "pōmum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "apple"
+    },
+    "pondus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ponder",
+        "gender": "n",
+        "meaning": "weight"
+    },
+    "pōnō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "pōnere",
+        "perfect-root": "posu",
+        "perfect-passive-participle": "posit",
+        "meaning": "to put, place"
+    },
+    "pons": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pont",
+        "gender": "m",
+        "meaning": "bridge",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "populus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "people (sing. unit)"
+    },
+    "porta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "gate"
+    },
+    "portō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "portāre",
+        "perfect-root": "portāv",
+        "perfect-passive-participle": "portāt",
+        "meaning": "to carry"
+    },
+    "possum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "possum",
+        "infinitive": "posse",
+        "perfect-root": "potu",
+        "perfect-passive-participle": "",
+        "meaning": "to be able to",
+        "exceptions": {
+            "intransitive": true,
+            "future-infinitive": "posse"
+        },
+        "notes": [
+            "future infinitive: posse"
+        ]
+    },
+    "post": {
+        "type": "preposition",
+        "meaning": "after, behind"
+    },
+    "postea": {
+        "type": "conjunction",
+        "meaning": "afterward"
+    },
+    "postquam": {
+        "type": "conjunction",
+        "meaning": "after"
+    },
+    "postrēmō": {
+        "type": "adverb",
+        "meaning": "finally"
+    },
+    "potēns": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "powerful"
+    },
+    "potestās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "potestāt",
+        "gender": "f",
+        "meaning": "power"
+    },
+    "praecō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "praecō",
+        "gender": "m",
+        "meaning": "herald"
+    },
+    "praeda": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "plunder, booty"
+    },
+    "praesidium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "protection"
+    },
+    "praesum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "praeesse",
+        "perfect-root": "praefu",
+        "perfect-passive-participle": "",
+        "meaning": "to be in command of",
+        "exceptions": {
+            "intransitive": true,
+            "future-infinitive": "praefore"
+        },
+        "notes": [
+            "future infinitive: praefore"
+        ]
+    },
+    "praeter": {
+        "type": "preposition",
+        "meaning": "past, except"
+    },
+    "praeterea": {
+        "type": "conjunction",
+        "meaning": "moreover"
+    },
+    "praeteritus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "past",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "praetor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "praetōr",
+        "gender": "m",
+        "meaning": "praetor"
+    },
+    "praetōrius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "praetorian"
+    },
+    "prandium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "lunch"
+    },
+    "precor": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "precārī",
+        "perfect-root": "precāt",
+        "meaning": "to pray, beg"
+    },
+    "premō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "premere",
+        "perfect-root": "press",
+        "perfect-passive-participle": "press",
+        "meaning": "to press"
+    },
+    "pretium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "ransom, price, value"
+    },
+    "prīmō": {
+        "type": "adverb",
+        "meaning": "firstly"
+    },
+    "prīmum": {
+        "type": "adverb",
+        "meaning": "firstly"
+    },
+    "prīmus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "first",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "princeps": {
+        "type": "noun",
+        "declension": "III",
+        "root": "princip",
+        "gender": "m",
+        "meaning": "emperor"
+    },
+    "principium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "beginning"
+    },
+    "prīvatus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "personal"
+    },
+    "prō": {
+        "type": "preposition",
+        "meaning": "in front of, on behalf of, for",
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
+    },
+    "prō cōnsule": {
+        "type": "special",
+        "meaning": "proconsul"
+    },
+    "prōditor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "prōditōr",
+        "gender": "m",
+        "meaning": "traitor"
+    },
+    "proelium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "battle"
+    },
+    "progredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "progredī",
+        "perfect-root": "progress",
+        "meaning": "to advance, go forward"
+    },
+    "prohibeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "prohibēre",
+        "perfect-root": "prohibu",
+        "perfect-passive-participle": "prohibit",
+        "meaning": "to prevent"
+    },
+    "prōmittō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "prōmittere",
+        "perfect-root": "prōmīs",
+        "perfect-passive-participle": "prōmiss",
+        "meaning": "to promise"
+    },
+    "prope": {
+        "type": "preposition",
+        "meaning": "near"
+    },
+    "prōpraetor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "prōpraetōr",
+        "gender": "m",
+        "meaning": "propraetor"
+    },
+    "propter": {
+        "type": "preposition",
+        "meaning": "because of"
+    },
+    "prōvincia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "province"
+    },
+    "proximus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "next, nearest",
+        "exceptions": {
+            "no-superlative": true
+        }
+    },
+    "pūblicō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "pūblicāre",
+        "perfect-root": "pūblicāv",
+        "perfect-passive-participle": "pūblicāt",
+        "meaning": "to expropriate"
+    },
+    "pūblicus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "public"
+    },
+    "puella": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "girl"
+    },
+    "puer": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "boy"
+    },
+    "pugnandī": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "of fighting",
+        "flag": "idk bro"
+    },
+    "pūgnō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "pūgnāre",
+        "perfect-root": "pūgnāv",
+        "perfect-passive-participle": "pūgnāt",
+        "meaning": "to fight"
+    },
+    "pulsō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "pulsāre",
+        "perfect-root": "pulsāv",
+        "perfect-passive-participle": "pulsāt",
+        "meaning": "to hit"
+    },
+    "Pūnicus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "Punic"
+    },
+    "pūniō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "pūnīre",
+        "perfect-root": "pūnīv",
+        "perfect-passive-participle": "pūnīt",
+        "meaning": "to punish"
+    },
+    "quadrāgintā": {
+        "type": "number",
+        "meaning": "forty"
+    },
+    "quadrīga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "four horse chariot"
+    },
+    "quaerō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "quaerere",
+        "perfect-root": "quaesīv",
+        "perfect-passive-participle": "quaesit",
+        "meaning": "to seek, ask for"
+    },
+    "quaestor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "quaestōr",
+        "gender": "m",
+        "meaning": "quaestor"
+    },
+    "quālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "what kind (of)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "quam": {
+        "type": "conjunction",
+        "meaning": "than"
+    },
+    "quam celerrimē": {
+        "type": "special",
+        "meaning": "as quickly as possible"
+    },
+    "quam crūdēlissimē": {
+        "type": "special",
+        "meaning": "as cruelly as possible"
+    },
+    "quamdiū": {
+        "type": "interrogative",
+        "meaning": "how long"
+    },
+    "quamquam": {
+        "type": "conjunction",
+        "meaning": "although"
+    },
+    "quandō": {
+        "type": "interrogative",
+        "meaning": "when"
+    },
+    "quartus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "fourth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "quattuor": {
+        "type": "number",
+        "meaning": "four"
+    },
+    "quattuordecim": {
+        "type": "number",
+        "meaning": "fourteen"
+    },
+    "que": {
+        "type": "special",
+        "meaning": "and"
+    },
+    "quī, quae, quod": {
+        "type": "pronoun",
+        "meaning": "who (i.e. relative pronoun)",
+        "exceptions": {
+            "sfg": "cūius",
+            "sfd": "cui"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "quia": {
+        "type": "conjunction",
+        "meaning": "because"
+    },
+    "quīdam, quaedam, quiddam": {
+        "type": "pronoun",
+        "meaning": "a certain (pl. some)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "quidem": {
+        "type": "adverb",
+        "meaning": "indeed"
+    },
+    "quiēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "quiēt",
+        "gender": "f",
+        "meaning": "rest"
+    },
+    "quiescō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "quiescere",
+        "perfect-root": "quiēv",
+        "perfect-passive-participle": "quiēt",
+        "meaning": "to rest"
+    },
+    "quindecim": {
+        "type": "number",
+        "meaning": "fifteen"
+    },
+    "quīnquāgintā": {
+        "type": "number",
+        "meaning": "fifty"
+    },
+    "quīnque": {
+        "type": "number",
+        "meaning": "five"
+    },
+    "quīnquiēns": {
+        "type": "adverb",
+        "meaning": "for the fifth time"
+    },
+    "quīntus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "fifth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "quis, quis, quid": {
+        "type": "pronoun",
+        "meaning": "who",
+        "exceptions": {
+            "sfg": "cūius",
+            "sfd": "cui"
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "quō": {
+        "type": "interrogative",
+        "meaning": "where"
+    },
+    "quod": {
+        "type": "conjunction",
+        "meaning": "because"
+    },
+    "quōmodo": {
+        "type": "interrogative",
+        "meaning": "how"
+    },
+    "quoque": {
+        "type": "conjunction",
+        "meaning": "also"
+    },
+    "quot": {
+        "multiple-definitions": true,
+        "content": {
+            "interrogative": {
+                "type": "interrogative",
+                "meaning": "how many"
+            },
+            "special": {
+                "type": "special",
+                "meaning": "all who"
+            }
+        }
+    },
+    "quotannīs": {
+        "type": "adverb",
+        "meaning": "annually"
+    },
+    "raeda": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "carriage"
+    },
+    "recipiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "recipere",
+        "perfect-root": "recēp",
+        "perfect-passive-participle": "recept",
+        "meaning": "to withdraw, take back"
+    },
+    "reddō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "reddere",
+        "perfect-root": "reddid",
+        "perfect-passive-participle": "reddit",
+        "meaning": "to give back, restore"
+    },
+    "redeō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "redīre",
+        "perfect-root": "redi",
+        "perfect-passive-participle": "redit",
+        "meaning": "to return",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "redūcō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "redūcere",
+        "perfect-root": "redūx",
+        "perfect-passive-participle": "reduct",
+        "meaning": "to lead back, restore"
+    },
+    "referō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "referre",
+        "perfect-root": "retul",
+        "perfect-passive-participle": "relāt",
+        "meaning": "to bring back, return (something)",
+        "exceptions": {
+            "irregular-imperative": true
+        },
+        "notes": [
+            "irregular imperative"
+        ]
+    },
+    "reficiō": {
+        "type": "verb",
+        "declension": "III spec",
+        "infinitive": "reficere",
+        "perfect-root": "refēc",
+        "perfect-passive-participle": "refect",
+        "meaning": "to rebuild"
+    },
+    "rēgīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "queen"
+    },
+    "regiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "regiōn",
+        "gender": "f",
+        "meaning": "region"
+    },
+    "relinquō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "relinquere",
+        "perfect-root": "relīqu",
+        "perfect-passive-participle": "relict",
+        "meaning": "to abandon, leave (something)"
+    },
+    "repudiō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "repudiāre",
+        "perfect-root": "repudiāv",
+        "perfect-passive-participle": "repudiāt",
+        "meaning": "to reject"
+    },
+    "rēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "thing"
+    },
+    "resistō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "resistere",
+        "perfect-root": "restit",
+        "perfect-passive-participle": "",
+        "meaning": "to resist",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
+    "respondeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "respondēre",
+        "perfect-root": "respond",
+        "perfect-passive-participle": "respōns",
+        "meaning": "to answer"
+    },
+    "rēspūblica": {
+        "type": "noun",
+        "declension": 69,
+        "gender": "f",
+        "meaning": "republic",
+        "flag": "each part declines"
+    },
+    "restituō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "restituere",
+        "perfect-root": "restitu",
+        "perfect-passive-participle": "restitūt",
+        "meaning": "to restore, revive"
+    },
+    "rētia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "net"
+    },
+    "rētiārius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "net fighter"
+    },
+    "revertor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "revertī",
+        "perfect-root": "revers",
+        "meaning": "to return"
+    },
+    "rēx": {
+        "type": "noun",
+        "declension": "III",
+        "root": "rēg",
+        "gender": "m",
+        "meaning": "king"
+    },
+    "rīdeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "rīdēre",
+        "perfect-root": "rīs",
+        "perfect-passive-participle": "rīs",
+        "meaning": "to laugh (at)"
+    },
+    "rogō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "rogāre",
+        "perfect-root": "rogāv",
+        "perfect-passive-participle": "rogāt",
+        "meaning": "to ask"
+    },
+    "Rōmam": {
+        "type": "special",
+        "meaning": "ad urbem Rōmam"
+    },
+    "Rōmāna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "Roman (f.)"
+    },
+    "Rōmānus": {
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "Roman (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "Roman",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true
+                }
+            }
+        }
+    },
+    "rotūndus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "round"
+    },
+    "rūsus": {
+        "type": "adverb",
+        "meaning": "again"
+    },
+    "sacer": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "sacred"
+    },
+    "sacerdōs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sacerdōt",
+        "gender": "f, m",
+        "meaning": "priest(ess)"
+    },
+    "saepe": {
+        "type": "adverb",
+        "meaning": "often"
+    },
+    "saepissimē": {
+        "type": "adverb",
+        "meaning": "very often, most often"
+    },
+    "saliō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "salīre",
+        "perfect-root": "salu",
+        "perfect-passive-participle": "salt",
+        "meaning": "to jump"
+    },
+    "salūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "salūt",
+        "gender": "f",
+        "meaning": "safety, salvation"
+    },
+    "salūtō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "salūtāre",
+        "perfect-root": "salūtāv",
+        "perfect-passive-participle": "salūtāt",
+        "meaning": "to greet"
+    },
+    "sapienta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "wisdom"
+    },
+    "saxum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "rock"
+    },
+    "scelestus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "criminal"
+    },
+    "scelus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sceler",
+        "gender": "n",
+        "meaning": "crime"
+    },
+    "sciō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "scīre",
+        "perfect-root": "scīv",
+        "perfect-passive-participle": "scīt",
+        "meaning": "to know"
+    },
+    "scrībō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "scrībere",
+        "perfect-root": "scrīps",
+        "perfect-passive-participle": "scrīpt",
+        "meaning": "to write"
+    },
+    "scrīnium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "writing case"
+    },
+    "scriptor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "scriptōr",
+        "gender": "m",
+        "meaning": "author, writer"
+    },
+    "scūtum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "shield"
+    },
+    "sē": {
+        "type": "pronoun",
+        "meaning": "oneself (i.e. reflexive pronoun)"
+    },
+    "sē dēdere": {
+        "type": "special",
+        "meaning": "to surrender"
+    },
+    "sē iungere": {
+        "type": "special",
+        "meaning": "to ally onself with"
+    },
+    "sē movēre": {
+        "type": "special",
+        "meaning": "to move (self, subject)"
+    },
+    "sē recipere": {
+        "type": "special",
+        "meaning": "to retreat"
+    },
+    "secundus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "second",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "sed": {
+        "type": "conjunction",
+        "meaning": "but"
+    },
+    "sēdecim": {
+        "type": "number",
+        "meaning": "sixteen"
+    },
+    "sedeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "sedēre",
+        "perfect-root": "sēd",
+        "perfect-passive-participle": "sess",
+        "meaning": "to sit"
+    },
+    "sella": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "chair"
+    },
+    "semper": {
+        "type": "adverb",
+        "meaning": "always"
+    },
+    "senātor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "senātōr",
+        "gender": "m",
+        "meaning": "senator"
+    },
+    "senātus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "the senate (sing. unit)"
+    },
+    "senex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sen",
+        "gender": "f, m",
+        "meaning": "old person"
+    },
+    "sententia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "opinion"
+    },
+    "septem": {
+        "type": "number",
+        "meaning": "seven"
+    },
+    "septendecim": {
+        "type": "number",
+        "meaning": "seventeen"
+    },
+    "septimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "seventh",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "sequor": {
+        "type": "deponent verb",
+        "declension": "III reg dep",
+        "infinitive": "sequī",
+        "perfect-root": "secūt",
+        "meaning": "to follow, pursue"
+    },
+    "servitūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "servitūt",
+        "gender": "f",
+        "meaning": "slavery"
+    },
+    "servō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "servāre",
+        "perfect-root": "servāv",
+        "perfect-passive-participle": "servāt",
+        "meaning": "to save"
+    },
+    "servus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "slave (m.)"
+    },
+    "sex": {
+        "type": "number",
+        "meaning": "six"
+    },
+    "sexāgintā": {
+        "type": "number",
+        "meaning": "sixty"
+    },
+    "sextus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "sixth",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "sī": {
+        "type": "conjunction",
+        "meaning": "if"
+    },
+    "Sī hūc vēneris, tē iuvābō": {
+        "type": "special",
+        "meaning": "If you will have come here, I will help you."
+    },
+    "sīc": {
+        "type": "conjunction",
+        "meaning": "thus"
+    },
+    "significō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "significāre",
+        "perfect-root": "significāv",
+        "perfect-passive-participle": "significāt",
+        "meaning": "to indicate, mean"
+    },
+    "signum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "statue"
+    },
+    "similis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "like"
+    },
+    "simul": {
+        "type": "adverb",
+        "meaning": "at the same time"
+    },
+    "simulō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "simulāre",
+        "perfect-root": "simulāv",
+        "perfect-passive-participle": "simulāt",
+        "meaning": "to pretend"
+    },
+    "sine": {
+        "type": "preposition",
+        "meaning": "without",
+        "notes": [
+            "Following nouns take the ablative case rather than the accusative."
+        ]
+    },
+    "sinister": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "left",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "sinistra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "(the) left"
+    },
+    "socius": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "ally"
+    },
+    "sōlum": {
+        "type": "adverb",
+        "meaning": "only"
+    },
+    "sōlus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "alone, only",
+        "exceptions": {
+            "sfg": "sōlīus",
+            "sfd": "sōlī",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "sordidus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "dirty"
+    },
+    "soror": {
+        "type": "noun",
+        "declension": "III",
+        "root": "sorōr",
+        "gender": "f",
+        "meaning": "sister"
+    },
+    "spectō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "spectāre",
+        "perfect-root": "spectāv",
+        "perfect-passive-participle": "spectāt",
+        "meaning": "to watch"
+    },
+    "spēs": {
+        "type": "noun",
+        "declension": "V",
+        "gender": "f",
+        "meaning": "hope, expectation"
+    },
+    "spīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "barrier"
+    },
+    "sponsa": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "fiancée"
+    },
+    "sponsus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "fiancé"
+    },
+    "statim": {
+        "type": "adverb",
+        "meaning": "at once"
+    },
+    "stīlus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "stylus"
+    },
+    "stīpendium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "pay"
+    },
+    "stō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "stāre",
+        "perfect-root": "stet",
+        "perfect-passive-participle": "stat",
+        "meaning": "to stand"
+    },
+    "studeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "studēre",
+        "perfect-root": "studu",
+        "perfect-passive-participle": "",
+        "meaning": "to be eager (modal)",
+        "exceptions": {
+            "intransitive": true
+        }
+    },
+    "stulta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "fool (f.)"
+    },
+    "stultus": {
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "fool (m.)"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "foolish"
+            }
+        }
+    },
+    "sub": {
+        "type": "preposition",
+        "meaning": "under",
+        "notes": [
+            "Following nouns take the ablative case instead of the accusative, unless the verb is related to motion."
+        ]
+    },
+    "sub noctem": {
+        "type": "special",
+        "meaning": "at nightfall"
+    },
+    "subitō": {
+        "type": "adverb",
+        "meaning": "suddenly"
+    },
+    "sum": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "sum",
+        "infinitive": "esse",
+        "perfect-root": "fu",
+        "perfect-passive-participle": "",
+        "meaning": "to be",
+        "exceptions": {
+            "intransitive": true,
+            "future-infinitive": "fore"
+        },
+        "notes": [
+            "future infinitive: fore"
+        ]
+    },
+    "summus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "at the top of, highest",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "super": {
+        "type": "preposition",
+        "meaning": "above, over"
+    },
+    "superbus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "arrogant"
+    },
+    "superō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "superāre",
+        "perfect-root": "superāv",
+        "perfect-passive-participle": "superāt",
+        "meaning": "to conquer"
+    },
+    "surgō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "surgere",
+        "perfect-root": "surrēx",
+        "perfect-passive-participle": "surrēct",
+        "meaning": "to rise"
+    },
+    "suus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "one's own (i.e. reflexive possesive adjective)",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "taberna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "store, shop"
+    },
+    "tablīnum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "office, study"
+    },
+    "tabula": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "writing tablet"
+    },
+    "taceō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "tacēre",
+        "perfect-root": "tacu",
+        "perfect-passive-participle": "tacit",
+        "meaning": "to be silent"
+    },
+    "talentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "talent (weight measure)"
+    },
+    "tālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "such",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "tam": {
+        "type": "special",
+        "meaning": "so"
+    },
+    "tam ... quam": {
+        "type": "special",
+        "meaning": "as ... as"
+    },
+    "tamen": {
+        "type": "conjunction",
+        "meaning": "however"
+    },
+    "tantus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "so much (pl. so many)"
+    },
+    "tēlum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "spear, javelin"
+    },
+    "tempestās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "tempestāt",
+        "gender": "f",
+        "meaning": "storm"
+    },
+    "templum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "temple"
+    },
+    "temptō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "temptāre",
+        "perfect-root": "temptāv",
+        "perfect-passive-participle": "temptāt",
+        "meaning": "to try"
+    },
+    "tempus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "tempor",
+        "gender": "n",
+        "meaning": "time"
+    },
+    "tepidārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "warm pool"
+    },
+    "ter": {
+        "type": "adverb",
+        "meaning": "three times"
+    },
+    "terra": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "earth, ground"
+    },
+    "terreō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "terrēre",
+        "perfect-root": "terru",
+        "perfect-passive-participle": "territ",
+        "meaning": "to frighten"
+    },
+    "tertius": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "third",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "testimōnium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "evidence, testimony"
+    },
+    "thermae": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "public baths",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
+    "tibi adpropinquō": {
+        "type": "special",
+        "meaning": "I approach you"
+    },
+    "tibi resistō": {
+        "type": "special",
+        "meaning": "I resist you"
+    },
+    "tigris": {
+        "type": "noun",
+        "declension": "III",
+        "root": "tigr",
+        "gender": "m",
+        "meaning": "tiger"
+    },
+    "timeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "timēre",
+        "perfect-root": "timu",
+        "perfect-passive-participle": "",
+        "meaning": "to fear"
+    },
+    "tot": {
+        "type": "noun",
+        "declension": "indeclinable",
+        "gender": "f, m, n",
+        "meaning": "so much, so many",
+        "flag": "idk bro"
+    },
+    "tōtus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "whole, entire",
+        "exceptions": {
+            "sfg": "tōtīus",
+            "sfd": "tōtī",
+            "no-comparative": true,
+            "no-superlative": true
+        },
+        "notes": [
+            "special funny genitive",
+            "special funny dative"
+        ]
+    },
+    "trahō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "trahere",
+        "perfect-root": "trāx",
+        "perfect-passive-participle": "tract",
+        "meaning": "to drag, pull"
+    },
+    "trāns": {
+        "type": "preposition",
+        "meaning": "across"
+    },
+    "trānseō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "eō",
+        "infinitive": "trānsīre",
+        "perfect-root": "trānsi",
+        "perfect-passive-participle": "trānsit",
+        "meaning": "to cross",
+        "exceptions": {
+            "limited-passive": true
+        }
+    },
+    "trānsferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "trānsferre",
+        "perfect-root": "trānstul",
+        "perfect-passive-participle": "trānslāt",
+        "meaning": "to transfer"
+    },
+    "trānsgredior": {
+        "type": "deponent verb",
+        "declension": "III spec dep",
+        "infinitive": "trānsgredī",
+        "perfect-root": "trānsgress",
+        "meaning": "to cross"
+    },
+    "trānsmarīnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "across the sea"
+    },
+    "trēdecim": {
+        "type": "number",
+        "meaning": "thirteen"
+    },
+    "trēs": {
+        "type": "number",
+        "meaning": "three"
+    },
+    "tribūnus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "tribune"
+    },
+    "trīdēns": {
+        "type": "noun",
+        "declension": "III",
+        "root": "trīdent",
+        "gender": "m",
+        "meaning": "trident"
+    },
+    "trīginta": {
+        "type": "number",
+        "meaning": "thirty"
+    },
+    "tristis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "sad"
+    },
+    "triumphālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "triumphal"
+    },
+    "triumphō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "triumphāre",
+        "perfect-root": "triumphāv",
+        "perfect-passive-participle": "triumphāt",
+        "meaning": "to hold a victory parade"
+    },
+    "triumphus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "victory parade"
+    },
+    "Trōiāna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "Trojan"
+    },
+    "Trōiānus": {
+        "multiple-definitions": true,
+        "content": {
+            "noun": {
+                "type": "noun",
+                "declension": "II",
+                "gender": "m",
+                "meaning": "Trojan"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "Trojan",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true
+                }
+            }
+        }
+    },
+    "trucidō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "trucidāre",
+        "perfect-root": "trucidāv",
+        "perfect-passive-participle": "trucidāt",
+        "meaning": "to slaughter"
+    },
+    "tū": {
+        "type": "pronoun",
+        "meaning": "you"
+    },
+    "tūba": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "horn"
+    },
+    "tueor": {
+        "type": "deponent verb",
+        "declension": "II dep",
+        "infinitive": "tuērī",
+        "perfect-root": "tuit",
+        "meaning": "to defend"
+    },
+    "tum": {
+        "type": "adverb",
+        "meaning": "then"
+    },
+    "turbō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "turbāre",
+        "perfect-root": "turbāv",
+        "perfect-passive-participle": "turbāt",
+        "meaning": "to upset, disturb"
+    },
+    "turpis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "disgraceful, shameful"
+    },
+    "tūtus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "safe, secure"
+    },
+    "ubi": {
+        "multiple-definitions": true,
+        "content": {
+            "interrogative": {
+                "type": "interrogative",
+                "meaning": "where"
+            },
+            "conjunction": {
+                "type": "conjunction",
+                "meaning": "after"
+            }
+        }
+    },
+    "ultimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "on the edge of, furthest",
+        "flag": "superlative form of ulter"
+    },
+    "umquam": {
+        "type": "conjunction",
+        "meaning": "ever"
+    },
+    "unda": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "wave"
+    },
+    "unde": {
+        "type": "interrogative",
+        "meaning": "from where"
+    },
+    "ūndecim": {
+        "type": "number",
+        "meaning": "eleven"
+    },
+    "ūndēvīgintī": {
+        "type": "number",
+        "meaning": "nineteen"
+    },
+    "unguentum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "perfume"
+    },
+    "ūnus": {
+        "multiple-definitions": true,
+        "content": {
+            "number": {
+                "type": "number",
+                "meaning": "one"
+            },
+            "adjective": {
+                "type": "adjective",
+                "declension": "I~II",
+                "meaning": "one",
+                "exceptions": {
+                    "no-comparative": true,
+                    "no-superlative": true,
+                    "sfg": "unīus",
+                    "sfd": "unī"
+                },
+                "notes": [
+                    "special funny genitive",
+                    "special funny dative"
+                ]
+            }
+        }
+    },
+    "ūnus ex eīs": {
+        "type": "special",
+        "meaning": "one of them"
+    },
+    "urbs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "urb",
+        "gender": "f",
+        "meaning": "city",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "urgeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "urgēre",
+        "perfect-root": "urs",
+        "perfect-passive-participle": "",
+        "meaning": "to exploit"
+    },
+    "ursus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "bear"
+    },
+    "usque": {
+        "type": "adverb",
+        "meaning": "as far as, up to"
+    },
+    "ut": {
+        "type": "conjunction",
+        "meaning": "in order to, in order that"
+    },
+    "uxor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "uxōr",
+        "gender": "f",
+        "meaning": "wife"
+    },
+    "uxōrem dūcere": {
+        "type": "special",
+        "meaning": "to marry (a woman)"
+    },
+    "vae": {
+        "type": "special",
+        "meaning": "woe!"
+    },
+    "validus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "strong"
+    },
+    "vāstō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "vāstāre",
+        "perfect-root": "vāstāv",
+        "perfect-passive-participle": "vāstāt",
+        "meaning": "to ransack, devastate"
+    },
+    "velut": {
+        "type": "adverb",
+        "meaning": "like, as"
+    },
+    "vendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "vendere",
+        "perfect-root": "vēndid",
+        "perfect-passive-participle": "vēndit",
+        "meaning": "to sell"
+    },
+    "venēnum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "poison"
+    },
+    "veniō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "venīre",
+        "perfect-root": "vēn",
+        "perfect-passive-participle": "vent",
+        "meaning": "to come"
+    },
+    "venter": {
+        "type": "noun",
+        "declension": "III",
+        "root": "ventr",
+        "gender": "m",
+        "meaning": "stomach"
+    },
+    "vēr": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vēr",
+        "gender": "n",
+        "meaning": "spring"
+    },
+    "vereor": {
+        "type": "deponent verb",
+        "declension": "II dep",
+        "infinitive": "verērī",
+        "perfect-root": "verit",
+        "meaning": "to fear"
+    },
+    "vertō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "vertere",
+        "perfect-root": "vert",
+        "perfect-passive-participle": "vers",
+        "meaning": "to turn"
+    },
+    "vērus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "true, real"
+    },
+    "Vestālis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "Vestal",
+        "exceptions": {
+            "no-comparative": true,
+            "no-superlative": true
+        }
+    },
+    "vestem gerere": {
+        "type": "special",
+        "meaning": "to wear clothing"
+    },
+    "vestibulum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "forecourt"
+    },
+    "vestigium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "track, trace"
+    },
+    "vestis": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vest",
+        "gender": "f",
+        "meaning": "clothing",
+        "exceptions": {
+            "i-stem": true
+        },
+        "notes": [
+            "i-stem"
+        ]
+    },
+    "vetō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "vetāre",
+        "perfect-root": "vetu",
+        "perfect-passive-participle": "vetit",
+        "meaning": "to veto"
+    },
+    "via": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "street, road"
+    },
+    "vicēsimus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "twentieth"
+    },
+    "victor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "victōr",
+        "gender": "m",
+        "meaning": "winner"
+    },
+    "victōria": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "victory"
+    },
+    "videō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "vidēre",
+        "perfect-root": "vīd",
+        "perfect-passive-participle": "vīs",
+        "meaning": "to see"
+    },
+    "vigilia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "watch (period of time)"
+    },
+    "vīgintī": {
+        "type": "number",
+        "meaning": "twenty"
+    },
+    "vīgintī ūnus": {
+        "type": "number",
+        "meaning": "twenty one"
+    },
+    "vīlicus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "manager"
+    },
+    "vīlla": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "country house"
+    },
+    "vincō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "vincere",
+        "perfect-root": "vīc",
+        "perfect-passive-participle": "vict",
+        "meaning": "to conquer, defeat"
+    },
+    "vīnum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "wine"
+    },
+    "vir": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "man"
+    },
+    "virga": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "stick"
+    },
+    "virgo": {
+        "type": "noun",
+        "declension": "III",
+        "root": "virgin",
+        "gender": "f",
+        "meaning": "maiden"
+    },
+    "virtūs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "virtūt",
+        "gender": "f",
+        "meaning": "bravery, virtue, courage"
+    },
+    "vīs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vīr",
+        "gender": "f",
+        "meaning": "force, violence, troop, resource",
+        "flag": "highly irregular"
+    },
+    "vīta": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "life"
+    },
+    "vītō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "vītāre",
+        "perfect-root": "vītāv",
+        "perfect-passive-participle": "vītāt",
+        "meaning": "to avoid"
+    },
+    "vīvō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "vīvere",
+        "perfect-root": "vīx",
+        "perfect-passive-participle": "vīct",
+        "meaning": "to live"
+    },
+    "vix": {
+        "type": "adverb",
+        "meaning": "scarcely, with difficulty"
+    },
+    "vocō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "vocāre",
+        "perfect-root": "vocāv",
+        "perfect-passive-participle": "vocāt",
+        "meaning": "to invite, call"
+    },
+    "volō": {
+        "multiple-definitions": true,
+        "content": {
+            "verb": {
+                "type": "verb",
+                "declension": "irreg",
+                "base": "volō",
+                "infinitive": "velle",
+                "perfect-root": "volu",
+                "perfect-passive-participle": "",
+                "meaning": "to want, be willing to",
+                "exceptions": {
+                    "intransitive": true
+                }
+            },
+            "verb2": {
+                "type": "verb",
+                "declension": "I",
+                "infinitive": "volāre",
+                "perfect-root": "volāv",
+                "perfect-passive-participle": "",
+                "meaning": "to fly",
+                "exceptions": {
+                    "intransitive": true
+                }
+            }
+        }
+    },
+    "voluntās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "voluntāt",
+        "gender": "f",
+        "meaning": "willingness"
+    },
+    "vulnerō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "vulnerāre",
+        "perfect-root": "vulnerāv",
+        "perfect-passive-participle": "vulnerāt",
+        "meaning": "to wound"
+    },
+    "vulnus": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vulner",
+        "gender": "n",
+        "meaning": "wound"
+    },
+    "vultur": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vultūr",
+        "gender": "m",
+        "meaning": "vulture"
+    }
+}

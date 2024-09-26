@@ -1,0 +1,1183 @@
+##
+How to use
+
+Commented lines end with a hashtag
+Multiple lines of comments are surrounded by ##
+
+normal lines follow word;wordtype;... use following as reference
+
+to flag a word, put a * at the end followed by the flag message
+
+to mark a word with an exception, put a ^ at the end followed by the exception
+
+to add a note to a word, put a % at the end followed by the note
+
+
+to flag multiple lines with the same message, surround them by ** and put the flag messgage directly after the first **
+
+to add the same note to multiple lines, use a similar format but with %%
+##
+
+
+##
+i dropped latin :(, the following are contributions from dora or daniel z
+##
+
+aeger;adj;2;ill, sick, weak
+albus;adj;2;white
+argenteus;adj;2;silver
+celer;adj;2;swift*IDK if celer celeris celere is goofy but also it's a -errimē thing but I dunno
+cunctus;adj;2;all
+divus;adj;2;divine
+dubius;adj;2;doubtful
+amogus;adj;2;amogus*hm I wonder if someone will notice
+niger;adj;2;black
+diligēns;adj;3;industrious, diligent
+aliquī;adj;2;some, any^plural,sfg:alicuius,sfd:alicui,no-comparative,no-superlative
+aliquis, aliquid;spec;someone, something
+lāvō;v;1;lāvāre;lāv;laut;to wash
+iaceō;v;2;iacēre;iacu;iacit;to lie (be situated)
+volō;v;1;volāre;volāv;;to fly # DUPLICATE KEYS GRRRRRRRRRRRRRRRRRRRR#
+discō;v;3;discere;didic;;to learn
+moveō;v;2;movēre;mōv;mōt;to move (transitive)
+sē movēre;spec;to move (self, subject)
+loquor;dv;3;loquī;locūt;to talk, speak, say
+oblīviscor;dv;3;obliviscī;oblīt;to forget%+ genitive
+enim;spec;indeed%post pos.
+igitur;spec;therefore%post pos.
+
+
+colōnia;n;1;f;settlement
+praecō;n;3;praecō;m;herald
+agrārius;adj;2;agrarian
+complūrēs;adj;3;several%(pl.)
+imperō;v;1;imperāre;imperāv;imperāt;to order%(+Dat.)
+persuadeō;v;2;persuadēre;persuās;persuās;to persuade%(+Dat.)
+placeō;v;2;placēre;placu;placit;to please
+hōc mihi placet;spec;I like this
+polliceor;dv;2;pollicērī;pollicit;to promise
+pollicendō;spec;by promising
+excīdō;v;3;excīdere;excīd;excīs;to cut off
+trānsferō;v;0;ferō;trānsferre;trānstul;trānslāt;to transfer
+rūsus;adv;again
+umquam;conj;ever
+iūdicium;n;1;n;judgement, court
+Gracchānus;adj;1;follower of Gracchus
+īrascor;dv;3;īrascī;īrāt;to be angry
+precor;dv;1;precārī;precāt;to pray, beg
+doleō;dolēre;dolu;;v;2;to grieve
+claudō;claudere;claus;claus;v;3;to close
+flectō;flectere;flex;flex;v;3;to bend, turn
+mentior;dv;4;mentīrī;mentit;to lie
+iniussū (populī Rōmānī);spec;without the permission (of the Roman People)
+neque;conj;and not
+nec;conj;and not
+ecce;spec;lo
+denīque;conj;finally
+vix;adv;scarcely, with difficulty
+
+
+
+
+##
+MY CONTRIBUTION:
+##
+
+pagīna;n;1;f;page
+pensum;n;2;n;exercise
+magister;n;2;m;teacher (m.)
+magistra;n;1;f;teacher (f.)
+discipulus;n;2;m;student (m.)
+discipula;n;1;f;student (f.)
+omnis;adj;3;all^no-comparative,no-superlative
+ad;prep;to
+bene;adv;well, correct
+quot;int;how many/spec;all who
+et;conj;and
+ab, ā;prep;from, by
+
+ūnus;num;one/adj;2;one^no-comparative,no-superlative,sfg:unīus,sfd:unī
+duo;num;two/adj;2;two^no-comparative,no-superlative*conjugates weird
+trēs;num;three
+quattuor;num;four
+quīnque;num;five
+sex;num;six
+septem;num;seven
+octō;num;eight
+novem;num;nine
+decem;num;ten
+ūndecim;num;eleven
+duodecim;num;twelve
+trēdecim;num;thirteen
+quattuordecim;num;fourteen
+quindecim;num;fifteen
+sēdecim;num;sixteen
+septendecim;num;seventeen
+duodēvīgintī;num;eighteen
+ūndēvīgintī;num;nineteen
+vīgintī;num;twenty
+vīgintī ūnus;num;twenty one
+trīginta;num;thirty
+quadrāgintā;num;forty
+quīnquāgintā;num;fifty
+sexāgintā;num;sixty
+dūcentī;adj;2;two hundred^no-comparative,no-superlative*amogus
+octingentī;adj;2;eight hundred^no-comparative,no-superlative*amogus
+mīlle;n;-1;n;thousand*singular indeclinable
+
+ne;int;interrogative particle
+nōn;adv;no, not
+lūdus;n;2;m;school
+vir;n;2;m;man
+fēmina;n;1;f;woman
+Rōmānus;n;2;m;Roman (m.)/adj;2;Roman^no-comparative,no-superlative
+Rōmāna;n;1;f;Roman (f.)
+Graecus;n;2;m;Greek (m.)
+Graeca;n;1;f;Greek (f.)
+puer;n;2;m;boy
+puella;n;1;f;girl
+quis, quis, quid;pron;who^sfg:cūius,sfd:cui
+an, aut;conj;or
+sed;conj;but
+quoque;conj;also
+nummus;n;2;m;coin
+liber;n;2;m;book
+stīlus;n;2;m;stylus
+mūrus;n;2;m;wall
+numerus;n;2;m;number
+fenestra;n;1;f;window
+tabula;n;1;f;writing tablet
+scrīnium;n;2;n;writing case
+saxum;n;2;n;rock
+signum;n;2;n;statue
+sella;n;1;f;chair
+iānua;n;1;f;door
+malus;adj;2;bad^comparative:pēior,superlative:pessimus
+māgnus;adj;2;big, great^comparative:maior,superlative:maximus
+parvus;adj;2;small^comparative:minor,superlative:minimus
+bellus;adj;2;beautiful
+bonus;adj;2;good^comparative:melior,superlative:optimus
+longus;adj;2;long, tall
+lātus;adj;2;wide
+novus;adj;2;new
+
+^^no-comparative,no-superlative
+prīmus;adj;2;first
+secundus;adj;2;second
+tertius;adj;2;third
+quartus;adj;2;fourth
+quīntus;adj;2;fifth
+sextus;adj;2;sixth
+septimus;adj;2;seventh
+octāvus;adj;2;eigth
+nōnus;adj;2;ninth
+decimus;adj;2;tenth
+^^
+
+hīc, haec, hōc;pron;this^sfg:hūius,sfd:huic
+tamen;conj;however
+plērumque;conj;generally
+
+et ... et;spec;both ... and
+neque ... neque;spec;neither ... nor
+aut ... aut;spec;either ... or
+
+aedificium;n;2;n;building
+interrogātum;n;2;n;question
+altus;adj;2;high, tall
+fessus;adj;2;tired
+laetus;adj;2;happy
+maestus;adj;2;sad
+
+is, ea, id;pron;he, she, it^sfg:ēius,sfd:eī
+ego;pron;I (pl. we)
+tū;pron;you
+
+itaque;conj;therefore
+semper;adv;always
+
+ambulō;v;1;ambulāre;ambulāv;ambulāt;to walk
+cantō;v;1;cantāre;cantāv;cantāt;to sing
+dubitō;v;1;dubitāre;dubitāv;dubitāt;to hesitate (modal)
+labōrō;v;1;labōrāre;labōrāv;labōrāt;to work
+numerō;v;1;numerāre;numerāv;numerāt;to count
+rogō;v;1;rogāre;rogāv;rogāt;to ask
+doceō;v;2;docēre;docu;doct;to teach
+fleō;v;2;flēre;flēv;flēt;to cry
+respondeō;v;2;respondēre;respond;respōns;to answer
+rīdeō;v;2;rīdēre;rīs;rīs;to laugh (at)
+sedeō;v;2;sedēre;sēd;sess;to sit
+studeō;v;2;studēre;studu;;to be eager (modal)^intransitive
+
+^^intransitive
+sum;v;0;sum;esse;fu;;to be^future-infinitive:fore
+absum;v;0;sum;abesse;āfu;;to be absent^future-infinitive:āfore
+adsum;v;0;sum;adesse;adfu;;to be present^future-infinitive:adfore
+dēsum;v;0;sum;dēesse;dēfu;;to lack, be deficient in^future-infinitive:dēfore
+praesum;v;0;sum;praeesse;praefu;;to be in command of^future-infinitive:praefore
+^^
+
+
+familia;n;1;f;family
+filia;n;1;f;daughter
+ancilla;n;1;f;slave (f.)
+domina;n;1;f;lady
+marītus;n;2;m;husband
+līberī;n;2;m;children^plural
+fīlius;n;2;m;son
+servus;n;2;m;slave (m.)
+dominus;n;2;m;master
+cīvis;n;3;cīv;f, m;citizen^i-stem
+uxor;n;3;uxōr;f;wife
+pater;n;3;pātr;m;father
+senātor;n;3;senātōr;m;senator
+māter;n;3;mātr;f;mother
+parens;n;3;parent;f, m;parent
+frāter;n;3;frātr;m;brother
+soror;n;3;sorōr;f;sister
+senex;n;3;sen;f, m;old person
+canis;n;3;can;f, m;dog
+avis;n;3;av;f;bird^i-stem
+Asiāticus;adj;2;Asian^no-comparative,no-superlative
+Germānus;adj;2;German^no-comparative,no-superlative
+multus;adj;2;much (pl. many)^comparative:plūs,superlative:plūrimus,wtf-extremely-irregular-anomaly
+meus;adj;2;my^no-comparative,no-superlative
+noster;adj;2;our^no-comparative,no-superlative
+callidus;adj;2;clever
+paucus;adj;2;(a) little, few
+
+habitō;v;1;habitāre;habitāv;habitāt;to live
+amō;v;1;amāre;amāv;amāt;to like, love
+cūrō;v;1;cūrāre;cūrāv;cūrāt;to take care of
+
+via;n;1;f;street, road
+taberna;n;1;f;store, shop
+carō;n;3;carn;f;meat
+clāmor;n;3;clāmōr;m;noise
+homō;n;3;homin;m;person (pl. people)
+mercātor;n;3;mercātōr;m;merchant
+mīles;n;3;mīlit;m;soldier
+pānis;n;3;pān;m;bread
+ornāmentum;n;2;n;jewellery
+vīnum;n;2;n;wine
+angustus;adj;2;narrow
+inebrius;adj;2;drunk
+sordidus;adj;2;dirty
+validus;adj;2;strong
+
+adpropinquō;v;1;adpropinquāre;adpropinquāv;adpropinquāt;to approach
+clāmō;v;1;clāmāre;clāmāv;clāmāt;to shout
+lātrō;v;1;lātrāre;lātrāv;lātrāt;to bark
+salūtō;v;1;salūtāre;salūtāv;salūtāt;to greet
+inquiō;v;3;inquere;inqui;;to say^intransitive
+
+dēbeō;v;2;dēbēre;dēbu;dēbit;to have (i.e. neccesity of action) (modal)
+habeō;v;2;habēre;habu;habit;to have (i.e. possession)
+timeō;v;2;timēre;timu;;to fear
+videō;v;2;vidēre;vīd;vīs;to see
+
+nunc;adv;now
+cūr;int;why
+
+amīca;n;1;f;friend (f.)
+amīcus;n;2;m;friend (m.)/adj;2;friendly
+bibliotheca;n;1;f;library
+thermae;n;1;f;public baths^plural
+hortus;n;2;m;garden
+amphitheātrum;n;2;n;amphitheatre
+apodytērium;n;2;n;dressing room
+frīgidārium;n;2;n;cold pool
+tepidārium;n;2;n;warm pool
+califārium;n;2;n;hot pool
+gymnāsium;n;2;n;exercise ground
+īrātus;adj;2;angry
+nūdus;adj;2;naked
+sōlus;adj;2;alone, only^sfg:sōlīus,sfd:sōlī,no-comparative,no-superlative
+pars;n;3;part;f;part^i-stem
+princeps;n;3;princip;m;emperor
+vestis;n;3;vest;f;clothing^i-stem
+rēs;n;5;f;thing
+cliēns;n;3;client;m;client, supporter^i-stem
+flōs;n;3;flōr;m;flower
+fōns;n;3;font;m;fountain, spring
+fūr;n;3;fūr;f, m;thief
+
+pulsō;v;1;pulsāre;pulsāv;pulsāt;to hit
+aedificō;v;1;aedificāre;aedificāv;aedificāt;to build
+bibō;v;3;bibere;bib;pōt;to drink
+cēdō;v;3;cēdere;cess;cess;to back off, yield
+dēfendō;v;3;dēfendere;dēfend;dēfēns;to defend
+currō;v;3;currere;cucurr;curs;to run
+emō;v;3;emere;ēm;ēmpt;to buy
+pōnō;v;3;pōnere;posu;posit;to put, place
+vendō;v;3;vendere;vēndid;vēndit;to sell
+consistō;v;3;consistere;cōnstit;;to stop^intransitive
+
+brevī;adv;soon
+celeriter;adv;quickly
+iterum;adv;again
+
+ad;prep;to
+praeter;prep;past, except
+extrā;prep;outside of
+per;prep;through, along
+
+%%Following nouns take the ablative case instead of the accusative, unless the verb is related to motion.
+in;prep;in, into, on
+sub;prep;under
+%%
+
+post;prep;after, behind
+intrā;prep;inside of
+prope;prep;near
+circum;prep;around
+trāns;prep;across
+ante;prep;before, in front of
+inter;prep;between, among
+contrā;prep;against
+ob;prep;because of
+apud;prep;in the vicinity of, in the time of, in the writings of
+adversus;prep;against
+super;prep;above, over
+
+%%Following nouns take the ablative case rather than the accusative.
+ab, ā;prep;from, by
+cum;prep;with
+dē;prep;concerning, about
+ex;prep;out of
+prō;prep;in front of, on behalf of, for
+sine;prep;without
+%%
+
+propter;prep;because of
+
+anteā;adv;previously
+dum;adv;while
+iam;adv;already
+saepe;adv;often
+
+
+prōvincia;n;1;f;province
+pecūnia;n;1;f;money
+barbara;n;1;f;barbarian (f.)
+urbs;n;3;urb;f;city^i-stem
+
+cēterus;adj;2;the rest (of)^no-comparative,no-superlative
+
+quālis;adj;3;what kind (of)^no-comparative,no-superlative
+omnis;adj;3;each, every (pl. all)^no-comparative,no-superlative
+
+agricola;n;1;m;farmer
+ager;n;2;m;farm
+barbarus;n;2;m;barbarian (m.)
+imperium;n;2;n;empire
+oppidum;n;2;n;town
+frumentum;n;2;n;grain
+flumen;n;3;flumin;n;river
+
+oppūgnō;v;1;oppūgnāre;oppūgnāv;oppūgnāt;to attack
+
+cupiō;v;3;cupere;cupīv;cupīt;to want (modal)
+dēspiciō;v;3;dēspicere;dēspēx;dēspect;to despise
+fugiō;v;3;fugere;fūg;fūgit;to flee^limited-passive
+effugiō;v;3;effugere;effūg;effūgit;to escape^limited-passive
+capiō;v;3;capere;cēp;capt;to capture
+incipiō;v;3;incipere;incēp;incept;to begin (modal)
+accipiō;v;3;accipere;accēp;accept;to receive
+faciō;v;3;facere;fēc;fact;to do, make, happen, take place^irregular-imperative
+interficiō;v;3;interficere;interfēc;interfect;to kill
+reficiō;v;3;reficere;refēc;refect;to rebuild
+
+magnopere;adv;really
+subitō;adv;suddenly
+quod;conj;because
+ubi;int;where/conj;after
+quō;int;where
+
+fabula;n;1;f;story
+dea;n;1;f;goddess
+terra;n;1;f;earth, ground
+pluvia;n;1;f;rain
+deus;n;2;m;god
+locus;n;2;m;place
+ōrāculum;n;2;n;oracle
+mōns;n;3;mont;m;mount, mountain, hill^i-stem
+nōmen;n;3;nomin;n;name
+os;n;3;oss;n;bone
+piger;adj;2;lazy
+nōbilis;adj;3;noble
+omnia;n;3;omn;n;everything%Must be in the neuter plural form to have this meaning^plural,i-stem
+
+nam;conj;for
+
+adōrō;v;1;adōrāre;adōrāv;adōrāt;to worship
+nārrō;v;1;nārrāre;narrāv;nārrāt;to tell
+iubeō;v;2;iubēre;iuss;iuss;to order
+taceō;v;2;tacēre;tacu;tacit;to be silent
+dīcō;v;3;dīcere;dīx;dict;to talk, speak^irregular-imperative
+mittō;v;3;mittere;mīs;miss;to send
+iaciō;v;3;iacere;iēc;iact;to throw
+
+sciō;v;4;scīre;scīv;scīt;to know
+nesciō;v;4;nescīre;nescīv;nescīt;to not know
+dormiō;v;4;dormīre;dormīv;dormīt;to sleep
+pūniō;v;4;pūnīre;pūnīv;pūnīt;to punish
+audiō;v;4;audīre;audīv;audīt;to listen (to)
+veniō;v;4;venīre;vēn;vent;to come
+
+fortasse;adv;perhaps
+sī;conj;if
+
+basilica;n;1;f;lawcourt
+cūria;n;1;f;senate house
+flamma;n;1;f;flame
+arcus;n;2;m;arch
+horreum;n;2;n;granary
+forum;n;2;n;forum
+templum;n;2;n;temple
+ōrātor;n;3;ōrātōr;m;speaker
+ōrātiō;n;3;ōrātiōn;f;speech
+rēx;n;3;rēg;m;king
+virgo;n;3;virgin;f;maiden
+sacerdōs;n;3;sacerdōt;f, m;priest(ess)
+Vestālis;adj;3;Vestal^no-comparative,no-superlative
+rotūndus;adj;2;round
+sacer;adj;2;sacred
+dextra;n;1;f;(the) right
+sinistra;n;1;f;(the) left
+hodiē;adv;today
+ibi;adv;there
+ōlim;adv;once
+
+laudō;v;1;laudāre;laudāv;laudāt;to praise
+servō;v;1;servāre;servāv;servāt;to save
+superō;v;1;superāre;superāv;superāt;to conquer
+licet;spec;2;to it is permitted*one specific conjugation
+conveniō;v;4;convenīre;convēn;convent;to gather
+
+^^limited-passive
+eō;v;0;eō;īre;i;it;to go
+abeō;v;0;eō;abīre;abi;abit;to leave, depart
+ineō;v;0;eō;inīre;ini;init;to enter, invade
+trānseō;v;0;eō;trānsīre;trānsi;trānsit;to cross
+adeō;v;0;eō;adīre;adi;adit;to approach
+exeō;v;0;eō;exīre;exi;exit;to leave
+pereō;v;0;eō;perīre;peri;perit;to die
+redeō;v;0;eō;redīre;redi;redit;to return
+^^
+
+aurīga;n;1;m;charioteer
+aqua;n;1;f;water
+corōna;n;1;f;crown, garland
+hōra;n;1;f;hour
+lectīca;n;1;f;sedan chair, litter
+mēta;n;1;f;turning post
+quadrīga;n;1;f;four horse chariot
+spīna;n;1;f;barrier
+tūba;n;1;f;horn
+domus;n;2;f;house, home
+circus;n;2;m;race course
+equus;n;2;m;horse
+patrōnus;n;2;m;patron
+atrium;n;2;n;atrium
+cubiculum;n;2;n;bedroom
+curriculum;n;2;n;race (i.e. event)
+tablīnum;n;2;n;office, study
+consul;n;3;consul;m;consul
+finis;n;3;fīn;m;end (pl. territories)^i-stem
+victor;n;3;victōr;m;winner
+unguentum;n;2;n;perfume
+mortuus;adj;2;dead^no-comparative,no-superlative
+
+dō;v;1;dāre;ded;dat;to give, offer
+cadō;v;3;cadere;cecid;cās;to fall
+
+ferō;v;0;ferō;ferre;tul;lāt;to bring, carry^irregular-imperative
+
+offendō;v;3;offendere;offend;offēns;to crash
+trahō;v;3;trahere;trāx;tract;to drag, pull
+concurrō;v;3;concurrere;concurr;concurs;to collide
+surgō;v;3;surgere;surrēx;surrēct;to rise
+
+quamquam;conj;although
+statim;adv;at once
+
+arēna;n;1;f;arena
+insula;n;1;f;island, apartment building
+rētia;n;1;f;net
+elephantus;n;2;m;elephant
+leopardus;n;2;m;leopard
+rētiārius;n;2;m;net fighter
+ursus;n;2;m;bear
+vestibulum;n;2;n;forecourt
+gladiātor;n;3;galdiātōr;m;gladiator
+leō;n;3;leōn;m;lion
+mirmillō;n;3;mirmillōn;m;sword fighter
+tigris;n;3;tigr;m;tiger
+missiō;n;3;missiōn;f;pardon
+pollex;n;3;pollic;m;thumb
+trīdēns;n;3;trīdent;m;trident
+animal;n;3;animāl;n;animal^i-stem
+vulnus;n;3;vulner;n;wound
+crūdēlis;adj;3;cruel
+grāvis;adj;3;severe, serious
+
+pūgnō;v;1;pūgnāre;pūgnāv;pūgnāt;to fight
+spectō;v;1;spectāre;spectāv;spectāt;to watch
+vītō;v;1;vītāre;vītāv;vītāt;to avoid
+vulnerō;v;1;vulnerāre;vulnerāv;vulnerāt;to wound
+agō;v;3;agere;ēg;āct;to do
+vertō;v;3;vertere;vert;vers;to turn
+perveniō;v;4;pervenīre;pervēn;pervent;to arrive
+
+cum ... agere;spec;speak with ...
+habet!;spec;he's a goner!
+
+camera;n;1;f;room
+caupōna;n;1;f;inn
+olīva;n;1;f;olive
+porta;n;1;f;gate
+raeda;n;1;f;carriage
+vīlla;n;1;f;country house
+autumnus;n;2;m;autumn
+caseus;n;2;m;cheese
+medicus;n;2;m;doctor
+vīlicus;n;2;m;manager
+balneum;n;2;n;bath
+peristylium;n;2;n;peristyle
+prandium;n;2;n;lunch
+aestās;n;3;aestāt;f;summer
+hiems;n;3;hiem;f;winter
+iter;n;3;itiner;n;way, route, trip
+tempus;n;3;tempor;n;time
+vēr;n;3;vēr;n;spring
+caupō;n;3;caupōn;m;innkeeper
+pauper;n;3;pauper;f, m;poor person
+
+calidus;adj;2;hot
+cōpiōsus;adj;2;rich
+frīgidus;adj;2;cold
+iucundus;adj;2;pleasant
+parātus;adj;2;ready, prepared
+brevis;adj;3;short
+
+iuvō;v;1;iuvāre;iūv;iūt;to help
+lūdō;v;3;lūdere;lūs;lūs;to play
+
+^^intransitive
+volō;v;0;volō;velle;volu;;to want, be willing to/v;1;volāre;volāv;;to fly
+nōlō;v;0;nōlō;nōlle;nōlu;;to not want, not be willing to
+possum;v;0;possum;posse;potu;;to be able to^future-infinitive:posse
+mālō;v;0;mālō;mālle;mālu;;to prefer
+^^
+
+quiescō;v;3;quiescere;quiēv;quiēt;to rest
+
+iter facere;spec;make one's way
+
+quandō;int;when
+
+sōlum;adv;only
+
+ūnus ex eīs;spec;one of them
+
+
+virga;n;1;f;stick
+pōmum;n;2;n;apple
+carmen;n;3;carmin;n;poem, song
+alius;adj;2;another^sfg:alterīus,sfd:aliī,root:ali,no-comparative,no-superlative
+aureus;adj;2;golden
+
+facilis;adj;3;easy
+difficilis;adj;3;difficult
+
+cōnstituō;v;3;cōnstituere;cōnstitu;cōnstitūt;to decide
+legō;v;3;legere;lēg;lēct;to read
+scrībō;v;3;scrībere;scrīps;scrīpt;to write
+
+deinde;conj;next, then
+
+
+cēna;n;1;f;dinner
+glōria;n;1;f;glory
+rēgīna;n;1;f;queen
+sapienta;n;1;f;wisdom
+annus;n;2;m;year
+auxilium;n;2;n;help
+adulēscēns;n;3;adulēscent;m;young man^i-stem
+potestās;n;3;potestāt;f;power
+Trōiānus;n;2;m;Trojan/adj;2;Trojan^no-comparative,no-superlative
+Trōiāna;n;1;f;Trojan
+
+prīmum;adv;firstly
+postrēmō;adv;finally
+
+vocō;v;1;vocāre;vocāv;vocāt;to invite, call
+dēlēo;v;2;dēlēēre;dēlēv;dēlēt;to destroy
+dēligō;v;3;dēligere;dēlēg;dēlēct;to choose
+dūcō;v;3;dūcere;dūx;duct;to lead^irregular-imperative
+prōmittō;v;3;prōmittere;prōmīs;prōmiss;to promise
+
+
+insidiae;n;1;f;ambush, trick^plural
+patria;n;1;f;country
+bellum;n;2;n;war
+consilium;n;2;n;plan, advice
+
+mare;n;3;mar;n;sea^i-stem,abl-i-stem
+nāvis;n;3;nāv;f;ship^i-stem,abl-i-stem
+
+hostis;n;3;host;f, m;enemy^i-stem
+imāgō;n;3;imāgin;f;ghost, spirit
+
+ligneus;adj;2;wooden^no-comparative,no-superlative
+
+errō;v;1;errāre;errāv;errāt;to wander
+
+postquam;conj;after
+
+quamdiū;int;how long
+quōmodo;int;how
+
+
+incendium;n;2;n;fire
+odium;n;2;n;hatred
+imperātor;n;3;imperātōr;m;general, commander
+labor;n;3;labōr;m;work
+nepōs;n;3;nepōt;f;descendant
+tempestās;n;3;tempestāt;f;storm
+clārus;adj;2;famous
+Carthāginiēnsis;adj;3;Carthaginian^no-comparative,no-superlative
+
+ille, illa, illud;pron;that^sfg:illīus,sfd:illī
+
+quī, quae, quod;pron;who (i.e. relative pronoun)^sfg:cūius,sfd:cui
+
+temptō;v;1;temptāre;temptāv;temptāt;to try
+
+sē;pron;oneself (i.e. reflexive pronoun)
+
+vāstō;v;1;vāstāre;vāstāv;vāstāt;to ransack, devastate
+maneō;v;2;manēre;māns;māns;to remain
+cōgō;v;3;cōgere;coēg;coāct;to force, collect, gather
+
+adhūc;adv;still
+praeterea;conj;moreover
+
+
+amor;n;3;amōr;m;love
+regiō;n;3;regiōn;f;region
+carus;adj;2;dear
+
+ipse;adj;2;-self^sfg:ipsīus,sfd:ipsī,root:ips,no-comparative,no-superlative
+
+ācer;adj;3;harsh%goofy superlative (ignore)
+
+cīvilis;adj;3;civil
+
+dēmōnstrō;v;1;dēmōnstrāre;dēmōnstrāv;dēmōnstrāt;to show
+pellō;v;3;pellere;pepul;puls;to drive out
+
+postea;conj;afterward
+
+
+histōria;n;1;f;history
+inimīca;n;1;f;enemy (f.)
+iniuria;n;1;f;injustice, insult, injury
+lingua;n;1;f;language
+sponsa;n;1;f;fiancée
+inimīcus;n;2;m;enemy (m.)/adj;2;hostile
+nuntius;n;2;m;messenger
+populus;n;2;m;people (sing. unit)
+sponsus;n;2;m;fiancé
+caelum;n;2;n;heaven, sky
+fatum;n;2;n;fate
+proelium;n;2;n;battle
+
+suus;adj;2;one's own (i.e. reflexive possesive adjective)^no-comparative,no-superlative
+
+mōs;n;3;mōr;m;custom
+scriptor;n;3;scriptōr;m;author, writer
+mensis;n;3;mens;m;month^i-stem
+
+excitō;v;1;excitāre;excitāv;excitāt;to wake up, upset, disturb
+
+unde;int;from where
+sīc;conj;thus
+
+fīnem bellī faciō;spec;I end the war
+
+
+lupa;n;1;f;wolf (f.)
+lupus;n;2;m;wolf (m.)
+īnfans;n;3;infant;f, m;baby^i-stem
+fames;n;3;fam;f;hunger
+pastor;n;3;pastōr;m;shepherd
+geminus;adj;2;twin^no-comparative,no-superlative
+
+discēdō;v;3;discēdere;discess;discess;to leave, depart
+relinquō;v;3;relinquere;relīqu;relict;to abandon, leave (something)
+redūcō;v;3;redūcere;redūx;reduct;to lead back, restore
+inveniō;v;4;invenīre;invēn;invent;to find, discover
+
+diū;adv;for long
+etiam;adv;even
+
+hinc;adv;from here, hence
+hīc;adv;here
+hūc;adv;to here, hither
+illinc;adv;from there, thence
+illīc;adv;there
+illūc;adv;to there, thither
+
+nē ... quidem;spec;not ... even
+
+
+
+
+
+fugitīvus;n;2;m;runaway
+gladius;n;2;m;sword
+lībertus;n;2;m;freedman
+perīculum;n;2;n;danger
+medius;adj;2;the middle of^no-comparative,no-superlative
+accūsō;v;1;accūsāre;accūsāv;accūsāt;to accuse
+līberō;v;1;līberāre;līberāv;līberāt;to free
+prohibeō;v;2;prohibēre;prohibu;prohibit;to prevent
+dēpōnō;v;3;dēpōnere;dēposu;dēposit;to lay aside
+fallō;v;3;fallere;fefell;fals;to deceive, evade
+impediō;v;4;impedīre;impedīv;impedīt;to obstruct, block
+mūniō;v;4;mūnīre;mūnīv;mūnīt;to fortify
+
+
+avus;n;2;m;grandfather
+vultur;n;3;vultūr;m;vulture
+appellō;v;1;appellāre;appellāv;appellāt;to name, call
+condō;v;3;condere;condid;condit;to found
+excēdō;v;3;excēdere;excess;excess;to leave, depart
+occīdō;v;3;occīdere;occid;occīs;to kill
+vincō;v;3;vincere;vīc;vict;to conquer, defeat
+saliō;v;4;salīre;salu;salt;to jump
+
+nox;n;3;noct;f;night^i-stem
+sub noctem;spec;at nightfall
+
+scelestus;n;2;m;criminal
+incola;n;1;m;inhabitant
+cōpia;n;1;f;abundance, supply (pl. forces)
+inopia;n;1;f;dearth, scarcity
+arma;n;2;n;weapons^plural
+cīvitās;n;3;cīvitāt;f;citizensip, citystate
+finitīmus;adj;2;neighbouring^no-comparative,no-superlative
+plēnus;adj;2;full (of)
+turpis;adj;3;disgraceful, shameful
+dēspērō;v;1;dēspērāre;dēspērāv;dēspērāt;to lose hope, despair
+parō;v;1;parāre;parāv;parāt;to prepare
+
+consilium capere;spec;to adopt a plan
+arma capere;spec;to take up weapons, arms
+
+
+causa;n;1;f;reason, cause
+victōria;n;1;f;victory
+bracchium;n;2;n;arm
+scūtum;n;2;n;shield
+arx;n;3;arc;f;citadel^i-stem
+nix;n;3;niv;f;snow
+pāx;n;3;pāc;f;peace
+prōditor;n;3;prōditōr;m;traitor
+sinister;adj;2;left^no-comparative,no-superlative
+
+id quod;spec;that which
+
+portō;v;1;portāre;portāv;portāt;to carry
+
+
+nauta;n;1;m;sailor
+perfuga;n;1;m;deserter
+pīrāta;n;1;m;pirate
+poēta;n;1;m;poet
+
+disertus;adj;2;eloquent
+summus;adj;2;at the top of, highest^no-comparative,no-superlative
+
+
+factum;n;2;n;deed
+futūrus;adj;2;future^no-comparative,no-superlative
+praeteritus;adj;2;past^no-comparative,no-superlative
+nātus;adj;2;of age^no-comparative,no-superlative
+vērus;adj;2;true, real
+nūntiō;v;1;nūntiāre;nūntiāv;nūntiāt;to announce
+opprimō;v;3;opprimere;oppress;oppress;to overpower
+vīvō;v;3;vīvere;vīx;vīct;to live
+
+fuēre;spec;fuērunt
+
+bis;adv;twice
+
+que;spec;and
+
+quidem;adv;indeed
+
+grātiās tibi agō;spec;I thank you
+
+
+epistula;n;1;f;letter
+patricius;n;2;m;patrician
+plēbēius;n;2;m;plebeian;
+hospes;n;3;hospit;m;guest, host
+scelus;n;3;sceler;n;crime
+stultus;n;2;m;fool (m.)/adj;2;foolish
+stulta;n;1;f;fool (f.)
+miser;adj;2;retched
+mītis;adj;3;gentle, mild
+ferōx;adj;3;fierce
+
+quam celerrimē;spec;as quickly as possible
+
+Rōmam;spec;ad urbem Rōmam
+
+
+necessārius;n;2;m;relative
+principium;n;2;n;beginning
+caput;n;3;capit;n;head, chapter
+iūs;n;3;iūr;n;right
+alter;adj;2;the other^sfg:alterīus,sfd:alterī,root:alter,no-comparative,no-superlative
+alter ... alter;spec;the one ... the other
+
+crūdēliter;adv;cruelly
+
+hīc ... ille;spec;the latter ... the former
+ille ... hīc;spec;the former ... the latter
+
+uxōrem dūcere;spec;to marry (a woman)
+
+currum agere;spec;to drive a chariot
+
+
+significō;v;1;significāre;significāv;significāt;to indicate, mean
+auferō;v;0;ferō;auferre;abstul;ablāt;to steal, take away^irregular-imperative
+
+referō;v;0;ferō;referre;retul;relāt;to bring back, return (something)^irregular-imperative
+conferō;v;0;ferō;conferre;contul;conlāt;to collect, bring together^irregular-imperative
+
+osculum;n;2;n;kiss
+cognōmen;n;3;n;cognōmin;cognomen
+similis;adj;3;like
+nihil;n;-1;n;nothing
+
+simulō;v;1;simulāre;simulāv;simulāt;to pretend
+gerō;v;3;gerere;gess;gest;to do
+
+vestem gerere;spec;to wear clothing
+bellum gerere;spec;to wage war
+
+resistō;v;3;resistere;restit;;to resist^intransitive
+maximē;adv;especially, most of all
+
+diūtius;adv;longer
+
+quotannīs;adv;annually
+
+quia;conj;because
+
+rēspūblica;n;69;f;republic*each part declines
+
+tibi adpropinquō;spec;I approach you
+tibi resistō;spec;I resist you
+mihi est liber;spec;I have a book
+
+
+lēgātus;n;2;m;envoy
+testimōnium;n;2;n;evidence, testimony
+pons;n;3;pont;m;bridge^i-stem
+salūs;n;3;salūt;f;safety, salvation
+fidēlis;adj;3;loyal
+
+quīdam, quaedam, quiddam;pron;a certain (pl. some)^no-comparative,no-superlative
+
+natō;v;1;natāre;natāv;natāt;to swim
+pūblicō;v;1;pūblicāre;pūblicāv;pūblicāt;to expropriate
+vetō;v;1;vetāre;vetu;vetit;to veto
+frangō;v;3;frangere;frēg;frāct;to break
+aperiō;v;4;aperīre;aperu;apert;to reveal, open
+
+fortiter;adv;bravely
+
+
+āra;n;1;f;altar
+socius;n;2;m;ally
+concilium;n;2;n;meeting
+dux;n;3;duc;m;general
+eques;n;3;equit;m;eques, cavalry, cavalryman
+iūdex;n;3;iūdic;m;judge
+pedes;n;3;pedit;m;foot soldier, (pl. infantry)
+audāx;adj;3;bold
+tristis;adj;3;sad
+armō;v;1;armāre;armāv;armāt;to arm
+obsideō;v;2;obsidēre;obsēd;obsess;to besiege
+
+
+mina;n;1;f;threat
+exsilium;n;2;n;exile
+vestigium;n;2;n;track, trace
+cibus;n;2;m;food
+stīpendium;n;2;n;pay
+castra;n;2;n;camp^plural
+virtūs;n;3;virtūt;f;bravery, virtue, courage
+is quī, eī quī;spec;he who, those who
+domum;spec;ad domum
+numquam;adv;never
+quam crūdēlissimē;spec;as cruelly as possible
+tum;adv;then
+īdem, eadem, idem;pron;same^no-comparative,no-superlative
+dexter;adj;2;right^no-comparative,no-superlative
+stō;v;1;stāre;stet;stat;to stand
+dēdō;v;3;dēdere;dēdid;dēdit;to hand over
+sē dēdere;spec;to surrender
+
+
+vīta;n;1;f;life
+captīvus;n;2;m;prisoner
+pretium;n;2;n;ransom, price, value
+argentum;n;2;n;silver
+aurum;n;2;n;gold
+tēlum;n;2;n;spear, javelin
+consulāris;n;3;consulār;m;consular^i-stem
+plēbs;n;3;plēb;f;the plebs (sing. unit)
+superbus;adj;2;arrogant
+potēns;adj;3;powerful
+āmittō;v;3;āmittere;āmīs;āmiss;to lose
+corrumpō;v;3;corrumpere;corrūp;corrupt;to corrupt
+
+
+tribūnus;n;2;m;tribune
+magistrātus;n;4;m;magistrate, magistracy
+senātus;n;4;m;the senate (sing. unit)
+manus;n;4;f;hand, band
+iūsiūrandum;n;69;n;oath*each part declines
+corpus;n;3;corpor;n;body
+hūmānus;adj;2;human
+tōtus;adj;2;whole, entire^sfg:tōtīus,sfd:tōtī,no-comparative,no-superlative
+pār;adj;3;equal^no-comparative,no-superlative
+
+mors;n;3;mort;f;death^i-stem
+
+dēns;n;3;dent;m;tooth^i-stem
+pēs;n;3;ped;m;foot
+venter;n;3;ventr;m;stomach
+ōs;n;3;ōr;n;mouth
+
+quaestor;n;3;quaestōr;m;quaestor
+aedīlis;n;3;aedīl;m;aedile^i-stem
+praetor;n;3;praetōr;m;praetor
+
+fortis;adj;3;brave
+
+
+Review package stuff#
+Īdūs;n;4;f;Ides^plural
+diēs;n;5;m;day
+meridiēs;n;5;m;midday
+currus;n;4;m;chariot
+exercitus;n;4;m;army
+aciēs;n;5;f;battle-line, pitched battle
+spēs;n;5;f;hope, expectation
+nōndum;adv;not yet
+cupidus;adj;2;desirous (of), fond (of), eager (for)
+oblītus;adj;2;forgetful (of)
+
+
+XV#
+libra;n;1;f;scale
+caedēs;n;3;caed;f;masacre^i-stem
+aequus;adj;2;fair, equal, just
+inīquus;adj;2;unfair, unequal, unjust
+ingēns;adj;3;huge
+
+terreō;v;2;terrēre;terru;territ;to frighten
+
+Sī hūc vēneris, tē iuvābō;spec;If you will have come here, I will help you.
+
+
+
+XVI#
+
+praeda;n;1;f;plunder, booty
+Pūnicus;adj;2;Punic
+exīstimō;v;1;exīstimāre;exīstimāv;exīstimāt;to think
+invideō;v;2;invidēre;invīd;invīs;to envy
+cognoscō;v;3;cognoscere;cognōv;cognit;to learn
+atque;conj;and
+etsī;conj;although
+longē;adv;by far
+
+
+
+XVII#
+unda;n;1;f;wave
+vigilia;n;1;f;watch (period of time)
+triumphus;n;2;m;victory parade
+obses;n;3;obsid;f, m;hostage
+vīs;n;3;vīr;f;force, violence, troop, resource*highly irregular
+īmus;adj;2;at the bottom of, lowest^no-comparative,no-superlative
+tūtus;adj;2;safe, secure
+alius ... alius;spec;one ... other
+aliī ... aliī;spec;some ... others
+
+
+
+XVIII#
+barba;n;1;f;beard
+capillus;n;2;m;hair
+anser;n;3;anser;f, m;goose
+conditor;n;3;conditōr;m;founder
+pondus;n;3;ponder;n;weight
+triumphālis;adj;3;triumphal
+triumphō;v;1;triumphāre;triumphāv;triumphāt;to hold a victory parade
+turbō;v;1;turbāre;turbāv;turbāt;to upset, disturb
+abiiciō;v;3;abiicere;abiēcī;abiect;to throw away
+vae;spec;woe!
+velut;adv;like, as
+
+custōs;n;3;custōd;f, m;guard
+
+
+
+XIX#
+orbis;n;3;orb;m;circle, disk^i-stem
+orbis terrārum;spec;world
+venēnum;n;2;n;poison
+condiciō;n;3;condiciōn;f;condition
+trānsmarīnus;adj;2;across the sea
+proximus;adj;2;next, nearest^no-superlative
+ultimus;adj;2;on the edge of, furthest*superlative form of ulter
+tālis;adj;3;such^no-comparative,no-superlative
+recipiō;v;3;recipere;recēp;recept;to withdraw, take back
+sē recipere;spec;to retreat
+
+XX#
+corvus;n;2;m;boarding-plank, beak
+modus;n;2;m;method, way, manner
+talentum;n;2;n;talent (weight measure)
+foedus;n;3;foeder;n;treaty
+imperītus;adj;2;inexperienced (in), unskilled (in)
+perītus;adj;2;experienced (in), skilled (in)
+vicēsimus;adj;2;twentieth
+addō;v;3;addere;addid;addit;to add
+pugnandī;adj;69;of fighting*idk bro
+saepissimē;adv;very often, most often
+
+
+XXI#
+collēga;n;1;m;colleague
+gens;n;3;gent;f;tribes, peoples^i-stem
+aeternus;adj;2;eternal
+iūrō;v;1;iūrāre;iūrāv;iūrāt;to swear
+dēsistō;v;3;dēsistere;dēstit;;to cease^intrasitive
+interim;adv;meanwhile
+ambō;adj;2;both*irregulaaaaaaaaar
+usque;adv;as far as, up to
+
+
+XXII#
+aptus;adj;2;apt, fit, suitable, suited (for)
+negō;v;1;negāre;negāv;negāt;to say that ... not, deny
+
+
+XXIII#
+mora;n;1;f;delay
+praetōrius;n;2;m;praetorian
+lacus;n;4;m;lake
+
+nūllus;adj;2;no^sfg:nūllīus,sfd:nūllī
+
+cōnfirmō;v;1;cōnfirmāre;cōnfirmāv;cōnfirmāt;to strengthen
+pāreō;v;2;pārēre;pāru;pārit;to obey
+quaerō;v;3;quaerere;quaesīv;quaesit;to seek, ask for
+dēficiō;v;3;dēficere;dēfēc;dēfect;to desert, rebell, revolt from
+
+tam;spec;so
+
+clādēs;n;3;clād;f;disaster, defeat^i-stem
+
+trucidō;v;1;trucidāre;trucidāv;trucidāt;to slaughter
+iungō;v;3;iungere;iūnx;iūnct;to join
+sē iungere;spec;to ally onself with
+
+prō cōnsule;spec;proconsul
+
+
+XXV#
+quiēs;n;3;quiēt;f;rest
+servitūs;n;3;servitūt;f;slavery
+voluntās;n;3;voluntāt;f;willingness
+fidēs;n;5;f;loyalty
+integer;adj;2;undamaged, intact
+urgeō;v;2;urgēre;urs;;to exploit
+premō;v;3;premere;press;press;to press
+cunctandō;spec;by delaying
+paulātim;adv;gradually
+quam;conj;than
+quīnquiēns;adv;for the fifth time
+philosophus;n;2;m;thinker
+tantus;adj;2;so much (pl. so many)
+cēnō;v;1;cēnāre;cēnāv;cēnāt;to dine
+restituō;v;3;restituere;restitu;restitūt;to restore, revive
+
+XXVI#
+catēna;n;1;f;chain
+fortuna;n;1;f;luck
+explōrātor;n;3;explōrātōr;m;scout
+apparatus;n;4;m;equipment
+prīvatus;adj;2;personal
+reddō;v;3;reddere;reddid;reddit;to give back, restore
+prīmō;adv;firstly;
+simul;adv;at the same time
+ter;adv;three times
+cūra;n;1;f;anxiety
+prōpraetor;n;3;prōpraetōr;m;propraetor
+lūctus;n;4;m;grief
+pūblicus;adj;2;public
+
+cōnor;dv;1;cōnārī;cōnāt;to try
+tueor;dv;2;tuērī;tuit;to defend
+sequor;dv;3;sequī;secūt;to follow, pursue
+ēgredior;dv;3;ēgredī;ēgress;to leave
+adorior;dv;4;adorīrī;adort;to attack
+moror;dv;1;morārī;morāt;to delay, linger
+revertor;dv;3;revertī;revers;to return
+progredior;dv;3;progredī;progress;to advance, go forward
+ingredior;dv;3;ingredī;ingress;to enter, invade
+trānsgredior;dv;3;trānsgredī;trānsgress;to cross
+vereor;dv;2;verērī;verit;to fear
+orior;dv;4;orīrī;ort;to arise^future-infinitive:orit
+
+XXVIII#
+sententia;n;1;f;opinion
+aetās;n;3;aetāt;f;age, era, period
+nēmō;n;69;f, m;no one*vruh
+tot;n;-1;f, m, n;so much, so many*idk bro
+repudiō;v;1;repudiāre;repudiāv;repudiāt;to reject
+dēcernō;v;3;dēcernere;dēcrēv;dēcrēt;to decree, determine, decide
+conficiō;v;3;conficere;confēc;confect;to conclude, finish
+patior;dv;3;patī;pass;to allow, permit, suffer
+ferē;adv;nearly, almost, generally
+nisī;conj;if not
+ut;conj;in order to, in order that
+praesidium;n;2;n;protection
+condiciō;n;3;condiciōn;f;term, condition
+fūnus;n;3;fūner;n;death, funeral
+latē;adv;far and wide
+tam ... quam;spec;as ... as
+patrēs cōnscrīptī;spec;gentleman of the senate
+
+##
+done editing up to here
+
+notes: try adding comparative/superlative adverbs
+and adverbs to adjectives in general
+fix the numbers
+fix the asterisks!!!
+
+##
