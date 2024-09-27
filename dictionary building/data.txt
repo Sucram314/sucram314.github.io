@@ -65,7 +65,7 @@ iūdicium;n;1;n;judgement, court
 Gracchānus;adj;1;follower of Gracchus
 īrascor;dv;3;īrascī;īrāt;to be angry
 precor;dv;1;precārī;precāt;to pray, beg
-doleō;dolēre;dolu;;v;2;to grieve
+doleō;v;2;dolēre;dolu;;to grieve
 claudō;claudere;claus;claus;v;3;to close
 flectō;flectere;flex;flex;v;3;to bend, turn
 mentior;dv;4;mentīrī;mentit;to lie

@@ -1622,8 +1622,12 @@
         "meaning": "to teach"
     },
     "doleō": {
-        "type": "dolēre",
-        "meaning": "dolu"
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "dolēre",
+        "perfect-root": "dolu",
+        "perfect-passive-participle": "",
+        "meaning": "to grieve"
     },
     "domina": {
         "type": "noun",
