@@ -19,7 +19,6 @@ fetch('../resources/data/redirects.json')
     .then(data => {redirects = data;});
 
 const HTML = document.querySelector("html"),
-SUS = document.getElementById("sus"),
 dictionary = document.querySelector(".dictionary-container"),
 Search = dictionary.querySelector(".search"),
 searchBar = Search.querySelector("input"),
@@ -772,9 +771,8 @@ function search(word, key=""){
         searching = false;
         return;
     } else if(word === "omnibus noctibus"){
-        infoText.innerHTML = `im sorry but daniel cui requested this to be added`;
+        infoText.innerHTML = `im sorry but daniel cui requested this to be added\n[easter egg removed :(]`;
         dictionary.classList.remove("active");
-        SUS.classList.add("active");
         searching = false;
         return;
     } else if(word === "\u0073\u0075\u0062\u0073\u0063\u0072\u0069\u0062\u0065\u0020\u0074\u006f\u0020\u0073\u0075\u0063\u0072\u0061\u006d\u0033\u0031\u0034"){
@@ -794,8 +792,6 @@ function search(word, key=""){
         return;
     }
     
-    SUS.classList.remove("active");
-
     if(current_word === word && current_key === key){
         infoText.innerHTML = `Results for "<span>${word}</span>"${(key ? ` (${key})` : "") + (redirected ? ` redirected from "<span>${redirected}</span>"`:"")}`;
         searching = false;

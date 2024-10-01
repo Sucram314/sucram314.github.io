@@ -37,7 +37,6 @@ aliquī;adj;2;some, any^plural,sfg:alicuius,sfd:alicui,no-comparative,no-superla
 aliquis, aliquid;spec;someone, something
 lāvō;v;1;lāvāre;lāv;laut;to wash
 iaceō;v;2;iacēre;iacu;iacit;to lie (be situated)
-volō;v;1;volāre;volāv;;to fly # DUPLICATE KEYS GRRRRRRRRRRRRRRRRRRRR#
 discō;v;3;discere;didic;;to learn
 moveō;v;2;movēre;mōv;mōt;to move (transitive)
 sē movēre;spec;to move (self, subject)
