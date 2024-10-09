@@ -26,6 +26,14 @@
         "perfect-passive-participle": "abiect",
         "meaning": "to throw away"
     },
+    "abrogō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "abrogāre",
+        "perfect-root": "abrogāv",
+        "perfect-passive-participle": "abrogāt",
+        "meaning": "to remove"
+    },
     "absum": {
         "type": "verb",
         "declension": "irreg",
@@ -193,6 +201,12 @@
         "declension": "I~II",
         "meaning": "fair, equal, just"
     },
+    "aerārium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "treasury"
+    },
     "aestās": {
         "type": "noun",
         "declension": "III",
@@ -246,26 +260,17 @@
         "type": "special",
         "meaning": "some ... others"
     },
-    "aliquī": {
-        "type": "adjective",
-        "declension": "I~II",
+    "aliquis, aliquis, aliquid": {
+        "type": "pronoun",
         "meaning": "some, any",
         "exceptions": {
-            "plural": true,
-            "sfg": "alicuius",
-            "sfd": "alicui",
-            "no-comparative": true,
-            "no-superlative": true
+            "sfg": "alicūius",
+            "sfd": "alicui"
         },
         "notes": [
             "special funny genitive",
-            "special funny dative",
-            "must be in the plural form"
+            "special funny dative"
         ]
-    },
-    "aliquis, aliquid": {
-        "type": "special",
-        "meaning": "someone, something"
     },
     "alius": {
         "type": "adjective",
@@ -399,6 +404,14 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "narrow"
+    },
+    "animadvertō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "animadvertere",
+        "perfect-root": "animadvert",
+        "perfect-passive-participle": "animadvers",
+        "meaning": "to notice"
     },
     "animal": {
         "type": "noun",
@@ -589,6 +602,14 @@
         "notes": [
             "irregular imperative"
         ]
+    },
+    "augeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "augēre",
+        "perfect-root": "auxī",
+        "perfect-passive-participle": "auct",
+        "meaning": "to increase"
     },
     "aureus": {
         "type": "adjective",
@@ -1193,6 +1214,12 @@
             "i-stem"
         ]
     },
+    "cōnsulātus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "consulship"
+    },
     "contrā": {
         "type": "preposition",
         "meaning": "against"
@@ -1242,6 +1269,14 @@
         "declension": "II",
         "gender": "m",
         "meaning": "boarding-plank, beak"
+    },
+    "creō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "creāre",
+        "perfect-root": "creāv",
+        "perfect-passive-participle": "creāt",
+        "meaning": "to elect"
     },
     "crūdēlis": {
         "type": "adjective",
@@ -1592,6 +1627,13 @@
         "declension": "I~II",
         "meaning": "eloquent"
     },
+    "dissēnsiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "dissēnsiōn",
+        "gender": "f",
+        "meaning": "unrest, dissent"
+    },
     "diū": {
         "type": "adverb",
         "meaning": "for long"
@@ -1760,6 +1802,10 @@
         "infinitive": "ēgredī",
         "perfect-root": "ēgress",
         "meaning": "to leave"
+    },
+    "eheu": {
+        "type": "special",
+        "meaning": "alas"
     },
     "elephantus": {
         "type": "noun",
@@ -1935,6 +1981,13 @@
         "notes": [
             "irregular imperative"
         ]
+    },
+    "factiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "factiōn",
+        "gender": "f",
+        "meaning": "faction"
     },
     "factum": {
         "type": "noun",
@@ -2316,6 +2369,10 @@
         "perfect-passive-participle": "habitāt",
         "meaning": "to live"
     },
+    "herī": {
+        "type": "adverb",
+        "meaning": "yesterday"
+    },
     "hīc": {
         "type": "adverb",
         "meaning": "here"
@@ -2510,6 +2567,13 @@
         "root": "imāgin",
         "gender": "f",
         "meaning": "ghost, spirit"
+    },
+    "imitor": {
+        "type": "deponent verb",
+        "declension": "I dep",
+        "infinitive": "imitār",
+        "perfect-root": "imitāt",
+        "meaning": "to imitate, pretend"
     },
     "impediō": {
         "type": "verb",
@@ -2706,6 +2770,14 @@
     "inter": {
         "type": "preposition",
         "meaning": "between, among"
+    },
+    "intercēdō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "intercēdere",
+        "perfect-root": "intercēss",
+        "perfect-passive-participle": "intercess",
+        "meaning": "to veto"
     },
     "interficiō": {
         "type": "verb",
@@ -2964,6 +3036,13 @@
         "declension": "II",
         "gender": "m",
         "meaning": "leopard"
+    },
+    "lex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "lēg",
+        "gender": "f",
+        "meaning": "law"
     },
     "liber": {
         "type": "noun",
@@ -3254,6 +3333,12 @@
         "gender": "m",
         "meaning": "soldier"
     },
+    "mīlitia": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "military service"
+    },
     "mīlle": {
         "type": "noun",
         "declension": "indeclinable",
@@ -3298,6 +3383,10 @@
         "perfect-root": "mīs",
         "perfect-passive-participle": "miss",
         "meaning": "to send"
+    },
+    "modō": {
+        "type": "adverb",
+        "meaning": "just now"
     },
     "modus": {
         "type": "noun",
@@ -3367,6 +3456,10 @@
         "perfect-root": "mōv",
         "perfect-passive-participle": "mōt",
         "meaning": "to move (transitive)"
+    },
+    "multō": {
+        "type": "adverb",
+        "meaning": "by far"
     },
     "multus": {
         "type": "adjective",
@@ -3788,6 +3881,19 @@
         "perfect-passive-participle": "oppūgnāt",
         "meaning": "to attack"
     },
+    "optimātēs": {
+        "type": "noun",
+        "declension": "III",
+        "root": "optimāt",
+        "gender": "m",
+        "meaning": "optimates",
+        "exceptions": {
+            "plural": true
+        },
+        "notes": [
+            "must be in the plural form"
+        ]
+    },
     "ōrāculum": {
         "type": "noun",
         "declension": "II",
@@ -4205,6 +4311,13 @@
             "i-stem"
         ]
     },
+    "pontifex": {
+        "type": "noun",
+        "declension": "III",
+        "root": "pontific",
+        "gender": "m",
+        "meaning": "chief priest"
+    },
     "populus": {
         "type": "noun",
         "declension": "II",
@@ -4443,6 +4556,14 @@
         "perfect-passive-participle": "prōmiss",
         "meaning": "to promise"
     },
+    "prōmulgō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "prōmulgāre",
+        "perfect-root": "prōmulgāv",
+        "perfect-passive-participle": "prōmulgāt",
+        "meaning": "to propose"
+    },
     "prope": {
         "type": "preposition",
         "meaning": "near"
@@ -4549,6 +4670,13 @@
         "perfect-root": "quaesīv",
         "perfect-passive-participle": "quaesit",
         "meaning": "to seek, ask for"
+    },
+    "quaestiō": {
+        "type": "noun",
+        "declension": "III",
+        "root": "quaestiōn",
+        "gender": "f",
+        "meaning": "inquiry"
     },
     "quaestor": {
         "type": "noun",
@@ -5256,6 +5384,15 @@
         "gender": "m",
         "meaning": "ally"
     },
+    "soleō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "solēre",
+        "perfect-root": "",
+        "perfect-passive-participle": "solīt",
+        "meaning": "to be accustomed to",
+        "flag": "semi deponent????"
+    },
     "sōlum": {
         "type": "adverb",
         "meaning": "only"
@@ -5508,6 +5645,14 @@
         "declension": "I~II",
         "meaning": "so much (pl. so many)"
     },
+    "tegō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "tegere",
+        "perfect-root": "tēxī",
+        "perfect-passive-participle": "tect",
+        "meaning": "to cover, protect"
+    },
     "tēlum": {
         "type": "noun",
         "declension": "II",
@@ -5615,6 +5760,15 @@
         "perfect-root": "timu",
         "perfect-passive-participle": "",
         "meaning": "to fear"
+    },
+    "tollō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "tollere",
+        "perfect-root": "sustul",
+        "perfect-passive-participle": "sublātum",
+        "meaning": "to lift, steal",
+        "flag": "grrrrrrr"
     },
     "tot": {
         "type": "noun",
@@ -5942,6 +6096,10 @@
         "perfect-root": "vāstāv",
         "perfect-passive-participle": "vāstāt",
         "meaning": "to ransack, devastate"
+    },
+    "vehementer": {
+        "type": "adverb",
+        "meaning": "enthusiastically"
     },
     "velut": {
         "type": "adverb",

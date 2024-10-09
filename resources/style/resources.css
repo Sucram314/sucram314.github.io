@@ -1,5 +1,4 @@
 .resource-title{
-    transition: margin 0.3s ease;
     font-family: "Roboto",sans-serif;
     margin: 10px 0 10px 60px;
     font-size: 2em;
@@ -21,7 +20,6 @@
 
 @media(max-width: 600px){
     .resource-title{
-        transition: all 0.3s ease;
         margin: 10px 0 10px 20px;
     }
 }

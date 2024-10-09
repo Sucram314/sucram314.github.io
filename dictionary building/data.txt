@@ -23,6 +23,50 @@ to add the same note to multiple lines, use a similar format but with %%
 i dropped latin :(, the following are contributions from dora or daniel z
 ##
 
+
+##
+daniel z textbook screenshots that i attempt to transcribe
+##
+
+IV#
+
+
+
+II#
+mīlitia;n;1;f;military service
+aerārium;n;2;n;treasury
+dissēnsiō;n;3;dissēnsiōn;f;unrest, dissent
+lex;n;3;lēg;f;law
+pontifex;n;3;pontific;m;chief priest
+cōnsulātus;n;4;m;consulship
+factiō;n;3;factiōn;f;faction
+optimātēs;n;3;optimāt;m;optimates^plural
+quaestiō;n;3;quaestiōn;f;inquiry
+abrogō;v;1;abrogāre;abrogāv;abrogāt;to remove
+creō;v;1;creāre;creāv;creāt;to elect
+prōmulgō;v;1;prōmulgāre;prōmulgāv;prōmulgāt;to propose
+augeō;v;2;augēre;auxī;auct;to increase
+intercēdō;v;3;intercēdere;intercēss;intercess;to veto
+imitor;dv;1;imitār;imitāt;to imitate, pretend
+soleō;v;2;solēre;;solīt;to be accustomed to*semi deponent????
+animadvertō;v;3;animadvertere;animadvert;animadvers;to notice
+tollō;v;3;tollere;sustul;sublātum;to lift, steal*grrrrrrr
+tegō;v;3;tegere;tēxī;tect;to cover, protect
+eheu;spec;alas
+multō;adv;by far
+modō;adv;just now
+vehementer;adv;enthusiastically
+herī;adv;yesterday
+
+aliquis, aliquis, aliquid;pron;some, any^sfg:alicūius,sfd:alicui
+
+
+##
+End of daniel z textbook screenshots that i attempt to transcribe
+##
+
+
+III#
 aeger;adj;2;ill, sick, weak
 albus;adj;2;white
 argenteus;adj;2;silver
@@ -33,8 +77,6 @@ dubius;adj;2;doubtful
 amogus;adj;2;amogus*hm I wonder if someone will notice
 niger;adj;2;black
 diligēns;adj;3;industrious, diligent
-aliquī;adj;2;some, any^plural,sfg:alicuius,sfd:alicui,no-comparative,no-superlative
-aliquis, aliquid;spec;someone, something
 lāvō;v;1;lāvāre;lāv;laut;to wash
 iaceō;v;2;iacēre;iacu;iacit;to lie (be situated)
 discō;v;3;discere;didic;;to learn
@@ -45,7 +87,7 @@ oblīviscor;dv;3;obliviscī;oblīt;to forget%+ genitive
 enim;spec;indeed%post pos.
 igitur;spec;therefore%post pos.
 
-
+I#
 colōnia;n;1;f;settlement
 praecō;n;3;praecō;m;herald
 agrārius;adj;2;agrarian

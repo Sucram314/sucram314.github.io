@@ -1,0 +1,163 @@
+#elements{
+    padding-top : 6%;
+    position: relative;
+    font-size: 1em;
+}
+
+/*table*/
+
+#periodic {
+    table-layout: fixed;
+    width : 100%;
+}
+#periodic td{
+    height: 10px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+html.dark #periodic td{
+    color: rgb(200,200,200);
+}
+#periodic td > div{
+    position: relative;
+    user-select: none;
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+}
+
+#periodic td > div:hover{
+    filter: brightness(85%);
+}
+
+html.dark #periodic td > div:hover{
+    filter: brightness(130%);
+}
+
+#periodic td > div > span{
+    font-size: 0.6em;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+/*class colors*/
+
+.alkali-metal{background-color: rgb(120,180,204);}
+.alkaline-earth-metal{background-color: rgb(207,116,134);}
+.transition-metal{background-color: rgb(141,130,209);}
+.post-transition-metal{background-color: rgb(142,191,179);}
+.metalloid{background-color: rgb(191, 156, 82);}
+.reactive-nonmetal{background-color: rgb(109, 139, 209);}
+.halogen{background-color: rgb(109, 139, 209);}
+.noble-gas{background-color: rgb(230,149,169);}
+.lanthanide{background-color: rgb(85,153,242);}
+.actinide{background-color: rgb(209,145,105);}
+.unknown-properties{background-color: rgb(176,179,191);}
+
+html.dark .alkali-metal{background-color: rgb(51,76,86);}
+html.dark .alkaline-earth-metal{background-color: rgb(88,49,57);}
+html.dark .transition-metal{background-color: rgb(66,61,98);}
+html.dark .post-transition-metal{background-color: rgb(56,76,71);}
+html.dark .metalloid{background-color: rgb(77,63,33);}
+html.dark .reactive-nonmetal{background-color: rgb(51,65,98);}
+html.dark .halogen{background-color: rgb(51,65,98);}
+html.dark .noble-gas{background-color: rgb(89,58,66);}
+html.dark .lanthanide{background-color: rgb(40,72,115);}
+html.dark .actinide{background-color: rgb(88,61,44);}
+html.dark .unknown-properties{background-color: rgb(70,71,76);}
+
+/*info box*/
+
+#info{
+    position: absolute;
+    width: 54%;
+    height: 32%;
+    left: 12%;
+    top: 6%;
+}
+
+#display{
+    float: left;
+    height: 100%;
+    padding: 5px;
+    aspect-ratio: 1 / 1;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    font-size: 3.5em;
+    color: rgb(255,255,255);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+html.dark #display{
+    color: rgb(230,230,230);
+}
+
+#display > div{
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    padding: 5px;
+    display: grid;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#display > div > span{
+    font-size: 0.5em;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+#display > div > aside{
+    font-size: 0.4em;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+}
+
+#display > div > blockquote{
+    margin: 0;
+    padding: 0;
+    font-size: 0.4em;
+    position: absolute;
+    bottom: 5px;
+    margin-inline: auto;
+    left: 0;
+    right: 0;
+}
+
+#details{
+    text-wrap: wrap;
+    word-wrap: break-word;
+    white-space: pre;
+    font-family: "Roboto Mono", "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: rgb(0,0,0);
+    float: right;
+    width: 63%;
+    height: 100%;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+html.dark #details{
+    color: rgb(240,240,240);
+}
+
+sup{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+@media(max-width: 800px){
+    #elements {
+        font-size : 0.64em;
+    }
+}

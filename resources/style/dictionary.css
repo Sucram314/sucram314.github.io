@@ -7,7 +7,6 @@
     left: -10%;
 }
 .dictionary-container > div{
-    transition: padding 0.3s ease, margin 0.3s ease;
     padding: 30px;
     width: 100%;
     margin: 30px 40px 0 40px;
@@ -26,7 +25,6 @@
     position: relative;
 }
 .search input {
-    transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
     background-color: white;
     color: black;
     font-family: "Roboto",sans-serif;
@@ -50,7 +48,6 @@ html.dark .search input {
     color: rgb(230,230,230);
 }
 .search input:focus{
-    transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
     border: 2px solid rgb(144, 183, 255);
 }
 html.dark .search input:focus{
@@ -78,13 +75,11 @@ html.dark .search:where(i,span){
     color: rgb(111, 111, 111);
 }
 .search i{ 
-    transition: left 0.3s ease;
     left: 16px;
     pointer-events: none;
     font-size: 0.9em;
 }
 .search span{
-    transition: right 0.3s ease;
     margin: 0 0 0 0;
     right: 16px;
     cursor: pointer;
@@ -115,38 +110,32 @@ html.dark .search:where(i,span){
     border-bottom: 0;
     border-top: 0;
     background-color: white;
-    transition: border 1s ease;
 }
 html.dark .autocomplete-list div {
     background-color: rgb(41, 43, 49);
     border: 2px solid rgb(49, 49, 49);
     border-bottom: 0;
     border-top: 0;
-    transition: border 1s ease;
 }
 .autocomplete-list div:last-child{
     border-bottom: 2px solid rgb(236, 236, 236);
-    transition: border 1s ease;
 }
 html.dark .autocomplete-list div:last-child{
     background-color: rgb(41, 43, 49);
     border-bottom: 2px solid rgb(49, 49, 49);
-    transition: border 1s ease;
 }
 .autocomplete-list div:hover{
     background-color: rgb(236, 236, 236);
-    transition: border 1s ease;
 }
 html.dark .autocomplete-list div:hover{
     background-color: 2px solid rgb(41, 43, 49);
-    transition: border 1s ease;
 }
 .dictionary-container.active ul{
     grid-template-rows: 1fr;
 }
 .dictionary-container ul{
     background-color: white;
-    transition: padding 0.3s ease, grid-template-rows 0.3s ease;
+    transition: grid-template-rows 0.3s ease;
     padding: 0 20px 0 20px;
     display: grid;
     grid-template-rows: 0fr;
@@ -155,7 +144,7 @@ html.dark .autocomplete-list div:hover{
 }
 html.dark .dictionary-container ul{
     background-color: rgb(41, 43, 49);
-    transition: padding-left 0.3s ease, grid-template-rows 0.3s ease;
+    transition: grid-template-rows 0.3s ease;
 }
 .dictionary-container ul > div{
     overflow: hidden;
@@ -174,7 +163,6 @@ html.dark .dictionary-container ul{
     justify-content: space-between;
 }
 .dictionary-container ul li .details{
-    transition: padding 0.3s ease, border-left-width 0.3s ease, border-radius;
     border-radius: 4px;
     border-left-color: rgb(0, 53, 150);
     border-left-style: solid;
@@ -224,7 +212,6 @@ html.dark .dictionary-container ul .warning span{
     color: rgb(196, 0, 0);
 }
 .dictionary-container ul .word{
-    transition: margin 0.3s ease;
     margin: 20px 0 0 25px;
 }
 .dictionary-container ul .word p{
@@ -267,7 +254,6 @@ html.dark .dictionary-container ul .word span{
     font-size: 1.1em;
 }
 .dictionary-container ul .forms table th{
-    transition: padding 0.3s ease;
     font-family: "Roboto",sans-serif;
     font-weight: bold;
     color: rgb(40,40,40);
@@ -283,7 +269,6 @@ html.dark .dictionary-container ul .forms table th b{
     color: rgb(230,230,230);
 }
 .dictionary-container ul .forms table td{
-    transition: padding 0.3s ease;
     font-family: "Roboto",sans-serif;
     font-weight: normal;
     color: rgb(80,80,80);
@@ -308,7 +293,6 @@ html.dark .dictionary-container ul .forms table span{
     margin: 10px 0 10px 0;
 }
 .interactive-dropdown-container{
-    transition: padding 0.3s ease, border-left-width 0.3s ease, border-radius 0.3s ease;
     min-height: 30px;
     border-radius: 4px;
     border-left-color: rgb(12, 164, 206);
@@ -379,7 +363,6 @@ html.dark .interactive-dropdown-container aside > i{
     width : 16.6%;
 }
 .subtable caption{
-    transition: padding-left 0.3s ease;
     font-family: "Roboto",sans-serif;
     text-align: left;
     font-size: 1.2em;
@@ -426,7 +409,6 @@ html.dark .dictionary-container .info-text span{
     color: rgb(109, 124, 161);
 }
 html.dark .dictionary-container > div{
-    transition: padding 0.3s ease, margin 0.3s ease;
     background-color: rgb(64, 72, 89);
 }
 
@@ -436,54 +418,43 @@ html.dark .dictionary-container > div{
         width: 100%;
     }
     .dictionary-container > div{
-        transition: padding 0.3s ease, margin 0.3s ease;
         padding: 10px;
         margin: 30px 10px 0 10px;
     }
     .dictionary-container ul{
-        transition: padding 0.3s ease, grid-template-rows 0.3s ease;
         padding: 0 10px 0 10px;
     }
     .dictionary-container ul .word{
-        transition: margin 0.3s ease;
         margin: 20px 0 0 15px;
     }
     .dictionary-container ul li .details{
-        transition: padding-left 0.3s ease, border-left-width 0.3s ease, border-radius 0.3s ease;
         padding-left: 10px;
         border-left-width: 3px;
         border-radius: 3px;
     }
     .interactive-dropdown-container {
-        transition: padding-left 0.3s ease, border-left-width 0.3s ease, border-radius 0.3s ease;
         padding-left: 5px;
         border-left-width: 3px;
         border-radius: 3px;
     }
     .dictionary-container ul .forms table th{
-        transition: padding-left 0.3s ease;
         padding-left: 5px;
     }
     .dictionary-container ul .forms table td{
-        transition: padding-left 0.3s ease;
         padding-left: 5px;
     }
     .subtable caption{
-        transition: padding-left 0.3s ease;
         padding-left: 5px;
     }
     .search input {
-        transition : max-height 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
         padding: 0 30px 0 30px;
         max-height : 40px;
         border-radius: 3px 3px 0 0;
     }
     .search i{ 
-        transition: left 0.3s ease;
         left: 12px;
     }
     .search span{
-        transition: right 0.3s ease;
         right: 12px;
     }
 }

@@ -1225,6 +1225,56 @@
                 "ablative":"sē",
                 "dative":"sibi"
             }
+        },
+
+        "aliquis, aliquis, aliquid":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"aliquis",
+                    "accusative":"aliquam",
+                    "genitive":"alicūius",
+                    "ablative":"aliquā",
+                    "dative":"alicui"
+                },
+                "m":{
+                    "nominative":"aliquis",
+                    "accusative":"aliquem",
+                    "genitive":"alicūius",
+                    "ablative":"aliquō",
+                    "dative":"alicui"
+                },
+                "n":{
+                    "nominative":"aliquid",
+                    "accusative":"aliquid",
+                    "genitive":"alicūius",
+                    "ablative":"aliquō",
+                    "dative":"alicui"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"aliquae",
+                    "accusative":"aliquās",
+                    "genitive":"aliquārum",
+                    "ablative":"aliquibus",
+                    "dative":"aliquibus"
+                },
+                "m":{
+                    "nominative":"aliquī",
+                    "accusative":"aliquōs",
+                    "genitive":"aliquōrum",
+                    "ablative":"aliquibus",
+                    "dative":"aliquibus"
+                },
+                "n":{
+                    "nominative":"aliquae",
+                    "accusative":"aliquae",
+                    "genitive":"aliquōrum",
+                    "ablative":"aliquibus",
+                    "dative":"aliquibus"
+                }
+            }
         }
     }
 }
