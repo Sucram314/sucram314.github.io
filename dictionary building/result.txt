@@ -160,6 +160,12 @@
             "i-stem"
         ]
     },
+    "adventus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "arrival"
+    },
     "adversus": {
         "type": "preposition",
         "meaning": "against"
@@ -255,6 +261,11 @@
         "type": "adjective",
         "declension": "I~II",
         "meaning": "white"
+    },
+    "aliēnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "strange,foreign"
     },
     "aliī ... aliī": {
         "type": "special",
@@ -389,6 +400,12 @@
         "declension": "II",
         "gender": "n",
         "meaning": "amphitheatre"
+    },
+    "amphora": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "vase"
     },
     "an, aut": {
         "type": "conjunction",
@@ -1092,6 +1109,13 @@
         "gender": "f",
         "meaning": "settlement"
     },
+    "comes": {
+        "type": "noun",
+        "declension": "III",
+        "root": "comit",
+        "gender": "f, m",
+        "meaning": "comrade"
+    },
     "compleō": {
         "type": "verb",
         "declension": "II",
@@ -1325,6 +1349,12 @@
         "gender": "n",
         "meaning": "bedroom"
     },
+    "culīna": {
+        "type": "noun",
+        "declension": "I",
+        "gender": "f",
+        "meaning": "kitchen"
+    },
     "cum": {
         "type": "preposition",
         "meaning": "with",
@@ -1405,6 +1435,14 @@
         "declension": "IV",
         "gender": "m",
         "meaning": "chariot"
+    },
+    "custōdiō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "custōdīre",
+        "perfect-root": "custōdīv",
+        "perfect-passive-participle": "custōdit",
+        "meaning": "to guard"
     },
     "custōs": {
         "type": "noun",
@@ -1621,6 +1659,14 @@
         "declension": "III",
         "meaning": "difficult"
     },
+    "dīgnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "worthy",
+        "notes": [
+            "+abl"
+        ]
+    },
     "diligēns": {
         "type": "adjective",
         "declension": "III",
@@ -1801,6 +1847,10 @@
                 "flag": "conjugates weird"
             }
         }
+    },
+    "duo mīlia passuum": {
+        "type": "special",
+        "meaning": "two miles"
     },
     "duodecim": {
         "type": "number",
@@ -1986,6 +2036,14 @@
         "gender": "m",
         "meaning": "departure"
     },
+    "expediō": {
+        "type": "verb",
+        "declension": "IV",
+        "infinitive": "expedīre",
+        "perfect-root": "expedīv",
+        "perfect-passive-participle": "expedīt",
+        "meaning": "to hurry"
+    },
     "explōrātor": {
         "type": "noun",
         "declension": "III",
@@ -1998,6 +2056,14 @@
         "declension": "II",
         "gender": "n",
         "meaning": "exile"
+    },
+    "exspectō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "exspectāre",
+        "perfect-root": "exspectāv",
+        "perfect-passive-participle": "exspectāt",
+        "meaning": "to wait for, await, expect"
     },
     "extrā": {
         "type": "preposition",
@@ -2067,6 +2133,14 @@
         "declension": "II",
         "gender": "n",
         "meaning": "fate"
+    },
+    "fēlix": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "fortunate, happy",
+        "notes": [
+            "Gen. fēlicis"
+        ]
     },
     "fēmina": {
         "type": "noun",
@@ -2694,6 +2768,14 @@
         "gender": "m",
         "meaning": "inhabitant"
     },
+    "indīgnus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "unworthy",
+        "notes": [
+            "+abl"
+        ]
+    },
     "inebrius": {
         "type": "adjective",
         "declension": "I~II",
@@ -2722,6 +2804,14 @@
         },
         "notes": [
             "i-stem"
+        ]
+    },
+    "infēlix": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "unhappy",
+        "notes": [
+            "Gen. infēlicis"
         ]
     },
     "ingenium": {
@@ -3365,6 +3455,20 @@
         "gender": "f",
         "meaning": "turning post"
     },
+    "metuō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "metuere",
+        "perfect-root": "metu",
+        "perfect-passive-participle": "-",
+        "meaning": "to fear"
+    },
+    "metus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "fear"
+    },
     "meus": {
         "type": "adjective",
         "declension": "I~II",
@@ -3397,6 +3501,10 @@
         "gender": "n",
         "meaning": "thousand",
         "flag": "singular indeclinable"
+    },
+    "mīlle passūs": {
+        "type": "special",
+        "meaning": "a thousand steps (Roman mile)"
     },
     "mina": {
         "type": "noun",
@@ -3464,6 +3572,12 @@
         "declension": "I",
         "gender": "f",
         "meaning": "delay"
+    },
+    "morbus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "diseas"
     },
     "moror": {
         "type": "deponent verb",
@@ -3669,6 +3783,17 @@
         "type": "adjective",
         "declension": "III",
         "meaning": "noble"
+    },
+    "noceō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "nocēre",
+        "perfect-root": "nocu",
+        "perfect-passive-participle": "nocit",
+        "meaning": "to harm",
+        "notes": [
+            "(+Dat.)"
+        ]
     },
     "nōlō": {
         "type": "verb",
@@ -4102,6 +4227,12 @@
             "superlative": "minimus"
         }
     },
+    "passus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "step"
+    },
     "pastor": {
         "type": "noun",
         "declension": "III",
@@ -4223,6 +4354,10 @@
         "gender": "n",
         "meaning": "danger"
     },
+    "perīculum est": {
+        "type": "special",
+        "meaning": "there is danger"
+    },
     "peristylium": {
         "type": "noun",
         "declension": "II",
@@ -4313,6 +4448,12 @@
         "gender": "f",
         "meaning": "rain"
     },
+    "poculum": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "cup"
+    },
     "poēta": {
         "type": "noun",
         "declension": "I",
@@ -4383,6 +4524,12 @@
         "declension": "II",
         "gender": "m",
         "meaning": "people (sing. unit)"
+    },
+    "porcus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "pig"
     },
     "porta": {
         "type": "noun",
@@ -4466,6 +4613,12 @@
         "root": "potestāt",
         "gender": "f",
         "meaning": "power"
+    },
+    "potus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "port"
     },
     "praecō": {
         "type": "noun",
@@ -5548,6 +5701,14 @@
         "perfect-passive-participle": "spectāt",
         "meaning": "to watch"
     },
+    "spērō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "sperāre",
+        "perfect-root": "sperāv",
+        "perfect-passive-participle": "sperāt",
+        "meaning": "to hope"
+    },
     "spēs": {
         "type": "noun",
         "declension": "V",
@@ -5877,6 +6038,13 @@
         "perfect-passive-participle": "",
         "meaning": "to fear"
     },
+    "timor": {
+        "type": "noun",
+        "declension": "III",
+        "root": "timōr",
+        "gender": "m",
+        "meaning": "fear"
+    },
     "tollō": {
         "type": "verb",
         "declension": "III reg",
@@ -6205,6 +6373,13 @@
         "declension": "I~II",
         "meaning": "strong"
     },
+    "vās": {
+        "type": "noun",
+        "declension": "III",
+        "root": "vās",
+        "gender": "n",
+        "meaning": "vessel"
+    },
     "vāstō": {
         "type": "verb",
         "declension": "I",
@@ -6249,6 +6424,12 @@
         "root": "ventr",
         "gender": "m",
         "meaning": "stomach"
+    },
+    "ventus": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "m",
+        "meaning": "wind"
     },
     "vēr": {
         "type": "noun",

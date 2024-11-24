@@ -42,6 +42,39 @@ coepō;v;3;coēpere;coep;coept;to begin*was given coepī
 prōferō;v;0;ferō;prōferre;prōtul;prōlāt;to bring forth, publish, make known^presumed irregular imperative
 
 ##
+ch X
+##
+amphora;n;1;f;vase
+unda;n;1;f;wave
+morbus;n;2;m;diseas
+porcus;n;2;m;pig
+comes;n;3;comit;f, m;comrade
+vās;n;3;vās;n;vessel
+adventus;n;4;m;arrival
+passus;n;4;m;step
+mīlle passūs;spec;a thousand steps (Roman mile)
+aliēnus;adj;2;strange,foreign
+fēlix;adj;3;fortunate, happy%Gen. fēlicis
+culīna;n;1;f;kitchen
+ventus;n;2;m;wind
+poculum;n;2;n;cup
+timor;n;3;timōr;m;fear
+metus;n;4;m;fear
+potus;n;4;m;port
+duo mīlia passuum;spec;two miles
+dīgnus;adj;2;worthy%+abl
+indīgnus;adj;2;unworthy%+abl
+infēlix;adj;3;unhappy%Gen. infēlicis
+exspectō;v;1;exspectāre;exspectāv;exspectāt;to wait for, await, expect
+spērō;v;1;sperāre;sperāv;sperāt;to hope
+turbō;v;1;turbāre;turbāv;turbāt;to disturb, upset
+noceō;v;2;nocēre;nocu;nocit;to harm%(+Dat.)
+metuō;v;3;metuere;metu;-;to fear
+custōdiō;v;4;custōdīre;custōdīv;custōdit;to guard
+expediō;v;4;expedīre;expedīv;expedīt;to hurry
+perīculum est;spec;there is danger
+
+##
 daniel z textbook screenshots that i attempt to transcribe
 ##
 
