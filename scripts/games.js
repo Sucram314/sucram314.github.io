@@ -7,7 +7,7 @@ HH = H/2;
 
 var origin = [WH,HH];
 
-var grid = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+var grid = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], xpos = 0, ypos = 0;
 
 const gridNum = 4, cellSize = 200, cellPadding = 20;
 const gridSize = (cellSize + cellPadding) * gridNum + cellPadding;
@@ -53,5 +53,13 @@ function draw_grid(){
         }
     }
 }
+
+document.addEventListener("keydown", function(event){    
+    if(event.code == 37){
+        if(xpos < 3){
+
+        }
+    }
+});
 
 draw_grid();

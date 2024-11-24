@@ -1048,6 +1048,15 @@
             "i-stem"
         ]
     },
+    "coepō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "coēpere",
+        "perfect-root": "coep",
+        "perfect-passive-participle": "coept",
+        "meaning": "to begin",
+        "flag": "was given coepī"
+    },
     "cognōmen": {
         "type": "noun",
         "declension": "III",
@@ -1082,6 +1091,14 @@
         "declension": "I",
         "gender": "f",
         "meaning": "settlement"
+    },
+    "compleō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "complēre",
+        "perfect-root": "complēv",
+        "perfect-passive-participle": "complēt",
+        "meaning": "to fill up"
     },
     "complūrēs": {
         "type": "adjective",
@@ -1157,6 +1174,14 @@
         "perfect-root": "cōnfirmāv",
         "perfect-passive-participle": "cōnfirmāt",
         "meaning": "to strengthen"
+    },
+    "coniūrō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "coniūrāre",
+        "perfect-root": "coniūrāv",
+        "perfect-passive-participle": "coniūrāt",
+        "meaning": "to conspire"
     },
     "cōnor": {
         "type": "deponent verb",
@@ -1286,6 +1311,13 @@
     "crūdēliter": {
         "type": "adverb",
         "meaning": "cruelly"
+    },
+    "crux": {
+        "type": "noun",
+        "declension": "III",
+        "root": "crūc",
+        "gender": "f",
+        "meaning": "cross"
     },
     "cubiculum": {
         "type": "noun",
@@ -1454,7 +1486,7 @@
     "dēlēo": {
         "type": "verb",
         "declension": "II",
-        "infinitive": "dēlēēre",
+        "infinitive": "dēlēre",
         "perfect-root": "dēlēv",
         "perfect-passive-participle": "dēlēt",
         "meaning": "to destroy"
@@ -1593,6 +1625,14 @@
         "type": "adjective",
         "declension": "III",
         "meaning": "industrious, diligent"
+    },
+    "dīmitto": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "dīmittere",
+        "perfect-root": "dīmīs",
+        "perfect-passive-participle": "dīmiss",
+        "meaning": "to dismiss"
     },
     "discēdō": {
         "type": "verb",
@@ -1939,6 +1979,12 @@
         "perfect-root": "exīstimāv",
         "perfect-passive-participle": "exīstimāt",
         "meaning": "to think"
+    },
+    "exitus": {
+        "type": "noun",
+        "declension": "IV",
+        "gender": "m",
+        "meaning": "departure"
     },
     "explōrātor": {
         "type": "noun",
@@ -2677,6 +2723,12 @@
         "notes": [
             "i-stem"
         ]
+    },
+    "ingenium": {
+        "type": "noun",
+        "declension": "II",
+        "gender": "n",
+        "meaning": "character"
     },
     "ingēns": {
         "type": "adjective",
@@ -3970,6 +4022,14 @@
         "gender": "n",
         "meaning": "kiss"
     },
+    "ostendō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "ostendere",
+        "perfect-root": "ostend",
+        "perfect-passive-participle": "ostent",
+        "meaning": "to show"
+    },
     "pagīna": {
         "type": "noun",
         "declension": "I",
@@ -4338,6 +4398,18 @@
         "perfect-passive-participle": "portāt",
         "meaning": "to carry"
     },
+    "poscō": {
+        "type": "verb",
+        "declension": "III reg",
+        "infinitive": "poscere",
+        "perfect-root": "poposcī",
+        "perfect-passive-participle": "",
+        "meaning": "to ask for, demand",
+        "notes": [
+            "+acc+acc: to ask someone for something",
+            "+acc+AB+abl: to demand something from someone"
+        ]
+    },
     "possum": {
         "type": "verb",
         "declension": "irreg",
@@ -4369,6 +4441,19 @@
     "postrēmō": {
         "type": "adverb",
         "meaning": "finally"
+    },
+    "postulō": {
+        "type": "verb",
+        "declension": "I",
+        "infinitive": "postulāre",
+        "perfect-root": "postulāv",
+        "perfect-passive-participle": "postulāt",
+        "meaning": "to request",
+        "notes": [
+            "+acc+acc: to ask someone for something",
+            "+acc+AB+abl: to demand something from someone",
+            "+AB+al...+UT+subj: to ask someone to...(indirect command)"
+        ]
     },
     "potēns": {
         "type": "adjective",
@@ -4532,6 +4617,18 @@
         "declension": "II",
         "gender": "n",
         "meaning": "battle"
+    },
+    "prōferō": {
+        "type": "verb",
+        "declension": "irreg",
+        "base": "ferō",
+        "infinitive": "prōferre",
+        "perfect-root": "prōtul",
+        "perfect-passive-participle": "prōlāt",
+        "meaning": "to bring forth, publish, make known",
+        "exceptions": {
+            "presumed irregular imperative": true
+        }
     },
     "progredior": {
         "type": "deponent verb",
@@ -4717,6 +4814,11 @@
     "quandō": {
         "type": "interrogative",
         "meaning": "when"
+    },
+    "quantus": {
+        "type": "adjective",
+        "declension": "I~II",
+        "meaning": "how great, how much"
     },
     "quartus": {
         "type": "adjective",
@@ -4937,6 +5039,14 @@
         "perfect-root": "relīqu",
         "perfect-passive-participle": "relict",
         "meaning": "to abandon, leave (something)"
+    },
+    "removeō": {
+        "type": "verb",
+        "declension": "II",
+        "infinitive": "removēre",
+        "perfect-root": "remōv",
+        "perfect-passive-participle": "remōt",
+        "meaning": "to remove"
     },
     "repudiō": {
         "type": "verb",
@@ -5281,6 +5391,12 @@
         "root": "servitūt",
         "gender": "f",
         "meaning": "slavery"
+    },
+    "servllis": {
+        "type": "adjective",
+        "declension": "III",
+        "meaning": "slave",
+        "flag": "mr timmins might have misspelt?"
     },
     "servō": {
         "type": "verb",
@@ -5649,7 +5765,7 @@
         "type": "verb",
         "declension": "III reg",
         "infinitive": "tegere",
-        "perfect-root": "tēxī",
+        "perfect-root": "tēx",
         "perfect-passive-participle": "tect",
         "meaning": "to cover, protect"
     },

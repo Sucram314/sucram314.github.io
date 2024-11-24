@@ -619,6 +619,7 @@ function processWord(word){
 function generateRedirects(){
     var temp, result, exceptions, cells, redirect, redirects_={};
     for(const word in dict){
+        console.log(word);
         temp = document.createElement("table");
         
         var result_ = dict[word];

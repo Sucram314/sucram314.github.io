@@ -23,14 +23,27 @@ to add the same note to multiple lines, use a similar format but with %%
 i dropped latin :(, the following are contributions from dora or daniel z
 ##
 
+##
+ch XI
+##
+ingenium;n;2;n;character
+crux;n;3;crūc;f;cross
+exitus;n;4;m;departure
+quantus;adj;2;how great, how much
+servllis;adj;3;slave*mr timmins might have misspelt?
+coniūrō;v;1;coniūrāre;coniūrāv;coniūrāt;to conspire
+postulō;v;1;postulāre;postulāv;postulāt;to request%+acc+acc: to ask someone for something|+acc+AB+abl: to demand something from someone|+AB+al...+UT+subj: to ask someone to...(indirect command)
+compleō;v;2;complēre;complēv;complēt;to fill up
+removeō;v;2;removēre;remōv;remōt;to remove
+dīmitto;v;3;dīmittere;dīmīs;dīmiss;to dismiss
+ostendō;v;3;ostendere;ostend;ostent;to show
+poscō;v;3;poscere;poposcī;;to ask for, demand%+acc+acc: to ask someone for something|+acc+AB+abl: to demand something from someone
+coepō;v;3;coēpere;coep;coept;to begin*was given coepī
+prōferō;v;0;ferō;prōferre;prōtul;prōlāt;to bring forth, publish, make known^presumed irregular imperative
 
 ##
 daniel z textbook screenshots that i attempt to transcribe
 ##
-
-IV#
-
-
 
 II#
 mīlitia;n;1;f;military service
@@ -51,7 +64,7 @@ imitor;dv;1;imitār;imitāt;to imitate, pretend
 soleō;v;2;solēre;;solīt;to be accustomed to*semi deponent????
 animadvertō;v;3;animadvertere;animadvert;animadvers;to notice
 tollō;v;3;tollere;sustul;sublātum;to lift, steal*grrrrrrr
-tegō;v;3;tegere;tēxī;tect;to cover, protect
+tegō;v;3;tegere;tēx;tect;to cover, protect
 eheu;spec;alas
 multō;adv;by far
 modō;adv;just now
@@ -654,7 +667,7 @@ prīmum;adv;firstly
 postrēmō;adv;finally
 
 vocō;v;1;vocāre;vocāv;vocāt;to invite, call
-dēlēo;v;2;dēlēēre;dēlēv;dēlēt;to destroy
+dēlēo;v;2;dēlēre;dēlēv;dēlēt;to destroy
 dēligō;v;3;dēligere;dēlēg;dēlēct;to choose
 dūcō;v;3;dūcere;dūx;duct;to lead^irregular-imperative
 prōmittō;v;3;prōmittere;prōmīs;prōmiss;to promise
