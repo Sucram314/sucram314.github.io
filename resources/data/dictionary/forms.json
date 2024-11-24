@@ -1275,6 +1275,106 @@
                     "dative":"aliquibus"
                 }
             }
+        },
+        "uterque, utraque, utrumque":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"utraque",
+                    "accusative":"utramque",
+                    "genitive":"utraeque",
+                    "ablative":"utrāque",
+                    "dative":"utraeque"
+                },
+                "m":{
+                    "nominative":"uterque",
+                    "accusative":"utrumque",
+                    "genitive":"utrīque",
+                    "ablative":"utrōque",
+                    "dative":"utrōque"
+                },
+                "n":{
+                    "nominative":"utrumque",
+                    "accusative":"utrumque",
+                    "genitive":"utrīque",
+                    "ablative":"utrōque",
+                    "dative":"utrōque"
+                }
+            },
+            "plural":{
+                "f":{
+                    "nominative":"utraeque",
+                    "accusative":"utrāsque",
+                    "genitive":"utrārumque",
+                    "ablative":"utrīsque",
+                    "dative":"utrīsque"
+                },
+                "m":{
+                    "nominative":"utrīque",
+                    "accusative":"utrōsque",
+                    "genitive":"utrōrumque",
+                    "ablative":"utrīsque",
+                    "dative":"utrīsque"
+                },
+                "n":{
+                    "nominative":"utraque",
+                    "accusative":"utraque",
+                    "genitive":"utrōrumque",
+                    "ablative":"utrīsque",
+                    "dative":"utrīsque"
+                }
+            }
+        },
+
+        "quīcumque, quaecumque, quodcumque":{
+            "gender-specific":true,
+            "singular":{
+                "f":{
+                    "nominative":"quaecumque",
+                    "accusative":"quamcumque",
+                    "genitive":"cūiuscumque",
+                    "ablative":"quācumque",
+                    "dative":"cuicumque"
+                },
+                "m":{
+                    "nominative":"quīcumque",
+                    "accusative":"quemcumque",
+                    "genitive":"cūiuscumque",
+                    "ablative":"quōcumque",
+                    "dative":"cuicumque"
+                },
+                "n":{
+                    "nominative":"quodcumque",
+                    "accusative":"quodcumque",
+                    "genitive":"cūiuscumque",
+                    "ablative":"quōcumque",
+                    "dative":"cuicumque"
+                }
+                
+            },
+            "plural":{
+                "f":{
+                    "nominative":"quaecumque",
+                    "accusative":"quāscumque",
+                    "genitive":"quārumcumque",
+                    "ablative":"quibuscumque",
+                    "dative":"quibuscumque"
+                },
+                "m":{
+                    "nominative":"quīcumque",
+                    "accusative":"quōscumque",
+                    "genitive":"quōrumcumque",
+                    "ablative":"quibuscumque",
+                    "dative":"quibuscumque"
+                },
+                "n":{
+                    "nominative":"quaecumque",
+                    "accusative":"quaecumque",
+                    "genitive":"quōrumcumque",
+                    "ablative":"quibuscumque",
+                    "dative":"quibuscumque"
+                }
+            }
         }
     }
 }

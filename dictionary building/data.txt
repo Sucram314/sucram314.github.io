@@ -75,6 +75,82 @@ expediō;v;4;expedīre;expedīv;expedīt;to hurry
 perīculum est;spec;there is danger
 
 ##
+ch ix
+##
+dictātūra;n;1;f;dictatorship
+silva;n;1;f;forest
+tabula;n;1;f;list
+animus;n;2;m;spirit
+legiō;n;3;legiōn;f;legion
+status;n;4;m;condition
+tribus;n;4;m;tribe
+faciēs;n;5;f;face
+fas;n;-1;n;permissible(religious)
+proscrīptiō;n;3;proscrīptiōn;f;proscription
+vultus;n;4;m;face
+ēgregius;adj;2;exceptional
+neuter;adj;2;neither
+sēcūrus;adj;2;safe
+inermis;adj;3;unarmed
+uterque, utraque, utrumque;pron;both^no-comparative,no-superlative
+quīcumque, quaecumque, quodcumque;pron;whatever^no-comparative,no-superlative
+interdum;adv;sometimes
+intereā;adv;meanwhile
+septiēns;adv;for the seventh time
+occupō;v;1;occupāre;occupāv;occupāt;to occupy
+mūtō;v;1;mūtāre;mūtāv;mūtāt;to change
+ordinō;v;1;ordināre;ordināv;ordināt;to set in order
+ardeo;v;2;ardēre;ars;;to burn%intransitive
+caedō;v;3;caedere;cecid;caes;to slaughter, murder, cut
+expellō;v;3;expellere;expul;expuls;to drive out
+intellegō;v;3;intellegere;intelleg;intellect;to think
+praeficiō;v;3;praeficere;praefēc;praefect;to put in command%+acc+dat+praeficere
+sepeliō;v;4;sepelīre;sepelīv;sepult;to bury
+distribuō;v;3;distribuere;distribu;distribūt;to distribute
+intrōdūcō;v;3;intrōdūcere;intrōdūx;intrōdūct;to introduce
+minuō;v;3;minuere;minu;minūt;to lessen
+
+##
+ch viii
+##
+invidia;n;1;f;envy
+cultellus;n;2;m;dagger
+lux;n;3;lūc;f;light
+decus;n;3;decor;n;glory, ornament, decoration
+multitūdō;n;3;multitūdin;f;multitude, mob
+prīmā lūce;spec;at dawn
+vox;n;3;vōc;f;voice
+iuvenis;n;3;iuven;m;youth
+ordo;n;3;ordin;m;order
+iūdicārius;adj;2;judicial
+memor;adj;3;mindful%Gen. memoris
+priscus;adj;2;ancient
+iūstus;adj;2;just
+duplex;adj;3;two-fold, double%Gen. dūplicis
+consulō;v;3;consulere;consulu;consult;to take thought for%(+Dat.)
+obviam;adv;in the way of%dat+obviam+verb of motion = to (verb) to meet
+quoniam;conj;because
+
+##
+ch vii
+##
+turba;n;1;f;crowd, mob
+ōtium;n;2;n;leisure
+negōtium;n;2;n;business
+nonnullus;adj;2;some^sfg:nonnullīus,sfd:nonnullī
+arbitror;dv;1;arbitrārī;arbitrāt; to think
+videor;dv;2;vidērī;vīs;to seem
+nancīscor;dv;3;nancīscī;nact;to obtain
+aggredior;dv;3;aggredī;aggress;to attack
+morior;dv;3;morī;mortu;to die%Fut. moritūrus
+experior;dv;4;experīrī;expert;to experience%+acc
+incendō;v;3;incendere;incens;incens;to set on fire%transitive
+necesse est + dat + inf;spec;it is necessary (for dat to do inf), one must
+cāsū;spec;by chance
+
+
+
+##
 daniel z textbook screenshots that i attempt to transcribe
 ##
 
