@@ -148,7 +148,80 @@ incendō;v;3;incendere;incens;incens;to set on fire%transitive
 necesse est + dat + inf;spec;it is necessary (for dat to do inf), one must
 cāsū;spec;by chance
 
+##
+ch iv
+##
+hortor;dv;1;hortāri;hortāt;to encouragem, urge
+moneō;v;2;monēre;monu;monit;to warn, advise
+petō;v;3;petere;petīv;petit;to seek, ask for
+ūtor;dv;3;ūtī;ūs;to use, enjoy, experience%+ Abl.
+vestiō;v;4;vestīre;vestīv;vestit;to dress
+ēripiō;v;3;ēripere;ēripu;ērept;to rescue, steal
+ōrō;v;1;ōrāre;ōrāv;ōrāt;to ask for, request
+autem;conj;moreover%(post pos.)
+scīlicet;conj;of course, naturally
+ergō;conj;therefore
+sine dubiō;adv;without a doubt, doubtless
+quam prīmum;adv;as soon as possible
 
+##
+ch v
+##
+īra;n;1;f;anger, wrath
+poena;n;1;f;penalty, punishment
+officium;n;2;n;duty
+bonum;n;2;n;good (pl. property)
+anima;n;1;f;courage, spirit
+dīvitiae;n;1;f;wealth, (pl. riches)
+rēgnum;n;2;n;kingship, realm, kingdom
+malum;n;2;n;evil
+tumultus;n;4;m;uproar, riot, disturbance
+adoptō;v;1;adoptāre;adoptāv;adoptāt;to adopt
+crēdō;v;3;crēdere;crēdid;crēdit;to believe%(+Dat.)
+proficīscor;dv;3;proficīscī;profect;to set out (for)%(ad + Acc.)
+fiō;dv;3;fierī;fact;to happen, be done, be made%Use instead of faciō in imperfect tenses as its passive
+dīvidō;v;3;dīvidere;dīvis;dīvīs;to divide
+queror;dv;3;querī;quest;to complain
+frūstrā;adv;in vain, fruitlessly
+simul atque;conj;as soon as
+simul ac;conj;as soon as
+
+##
+ch vi
+##
+gratia;n;1;f;thanks, gratitude, favour
+candidātus;n;2;m;candidate
+veterānus;n;2;m;veteran
+iugerum;n;2;n;yoke (i.e. a measure of land)
+praemium;n;2;n;reward
+lībertās;n;3;lībertāt;f;freedom
+māiōrēs;n;3;māi;m;freedom^plural
+aditus;n;4;m;approach
+summa;n;1;f;the highest command
+pūblicānus;n;2;m;tax collector
+meritum;n;2;n;service
+voluptās;n;3;voluptāt;f;pleasure
+discessus;n;4;m;departure
+centēnī;spec;2;a hundread each
+hirtus;adj;2;hairy, uncouth
+inquiētus;adj;2;restless
+plērusque;adj;2;in general
+agrestis;adj;3;rustic, rural
+absēns;adj;3;in absentia%(G. absentis)
+capite cēnsus;spec;per capita, per person
+contentus;adj;2;content
+horridus;adj;2;rough, dishevelled
+sanctus;adj;2;austere
+insatiābilis;adj;3;insatiable
+impotēns;adj;3;lacking self control%(Gen. impotentis)
+putō;v;1;putāre;putāv;putāt;to think
+censeō;v;2;censēre;censu;cens;to determine, assess
+consequor;dv;3;consequī;consecūt;to obtain
+parcō;v;3;parcere;peperc;pars;to spare, pardon%(+Dat.)
+vocandō;spec;by calling%(Gerund Abl.)
+citrā;prep;this side of%(+Acc.)
+paene;prep;nearly, almost
+tertium, quartum, quīntum ...;adv;third time, fourth time, fifth time ...
 
 ##
 daniel z textbook screenshots that i attempt to transcribe
@@ -378,6 +451,7 @@ absum;v;0;sum;abesse;āfu;;to be absent^future-infinitive:āfore
 adsum;v;0;sum;adesse;adfu;;to be present^future-infinitive:adfore
 dēsum;v;0;sum;dēesse;dēfu;;to lack, be deficient in^future-infinitive:dēfore
 praesum;v;0;sum;praeesse;praefu;;to be in command of^future-infinitive:praefore
+prōsum;v;0;sum;prōdesse;profu;;to benefit%(+Dat. +Inf.)
 ^^
 
 
